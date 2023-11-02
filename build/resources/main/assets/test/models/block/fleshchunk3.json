@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/flesh_chunk3",
-    "particle": "test:blocks/flesh_chunk1"
-  },
-  "render_type": "solid"
-}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/iceblock"},
+	{"model": "minebound:block/iceblock2"},
+	{"model": "minebound:block/iceblock3"},	
+	{"model": "minebound:block/iceblock4"}
+	]
+  }
+}

@@ -4,7 +4,7 @@
   "definition": {
     "priority": "HIGHEST",
     "components": [],
-    "baseTexture": "poison_overlay.png",
+    "baseTexture": "poison_image_overlay.png",
     "overlayTarget": "Ingame",
     "displayCondition": {
       "name": "PoisonoverlayDisplayOverlayIngame"

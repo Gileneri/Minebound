@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "test:block/biomes_4_portal_ew"
+    },
+    "axis=x": {
+      "model": "test:block/biomes_4_portal_ns"
+    }
+  }
+}

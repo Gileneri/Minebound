@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/corruptdirt"},
+	{"model": "minebound:block/corruptdirt2"},
+	{"model": "minebound:block/corruptdirt3"},	
+	{"model": "minebound:block/corruptdirt4"}
+	]
+  }
+}

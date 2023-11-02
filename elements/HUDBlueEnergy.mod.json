@@ -1,0 +1,381 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy1"
+          },
+          "x": 301,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy2"
+          },
+          "x": 299,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy3"
+          },
+          "x": 297,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy4"
+          },
+          "x": 295,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy5"
+          },
+          "x": 293,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy6"
+          },
+          "x": 291,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy7"
+          },
+          "x": 289,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy8"
+          },
+          "x": 287,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy9"
+          },
+          "x": 285,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy10"
+          },
+          "x": 283,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy11"
+          },
+          "x": 281,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy12"
+          },
+          "x": 279,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy13"
+          },
+          "x": 277,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy14"
+          },
+          "x": 275,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy15"
+          },
+          "x": 273,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy16"
+          },
+          "x": 271,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy17"
+          },
+          "x": 269,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy18"
+          },
+          "x": 267,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy19"
+          },
+          "x": 265,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy20"
+          },
+          "x": 263,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy21"
+          },
+          "x": 261,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy22"
+          },
+          "x": 259,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy23"
+          },
+          "x": 257,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy24"
+          },
+          "x": 255,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy25"
+          },
+          "x": 253,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy26"
+          },
+          "x": 251,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy27"
+          },
+          "x": 249,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy28"
+          },
+          "x": 247,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy29"
+          },
+          "x": 245,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_blue_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy30"
+          },
+          "x": 243,
+          "y": 141
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "AllowBlueEnergyUI"
+    },
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

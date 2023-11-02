@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/invisible_block_texture",
+    "up": "minebound:blocks/invisible_block_texture",
+    "north": "minebound:blocks/invisible_block_texture",
+    "east": "minebound:blocks/invisible_block_texture",
+    "south": "minebound:blocks/invisible_block_texture",
+    "west": "minebound:blocks/invisible_block_texture",
+    "particle": "minebound:blocks/invisible_block_texture"
+  },
+  "render_type": "cutout"
+}

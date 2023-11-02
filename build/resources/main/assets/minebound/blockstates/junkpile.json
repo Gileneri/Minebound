@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/junkpile"},
+	{"model": "minebound:block/junkpile2"},
+	{"model": "minebound:block/junkpile3"},	
+	{"model": "minebound:block/junkpile4"}
+	]
+  }
+}

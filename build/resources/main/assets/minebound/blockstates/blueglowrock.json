@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/blueglowrock"},
+	{"model": "minebound:block/blueglowrock2"},
+	{"model": "minebound:block/blueglowrock3"},	
+	{"model": "minebound:block/blueglowrock4"}
+	]
+  }
+}

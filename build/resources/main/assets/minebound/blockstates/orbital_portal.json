@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "minebound:block/orbital_portal_ew"
+    },
+    "axis=x": {
+      "model": "minebound:block/orbital_portal_ns"
+    }
+  }
+}

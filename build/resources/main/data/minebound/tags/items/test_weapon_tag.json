@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "test:test_weapon_dagger",
+    "test:test_weapon_axe",
+    "test:test_weapon_shortsword"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/test_light_on"
+    },
+    "type=top": {
+      "model": "minebound:block/test_light_on_top"
+    },
+    "type=double": {
+      "model": "minebound:block/test_light_on_full"
+    }
+  }
+}

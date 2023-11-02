@@ -1,0 +1,26 @@
+{
+  "feature": "minebound:toxicislands",
+  "placement": [
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": -4,
+          "max_inclusive": 4
+        }
+      },
+      "y_spread": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": -4,
+          "max_inclusive": 4
+        }
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    }
+  ]
+}

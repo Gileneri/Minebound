@@ -3,14 +3,14 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="test"
+modId="minebound"
 version="1.0.0"
-displayName="test"
+displayName="MineBound"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="Usuario, MCreator"
 
-[[dependencies.test]]
+[[dependencies.minebound]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"

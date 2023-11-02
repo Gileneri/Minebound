@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "§aTexture",
+    "name": "Texture",
     "specialInfo": [],
-    "hardness": 1000.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -77,24 +77,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:silence"
+      "value": ""
     },
     "fallSound": {
-      "value": "CUSTOM:silence"
+      "value": ""
     },
     "hitSound": {
-      "value": "CUSTOM:silence"
+      "value": ""
     },
     "placeSound": {
-      "value": "CUSTOM:silence"
+      "value": ""
     },
     "stepSound": {
-      "value": "CUSTOM:silence"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
@@ -103,10 +103,10 @@
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "inventorySize": 16,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": true,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,

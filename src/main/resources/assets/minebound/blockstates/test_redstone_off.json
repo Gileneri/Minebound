@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minebound:block/test_redstone_off"
+    }
+  }
+}

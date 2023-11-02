@@ -12,12 +12,6 @@
     "isBad": true,
     "isBenefitical": false,
     "renderStatusInInventory": true,
-    "renderStatusInHUD": true,
-    "onActiveTick": {
-      "name": "PoisonedOnEffectActiveTick"
-    },
-    "activeTickCondition": {
-      "name": "PoisonedActiveTickCondition"
-    }
+    "renderStatusInHUD": true
   }
 }

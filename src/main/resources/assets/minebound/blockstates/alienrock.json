@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/alienrock"},
+	{"model": "minebound:block/alienrock2"},
+	{"model": "minebound:block/alienrock3"},	
+	{"model": "minebound:block/alienrock4"}
+	]
+  }
+}

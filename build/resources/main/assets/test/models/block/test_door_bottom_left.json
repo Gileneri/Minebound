@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_bottom_left",
-  "textures": {
-    "bottom": "test:blocks/white_block_texture",
-    "top": "test:blocks/white_block_texture"
-  },
-  "render_type": "solid"
-}

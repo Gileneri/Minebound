@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "minebound:blocks/white_block_texture"
+  },
+  "render_type": "solid"
+}

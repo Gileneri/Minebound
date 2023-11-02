@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_lower_cap.png",
+          "use1Xscale": true,
+          "x": 213,
+          "y": 146
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "AllowIfInSurvivalOrAdventureMode"
+    },
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

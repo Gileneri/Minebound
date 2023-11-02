@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/cloud2",
-    "particle": "test:blocks/cloud1"
-  },
-  "render_type": "cutout_mipped"
-}

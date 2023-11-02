@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/direstone"},
+	{"model": "minebound:block/direstone2"},
+	{"model": "minebound:block/direstone3"},	
+	{"model": "minebound:block/direstone4"}
+	]
+  }
+}

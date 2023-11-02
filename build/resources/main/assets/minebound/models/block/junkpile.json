@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/junk_pile1",
+    "particle": "minebound:blocks/junk_pile1"
+  },
+  "render_type": "solid"
+}

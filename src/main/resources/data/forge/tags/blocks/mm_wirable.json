@@ -1,4 +1,12 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "minebound:test_door",
+    "minebound:test_redstone_off",
+    "minebound:test_light_off",
+    "minebound:test_button",
+    "minebound:test_pressure_plate",
+    "minebound:test_light_on",
+    "minebound:test_redstone_on"
+  ]
 }

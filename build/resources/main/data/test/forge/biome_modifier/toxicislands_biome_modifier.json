@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "test:oceantrent",
-  "features": "test:toxicislands",
-  "step": "surface_structures"
-}

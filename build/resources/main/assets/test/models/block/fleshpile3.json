@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/flesh_pile3",
-    "particle": "test:blocks/flesh_pile1"
-  },
-  "render_type": "solid"
-}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/dirtmaterial"},
+	{"model": "minebound:block/dirtmaterial2"},
+	{"model": "minebound:block/dirtmaterial3"},	
+	{"model": "minebound:block/dirtmaterial4"}
+	]
+  }
+}

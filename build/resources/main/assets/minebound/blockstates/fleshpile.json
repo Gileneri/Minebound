@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/fleshpile"},
+	{"model": "minebound:block/fleshpile2"},
+	{"model": "minebound:block/fleshpile3"},	
+	{"model": "minebound:block/fleshpile4"}
+	]
+  }
+}

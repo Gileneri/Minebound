@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "test:block/testnoise_portal_ew"
+    },
+    "axis=x": {
+      "model": "test:block/testnoise_portal_ns"
+    }
+  }
+}

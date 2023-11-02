@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/alien_rock2",
-    "particle": "test:blocks/alien_rock1"
-  },
-  "render_type": "solid"
-}

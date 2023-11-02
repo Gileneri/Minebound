@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/blaststone1",
-    "particle": "test:blocks/blaststone1"
-  },
-  "render_type": "solid"
-}

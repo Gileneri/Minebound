@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/magmarock1",
-    "particle": "test:blocks/magmarock1"
-  },
-  "render_type": "solid"
-}

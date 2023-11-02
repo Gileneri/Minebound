@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/geode_crystals1",
-    "particle": "test:blocks/geode_crystals1"
-  },
-  "render_type": "solid"
-}

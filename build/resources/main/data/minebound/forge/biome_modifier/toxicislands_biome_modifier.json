@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:oceantrent",
+  "features": "minebound:toxicislands",
+  "step": "surface_structures"
+}

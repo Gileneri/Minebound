@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/cloud1",
+    "particle": "minebound:blocks/cloud1"
+  },
+  "render_type": "cutout_mipped"
+}

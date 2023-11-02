@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/ice_material4",
-    "particle": "test:blocks/ice_material1"
-  },
-  "render_type": "solid"
-}

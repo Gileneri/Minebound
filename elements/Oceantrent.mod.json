@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "biome",
   "definition": {
-    "name": "Toxic Ocean",
+    "name": "Oceantrent",
     "groundBlock": {
       "value": "Blocks.TUFF"
     },
@@ -25,11 +25,11 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -11555031,
+      "value": -15764973,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -16307958,
+      "value": -15764973,
       "falpha": 0.0
     },
     "ambientSound": {

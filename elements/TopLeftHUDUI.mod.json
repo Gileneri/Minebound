@@ -1,0 +1,1019 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOW",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_main.png",
+          "use1Xscale": true,
+          "x": 213,
+          "y": 120
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_player_display_name",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPlayerDisplayName"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 246,
+          "y": 123
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "ReturnPlayerModel"
+          },
+          "scale": 27,
+          "rotationX": -12,
+          "followMouseMovement": false,
+          "x": 218,
+          "y": 168
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth1"
+          },
+          "x": 301,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth2"
+          },
+          "x": 299,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth3"
+          },
+          "x": 297,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth4"
+          },
+          "x": 295,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth5"
+          },
+          "x": 293,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth6"
+          },
+          "x": 291,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth7"
+          },
+          "x": 289,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth8"
+          },
+          "x": 287,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth9"
+          },
+          "x": 285,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth10"
+          },
+          "x": 283,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth11"
+          },
+          "x": 281,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth12"
+          },
+          "x": 279,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth13"
+          },
+          "x": 277,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth14"
+          },
+          "x": 275,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth15"
+          },
+          "x": 273,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth16"
+          },
+          "x": 271,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth17"
+          },
+          "x": 269,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth18"
+          },
+          "x": 267,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth19"
+          },
+          "x": 265,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth20"
+          },
+          "x": 263,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth21"
+          },
+          "x": 261,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth22"
+          },
+          "x": 259,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth23"
+          },
+          "x": 257,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth24"
+          },
+          "x": 255,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth25"
+          },
+          "x": 253,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth26"
+          },
+          "x": 251,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth27"
+          },
+          "x": 249,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth28"
+          },
+          "x": 247,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth29"
+          },
+          "x": 245,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_health_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayHealth30"
+          },
+          "x": 243,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood1"
+          },
+          "x": 280,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood2"
+          },
+          "x": 278,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood3"
+          },
+          "x": 276,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood4"
+          },
+          "x": 274,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood5"
+          },
+          "x": 272,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood6"
+          },
+          "x": 270,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood7"
+          },
+          "x": 268,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood8"
+          },
+          "x": 266,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood9"
+          },
+          "x": 264,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood10"
+          },
+          "x": 262,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood11"
+          },
+          "x": 260,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood12"
+          },
+          "x": 258,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood13"
+          },
+          "x": 256,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood14"
+          },
+          "x": 254,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood15"
+          },
+          "x": 252,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood16"
+          },
+          "x": 250,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood17"
+          },
+          "x": 248,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood18"
+          },
+          "x": 246,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood19"
+          },
+          "x": 244,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_food_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayFood20"
+          },
+          "x": 242,
+          "y": 149
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy1"
+          },
+          "x": 301,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy2"
+          },
+          "x": 299,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy3"
+          },
+          "x": 297,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy4"
+          },
+          "x": 295,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy5"
+          },
+          "x": 293,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy6"
+          },
+          "x": 291,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy7"
+          },
+          "x": 289,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy8"
+          },
+          "x": 287,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy9"
+          },
+          "x": 285,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy10"
+          },
+          "x": 283,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy11"
+          },
+          "x": 281,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy12"
+          },
+          "x": 279,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy13"
+          },
+          "x": 277,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy14"
+          },
+          "x": 275,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy15"
+          },
+          "x": 273,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy16"
+          },
+          "x": 271,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy17"
+          },
+          "x": 269,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy18"
+          },
+          "x": 267,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy19"
+          },
+          "x": 265,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy20"
+          },
+          "x": 263,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy21"
+          },
+          "x": 261,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy22"
+          },
+          "x": 259,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy23"
+          },
+          "x": 257,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy24"
+          },
+          "x": 255,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy25"
+          },
+          "x": 253,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy26"
+          },
+          "x": 251,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy27"
+          },
+          "x": 249,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy28"
+          },
+          "x": 247,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_right.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy29"
+          },
+          "x": 245,
+          "y": 141
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hud_ui_energy_left.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "HUDDisplayEnergy30"
+          },
+          "x": 243,
+          "y": 141
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "AllowIfInSurvivalOrAdventureMode"
+    },
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

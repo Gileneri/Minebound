@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/clay"},
+	{"model": "minebound:block/clay2"},
+	{"model": "minebound:block/clay3"},	
+	{"model": "minebound:block/clay4"}
+	]
+  }
+}

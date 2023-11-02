@@ -7,8 +7,8 @@
     "customModelName": "Normal",
     "name": "Debug Test Tool",
     "specialInfo": [
-      "A magical stick that may",
-      "do nothing at all!~"
+      "§dA magical stick that may",
+      "§ddo nothing at all!~"
     ],
     "creativeTab": {
       "value": "TOOLS"
@@ -19,7 +19,7 @@
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 100.0,
-    "usageCount": 100,
+    "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [],
@@ -27,7 +27,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onItemInUseTick": {
-      "name": "FlashlightTest"
+      "name": "DebugTestToolToolInHandTick"
     },
     "onEntitySwing": {
       "name": "DebugTestToolEntitySwingsItem"

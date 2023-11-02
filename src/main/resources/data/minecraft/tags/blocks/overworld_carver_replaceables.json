@@ -3,6 +3,10 @@
   "values": [
     "minecraft:tuff",
     "minecraft:andesite",
-    "minecraft:air"
+    "minecraft:air",
+    "minecraft:coarse_dirt",
+    "minecraft:mossy_cobblestone",
+    "minecraft:cobblestone",
+    "minecraft:stone"
   ]
 }

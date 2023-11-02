@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "minebound:block/geodecrystals"},
+	{"model": "minebound:block/geodecrystals2"},
+	{"model": "minebound:block/geodecrystals3"},	
+	{"model": "minebound:block/geodecrystals4"}
+	]
+  }
+}

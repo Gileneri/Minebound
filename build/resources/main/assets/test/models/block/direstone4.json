@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/dire_stone4",
-    "particle": "test:blocks/dire_stone1"
-  },
-  "render_type": "solid"
-}

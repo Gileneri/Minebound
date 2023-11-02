@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "minebound:blocks/white_block_texture"
+  },
+  "render_type": "solid"
+}

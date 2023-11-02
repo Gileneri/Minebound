@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/hive_block1",
-    "particle": "test:blocks/hive_block1"
-  },
-  "render_type": "solid"
-}

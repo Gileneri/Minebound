@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "fluid",
+  "definition": {
+    "name": "Core Lava",
+    "bucketName": "Core Lava Bucket",
+    "textureStill": "lava_texture",
+    "textureFlowing": "lava_texture",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 2,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 0.0,
+    "luminosity": 15,
+    "density": 1000,
+    "viscosity": 2000,
+    "temperature": 5700,
+    "type": "LAVA",
+    "generateBucket": false,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 1000.0,
+    "luminance": 15,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "RED",
+    "onTickUpdate": {
+      "name": "CoreLavaUpdateTick"
+    }
+  }
+}

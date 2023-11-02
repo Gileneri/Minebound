@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/brains2",
-    "particle": "test:blocks/brains1"
-  },
-  "render_type": "solid"
-}
