@@ -1,0 +1,17 @@
+{
+	"texture": "celestial:sky/higher/objects/toxic_ocean_dusk.png",
+	"display": {
+		"scale": "200",
+		"distance": "(#yPos / 50)"
+	},
+	"rotation": {
+		"degrees_x": "-90"
+	},
+	"properties": {
+		"alpha": "#atmosphere * (#twilightAlpha * (#skyAngle < 180))",
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": true
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "test:blocks/loose_silt1",
+    "particle": "test:blocks/loose_silt1"
+  },
+  "render_type": "solid"
+}

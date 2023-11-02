@@ -1,0 +1,17 @@
+{
+	"texture": "celestial:sky/higher/objects/under_poison.png",
+	"display": {
+		"scale": "600",
+		"distance": "-600"
+	},
+	"rotation": {
+		"degrees_x": "90"
+	},
+	"properties": {
+		"alpha": "#yPos < 248",
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": true
+	}
+}

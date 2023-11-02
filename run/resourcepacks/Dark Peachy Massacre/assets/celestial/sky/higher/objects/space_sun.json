@@ -1,0 +1,13 @@
+{
+	"texture": "celestial:sky/higher/objects/space_sun.png",
+	"display": {
+		"scale": "20",
+		"distance": "100"
+	},
+	"rotation": {
+		"degrees_x": "#skyAngle + 90"
+	},
+	"properties": {
+		"alpha" : "#skyDarkness"
+	}
+}

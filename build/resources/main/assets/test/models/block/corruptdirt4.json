@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "test:blocks/corrupt_dirt4",
+    "particle": "test:blocks/corrupt_dirt1"
+  },
+  "render_type": "solid"
+}

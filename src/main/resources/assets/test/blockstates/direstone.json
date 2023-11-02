@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/direstone"},
+	{"model": "test:block/direstone2"},
+	{"model": "test:block/direstone3"},	
+	{"model": "test:block/direstone4"}
+	]
+  }
+}

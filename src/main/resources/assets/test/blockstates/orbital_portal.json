@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "test:block/orbital_portal_ew"
+    },
+    "axis=x": {
+      "model": "test:block/orbital_portal_ns"
+    }
+  }
+}

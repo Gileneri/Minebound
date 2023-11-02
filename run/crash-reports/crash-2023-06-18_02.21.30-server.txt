@@ -1,0 +1,151 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2023-06-18 02:21:30
+Description: Accessing LegacyRandomSource from multiple threads
+
+java.lang.IllegalStateException: Accessing LegacyRandomSource from multiple threads
+	at net.minecraft.util.ThreadingDetector.makeThreadingException(ThreadingDetector.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.LegacyRandomSource.next(LegacyRandomSource.java:49) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.BitRandomSource.nextLong(BitRandomSource.java:43) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading}
+	at net.minecraft.client.multiplayer.ClientLevel.playLocalSound(ClientLevel.java:491) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.mcreator.test.procedures.NetherMusicTestProcedure.lambda$execute$0(NetherMusicTestProcedure.java:62) ~[%23193!/:?] {re:classloading}
+	at net.mcreator.test.TestMod.lambda$tick$2(TestMod.java:100) ~[%23193!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {}
+	at net.mcreator.test.TestMod.tick(TestMod.java:100) ~[%23193!/:?] {re:classloading}
+	at net.mcreator.test.__TestMod_tick_ServerTickEvent.invoke(.dynamic) ~[%23193!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPostServerTick(ForgeEventFactory.java:840) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23187%23194!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:843) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.util.ThreadingDetector.makeThreadingException(ThreadingDetector.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading}
+-- Thread dumps --
+Details:
+	Thread dumps: Server thread: 
+	at java.base/java.lang.Thread.getStackTrace(Thread.java:1610)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.ThreadingDetector.stackTrace(ThreadingDetector.java:92)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.ThreadingDetector.makeThreadingException(ThreadingDetector.java:82)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.LegacyRandomSource.next(LegacyRandomSource.java:49)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.BitRandomSource.nextLong(BitRandomSource.java:43)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.multiplayer.ClientLevel.playLocalSound(ClientLevel.java:491)
+	at TRANSFORMER/test@1.0.0/net.mcreator.test.procedures.NetherMusicTestProcedure.lambda$execute$0(NetherMusicTestProcedure.java:62)
+	at TRANSFORMER/test@1.0.0/net.mcreator.test.TestMod.lambda$tick$2(TestMod.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at TRANSFORMER/test@1.0.0/net.mcreator.test.TestMod.tick(TestMod.java:100)
+	at TRANSFORMER/test@1.0.0/net.mcreator.test.__TestMod_tick_ServerTickEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@43.2.0/net.minecraftforge.event.ForgeEventFactory.onPostServerTick(ForgeEventFactory.java:840)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:843)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Stacktrace:
+	at net.minecraft.util.ThreadingDetector.makeThreadingException(ThreadingDetector.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.LegacyRandomSource.next(LegacyRandomSource.java:49) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading}
+	at net.minecraft.world.level.levelgen.BitRandomSource.nextLong(BitRandomSource.java:43) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading}
+	at net.minecraft.client.multiplayer.ClientLevel.playLocalSound(ClientLevel.java:491) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.mcreator.test.procedures.NetherMusicTestProcedure.lambda$execute$0(NetherMusicTestProcedure.java:62) ~[%23193!/:?] {re:classloading}
+	at net.mcreator.test.TestMod.lambda$tick$2(TestMod.java:100) ~[%23193!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {}
+	at net.mcreator.test.TestMod.tick(TestMod.java:100) ~[%23193!/:?] {re:classloading}
+	at net.mcreator.test.__TestMod_tick_ServerTickEvent.invoke(.dynamic) ~[%23193!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%23113!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPostServerTick(ForgeEventFactory.java:840) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23187%23194!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:843) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:84) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:654) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:244) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 2048513528 bytes (1953 MiB) / 3051356160 bytes (2910 MiB) up to 4280287232 bytes (4082 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+	Identifier: Intel64 Family 6 Model 60 Stepping 3
+	Microarchitecture: Haswell (Client)
+	Frequency (GHz): 4.00
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: NVIDIA GeForce GTX 970
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x13c2
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.1694
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 1.33
+	Memory slot #0 type: DDR3
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 1.33
+	Memory slot #1 type: DDR3
+	Virtual memory max (MB): 25113.82
+	Virtual memory used (MB): 21527.93
+	Swap memory total (MB): 8787.21
+	Swap memory used (MB): 1340.44
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/144, l='ServerLevel[Will's Test World]', x=6.41, y=78.00, z=20.13]]
+	Data Packs: vanilla, mod:test, mod:forge
+	World Generation: Experimental
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19.2-43.2.0_mapped_official_1.19.2.jar    |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		main                                              |test                          |test                          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |43.2.0              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: db44a51c-ae24-4f5c-a424-726fd61df100
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.0

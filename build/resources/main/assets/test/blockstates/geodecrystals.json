@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/geodecrystals"},
+	{"model": "test:block/geodecrystals2"},
+	{"model": "test:block/geodecrystals3"},	
+	{"model": "test:block/geodecrystals4"}
+	]
+  }
+}

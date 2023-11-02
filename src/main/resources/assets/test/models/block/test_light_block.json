@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/invisible_block_texture",
+    "up": "test:blocks/invisible_block_texture",
+    "north": "test:blocks/invisible_block_texture",
+    "east": "test:blocks/invisible_block_texture",
+    "south": "test:blocks/invisible_block_texture",
+    "west": "test:blocks/invisible_block_texture",
+    "particle": "test:blocks/invisible_block_texture"
+  },
+  "render_type": "cutout"
+}

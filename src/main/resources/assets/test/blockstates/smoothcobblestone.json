@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/smoothcobblestone"},
+	{"model": "test:block/smoothcobblestone2"},
+	{"model": "test:block/smoothcobblestone3"},	
+	{"model": "test:block/smoothcobblestone4"}
+	]
+  }
+}

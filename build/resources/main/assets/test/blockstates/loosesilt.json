@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/loosesilt"},
+	{"model": "test:block/loosesilt2"},
+	{"model": "test:block/loosesilt3"},	
+	{"model": "test:block/loosesilt4"}
+	]
+  }
+}

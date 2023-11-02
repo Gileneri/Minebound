@@ -1,0 +1,16 @@
+{
+	"texture": "celestial:sky/higher/objects/toxic_ocean_horizon.png",
+	"display": {
+		"scale": "200",
+		"distance": "(#yPos / 50)"
+	},
+	"rotation": {
+		"degrees_x": "-90"
+	},
+	"properties": {
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": true
+	}
+}

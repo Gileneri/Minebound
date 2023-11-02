@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/corruptdirt"},
+	{"model": "test:block/corruptdirt2"},
+	{"model": "test:block/corruptdirt3"},	
+	{"model": "test:block/corruptdirt4"}
+	]
+  }
+}

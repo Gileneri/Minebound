@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/fleshpile"},
+	{"model": "test:block/fleshpile2"},
+	{"model": "test:block/fleshpile3"},	
+	{"model": "test:block/fleshpile4"}
+	]
+  }
+}

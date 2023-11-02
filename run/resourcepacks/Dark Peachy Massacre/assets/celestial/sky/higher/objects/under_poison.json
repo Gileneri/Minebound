@@ -1,0 +1,49 @@
+{
+	"texture": "celestial:sky/higher/objects/under_poison_sides.png",
+	"display": {
+		"scale": "0",
+		"pos_x": "0",
+		"pos_y": "0",
+		"pos_z": "48 - #yPos",
+		"distance": "-230"
+	},
+	"rotation": {
+		"degrees_x": "0",
+		"degrees_y": "0",
+		"degrees_z": "0"
+	},
+	"properties": {
+		"is_solid": true,
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"alpha": "#yPos < 248"
+	},
+	"populate": {
+	"objects": [{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 90,
+				"scale": 230
+			},
+			{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 180,
+				"scale": 230
+			},
+			{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 270,
+				"scale": 230
+			},
+			{
+				"degrees_x": 0,
+				"degrees_y": 0,
+				"degrees_z": 360,
+				"scale": 230
+			}
+			]
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "MM Change Mode",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "MattermanipulatorbetaChangeMode"
+    }
+  }
+}

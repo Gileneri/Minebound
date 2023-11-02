@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "particle",
+  "definition": {
+    "texture": "wet_drip.png",
+    "animate": true,
+    "frameDuration": 20,
+    "width": 0.1,
+    "height": 0.1,
+    "scale": 1.0,
+    "speedFactor": 0.0,
+    "gravity": 2.0,
+    "maxAge": 20,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "TRANSLUCENT"
+  }
+}

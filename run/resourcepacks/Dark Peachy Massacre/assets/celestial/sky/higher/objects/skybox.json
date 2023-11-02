@@ -1,0 +1,55 @@
+{
+	"type": "skybox",
+	"skybox": {
+		"texture": "celestial:sky/higher/objects/space_top.png",
+		"texture_width": "768",
+		"texture_height": "768",
+		"sides": {
+			"0": {
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"1": {
+				"texture": "celestial:sky/higher/objects/space_north.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"2": {
+				"texture": "celestial:sky/higher/objects/space_south.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"3": {
+				"texture": "celestial:sky/higher/objects/space_down.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"4": {
+				"texture": "celestial:sky/higher/objects/space_east.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			},
+			"5": {
+				"texture": "celestial:sky/higher/objects/space_west.png",
+				"uv_x": 0,
+				"uv_y": 0,
+				"uv_width": 768,
+				"uv_height": 768
+			}
+		}
+	},
+	"properties": {
+		"is_solid": true,
+		"alpha": "(((1 - #dayLight) * #rainGradient))M(#skyDarknessLower)"
+	}
+}

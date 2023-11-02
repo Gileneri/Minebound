@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/drydirt"},
+	{"model": "test:block/drydirt2"},
+	{"model": "test:block/drydirt3"},	
+	{"model": "test:block/drydirt4"}
+	]
+  }
+}

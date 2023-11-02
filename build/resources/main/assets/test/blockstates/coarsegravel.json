@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/coarsegravel"},
+	{"model": "test:block/coarsegravel2"},
+	{"model": "test:block/coarsegravel3"},	
+	{"model": "test:block/coarsegravel4"}
+	]
+  }
+}

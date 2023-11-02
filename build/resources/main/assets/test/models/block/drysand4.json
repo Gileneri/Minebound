@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "test:blocks/dry_sand4",
+    "particle": "test:blocks/dry_sand1"
+  },
+  "render_type": "solid"
+}

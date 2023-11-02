@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/jellyblob"},
+	{"model": "test:block/jellyblob2"},
+	{"model": "test:block/jellyblob3"},	
+	{"model": "test:block/jellyblob4"}
+	]
+  }
+}

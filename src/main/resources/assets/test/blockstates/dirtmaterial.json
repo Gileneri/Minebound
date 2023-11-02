@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/dirtmaterial"},
+	{"model": "test:block/dirtmaterial2"},
+	{"model": "test:block/dirtmaterial3"},	
+	{"model": "test:block/dirtmaterial4"}
+	]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.WHITE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.ORANGE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.MAGENTA_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.YELLOW_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.LIME_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.PINK_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.GRAY_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.SILVER_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.CYAN_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.PURPLE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.BLUE_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.BROWN_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.GREEN_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.RED_GLAZED_TERRACOTTA"
+      },
+      {
+        "value": "Blocks.BLACK_GLAZED_TERRACOTTA"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "vanilla_glazed_terracotta_block_tag",
+    "namespace": "mod"
+  }
+}

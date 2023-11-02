@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/blueglowrock"},
+	{"model": "test:block/blueglowrock2"},
+	{"model": "test:block/blueglowrock3"},	
+	{"model": "test:block/blueglowrock4"}
+	]
+  }
+}

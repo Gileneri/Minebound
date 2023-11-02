@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "test:alienrock",
+    "test:ash",
+    "test:blaststone",
+    "test:blueglowrock",
+    "test:clay",
+    "test:smoothcobblestone",
+    "test:corruptdirt",
+    "test:direstone",
+    "test:dirtmaterial",
+    "test:drydirt",
+    "test:drysand",
+    "test:fleshchunk",
+    "test:fleshpile",
+    "test:frozendirt",
+    "test:geodecrystals",
+    "test:geodestone",
+    "test:coarsegravel",
+    "test:hiveblock",
+    "test:icematerial",
+    "test:iceblock",
+    "test:jellyblob",
+    "test:junkpile",
+    "test:limestone",
+    "test:loosesilt",
+    "test:magmarock"
+  ]
+}

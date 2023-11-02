@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/blaststone"},
+	{"model": "test:block/blaststone2"},
+	{"model": "test:block/blaststone3"},	
+	{"model": "test:block/blaststone4"}
+	]
+  }
+}

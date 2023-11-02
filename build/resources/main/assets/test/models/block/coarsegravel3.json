@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "test:blocks/coarse_gravel3",
+    "particle": "test:blocks/coarse_gravel1"
+  },
+  "render_type": "solid"
+}

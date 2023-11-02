@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "test:blocks/white_block_texture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/junkpile"},
+	{"model": "test:block/junkpile2"},
+	{"model": "test:block/junkpile3"},	
+	{"model": "test:block/junkpile4"}
+	]
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"texture": "celestial:sky/higher/objects/toxic_storm_clouds.png",
+	"display": {
+		"scale": "100",
+		"distance": "(#yPos / 50) - 10"
+	},
+	"rotation": {
+		"degrees_x": "-90"
+	},
+	"properties": {
+		"alpha": "(1 - #rainGradient) * (1 - #atmosphere)",
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": true
+	}
+}

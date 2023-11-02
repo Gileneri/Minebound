@@ -1,0 +1,190 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 170,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "Liquid Upgrade",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked1"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 123,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "Paint Upgrade",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked2"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 123,
+          "y": 64
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "Wiring Upgrade",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked3"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 123,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "Area Upgrade 1",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked4"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 123,
+          "y": 127
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty4",
+          "text": "Area Upgrade 2",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked5"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 123,
+          "y": 154
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty5",
+          "text": "Area Upgrade 3",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked6"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 123,
+          "y": 181
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty6",
+          "text": "Speed Upgrade 1",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked7"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 221,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty7",
+          "text": "Speed Upgrade 2",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked8"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 221,
+          "y": 64
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty8",
+          "text": "Speed Upgrade 3",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked9"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 221,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty9",
+          "text": "Range Upgrade 1",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked10"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 221,
+          "y": 127
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty10",
+          "text": "Range Upgrade 2",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked11"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 221,
+          "y": 154
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty11",
+          "text": "Range Upgrade 3",
+          "onClick": {
+            "name": "MMUpgradeGUIButtonWhenClicked12"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 221,
+          "y": 181
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 10,
+      "oy": 1,
+      "snapOnGrid": true
+    }
+  }
+}

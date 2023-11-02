@@ -1,0 +1,45 @@
+{
+    "entity.item.pickup": {
+        "replace": true,
+        "sounds": [
+			"random/pop",
+			"random/pop2",
+			"random/pop3",
+			"random/pop4",
+			"random/pop5",
+			"random/pop6",
+            {
+                "name": "random/pop",
+                "pitch": 1.0,
+                "stream": false
+            },
+			{
+                "name": "random/pop2",
+                "pitch": 1.0,
+                "stream": false
+            }
+			{
+                "name": "random/pop3",
+                "pitch": 1.0,
+                "stream": false
+            },
+			{
+                "name": "random/pop4",
+                "pitch": 1.0,
+                "stream": false
+            },
+			{
+                "name": "random/pop5",
+                "pitch": 1.0,
+                "stream": false
+            },
+			{
+                "name": "random/pop6",
+                "pitch": 1.0,
+                "stream": false
+            }
+			
+        ],
+		"subtitle": "subtitles.entity.item.pickup"
+    }
+}

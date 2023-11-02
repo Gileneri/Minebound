@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "test:block/test_light_off"
+    },
+    "type=top": {
+      "model": "test:block/test_light_off_top"
+    },
+    "type=double": {
+      "model": "test:block/test_light_off_full"
+    }
+  }
+}

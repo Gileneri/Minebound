@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/cloud"},
+	{"model": "test:block/cloud2"},
+	{"model": "test:block/cloud3"},	
+	{"model": "test:block/cloud4"}
+	]
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"texture": "celestial:sky/higher/objects/toxic_ocean_clouds.png",
+	"display": {
+		"scale": "180",
+		"distance": "(#yPos / 50) - 12"
+	},
+	"rotation": {
+		"degrees_x": "-90"
+	},
+	"properties": {
+		"alpha": "(1 - #rainGradient)",
+		"red": "(#dayLight)M0.15",
+		"green": "(#dayLight)M0.15",
+		"blue": "(#dayLight)M0.15",
+		"is_solid": true
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/fleshchunk"},
+	{"model": "test:block/fleshchunk2"},
+	{"model": "test:block/fleshchunk3"},	
+	{"model": "test:block/fleshchunk4"}
+	]
+  }
+}

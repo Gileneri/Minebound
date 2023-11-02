@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/iceblock"},
+	{"model": "test:block/iceblock2"},
+	{"model": "test:block/iceblock3"},	
+	{"model": "test:block/iceblock4"}
+	]
+  }
+}

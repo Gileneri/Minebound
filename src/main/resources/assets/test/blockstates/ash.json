@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "":  [
+	{"model": "test:block/ash"},
+	{"model": "test:block/ash2"},
+	{"model": "test:block/ash3"},	
+	{"model": "test:block/ash4"}
+	]
+  }
+}
