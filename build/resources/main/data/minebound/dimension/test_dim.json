@@ -1783,6 +1783,25 @@
           {
             "type": "minecraft:condition",
             "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "test:lava_core_floor",
+              "true_at_and_below": {
+                "above_bottom": 1
+              },
+              "false_at_and_above": {
+                "above_bottom": 5
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "test:core_lava"
+              }
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
                 "warm_ocean"

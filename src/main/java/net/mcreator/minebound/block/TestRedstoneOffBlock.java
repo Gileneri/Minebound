@@ -26,7 +26,7 @@ import java.util.Collections;
 
 public class TestRedstoneOffBlock extends Block implements EntityBlock {
 	public TestRedstoneOffBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).randomTicks());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
 	}
 
 	@Override

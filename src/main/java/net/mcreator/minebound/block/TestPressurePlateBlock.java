@@ -27,7 +27,7 @@ import java.util.Collections;
 
 public class TestPressurePlateBlock extends PressurePlateBlock implements EntityBlock {
 	public TestPressurePlateBlock() {
-		super(Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noCollission().randomTicks().dynamicShape());
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noCollission().dynamicShape());
 	}
 
 	@Override

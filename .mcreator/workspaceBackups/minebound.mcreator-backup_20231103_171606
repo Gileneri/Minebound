@@ -1141,7 +1141,7 @@
       "type": "dimension",
       "sortid": 43,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "orbital",
       "metadata": {
         "files": [
@@ -3529,7 +3529,7 @@
       "type": "dimension",
       "sortid": 233,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "weather_test_dim",
       "metadata": {
         "files": [
@@ -3595,7 +3595,7 @@
       "type": "dimension",
       "sortid": 239,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "test_dim",
       "metadata": {
         "files": [
@@ -6559,6 +6559,23 @@
         ]
       },
       "path": "~/misc"
+    },
+    {
+      "name": "AlienrockTest",
+      "type": "block",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alienrock_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/alienrock_test.json",
+          "src/main/java/net/mcreator/minebound/block/AlienrockTestBlock.java",
+          "src/main/resources/assets/minebound/models/block/alienrock_test.json",
+          "src/main/resources/assets/minebound/models/item/alienrock_test.json"
+        ]
+      },
+      "path": "~/tiles/natural_blocks"
     }
   ],
   "variable_elements": [
@@ -6892,13 +6909,13 @@
       "subtitles.break_stone": "break_stone",
       "entity.test.bobot_mob_charging": "Bobot",
       "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
-      "item.minebound.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
       "entity.test.mooshi_mob": "Mooshi",
+      "item.minebound.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
       "gui.test.mm_upgrade_gui_test.button_empty": "Liquid Upgrade",
       "entity.test.mech_test_body": "Mech Test Body",
       "block.test.coarsegravel": "Coarse Gravel",
-      "entity.test.paratail_mob": "Paratail",
       "subtitles.atom": "normal_hit",
+      "entity.test.paratail_mob": "Paratail",
       "item.test.adult_poptop_mob_spawn_egg": "Adult Poptop Spawn Egg",
       "item.test.orbide_mob_spawn_egg": "Orbide Spawn Egg",
       "entity.test.mech_test_leg_right": "Mech Test Leg Right",
@@ -6911,17 +6928,17 @@
       "entity.test.mech_test_arm_left": "Mech Test Arm Left",
       "block.test.alienrock": "Alien rock",
       "gui.minebound.mm_upgrade_gui_test.button_empty10": "Range Upgrade 2",
-      "entity.minebound.narfin_mob": "Narfin",
       "item.minebound.mech_test_arm_right_spawn_egg": "Mech Test Arm Right Spawn Egg",
+      "entity.minebound.narfin_mob": "Narfin",
       "block.test.corruptdirt": "Corrupt dirt",
       "item.minebound.fennix_mob_spawn_egg": "Fennix Spawn Egg",
       "item.test.masteroid_mob_s_spawn_egg": "Masteroid Spawn Egg",
       "entity.minebound.triplod_mob": "Triplod",
-      "entity.minebound.crabcano_mob": "Crabcano",
       "entity.test.mini_drone_mob": "Mini Drone",
+      "entity.minebound.crabcano_mob": "Crabcano",
       "entity.minebound.nutmidge_mob": "Nutmidge",
-      "item.minebound.sporgus_mob_spawn_egg": "Sporgus Spawn Egg",
       "item.test.scandroid_mob_spawn_egg": "Scandroid Spawn Egg",
+      "item.minebound.sporgus_mob_spawn_egg": "Sporgus Spawn Egg",
       "entity.test.yokat_mob": "Yokat",
       "item.test.block_indicator_entity_1_spawn_egg": "Block Indicator Entity Spawn Egg",
       "entity.minebound.crustoise_mob": "Crustoise",
@@ -7036,6 +7053,7 @@
       "item.minebound.tentacle_ghost_mob_spawn_egg": "Tentacle Ghost Spawn Egg",
       "item.test.ignome_mob_spawn_egg": "Ignome Spawn Egg",
       "item.minebound.mech_test_arm_left_spawn_egg": "Mech Test Arm Left Spawn Egg",
+      "block.minebound.alienrock_test": "Alien rock",
       "biome.minebound.no_snow_high_up_biome": "No Snow High Up Biome",
       "entity.minebound.taroni_mob": "Taroni",
       "item.test.block_indicator_entity_3_spawn_egg": "Block Indicator Entity Spawn Egg",

@@ -26,7 +26,7 @@ public class MMPaintingProcedureProcedure {
 		double blockColor = 0;
 		String colorName = "";
 		String blockTypeName = "";
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("test:dye_item_tag")))) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("minebound:dye_item_tag")))) {
 			if ((ForgeRegistries.ITEMS.getKey((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()).toString()).contains("pink")) {
 				dyeColor = 16;
 				colorName = "pink";
@@ -82,13 +82,13 @@ public class MMPaintingProcedureProcedure {
 				blockTypeName = "_carpet";
 			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("minecraft:impermeable")))) {
 				blockTypeName = "_stained_glass";
-			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("test:vanilla_stained_glass_pane_block_tag")))) {
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("minebound:vanilla_stained_glass_pane_block_tag")))) {
 				blockTypeName = "_stained_glass_pane";
 			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("minecraft:terracotta")))) {
 				blockTypeName = "_terracotta";
-			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("test:vanilla_glazed_terracotta_block_tag")))) {
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("minebound:vanilla_glazed_terracotta_block_tag")))) {
 				blockTypeName = "_glazed_terracotta";
-			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("test:vanilla_concrete_block_tag")))) {
+			} else if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("minebound:vanilla_concrete_block_tag")))) {
 				if ((ForgeRegistries.BLOCKS.getKey((world.getBlockState(new BlockPos(x, y, z))).getBlock()).toString()).contains("powder")) {
 					blockTypeName = "_concrete_powder";
 				} else {

@@ -19,7 +19,7 @@
       "type": "dimension",
       "sortid": 1,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "higher",
       "metadata": {
         "files": [
@@ -1141,7 +1141,7 @@
       "type": "dimension",
       "sortid": 43,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "orbital",
       "metadata": {
         "files": [
@@ -1257,7 +1257,7 @@
       "type": "livingentity",
       "sortid": 48,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "mech_test_body",
       "metadata": {
         "files": [
@@ -1288,7 +1288,7 @@
       "type": "livingentity",
       "sortid": 95,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "block_indicator_entity_3",
       "metadata": {
         "files": [
@@ -1318,7 +1318,7 @@
       "type": "livingentity",
       "sortid": 84,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "block_indicator_entity_2",
       "metadata": {
         "files": [
@@ -3529,7 +3529,7 @@
       "type": "dimension",
       "sortid": 233,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "weather_test_dim",
       "metadata": {
         "files": [
@@ -3595,7 +3595,7 @@
       "type": "dimension",
       "sortid": 239,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "test_dim",
       "metadata": {
         "files": [
@@ -3780,7 +3780,7 @@
           }
         ]
       },
-      "path": "~/misc"
+      "path": "~/HUD elements"
     },
     {
       "name": "GleapMobOnEntityTickUpdate",
@@ -3899,7 +3899,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth2",
@@ -3920,7 +3920,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth3",
@@ -3941,7 +3941,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth4",
@@ -3962,7 +3962,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth5",
@@ -3983,7 +3983,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth6",
@@ -4004,7 +4004,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth7",
@@ -4025,7 +4025,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth8",
@@ -4046,7 +4046,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth9",
@@ -4067,7 +4067,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth10",
@@ -4088,7 +4088,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth11",
@@ -4109,7 +4109,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth12",
@@ -4130,7 +4130,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth13",
@@ -4151,7 +4151,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth14",
@@ -4172,7 +4172,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth15",
@@ -4193,7 +4193,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth16",
@@ -4214,7 +4214,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth17",
@@ -4235,7 +4235,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth18",
@@ -4256,7 +4256,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth19",
@@ -4277,7 +4277,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth20",
@@ -4298,7 +4298,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth21",
@@ -4319,7 +4319,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth22",
@@ -4340,7 +4340,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth23",
@@ -4361,7 +4361,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth24",
@@ -4382,7 +4382,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth25",
@@ -4403,7 +4403,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth26",
@@ -4424,7 +4424,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth27",
@@ -4445,7 +4445,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth28",
@@ -4466,7 +4466,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth29",
@@ -4487,7 +4487,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayHealth30",
@@ -4508,7 +4508,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display health UI"
     },
     {
       "name": "HUDDisplayFood1",
@@ -4529,7 +4529,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood2",
@@ -4550,7 +4550,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood3",
@@ -4571,7 +4571,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood4",
@@ -4592,7 +4592,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood5",
@@ -4613,7 +4613,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood6",
@@ -4634,7 +4634,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood7",
@@ -4655,7 +4655,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood8",
@@ -4676,7 +4676,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood9",
@@ -4697,7 +4697,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood10",
@@ -4718,7 +4718,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood11",
@@ -4739,7 +4739,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood12",
@@ -4760,7 +4760,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood13",
@@ -4781,7 +4781,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood14",
@@ -4802,7 +4802,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood15",
@@ -4823,7 +4823,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood16",
@@ -4844,7 +4844,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood17",
@@ -4865,7 +4865,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood18",
@@ -4886,7 +4886,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood19",
@@ -4907,7 +4907,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayFood20",
@@ -4928,7 +4928,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display food UI"
     },
     {
       "name": "HUDDisplayEnergy1",
@@ -4949,7 +4949,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy2",
@@ -4970,7 +4970,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy3",
@@ -4991,7 +4991,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy4",
@@ -5012,7 +5012,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy5",
@@ -5033,7 +5033,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy6",
@@ -5054,7 +5054,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy7",
@@ -5075,7 +5075,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy8",
@@ -5096,7 +5096,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy9",
@@ -5117,7 +5117,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy10",
@@ -5138,7 +5138,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy11",
@@ -5159,7 +5159,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy12",
@@ -5180,7 +5180,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy13",
@@ -5201,7 +5201,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy14",
@@ -5222,7 +5222,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy15",
@@ -5243,7 +5243,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy16",
@@ -5264,7 +5264,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy17",
@@ -5285,7 +5285,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy18",
@@ -5306,7 +5306,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy19",
@@ -5327,7 +5327,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy20",
@@ -5348,7 +5348,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy21",
@@ -5369,7 +5369,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy22",
@@ -5390,7 +5390,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy23",
@@ -5411,7 +5411,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy24",
@@ -5432,7 +5432,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy25",
@@ -5453,7 +5453,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy26",
@@ -5474,7 +5474,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy27",
@@ -5495,7 +5495,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy28",
@@ -5516,7 +5516,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy29",
@@ -5537,7 +5537,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "HUDDisplayEnergy30",
@@ -5558,7 +5558,7 @@
           }
         ]
       },
-      "path": "~/HUD elements"
+      "path": "~/HUD elements/display energy UI"
     },
     {
       "name": "AllowBlueEnergyUI",
@@ -6535,6 +6535,47 @@
         ]
       },
       "path": "~/tiles/natural_blocks"
+    },
+    {
+      "name": "BeforeEntityIsHurt",
+      "type": "procedure",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "before_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/BeforeEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "AlienrockTest",
+      "type": "block",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alienrock_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/alienrock_test.json",
+          "src/main/java/net/mcreator/minebound/block/AlienrockTestBlock.java",
+          "src/main/resources/assets/minebound/models/block/alienrock_test.json",
+          "src/main/resources/assets/minebound/models/item/alienrock_test.json"
+        ]
+      },
+      "path": "~/tiles/natural_blocks"
     }
   ],
   "variable_elements": [
@@ -7012,6 +7053,7 @@
       "item.minebound.tentacle_ghost_mob_spawn_egg": "Tentacle Ghost Spawn Egg",
       "item.test.ignome_mob_spawn_egg": "Ignome Spawn Egg",
       "item.minebound.mech_test_arm_left_spawn_egg": "Mech Test Arm Left Spawn Egg",
+      "block.minebound.alienrock_test": "Alien rock",
       "biome.minebound.no_snow_high_up_biome": "No Snow High Up Biome",
       "entity.minebound.taroni_mob": "Taroni",
       "item.test.block_indicator_entity_3_spawn_egg": "Block Indicator Entity Spawn Egg",
@@ -7615,7 +7657,20 @@
       },
       {
         "name": "HUD elements",
-        "children": []
+        "children": [
+          {
+            "name": "display health UI",
+            "children": []
+          },
+          {
+            "name": "display food UI",
+            "children": []
+          },
+          {
+            "name": "display energy UI",
+            "children": []
+          }
+        ]
       },
       {
         "name": "weather",

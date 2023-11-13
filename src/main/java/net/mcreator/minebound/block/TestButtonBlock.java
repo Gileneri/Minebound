@@ -31,7 +31,7 @@ import java.util.Collections;
 
 public class TestButtonBlock extends StoneButtonBlock implements EntityBlock {
 	public TestButtonBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noCollission().randomTicks().dynamicShape());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noCollission().dynamicShape());
 	}
 
 	@Override

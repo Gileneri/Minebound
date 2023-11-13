@@ -50,6 +50,7 @@ import net.mcreator.minebound.block.BrainsBlock;
 import net.mcreator.minebound.block.BlueglowrockBlock;
 import net.mcreator.minebound.block.BlaststoneBlock;
 import net.mcreator.minebound.block.AshBlock;
+import net.mcreator.minebound.block.AlienrockTestBlock;
 import net.mcreator.minebound.block.AlienrockBlock;
 import net.mcreator.minebound.MineboundMod;
 
@@ -96,4 +97,5 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> LOOSESILT = REGISTRY.register("loosesilt", () -> new LoosesiltBlock());
 	public static final RegistryObject<Block> MAGMAROCK = REGISTRY.register("magmarock", () -> new MagmarockBlock());
 	public static final RegistryObject<Block> CORE_LAVA = REGISTRY.register("core_lava", () -> new CoreLavaBlock());
+	public static final RegistryObject<Block> ALIENROCK_TEST = REGISTRY.register("alienrock_test", () -> new AlienrockTestBlock());
 }
