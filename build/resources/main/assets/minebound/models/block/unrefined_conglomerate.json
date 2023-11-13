@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/unrefined_conglomerate1",
+    "particle": "minebound:blocks/unrefined_conglomerate1"
+  },
+  "render_type": "solid"
+}

@@ -34,12 +34,12 @@ public class AshBlock extends FallingBlock {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A77Block"));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("\u00A7fA pile of tightly"));
-		list.add(Component.literal("\u00A7fpacked ash."));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
 	}
 
 	@Override

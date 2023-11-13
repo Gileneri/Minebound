@@ -53,4 +53,12 @@ public class MineboundModSounds {
 	public static final RegistryObject<SoundEvent> BREAKING_GRAVEL = REGISTRY.register("breaking_gravel", () -> new SoundEvent(new ResourceLocation("minebound", "breaking_gravel")));
 	public static final RegistryObject<SoundEvent> BREAKING_BONE = REGISTRY.register("breaking_bone", () -> new SoundEvent(new ResourceLocation("minebound", "breaking_bone")));
 	public static final RegistryObject<SoundEvent> FOOTSTEP_BONE = REGISTRY.register("footstep_bone", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_bone")));
+	public static final RegistryObject<SoundEvent> BREAKING_TALLGRASS1 = REGISTRY.register("breaking_tallgrass1", () -> new SoundEvent(new ResourceLocation("minebound", "breaking_tallgrass1")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_TALLGRASS = REGISTRY.register("footstep_tallgrass", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_tallgrass")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_SLUSH = REGISTRY.register("footstep_slush", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_slush")));
+	public static final RegistryObject<SoundEvent> BREAKING_SLUSH = REGISTRY.register("breaking_slush", () -> new SoundEvent(new ResourceLocation("minebound", "breaking_slush")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_SNOW = REGISTRY.register("footstep_snow", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_snow")));
+	public static final RegistryObject<SoundEvent> BREAKING_SNOW = REGISTRY.register("breaking_snow", () -> new SoundEvent(new ResourceLocation("minebound", "breaking_snow")));
+	public static final RegistryObject<SoundEvent> BREAKING_WOOD = REGISTRY.register("breaking_wood", () -> new SoundEvent(new ResourceLocation("minebound", "breaking_wood")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_WOOD = REGISTRY.register("footstep_wood", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_wood")));
 }
