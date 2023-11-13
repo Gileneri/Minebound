@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/tentacle_cluster1",
+    "particle": "minebound:blocks/tentacle_cluster1"
+  },
+  "render_type": "solid"
+}

@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "minebound:brains"
+    "minebound:brains",
+    "minebound:plant_matter",
+    "minebound:striped_wood",
+    "minebound:vine_block",
+    "minebound:wooden_log"
   ]
 }

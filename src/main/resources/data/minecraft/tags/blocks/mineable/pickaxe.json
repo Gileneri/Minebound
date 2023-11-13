@@ -26,6 +26,27 @@
     "minebound:limestone",
     "minebound:loosesilt",
     "minebound:magmarock",
-    "minebound:alienrock_test"
+    "minebound:alienrock_test",
+    "minebound:meteoriterock",
+    "minebound:moon_dust",
+    "minebound:moonrock",
+    "minebound:moonstone",
+    "minebound:mud",
+    "minebound:obsidian",
+    "minebound:roughsandstone",
+    "minebound:smoothice",
+    "minebound:stonerubble",
+    "minebound:tentacle_cluster",
+    "minebound:yellow_glow_rock",
+    "minebound:unrefined_mudstone",
+    "minebound:unrefined_andesite",
+    "minebound:unrefined_dacite",
+    "minebound:unrefined_gneiss",
+    "minebound:unrefined_limestone",
+    "minebound:granite_rock",
+    "minebound:unrefined_chert",
+    "minebound:unrefined_gritstone",
+    "minebound:unrefined_conglomerate",
+    "minebound:unrefined_arkose"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:sand",
+    "minebound:slime_glob",
+    "minebound:slush",
+    "minebound:thicksnow",
+    "minebound:tar",
+    "minebound:waste",
+    "minebound:wet_dirt",
+    "minebound:packed_bones"
+  ]
+}
