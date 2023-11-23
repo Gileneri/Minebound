@@ -8,6 +8,7 @@ import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.minebound.entity.PlayerHeadHUDEntityEntity;
 import net.mcreator.minebound.entity.BlockIndicatorEntity3Entity;
 import net.mcreator.minebound.entity.BlockIndicatorEntity2Entity;
 import net.mcreator.minebound.entity.BlockIndicatorEntity1Entity;
@@ -33,7 +34,7 @@ public class BeforeEntityIsHurtProcedure {
 		boolean preventDamage = false;
 		preventDamage = false;
 		if (!world.isClientSide()) {
-			if (entity instanceof BlockIndicatorEntity1Entity || entity instanceof BlockIndicatorEntity2Entity || entity instanceof BlockIndicatorEntity3Entity) {
+			if (entity instanceof BlockIndicatorEntity1Entity || entity instanceof BlockIndicatorEntity2Entity || entity instanceof BlockIndicatorEntity3Entity || entity instanceof PlayerHeadHUDEntityEntity) {
 				preventDamage = true;
 			}
 			if (preventDamage == true) {

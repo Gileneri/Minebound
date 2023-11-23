@@ -2,7 +2,7 @@ Java Launcher: C:\Program Files\Pylo\MCreator 2023.1\jdk\bin\java.exe
 Arguments: '--in-jar, C:\Users\User\MCreatorWorkspaces\MineboundClone\build\libs\modid-1.0.jar, --out-jar, C:\Users\User\MCreatorWorkspaces\MineboundClone\build\reobfJar\output.jar, --srg-in, C:\Users\User\MCreatorWorkspaces\MineboundClone\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\User\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
- - C:\Users\User\MCreatorWorkspaces\MineboundClone\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2.jar
+ - C:\Users\User\MCreatorWorkspaces\MineboundClone\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar
  - C:\Users\User\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
  - C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.2-43.2.0\3e6e8b7b5e1dbc6ee01a20f74675f223b64c7847\fmlloader-1.19.2-43.2.0.jar
  - C:\Users\User\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.16\2a31421fb5e267249da103a644f23afb43d158af\JarJarSelector-0.3.16.jar

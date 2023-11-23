@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TestDoor"
+      },
+      {
+        "value": "CUSTOM:TestLightOff"
+      },
+      {
+        "value": "CUSTOM:TestLightOn"
+      },
+      {
+        "value": "CUSTOM:TestRedstoneOff"
+      },
+      {
+        "value": "CUSTOM:TestRedstoneOn"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "mm_powerable",
+    "namespace": "forge"
+  }
+}

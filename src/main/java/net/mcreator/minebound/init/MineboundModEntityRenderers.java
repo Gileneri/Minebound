@@ -57,6 +57,7 @@ import net.mcreator.minebound.client.renderer.PolingMobRenderer;
 import net.mcreator.minebound.client.renderer.PoletMobRenderer;
 import net.mcreator.minebound.client.renderer.PoMobRenderer;
 import net.mcreator.minebound.client.renderer.PoGolemMobRenderer;
+import net.mcreator.minebound.client.renderer.PlayerHeadHUDEntityRenderer;
 import net.mcreator.minebound.client.renderer.PipkinMobRenderer;
 import net.mcreator.minebound.client.renderer.PetropodMobRenderer;
 import net.mcreator.minebound.client.renderer.PetricubMobRenderer;
@@ -268,5 +269,6 @@ public class MineboundModEntityRenderers {
 		event.registerEntityRenderer(MineboundModEntities.RACER_MOB_4.get(), RacerMob4Renderer::new);
 		event.registerEntityRenderer(MineboundModEntities.RACER_MOB_5.get(), RacerMob5Renderer::new);
 		event.registerEntityRenderer(MineboundModEntities.RACER_MOB_6.get(), RacerMob6Renderer::new);
+		event.registerEntityRenderer(MineboundModEntities.PLAYER_HEAD_HUD_ENTITY.get(), PlayerHeadHUDEntityRenderer::new);
 	}
 }

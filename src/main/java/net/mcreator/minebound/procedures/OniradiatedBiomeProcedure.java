@@ -63,7 +63,7 @@ public class OniradiatedBiomeProcedure {
 						}
 						return false;
 					}
-				}.checkGamemode(entity) || entity instanceof PathfinderMob) && !entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("test:poison_creature")))) {
+				}.checkGamemode(entity) || entity instanceof PathfinderMob) && !entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("minebound:poison_creature")))) {
 					if (!(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(MineboundModMobEffects.DEADLYRADIATION.get()) : false)) {
 						if (entity instanceof LivingEntity _entity)
 							_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.DEADLYRADIATION.get(), 20, 0, (false), (true)));

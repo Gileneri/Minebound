@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -25,9 +25,9 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-gamma:0.0
-renderDistance:10
-simulationDistance:8
+gamma:0.5
+renderDistance:5
+simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -35,10 +35,10 @@ maxFps:60
 graphicsMode:0
 ao:0
 prioritizeChunkUpdates:0
-biomeBlendRadius:0
+biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","file/hearts","file/Dark Peachy Massacre"]
-incompatibleResourcePacks:["file/hearts"]
+resourcePacks:[]
+incompatibleResourcePacks:[]
 lastServer:localhost:25463
 lang:en_us
 soundDevice:""
@@ -48,7 +48,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -84,7 +84,7 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.caps.lock
+key_key.sneak:key.keyboard.left.shift
 key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e

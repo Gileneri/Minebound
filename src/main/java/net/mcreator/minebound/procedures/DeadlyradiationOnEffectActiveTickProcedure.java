@@ -14,7 +14,7 @@ public class DeadlyradiationOnEffectActiveTickProcedure {
 		if (entity == null)
 			return;
 		if (!world.isClientSide()) {
-			if (!entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("test:poison_creature")))) {
+			if (!entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("minebound:poison_creature")))) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 20, 4, (false), (false)));
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) > (entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) * 0.15) {

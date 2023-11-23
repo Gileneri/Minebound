@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TestButton"
+      },
+      {
+        "value": "CUSTOM:TestDoor"
+      },
+      {
+        "value": "CUSTOM:TestPressurePlate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "mm_triggerable",
+    "namespace": "forge"
+  }
+}

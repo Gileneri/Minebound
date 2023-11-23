@@ -46,6 +46,7 @@ public class MMOnRightClickProcedure {
 		double offsetHeight = 0;
 		double radiusDepth = 0;
 		double offsetDepth = 0;
+		boolean workingBool = false;
 		powerMultiplier = 0.455;
 		raytraceDistance = 10 + itemstack.getOrCreateTag().getDouble("MMrangeLevel") * 2;
 		targetX = entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(raytraceDistance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX() + 0.5;
@@ -226,6 +227,7 @@ public class MMOnRightClickProcedure {
 							}
 						}
 					} else {
+						workingBool = false;
 						offsetWidth = 0;
 						offsetHeight = 0;
 						offsetDepth = 0;
@@ -383,17 +385,20 @@ public class MMOnRightClickProcedure {
 																	return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 																}
 															}.compareDistOf((xPos + targetX), (yPos + 0.5 + targetY), (zPos + targetZ))).findFirst().orElse(null)).getPersistentData().getDouble("MMminingProgress") > 0) {
-														if (world instanceof Level _level) {
-															if (!_level.isClientSide()) {
-																_level.playSound(null, new BlockPos(xPos + targetX, yPos + 0.5 + targetY, zPos + targetZ), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.stone.step")),
-																		SoundSource.BLOCKS, 1, 1);
-															} else {
-																_level.playLocalSound((xPos + targetX), (yPos + 0.5 + targetY), (zPos + targetZ), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.stone.step")), SoundSource.BLOCKS, 1,
-																		1, false);
+														if (workingBool == false) {
+															workingBool = true;
+															if (world instanceof Level _level) {
+																if (!_level.isClientSide()) {
+																	_level.playSound(null, new BlockPos(xPos + targetX, yPos + 0.5 + targetY, zPos + targetZ), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.stone.step")),
+																			SoundSource.BLOCKS, 1, 1);
+																} else {
+																	_level.playLocalSound((xPos + targetX), (yPos + 0.5 + targetY), (zPos + targetZ), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.stone.step")), SoundSource.BLOCKS,
+																			1, 1, false);
+																}
 															}
+															world.levelEvent(2001, new BlockPos(xPos + targetX, yPos + 0.5 + targetY, zPos + targetZ),
+																	Block.getId((world.getBlockState(new BlockPos(xPos + targetX, yPos + 0.5 + targetY, zPos + targetZ)))));
 														}
-														world.levelEvent(2001, new BlockPos(xPos + targetX, yPos + 0.5 + targetY, zPos + targetZ),
-																Block.getId((world.getBlockState(new BlockPos(xPos + targetX, yPos + 0.5 + targetY, zPos + targetZ)))));
 													} else {
 														{
 															BlockPos _pos = new BlockPos(xPos + targetX, yPos + 0.5 + targetY, zPos + targetZ);

@@ -64,6 +64,7 @@ import net.mcreator.minebound.entity.PolingMobEntity;
 import net.mcreator.minebound.entity.PoletMobEntity;
 import net.mcreator.minebound.entity.PoMobEntity;
 import net.mcreator.minebound.entity.PoGolemMobEntity;
+import net.mcreator.minebound.entity.PlayerHeadHUDEntityEntity;
 import net.mcreator.minebound.entity.PipkinMobEntity;
 import net.mcreator.minebound.entity.PetropodMobEntity;
 import net.mcreator.minebound.entity.PetricubMobEntity;
@@ -652,6 +653,10 @@ public class MineboundModEntities {
 			EntityType.Builder.<RacerMob6Entity>of(RacerMob6Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RacerMob6Entity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PlayerHeadHUDEntityEntity>> PLAYER_HEAD_HUD_ENTITY = register("player_head_hud_entity",
+			EntityType.Builder.<PlayerHeadHUDEntityEntity>of(PlayerHeadHUDEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PlayerHeadHUDEntityEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -787,6 +792,7 @@ public class MineboundModEntities {
 			RacerMob4Entity.init();
 			RacerMob5Entity.init();
 			RacerMob6Entity.init();
+			PlayerHeadHUDEntityEntity.init();
 		});
 	}
 
@@ -919,5 +925,6 @@ public class MineboundModEntities {
 		event.put(RACER_MOB_4.get(), RacerMob4Entity.createAttributes().build());
 		event.put(RACER_MOB_5.get(), RacerMob5Entity.createAttributes().build());
 		event.put(RACER_MOB_6.get(), RacerMob6Entity.createAttributes().build());
+		event.put(PLAYER_HEAD_HUD_ENTITY.get(), PlayerHeadHUDEntityEntity.createAttributes().build());
 	}
 }

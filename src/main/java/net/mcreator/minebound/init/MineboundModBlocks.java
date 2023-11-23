@@ -36,6 +36,7 @@ import net.mcreator.minebound.block.TestLightBlockBlock;
 import net.mcreator.minebound.block.TestDoorBlock;
 import net.mcreator.minebound.block.TestButtonBlock;
 import net.mcreator.minebound.block.TentacleClusterBlock;
+import net.mcreator.minebound.block.TarTestBlock;
 import net.mcreator.minebound.block.TarBlock;
 import net.mcreator.minebound.block.StripedWoodBlock;
 import net.mcreator.minebound.block.StonerubbleBlock;
@@ -83,7 +84,6 @@ import net.mcreator.minebound.block.BrainsBlock;
 import net.mcreator.minebound.block.BlueglowrockBlock;
 import net.mcreator.minebound.block.BlaststoneBlock;
 import net.mcreator.minebound.block.AshBlock;
-import net.mcreator.minebound.block.AlienrockTestBlock;
 import net.mcreator.minebound.block.AlienrockBlock;
 import net.mcreator.minebound.MineboundMod;
 
@@ -130,7 +130,6 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> LOOSESILT = REGISTRY.register("loosesilt", () -> new LoosesiltBlock());
 	public static final RegistryObject<Block> MAGMAROCK = REGISTRY.register("magmarock", () -> new MagmarockBlock());
 	public static final RegistryObject<Block> CORE_LAVA = REGISTRY.register("core_lava", () -> new CoreLavaBlock());
-	public static final RegistryObject<Block> ALIENROCK_TEST = REGISTRY.register("alienrock_test", () -> new AlienrockTestBlock());
 	public static final RegistryObject<Block> METEORITEROCK = REGISTRY.register("meteoriterock", () -> new MeteoriterockBlock());
 	public static final RegistryObject<Block> MOON_DUST = REGISTRY.register("moon_dust", () -> new MoonDustBlock());
 	public static final RegistryObject<Block> MOONROCK = REGISTRY.register("moonrock", () -> new MoonrockBlock());
@@ -164,4 +163,5 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> UNREFINED_CONGLOMERATE = REGISTRY.register("unrefined_conglomerate", () -> new UnrefinedConglomerateBlock());
 	public static final RegistryObject<Block> UNREFINED_ARKOSE = REGISTRY.register("unrefined_arkose", () -> new UnrefinedArkoseBlock());
 	public static final RegistryObject<Block> PACKED_BONES = REGISTRY.register("packed_bones", () -> new PackedBonesBlock());
+	public static final RegistryObject<Block> TAR_TEST = REGISTRY.register("tar_test", () -> new TarTestBlock());
 }

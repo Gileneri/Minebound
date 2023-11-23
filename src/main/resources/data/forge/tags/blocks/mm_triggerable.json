@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:test_door",
+    "minebound:test_button",
+    "minebound:test_pressure_plate"
+  ]
+}

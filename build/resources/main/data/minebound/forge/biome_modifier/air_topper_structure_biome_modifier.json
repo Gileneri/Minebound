@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "minebound:air_topper_structure",
+  "step": "surface_structures"
+}

@@ -21,7 +21,7 @@ public class PoisonedOnEffectActiveTickProcedure {
 			return;
 		double baseRate = 0;
 		double rateWithAmplifier = 0;
-		if (!entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("test:poison_creature")))) {
+		if (!entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("minebound:poison_creature")))) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 30, 0, (false), (false)));
 			entity.hurt(DamageSource.GENERIC, 1);

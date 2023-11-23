@@ -39,7 +39,7 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "RED",
-    "onTickUpdate": {
+    "onNeighbourChanges": {
       "name": "CoreLavaUpdateTick"
     }
   }

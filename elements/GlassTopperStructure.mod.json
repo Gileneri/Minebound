@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "structure",
+  "definition": {
+    "structure": "glass_topper",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 1,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -10,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:MountainTopperDim"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "AIR",
+    "generateCondition": {
+      "name": "GlassTopperStructureAdditionalGenerationCondition"
+    }
+  }
+}

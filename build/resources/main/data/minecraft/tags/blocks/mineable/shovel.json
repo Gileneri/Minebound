@@ -8,6 +8,7 @@
     "minebound:tar",
     "minebound:waste",
     "minebound:wet_dirt",
-    "minebound:packed_bones"
+    "minebound:packed_bones",
+    "minebound:tar_test"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CoreLava"
+      },
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "core_lava_immune_blocks",
+    "namespace": "forge"
+  }
+}

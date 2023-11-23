@@ -1,10 +1,14 @@
 package net.mcreator.minebound.procedures;
 
 import net.minecraft.world.level.GameType;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.minebound.init.MineboundModItems;
 
 public class AllowIfInSurvivalOrAdventureModeProcedure {
 	public static boolean execute(Entity entity) {
@@ -30,7 +34,8 @@ public class AllowIfInSurvivalOrAdventureModeProcedure {
 				}
 				return false;
 			}
-		}.checkGamemode(entity)) {
+		}.checkGamemode(entity) || (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == MineboundModItems.DEBUG_TEST_TOOL.get()
+				|| (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == MineboundModItems.DEBUG_TEST_TOOL.get()) {
 			shouldAllow = true;
 		}
 		return shouldAllow;

@@ -15,7 +15,6 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.minebound.item.TestMonsterStatItemItem;
 import net.mcreator.minebound.item.PoisonItem;
 import net.mcreator.minebound.item.OrbitalItem;
 import net.mcreator.minebound.item.MattermanipulatorbetaItem;
@@ -54,7 +53,6 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> DIRTMATERIAL = block(MineboundModBlocks.DIRTMATERIAL, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> DRYDIRT = block(MineboundModBlocks.DRYDIRT, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> DRYSAND = block(MineboundModBlocks.DRYSAND, MineboundModTabs.TAB_NATURALTILES);
-	public static final RegistryObject<Item> TEST_MONSTER_STAT_ITEM = REGISTRY.register("test_monster_stat_item", () -> new TestMonsterStatItemItem());
 	public static final RegistryObject<Item> FLESHCHUNK = block(MineboundModBlocks.FLESHCHUNK, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> FLESHPILE = block(MineboundModBlocks.FLESHPILE, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> NUTMIDGE_MOB_SPAWN_EGG = REGISTRY.register("nutmidge_mob_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.NUTMIDGE_MOB, -6724096, -52, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
@@ -215,7 +213,6 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> RACER_MOB_4_SPAWN_EGG = REGISTRY.register("racer_mob_4_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.RACER_MOB_4, -1, -10066330, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> RACER_MOB_5_SPAWN_EGG = REGISTRY.register("racer_mob_5_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.RACER_MOB_5, -1, -13421773, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> RACER_MOB_6_SPAWN_EGG = REGISTRY.register("racer_mob_6_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.RACER_MOB_6, -1, -16777216, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-	public static final RegistryObject<Item> ALIENROCK_TEST = block(MineboundModBlocks.ALIENROCK_TEST, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> METEORITEROCK = block(MineboundModBlocks.METEORITEROCK, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> MOON_DUST = block(MineboundModBlocks.MOON_DUST, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> MOONROCK = block(MineboundModBlocks.MOONROCK, MineboundModTabs.TAB_NATURALTILES);
@@ -249,6 +246,7 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> UNREFINED_CONGLOMERATE = block(MineboundModBlocks.UNREFINED_CONGLOMERATE, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> UNREFINED_ARKOSE = block(MineboundModBlocks.UNREFINED_ARKOSE, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> PACKED_BONES = block(MineboundModBlocks.PACKED_BONES, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> TAR_TEST = block(MineboundModBlocks.TAR_TEST, MineboundModTabs.TAB_NATURALTILES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

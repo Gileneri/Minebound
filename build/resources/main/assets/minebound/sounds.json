@@ -379,22 +379,12 @@
       }
     ]
   },
-  "breaking_tallgrass1": {
+  "breaking_wood": {
     "category": "block",
-    "subtitle": "subtitles.breaking_tallgrass1",
+    "subtitle": "subtitles.breaking_wood",
     "sounds": [
       {
-        "name": "minebound:breaking_tallgrass",
-        "stream": false
-      }
-    ]
-  },
-  "footstep_tallgrass": {
-    "category": "block",
-    "subtitle": "subtitles.footstep_tallgrass",
-    "sounds": [
-      {
-        "name": "minebound:footstep_tallgrass",
+        "name": "minebound:breaking_wood",
         "stream": false
       }
     ]
@@ -409,26 +399,6 @@
       }
     ]
   },
-  "breaking_slush": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_slush",
-    "sounds": [
-      {
-        "name": "minebound:breaking_slush",
-        "stream": false
-      }
-    ]
-  },
-  "footstep_snow": {
-    "category": "block",
-    "subtitle": "subtitles.footstep_snow",
-    "sounds": [
-      {
-        "name": "minebound:footstep_snow",
-        "stream": false
-      }
-    ]
-  },
   "breaking_snow": {
     "category": "block",
     "subtitle": "subtitles.breaking_snow",
@@ -439,22 +409,52 @@
       }
     ]
   },
-  "breaking_wood": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_wood",
-    "sounds": [
-      {
-        "name": "minebound:breaking_wood",
-        "stream": false
-      }
-    ]
-  },
   "footstep_wood": {
     "category": "block",
     "subtitle": "subtitles.footstep_wood",
     "sounds": [
       {
         "name": "minebound:footstep_wood",
+        "stream": false
+      }
+    ]
+  },
+  "breaking_tallgrass1": {
+    "category": "block",
+    "subtitle": "subtitles.breaking_tallgrass1",
+    "sounds": [
+      {
+        "name": "minebound:breaking_tallgrass",
+        "stream": false
+      }
+    ]
+  },
+  "breaking_slush": {
+    "category": "block",
+    "subtitle": "subtitles.breaking_slush",
+    "sounds": [
+      {
+        "name": "minebound:breaking_slush",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_tallgrass": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_tallgrass",
+    "sounds": [
+      {
+        "name": "minebound:footstep_tallgrass",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_snow": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_snow",
+    "sounds": [
+      {
+        "name": "minebound:footstep_snow",
         "stream": false
       }
     ]

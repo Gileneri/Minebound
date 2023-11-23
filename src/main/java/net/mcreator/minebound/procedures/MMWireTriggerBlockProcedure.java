@@ -8,7 +8,7 @@ public class MMWireTriggerBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double counter = 0;
 		counter = 1;
-		for (int index0 = 0; index0 < (int) (3); index0++) {
+		for (int index0 = 0; index0 < (int) (6); index0++) {
 			if (!(new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);

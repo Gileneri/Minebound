@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:test_door",
+    "minebound:test_redstone_off",
+    "minebound:test_light_off",
+    "minebound:test_light_on",
+    "minebound:test_redstone_on"
+  ]
+}

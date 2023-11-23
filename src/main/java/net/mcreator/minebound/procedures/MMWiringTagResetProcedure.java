@@ -8,7 +8,7 @@ public class MMWiringTagResetProcedure {
 		itemstack.getOrCreateTag().putDouble("MMwireCarryingInput", 0);
 		itemstack.getOrCreateTag().putDouble("MMwireCarryingOutput", 0);
 		counter = 1;
-		for (int index0 = 0; index0 < (int) (3); index0++) {
+		for (int index0 = 0; index0 < (int) (6); index0++) {
 			itemstack.getOrCreateTag().putDouble(("MMwireXin" + counter), 0);
 			itemstack.getOrCreateTag().putDouble(("MMwireYin" + counter), 0);
 			itemstack.getOrCreateTag().putDouble(("MMwireZin" + counter), 0);
