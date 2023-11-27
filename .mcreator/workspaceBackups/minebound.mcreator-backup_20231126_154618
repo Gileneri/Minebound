@@ -6527,8 +6527,8 @@
         "files": [
           "src/main/resources/assets/minebound/blockstates/granite_rock.json",
           "src/main/java/net/mcreator/minebound/block/GraniteRockBlock.java",
-          "src/main/resources/assets/minebound/models/item/granite_rock.json",
-          "src/main/resources/assets/minebound/models/block/granite_rock.json"
+          "src/main/resources/assets/minebound/models/block/granite_rock.json",
+          "src/main/resources/assets/minebound/models/item/granite_rock.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6542,9 +6542,9 @@
       "registry_name": "meteoriterock",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/models/item/meteoriterock.json",
           "src/main/java/net/mcreator/minebound/block/MeteoriterockBlock.java",
           "src/main/resources/assets/minebound/blockstates/meteoriterock.json",
-          "src/main/resources/assets/minebound/models/item/meteoriterock.json",
           "src/main/resources/assets/minebound/models/block/meteoriterock.json"
         ]
       },
@@ -6559,10 +6559,10 @@
       "registry_name": "sand",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/blockstates/sand.json",
           "src/main/resources/assets/minebound/models/block/sand.json",
-          "src/main/java/net/mcreator/minebound/block/SandBlock.java",
           "src/main/resources/assets/minebound/models/item/sand.json",
-          "src/main/resources/assets/minebound/blockstates/sand.json"
+          "src/main/java/net/mcreator/minebound/block/SandBlock.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6576,10 +6576,10 @@
       "registry_name": "plant_matter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/plant_matter.json",
           "src/main/resources/assets/minebound/blockstates/plant_matter.json",
-          "src/main/resources/assets/minebound/models/block/plant_matter.json",
-          "src/main/java/net/mcreator/minebound/block/PlantMatterBlock.java"
+          "src/main/java/net/mcreator/minebound/block/PlantMatterBlock.java",
+          "src/main/resources/assets/minebound/models/item/plant_matter.json",
+          "src/main/resources/assets/minebound/models/block/plant_matter.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6593,10 +6593,10 @@
       "registry_name": "tar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/TarBlock.java",
-          "src/main/resources/assets/minebound/models/block/tar.json",
           "src/main/resources/assets/minebound/models/item/tar.json",
-          "src/main/resources/assets/minebound/blockstates/tar.json"
+          "src/main/java/net/mcreator/minebound/block/TarBlock.java",
+          "src/main/resources/assets/minebound/blockstates/tar.json",
+          "src/main/resources/assets/minebound/models/block/tar.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6610,8 +6610,8 @@
       "registry_name": "packed_bones",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/packed_bones.json",
           "src/main/resources/assets/minebound/models/block/packed_bones.json",
+          "src/main/resources/assets/minebound/models/item/packed_bones.json",
           "src/main/java/net/mcreator/minebound/block/PackedBonesBlock.java",
           "src/main/resources/assets/minebound/blockstates/packed_bones.json"
         ]
@@ -6627,10 +6627,10 @@
       "registry_name": "unrefined_gritstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/unrefined_gritstone.json",
           "src/main/java/net/mcreator/minebound/block/UnrefinedGritstoneBlock.java",
           "src/main/resources/assets/minebound/models/block/unrefined_gritstone.json",
-          "src/main/resources/assets/minebound/blockstates/unrefined_gritstone.json"
+          "src/main/resources/assets/minebound/blockstates/unrefined_gritstone.json",
+          "src/main/resources/assets/minebound/models/item/unrefined_gritstone.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6661,10 +6661,10 @@
       "registry_name": "waste",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/waste.json",
-          "src/main/java/net/mcreator/minebound/block/WasteBlock.java",
           "src/main/resources/assets/minebound/models/item/waste.json",
-          "src/main/resources/assets/minebound/models/block/waste.json"
+          "src/main/resources/assets/minebound/models/block/waste.json",
+          "src/main/java/net/mcreator/minebound/block/WasteBlock.java",
+          "src/main/resources/assets/minebound/blockstates/waste.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6678,10 +6678,10 @@
       "registry_name": "slime_glob",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/SlimeGlobBlock.java",
           "src/main/resources/assets/minebound/models/item/slime_glob.json",
+          "src/main/resources/assets/minebound/models/block/slime_glob.json",
           "src/main/resources/assets/minebound/blockstates/slime_glob.json",
-          "src/main/resources/assets/minebound/models/block/slime_glob.json"
+          "src/main/java/net/mcreator/minebound/block/SlimeGlobBlock.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6696,8 +6696,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebound/models/item/moon_dust.json",
-          "src/main/resources/assets/minebound/blockstates/moon_dust.json",
           "src/main/java/net/mcreator/minebound/block/MoonDustBlock.java",
+          "src/main/resources/assets/minebound/blockstates/moon_dust.json",
           "src/main/resources/assets/minebound/models/block/moon_dust.json"
         ]
       },
@@ -6714,8 +6714,8 @@
         "files": [
           "src/main/resources/assets/minebound/models/item/yellow_glow_rock.json",
           "src/main/resources/assets/minebound/blockstates/yellow_glow_rock.json",
-          "src/main/resources/assets/minebound/models/block/yellow_glow_rock.json",
-          "src/main/java/net/mcreator/minebound/block/YellowGlowRockBlock.java"
+          "src/main/java/net/mcreator/minebound/block/YellowGlowRockBlock.java",
+          "src/main/resources/assets/minebound/models/block/yellow_glow_rock.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6746,10 +6746,10 @@
       "registry_name": "vine_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/vine_block.json",
+          "src/main/java/net/mcreator/minebound/block/VineBlockBlock.java",
           "src/main/resources/assets/minebound/models/item/vine_block.json",
           "src/main/resources/assets/minebound/models/block/vine_block.json",
-          "src/main/java/net/mcreator/minebound/block/VineBlockBlock.java"
+          "src/main/resources/assets/minebound/blockstates/vine_block.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6765,8 +6765,8 @@
         "files": [
           "src/main/resources/assets/minebound/models/item/striped_wood.json",
           "src/main/java/net/mcreator/minebound/block/StripedWoodBlock.java",
-          "src/main/resources/assets/minebound/blockstates/striped_wood.json",
-          "src/main/resources/assets/minebound/models/block/striped_wood.json"
+          "src/main/resources/assets/minebound/models/block/striped_wood.json",
+          "src/main/resources/assets/minebound/blockstates/striped_wood.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6780,10 +6780,10 @@
       "registry_name": "smoothice",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/smoothice.json",
           "src/main/java/net/mcreator/minebound/block/SmoothiceBlock.java",
           "src/main/resources/assets/minebound/models/block/smoothice.json",
-          "src/main/resources/assets/minebound/blockstates/smoothice.json"
+          "src/main/resources/assets/minebound/blockstates/smoothice.json",
+          "src/main/resources/assets/minebound/models/item/smoothice.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6797,10 +6797,10 @@
       "registry_name": "mud",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/mud.json",
-          "src/main/resources/assets/minebound/models/item/mud.json",
+          "src/main/java/net/mcreator/minebound/block/MudBlock.java",
           "src/main/resources/assets/minebound/models/block/mud.json",
-          "src/main/java/net/mcreator/minebound/block/MudBlock.java"
+          "src/main/resources/assets/minebound/blockstates/mud.json",
+          "src/main/resources/assets/minebound/models/item/mud.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6814,9 +6814,9 @@
       "registry_name": "unrefined_dacite",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/models/item/unrefined_dacite.json",
           "src/main/java/net/mcreator/minebound/block/UnrefinedDaciteBlock.java",
           "src/main/resources/assets/minebound/blockstates/unrefined_dacite.json",
-          "src/main/resources/assets/minebound/models/item/unrefined_dacite.json",
           "src/main/resources/assets/minebound/models/block/unrefined_dacite.json"
         ]
       },
@@ -6831,8 +6831,8 @@
       "registry_name": "unrefined_arkose",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/unrefined_arkose.json",
           "src/main/resources/assets/minebound/models/item/unrefined_arkose.json",
+          "src/main/resources/assets/minebound/blockstates/unrefined_arkose.json",
           "src/main/java/net/mcreator/minebound/block/UnrefinedArkoseBlock.java",
           "src/main/resources/assets/minebound/models/block/unrefined_arkose.json"
         ]
@@ -6849,9 +6849,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebound/models/item/thicksnow.json",
+          "src/main/resources/assets/minebound/models/block/thicksnow.json",
           "src/main/java/net/mcreator/minebound/block/ThicksnowBlock.java",
-          "src/main/resources/assets/minebound/blockstates/thicksnow.json",
-          "src/main/resources/assets/minebound/models/block/thicksnow.json"
+          "src/main/resources/assets/minebound/blockstates/thicksnow.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6865,10 +6865,10 @@
       "registry_name": "obsidian",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/obsidian.json",
-          "src/main/java/net/mcreator/minebound/block/ObsidianBlock.java",
+          "src/main/resources/assets/minebound/models/block/obsidian.json",
           "src/main/resources/assets/minebound/blockstates/obsidian.json",
-          "src/main/resources/assets/minebound/models/block/obsidian.json"
+          "src/main/resources/assets/minebound/models/item/obsidian.json",
+          "src/main/java/net/mcreator/minebound/block/ObsidianBlock.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6882,10 +6882,10 @@
       "registry_name": "tentacle_cluster",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/models/item/tentacle_cluster.json",
           "src/main/resources/assets/minebound/blockstates/tentacle_cluster.json",
-          "src/main/java/net/mcreator/minebound/block/TentacleClusterBlock.java",
           "src/main/resources/assets/minebound/models/block/tentacle_cluster.json",
-          "src/main/resources/assets/minebound/models/item/tentacle_cluster.json"
+          "src/main/java/net/mcreator/minebound/block/TentacleClusterBlock.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6899,10 +6899,10 @@
       "registry_name": "unrefined_gneiss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/UnrefinedGneissBlock.java",
           "src/main/resources/assets/minebound/models/block/unrefined_gneiss.json",
-          "src/main/resources/assets/minebound/models/item/unrefined_gneiss.json",
-          "src/main/resources/assets/minebound/blockstates/unrefined_gneiss.json"
+          "src/main/java/net/mcreator/minebound/block/UnrefinedGneissBlock.java",
+          "src/main/resources/assets/minebound/blockstates/unrefined_gneiss.json",
+          "src/main/resources/assets/minebound/models/item/unrefined_gneiss.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6916,10 +6916,10 @@
       "registry_name": "moonstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/MoonstoneBlock.java",
-          "src/main/resources/assets/minebound/models/item/moonstone.json",
           "src/main/resources/assets/minebound/blockstates/moonstone.json",
-          "src/main/resources/assets/minebound/models/block/moonstone.json"
+          "src/main/resources/assets/minebound/models/block/moonstone.json",
+          "src/main/java/net/mcreator/minebound/block/MoonstoneBlock.java",
+          "src/main/resources/assets/minebound/models/item/moonstone.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6933,10 +6933,10 @@
       "registry_name": "unrefined_conglomerate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/block/unrefined_conglomerate.json",
           "src/main/java/net/mcreator/minebound/block/UnrefinedConglomerateBlock.java",
           "src/main/resources/assets/minebound/models/item/unrefined_conglomerate.json",
-          "src/main/resources/assets/minebound/blockstates/unrefined_conglomerate.json"
+          "src/main/resources/assets/minebound/blockstates/unrefined_conglomerate.json",
+          "src/main/resources/assets/minebound/models/block/unrefined_conglomerate.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6950,10 +6950,10 @@
       "registry_name": "wooden_log",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/WoodenLogBlock.java",
           "src/main/resources/assets/minebound/models/item/wooden_log.json",
           "src/main/resources/assets/minebound/blockstates/wooden_log.json",
-          "src/main/resources/assets/minebound/models/block/wooden_log.json"
+          "src/main/resources/assets/minebound/models/block/wooden_log.json",
+          "src/main/java/net/mcreator/minebound/block/WoodenLogBlock.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6984,10 +6984,10 @@
       "registry_name": "unrefined_limestone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/unrefined_limestone.json",
           "src/main/java/net/mcreator/minebound/block/UnrefinedLimestoneBlock.java",
+          "src/main/resources/assets/minebound/models/item/unrefined_limestone.json",
           "src/main/resources/assets/minebound/models/block/unrefined_limestone.json",
-          "src/main/resources/assets/minebound/models/item/unrefined_limestone.json"
+          "src/main/resources/assets/minebound/blockstates/unrefined_limestone.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -7035,9 +7035,9 @@
       "registry_name": "roughsandstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/RoughsandstoneBlock.java",
           "src/main/resources/assets/minebound/models/item/roughsandstone.json",
           "src/main/resources/assets/minebound/blockstates/roughsandstone.json",
+          "src/main/java/net/mcreator/minebound/block/RoughsandstoneBlock.java",
           "src/main/resources/assets/minebound/models/block/roughsandstone.json"
         ]
       },
@@ -7053,9 +7053,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebound/models/item/moonrock.json",
-          "src/main/resources/assets/minebound/blockstates/moonrock.json",
+          "src/main/resources/assets/minebound/models/block/moonrock.json",
           "src/main/java/net/mcreator/minebound/block/MoonrockBlock.java",
-          "src/main/resources/assets/minebound/models/block/moonrock.json"
+          "src/main/resources/assets/minebound/blockstates/moonrock.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -7070,9 +7070,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/minebound/block/UnrefinedMudstoneBlock.java",
+          "src/main/resources/assets/minebound/models/block/unrefined_mudstone.json",
           "src/main/resources/assets/minebound/models/item/unrefined_mudstone.json",
-          "src/main/resources/assets/minebound/blockstates/unrefined_mudstone.json",
-          "src/main/resources/assets/minebound/models/block/unrefined_mudstone.json"
+          "src/main/resources/assets/minebound/blockstates/unrefined_mudstone.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -7141,7 +7141,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "path": "~/features_structures"
     },
     {
       "name": "GlassTopperStructure",
@@ -7155,7 +7156,8 @@
           "src/main/java/net/mcreator/minebound/world/features/GlassTopperStructureFeature.java",
           "src/main/resources/data/minebound/forge/biome_modifier/glass_topper_structure_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/features_structures"
     },
     {
       "name": "AirTopperStructure",
@@ -7169,7 +7171,8 @@
           "src/main/java/net/mcreator/minebound/world/features/AirTopperStructureFeature.java",
           "src/main/resources/data/minebound/forge/biome_modifier/air_topper_structure_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/features_structures"
     },
     {
       "name": "PlayerHeadHUDEntity",
@@ -7738,18 +7741,18 @@
   ],
   "language_map": {
     "en_us": {
-      "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
-      "entity.test.bobot_mob_charging": "Bobot",
       "subtitles.break_stone": "break_stone",
-      "entity.test.mooshi_mob": "Mooshi",
+      "entity.test.bobot_mob_charging": "Bobot",
+      "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
       "item.minebound.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
+      "entity.test.mooshi_mob": "Mooshi",
       "gui.test.mm_upgrade_gui_test.button_empty": "Liquid Upgrade",
       "entity.test.mech_test_body": "Mech Test Body",
-      "block.minebound.unrefined_conglomerate": "Unrefined Conglomerate",
       "subtitles.breaking_slush": "breaking_slush1",
+      "block.minebound.unrefined_conglomerate": "Unrefined Conglomerate",
       "block.test.coarsegravel": "Coarse Gravel",
-      "subtitles.atom": "normal_hit",
       "entity.test.paratail_mob": "Paratail",
+      "subtitles.atom": "normal_hit",
       "block.minebound.moonstone": "Moonstone",
       "item.test.adult_poptop_mob_spawn_egg": "Adult Poptop Spawn Egg",
       "item.test.orbide_mob_spawn_egg": "Orbide Spawn Egg",
@@ -7763,8 +7766,8 @@
       "entity.test.mech_test_arm_left": "Mech Test Arm Left",
       "block.test.alienrock": "Alien rock",
       "gui.minebound.mm_upgrade_gui_test.button_empty10": "Range Upgrade 2",
-      "item.minebound.mech_test_arm_right_spawn_egg": "Mech Test Arm Right Spawn Egg",
       "entity.minebound.narfin_mob": "Narfin",
+      "item.minebound.mech_test_arm_right_spawn_egg": "Mech Test Arm Right Spawn Egg",
       "block.test.corruptdirt": "Corrupt dirt",
       "item.minebound.fennix_mob_spawn_egg": "Fennix Spawn Egg",
       "item.test.masteroid_mob_s_spawn_egg": "Masteroid Spawn Egg",

@@ -247,6 +247,8 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> UNREFINED_ARKOSE = block(MineboundModBlocks.UNREFINED_ARKOSE, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> PACKED_BONES = block(MineboundModBlocks.PACKED_BONES, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> TAR_TEST = block(MineboundModBlocks.TAR_TEST, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> ASTEROID_MAGMAROCK = block(MineboundModBlocks.ASTEROID_MAGMAROCK, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> ASTEROID_MATEORITEROCK = block(MineboundModBlocks.ASTEROID_MATEORITEROCK, MineboundModTabs.TAB_NATURALTILES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

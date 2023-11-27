@@ -29,7 +29,7 @@ public class MeteoriterockBlock extends Block {
 	public MeteoriterockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BROWN)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:rock_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(12f).requiresCorrectToolForDrops());
 	}
 

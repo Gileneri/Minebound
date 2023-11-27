@@ -25,8 +25,8 @@ import java.util.Collections;
 public class VineBlockBlock extends Block {
 	public VineBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.PLANT)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:hitting_clay1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_clay1")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:hitting_clay1")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_clay1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_clay1")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_clay1")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(4f));
 	}
 

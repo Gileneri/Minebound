@@ -25,8 +25,8 @@ import java.util.Collections;
 public class MoonDustBlock extends Block {
 	public MoonDustBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.METAL)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_sand")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_sand")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_sand")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_sand")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_sand")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_sand")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(1f));
 	}
 

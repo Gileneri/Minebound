@@ -26,8 +26,8 @@ import java.util.Collections;
 public class TentacleClusterBlock extends Block {
 	public TentacleClusterBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.COLOR_RED)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(12f).requiresCorrectToolForDrops());
 	}
 

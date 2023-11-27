@@ -25,8 +25,8 @@ import java.util.Collections;
 public class MudBlock extends Block {
 	public MudBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.TERRACOTTA_GRAY)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_mud")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_mud")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_mud")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_mud")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_mud")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_mud")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(1f, 10f).speedFactor(0.8f));
 	}
 

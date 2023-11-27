@@ -27,8 +27,8 @@ import java.util.Collections;
 public class PlantMatterBlock extends Block {
 	public PlantMatterBlock() {
 		super(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.PLANT)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_tallgrass1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_tallgrass")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_tallgrass1")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_tallgrass")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_tallgrass")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_tallgrass")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(2f).requiresCorrectToolForDrops());
 	}
 

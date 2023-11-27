@@ -27,8 +27,8 @@ import java.util.Collections;
 public class UnrefinedArkoseBlock extends Block {
 	public UnrefinedArkoseBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:stone2_hitting")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone2")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:stone2_hitting")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone2")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone2")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone2")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(8f).requiresCorrectToolForDrops());
 	}
 

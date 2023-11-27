@@ -6527,8 +6527,8 @@
         "files": [
           "src/main/resources/assets/minebound/blockstates/granite_rock.json",
           "src/main/java/net/mcreator/minebound/block/GraniteRockBlock.java",
-          "src/main/resources/assets/minebound/models/item/granite_rock.json",
-          "src/main/resources/assets/minebound/models/block/granite_rock.json"
+          "src/main/resources/assets/minebound/models/block/granite_rock.json",
+          "src/main/resources/assets/minebound/models/item/granite_rock.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6542,9 +6542,9 @@
       "registry_name": "meteoriterock",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/models/item/meteoriterock.json",
           "src/main/java/net/mcreator/minebound/block/MeteoriterockBlock.java",
           "src/main/resources/assets/minebound/blockstates/meteoriterock.json",
-          "src/main/resources/assets/minebound/models/item/meteoriterock.json",
           "src/main/resources/assets/minebound/models/block/meteoriterock.json"
         ]
       },
@@ -6559,10 +6559,10 @@
       "registry_name": "sand",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/blockstates/sand.json",
           "src/main/resources/assets/minebound/models/block/sand.json",
-          "src/main/java/net/mcreator/minebound/block/SandBlock.java",
           "src/main/resources/assets/minebound/models/item/sand.json",
-          "src/main/resources/assets/minebound/blockstates/sand.json"
+          "src/main/java/net/mcreator/minebound/block/SandBlock.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6576,10 +6576,10 @@
       "registry_name": "plant_matter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/plant_matter.json",
           "src/main/resources/assets/minebound/blockstates/plant_matter.json",
-          "src/main/resources/assets/minebound/models/block/plant_matter.json",
-          "src/main/java/net/mcreator/minebound/block/PlantMatterBlock.java"
+          "src/main/java/net/mcreator/minebound/block/PlantMatterBlock.java",
+          "src/main/resources/assets/minebound/models/item/plant_matter.json",
+          "src/main/resources/assets/minebound/models/block/plant_matter.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6593,10 +6593,10 @@
       "registry_name": "tar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/TarBlock.java",
-          "src/main/resources/assets/minebound/models/block/tar.json",
           "src/main/resources/assets/minebound/models/item/tar.json",
-          "src/main/resources/assets/minebound/blockstates/tar.json"
+          "src/main/java/net/mcreator/minebound/block/TarBlock.java",
+          "src/main/resources/assets/minebound/blockstates/tar.json",
+          "src/main/resources/assets/minebound/models/block/tar.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -7141,7 +7141,8 @@
             "type": "number"
           }
         ]
-      }
+      },
+      "path": "~/features_structures"
     },
     {
       "name": "GlassTopperStructure",
@@ -7155,7 +7156,8 @@
           "src/main/java/net/mcreator/minebound/world/features/GlassTopperStructureFeature.java",
           "src/main/resources/data/minebound/forge/biome_modifier/glass_topper_structure_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/features_structures"
     },
     {
       "name": "AirTopperStructure",
@@ -7169,7 +7171,8 @@
           "src/main/java/net/mcreator/minebound/world/features/AirTopperStructureFeature.java",
           "src/main/resources/data/minebound/forge/biome_modifier/air_topper_structure_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/features_structures"
     },
     {
       "name": "PlayerHeadHUDEntity",
@@ -7738,18 +7741,18 @@
   ],
   "language_map": {
     "en_us": {
-      "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
-      "entity.test.bobot_mob_charging": "Bobot",
       "subtitles.break_stone": "break_stone",
-      "entity.test.mooshi_mob": "Mooshi",
+      "entity.test.bobot_mob_charging": "Bobot",
+      "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
       "item.minebound.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
+      "entity.test.mooshi_mob": "Mooshi",
       "gui.test.mm_upgrade_gui_test.button_empty": "Liquid Upgrade",
       "entity.test.mech_test_body": "Mech Test Body",
-      "block.minebound.unrefined_conglomerate": "Unrefined Conglomerate",
       "subtitles.breaking_slush": "breaking_slush1",
+      "block.minebound.unrefined_conglomerate": "Unrefined Conglomerate",
       "block.test.coarsegravel": "Coarse Gravel",
-      "subtitles.atom": "normal_hit",
       "entity.test.paratail_mob": "Paratail",
+      "subtitles.atom": "normal_hit",
       "block.minebound.moonstone": "Moonstone",
       "item.test.adult_poptop_mob_spawn_egg": "Adult Poptop Spawn Egg",
       "item.test.orbide_mob_spawn_egg": "Orbide Spawn Egg",
@@ -7763,8 +7766,8 @@
       "entity.test.mech_test_arm_left": "Mech Test Arm Left",
       "block.test.alienrock": "Alien rock",
       "gui.minebound.mm_upgrade_gui_test.button_empty10": "Range Upgrade 2",
-      "item.minebound.mech_test_arm_right_spawn_egg": "Mech Test Arm Right Spawn Egg",
       "entity.minebound.narfin_mob": "Narfin",
+      "item.minebound.mech_test_arm_right_spawn_egg": "Mech Test Arm Right Spawn Egg",
       "block.test.corruptdirt": "Corrupt dirt",
       "item.minebound.fennix_mob_spawn_egg": "Fennix Spawn Egg",
       "item.test.masteroid_mob_s_spawn_egg": "Masteroid Spawn Egg",

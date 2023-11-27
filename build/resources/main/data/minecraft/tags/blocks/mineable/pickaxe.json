@@ -46,6 +46,8 @@
     "minebound:unrefined_chert",
     "minebound:unrefined_gritstone",
     "minebound:unrefined_conglomerate",
-    "minebound:unrefined_arkose"
+    "minebound:unrefined_arkose",
+    "minebound:asteroid_magmarock",
+    "minebound:asteroid_mateoriterock"
   ]
 }

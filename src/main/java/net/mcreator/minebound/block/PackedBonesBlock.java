@@ -25,8 +25,8 @@ import java.util.Collections;
 public class PackedBonesBlock extends FallingBlock {
 	public PackedBonesBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.QUARTZ)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_bone")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_bone")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_bone")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_bone"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_bone")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_bone")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_bone")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_bone"))))
 				.strength(4f));
 	}
 

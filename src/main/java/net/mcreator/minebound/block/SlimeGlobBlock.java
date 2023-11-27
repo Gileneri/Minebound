@@ -23,8 +23,8 @@ import java.util.Collections;
 public class SlimeGlobBlock extends FallingBlock {
 	public SlimeGlobBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.TERRACOTTA_GREEN)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains"))))
 				.strength(1f).friction(0.7000000000000001f));
 	}
 
