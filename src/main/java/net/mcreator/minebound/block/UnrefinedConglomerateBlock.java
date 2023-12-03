@@ -27,8 +27,8 @@ import java.util.Collections;
 public class UnrefinedConglomerateBlock extends Block {
 	public UnrefinedConglomerateBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:stone_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:footspet_stone")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:stone_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footspet_stone")), () -> new SoundEvent(new ResourceLocation("minebound:footspet_stone")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footspet_stone")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(4f).requiresCorrectToolForDrops());
 	}
 

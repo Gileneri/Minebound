@@ -85,6 +85,8 @@ import net.mcreator.minebound.block.ClayBlock;
 import net.mcreator.minebound.block.BrainsBlock;
 import net.mcreator.minebound.block.BlueglowrockBlock;
 import net.mcreator.minebound.block.BlaststoneBlock;
+import net.mcreator.minebound.block.AsteroidMateoriterockBlock;
+import net.mcreator.minebound.block.AsteroidMagmarockBlock;
 import net.mcreator.minebound.block.AshBlock;
 import net.mcreator.minebound.block.AlienrockBlock;
 import net.mcreator.minebound.MineboundMod;
@@ -167,5 +169,7 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> PACKED_BONES = REGISTRY.register("packed_bones", () -> new PackedBonesBlock());
 	public static final RegistryObject<Block> TAR_TEST = REGISTRY.register("tar_test", () -> new TarTestBlock());
 	public static final RegistryObject<Block> SLIDY_NOTHING = REGISTRY.register("slidy_nothing", () -> new SlidyNothingBlock());
+	public static final RegistryObject<Block> ASTEROID_MAGMAROCK = REGISTRY.register("asteroid_magmarock", () -> new AsteroidMagmarockBlock());
+	public static final RegistryObject<Block> ASTEROID_MATEORITEROCK = REGISTRY.register("asteroid_mateoriterock", () -> new AsteroidMateoriterockBlock());
 	public static final RegistryObject<Block> SPACE_FLUID = REGISTRY.register("space_fluid", () -> new SpaceFluidBlock());
 }

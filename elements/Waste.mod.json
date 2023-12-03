@@ -88,13 +88,13 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:brain_breaking1"
+      "value": "CUSTOM:footstep_brains"
     },
     "fallSound": {
       "value": "CUSTOM:footstep_brains"
     },
     "hitSound": {
-      "value": "CUSTOM:brain_breaking1"
+      "value": "CUSTOM:footstep_brains"
     },
     "placeSound": {
       "value": "CUSTOM:inventory_putdown1"

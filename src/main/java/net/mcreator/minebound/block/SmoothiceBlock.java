@@ -25,8 +25,8 @@ import java.util.Collections;
 public class SmoothiceBlock extends Block {
 	public SmoothiceBlock() {
 		super(BlockBehaviour.Properties.of(Material.ICE_SOLID, MaterialColor.ICE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_ice")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_ice")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(2f).requiresCorrectToolForDrops().friction(0.9f));
 	}
 

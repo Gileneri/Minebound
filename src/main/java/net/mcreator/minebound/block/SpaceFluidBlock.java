@@ -1,18 +1,8 @@
 
 package net.mcreator.minebound.block;
 
-import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.minebound.procedures.SpaceFluidMobplayerCollidesBlockProcedure;
-import net.mcreator.minebound.init.MineboundModFluids;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class SpaceFluidBlock extends LiquidBlock {
 	public SpaceFluidBlock() {
@@ -27,6 +17,6 @@ public class SpaceFluidBlock extends LiquidBlock {
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
-		SpaceFluidMobplayerCollidesBlockProcedure.execute(entity);
+		SpaceFluidMobplayerCollidesBlockProcedure.execute();
 	}
 }

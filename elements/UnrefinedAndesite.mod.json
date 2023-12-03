@@ -88,13 +88,13 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:stone_hitting1"
+      "value": "CUSTOM:footspet_stone"
     },
     "fallSound": {
       "value": "CUSTOM:silence"
     },
     "hitSound": {
-      "value": "CUSTOM:stone_hitting1"
+      "value": "CUSTOM:footspet_stone"
     },
     "placeSound": {
       "value": "CUSTOM:inventory_putdown1"

@@ -1,6 +1,8 @@
 package net.mcreator.minebound.procedures;
 
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
+
+import javax.annotation.Nullable;
 
 public class SpaceFluidMobplayerCollidesBlockProcedure {
 	public static void execute(Entity entity) {

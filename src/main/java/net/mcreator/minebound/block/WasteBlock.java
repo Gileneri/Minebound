@@ -25,8 +25,8 @@ import java.util.Collections;
 public class WasteBlock extends FallingBlock {
 	public WasteBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.EMERALD)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains"))))
 				.strength(1f, 10f).lightLevel(s -> 3));
 	}
 

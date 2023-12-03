@@ -27,8 +27,8 @@ import java.util.Collections;
 public class SlushBlock extends FallingBlock {
 	public SlushBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.QUARTZ)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_slush")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_slush")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_slush")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_slush"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_slush")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_slush")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_slush")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_slush"))))
 				.strength(1f).requiresCorrectToolForDrops().friction(0.8f));
 	}
 

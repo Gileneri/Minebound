@@ -27,8 +27,8 @@ import java.util.Collections;
 public class MoonrockBlock extends Block {
 	public MoonrockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:rock_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:rock_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(2f).requiresCorrectToolForDrops());
 	}
 

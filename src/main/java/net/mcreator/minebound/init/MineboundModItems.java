@@ -250,6 +250,8 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> PACKED_BONES = block(MineboundModBlocks.PACKED_BONES, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> TAR_TEST = block(MineboundModBlocks.TAR_TEST, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> SLIDY_NOTHING = block(MineboundModBlocks.SLIDY_NOTHING, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> ASTEROID_MAGMAROCK = block(MineboundModBlocks.ASTEROID_MAGMAROCK, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> ASTEROID_MATEORITEROCK = block(MineboundModBlocks.ASTEROID_MATEORITEROCK, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> ANTI_GRAVITY_STICK = REGISTRY.register("anti_gravity_stick", () -> new AntiGravityStickItem());
 	public static final RegistryObject<Item> SPACE_FLUID_BUCKET = REGISTRY.register("space_fluid_bucket", () -> new SpaceFluidItem());
 
