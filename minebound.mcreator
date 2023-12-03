@@ -3579,7 +3579,7 @@
           }
         ]
       },
-      "path": "~/misc"
+      "path": "~/misc/Gravity Stuff"
     },
     {
       "name": "EnergyRestoreOverTime",
@@ -7338,6 +7338,154 @@
         ]
       },
       "path": "~/matter_manipulator"
+    },
+    {
+      "name": "SlidyNothing",
+      "type": "block",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slidy_nothing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/SlidyNothingBlock.java",
+          "src/main/resources/assets/minebound/models/block/slidy_nothing.json",
+          "src/main/resources/assets/minebound/models/item/slidy_nothing.json",
+          "src/main/resources/assets/minebound/blockstates/slidy_nothing.json"
+        ]
+      },
+      "path": "~/misc/Gravity Stuff"
+    },
+    {
+      "name": "AntiGravityStickRightclicked",
+      "type": "procedure",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_gravity_stick_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/AntiGravityStickRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/misc/Gravity Stuff"
+    },
+    {
+      "name": "AntiGravityStickEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_gravity_stick_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/AntiGravityStickEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/misc/Gravity Stuff"
+    },
+    {
+      "name": "AntiGravityStick",
+      "type": "tool",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_gravity_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/anti_gravity_stick.json",
+          "src/main/java/net/mcreator/minebound/item/AntiGravityStickItem.java"
+        ]
+      },
+      "path": "~/misc/Gravity Stuff"
+    },
+    {
+      "name": "AntiGravityStickToolInHandTick",
+      "type": "procedure",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_gravity_stick_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/AntiGravityStickToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/misc/Gravity Stuff"
+    },
+    {
+      "name": "SpaceFluid",
+      "type": "fluid",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_fluid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/space_fluid.json",
+          "src/main/java/net/mcreator/minebound/fluid/SpaceFluidFluid.java",
+          "src/main/java/net/mcreator/minebound/item/SpaceFluidItem.java",
+          "src/main/java/net/mcreator/minebound/block/SpaceFluidBlock.java",
+          "src/main/java/net/mcreator/minebound/fluid/types/SpaceFluidFluidType.java",
+          "src/main/resources/assets/minebound/models/item/space_fluid_bucket.json",
+          "src/main/resources/assets/minebound/blockstates/space_fluid.json"
+        ]
+      },
+      "path": "~/misc/Gravity Stuff"
+    },
+    {
+      "name": "SpaceFluidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_fluid_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/SpaceFluidMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/misc/Gravity Stuff"
     }
   ],
   "variable_elements": [
@@ -7363,7 +7511,7 @@
       "name": "UNIQUE_PLAYER_COUNT",
       "type": "number",
       "scope": "map",
-      "value": "0"
+      "value": "0.0"
     }
   ],
   "sound_elements": [
@@ -7738,18 +7886,18 @@
   ],
   "language_map": {
     "en_us": {
-      "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
-      "entity.test.bobot_mob_charging": "Bobot",
       "subtitles.break_stone": "break_stone",
-      "entity.test.mooshi_mob": "Mooshi",
+      "entity.test.bobot_mob_charging": "Bobot",
+      "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
       "item.minebound.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
+      "entity.test.mooshi_mob": "Mooshi",
       "gui.test.mm_upgrade_gui_test.button_empty": "Liquid Upgrade",
       "entity.test.mech_test_body": "Mech Test Body",
       "block.minebound.unrefined_conglomerate": "Unrefined Conglomerate",
       "subtitles.breaking_slush": "breaking_slush1",
       "block.test.coarsegravel": "Coarse Gravel",
-      "subtitles.atom": "normal_hit",
       "entity.test.paratail_mob": "Paratail",
+      "subtitles.atom": "normal_hit",
       "block.minebound.moonstone": "Moonstone",
       "item.test.adult_poptop_mob_spawn_egg": "Adult Poptop Spawn Egg",
       "item.test.orbide_mob_spawn_egg": "Orbide Spawn Egg",
@@ -7781,6 +7929,7 @@
       "subtitles.breaking_sand": "breaking_sand",
       "subtitles.footstep_slush": "footsstep_slush1",
       "item.test.spookit_mob_spawn_egg": "Spookit Spawn Egg",
+      "block.minebound.slidy_nothing": "Slidy Nothing",
       "entity.minebound.sporgus_mob": "Sporgus",
       "entity.minebound.racer_mob_5": "Racer Mob",
       "entity.minebound.player_head_hud_entity": "Player",
@@ -7858,6 +8007,7 @@
       "item.minebound.gleap_mob_spawn_egg": "Gleap Spawn Egg",
       "item.minebound.oogler_mob_spawn_egg": "Oogler Spawn Egg",
       "entity.test.bobot_mob": "Bobot",
+      "block.minebound.space_fluid": "Space Fluid",
       "item.minebound.cosmic_intruder_mob_spawn_egg": "Cosmic Intruder Spawn Egg",
       "item.minebound.toumingo_mob_spawn_egg": "Toumingo Spawn Egg",
       "item.minebound.pulpin_mob_spawn_egg": "Pulpin Spawn Egg",
@@ -8111,6 +8261,7 @@
       "item.minebound.racer_mob_4_spawn_egg": "Racer Mob Spawn Egg",
       "item.test.snaunt_mob_spawn_egg": "Snaunt Spawn Egg",
       "block.minebound.unrefined_limestone": "Unrefined Limestone",
+      "item.minebound.anti_gravity_stick": "Anti-Gravity Stick",
       "block.minebound.test_light_block": "Test Light Block",
       "block.minebound.test_pressure_plate": "Test Pressure Plate",
       "item.minebound.snaggler_mob_spawn_egg": "Snaggler Spawn Egg",
@@ -8138,6 +8289,7 @@
       "entity.test.lilodon_mob": "Lilodon",
       "item.minebound.mandraflora_mob_spawn_egg": "Mandraflora Spawn Egg",
       "item.test.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
+      "fluid.minebound.space_fluid": "Space Fluid",
       "entity.minebound.cosmostache_mob": "Cosmostache",
       "entity.minebound.ignome_mob": "Ignome",
       "item.minebound.moontant_mob_spawn_egg": "Moontant Spawn Egg",
@@ -8393,6 +8545,7 @@
       "block.minebound.test_redstone_on": "Test Redstone (On)",
       "entity.test.taroni_mob": "Taroni",
       "entity.test.triplod_mob": "Triplod",
+      "item.minebound.space_fluid_bucket": "Space Fluid Bucket",
       "block.minebound.unrefined_gritstone": "Unrefined Gritstone",
       "item.test.tentacle_clam_mob_spawn_egg": "Tentacle Clam Spawn Egg",
       "fluid.test.core_lava": "Core Lava",
@@ -8525,7 +8678,12 @@
       },
       {
         "name": "misc",
-        "children": []
+        "children": [
+          {
+            "name": "Gravity Stuff",
+            "children": []
+          }
+        ]
       },
       {
         "name": "weather",

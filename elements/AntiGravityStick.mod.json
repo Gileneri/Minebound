@@ -1,0 +1,39 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "debug_test_tool",
+    "customModelName": "Normal",
+    "name": "Anti-Gravity Stick",
+    "specialInfo": [
+      "Right-Click to toggle gravity",
+      "Left-Click to go forward"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 96.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AntiGravityStickRightclicked"
+    },
+    "onItemInUseTick": {
+      "name": "AntiGravityStickToolInHandTick"
+    },
+    "onEntitySwing": {
+      "name": "AntiGravityStickEntitySwingsItem"
+    }
+  }
+}

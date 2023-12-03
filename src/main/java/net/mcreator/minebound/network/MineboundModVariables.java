@@ -137,7 +137,7 @@ public class MineboundModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "minebound_mapvars";
-		public double UNIQUE_PLAYER_COUNT = 0;
+		public double UNIQUE_PLAYER_COUNT = 0.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();

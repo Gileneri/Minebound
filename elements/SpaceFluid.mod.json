@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "fluid",
+  "definition": {
+    "name": "Space Fluid",
+    "bucketName": "Space Fluid Bucket",
+    "textureStill": "invisible_block_texture",
+    "textureFlowing": "invisible_block_texture",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 1,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "CUSTOM:DripingWet"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": -10000,
+    "viscosity": 0,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "RARE",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 0,
+    "emissiveRendering": false,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "AIR",
+    "onEntityCollides": {
+      "name": "SpaceFluidMobplayerCollidesBlock"
+    }
+  }
+}

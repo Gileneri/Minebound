@@ -40,10 +40,12 @@ import net.mcreator.minebound.block.TarTestBlock;
 import net.mcreator.minebound.block.TarBlock;
 import net.mcreator.minebound.block.StripedWoodBlock;
 import net.mcreator.minebound.block.StonerubbleBlock;
+import net.mcreator.minebound.block.SpaceFluidBlock;
 import net.mcreator.minebound.block.SmoothiceBlock;
 import net.mcreator.minebound.block.SmoothcobblestoneBlock;
 import net.mcreator.minebound.block.SlushBlock;
 import net.mcreator.minebound.block.SlimeGlobBlock;
+import net.mcreator.minebound.block.SlidyNothingBlock;
 import net.mcreator.minebound.block.SandBlock;
 import net.mcreator.minebound.block.RoughsandstoneBlock;
 import net.mcreator.minebound.block.PoisonBlock;
@@ -164,4 +166,6 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> UNREFINED_ARKOSE = REGISTRY.register("unrefined_arkose", () -> new UnrefinedArkoseBlock());
 	public static final RegistryObject<Block> PACKED_BONES = REGISTRY.register("packed_bones", () -> new PackedBonesBlock());
 	public static final RegistryObject<Block> TAR_TEST = REGISTRY.register("tar_test", () -> new TarTestBlock());
+	public static final RegistryObject<Block> SLIDY_NOTHING = REGISTRY.register("slidy_nothing", () -> new SlidyNothingBlock());
+	public static final RegistryObject<Block> SPACE_FLUID = REGISTRY.register("space_fluid", () -> new SpaceFluidBlock());
 }

@@ -15,11 +15,13 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.minebound.item.SpaceFluidItem;
 import net.mcreator.minebound.item.PoisonItem;
 import net.mcreator.minebound.item.OrbitalItem;
 import net.mcreator.minebound.item.MattermanipulatorbetaItem;
 import net.mcreator.minebound.item.HigherItem;
 import net.mcreator.minebound.item.DebugTestToolItem;
+import net.mcreator.minebound.item.AntiGravityStickItem;
 import net.mcreator.minebound.MineboundMod;
 
 public class MineboundModItems {
@@ -247,6 +249,9 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> UNREFINED_ARKOSE = block(MineboundModBlocks.UNREFINED_ARKOSE, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> PACKED_BONES = block(MineboundModBlocks.PACKED_BONES, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> TAR_TEST = block(MineboundModBlocks.TAR_TEST, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> SLIDY_NOTHING = block(MineboundModBlocks.SLIDY_NOTHING, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> ANTI_GRAVITY_STICK = REGISTRY.register("anti_gravity_stick", () -> new AntiGravityStickItem());
+	public static final RegistryObject<Item> SPACE_FLUID_BUCKET = REGISTRY.register("space_fluid_bucket", () -> new SpaceFluidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
