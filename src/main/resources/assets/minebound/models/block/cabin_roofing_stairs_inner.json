@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "minebound:blocks/cabin_roofing1",
+    "top": "minebound:blocks/cabin_roofing1",
+    "side": "minebound:blocks/cabin_roofing1"
+  },
+  "render_type": "solid"
+}

@@ -27,8 +27,8 @@ import java.util.Collections;
 public class GeodestoneBlock extends Block {
 	public GeodestoneBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_BLACK)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:break_stone")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:break_stone")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(16f).requiresCorrectToolForDrops());
 	}
 
@@ -37,10 +37,10 @@ public class GeodestoneBlock extends Block {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A77Block"));
 		list.add(Component.literal("___________________"));
-		list.add(Component.literal("A solid stone filled with"));
-		list.add(Component.literal("small geode crystals."));
+		list.add(Component.literal("A solid stone filled with small"));
+		list.add(Component.literal("geode crystals."));
 		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("Common||||||||||||||||||||||||||||||||||||||||||||||\u25A0*0"));
 	}
 
 	@Override

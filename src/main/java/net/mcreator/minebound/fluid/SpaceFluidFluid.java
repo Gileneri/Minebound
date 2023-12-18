@@ -1,6 +1,18 @@
 
 package net.mcreator.minebound.fluid;
 
+import net.minecraftforge.fluids.ForgeFlowingFluid;
+
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.LiquidBlock;
+
+import net.mcreator.minebound.init.MineboundModItems;
+import net.mcreator.minebound.init.MineboundModFluids;
+import net.mcreator.minebound.init.MineboundModFluidTypes;
+import net.mcreator.minebound.init.MineboundModBlocks;
+
 public abstract class SpaceFluidFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> MineboundModFluidTypes.SPACE_FLUID_TYPE.get(), () -> MineboundModFluids.SPACE_FLUID.get(), () -> MineboundModFluids.FLOWING_SPACE_FLUID.get())
 			.explosionResistance(100f).slopeFindDistance(1).bucket(() -> MineboundModItems.SPACE_FLUID_BUCKET.get()).block(() -> (LiquidBlock) MineboundModBlocks.SPACE_FLUID.get());

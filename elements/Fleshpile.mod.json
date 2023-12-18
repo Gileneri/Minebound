@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Flesh pile",
+    "name": "Flesh Pile",
     "specialInfo": [
       "a"
     ],
@@ -84,13 +84,13 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:brain_breaking1"
+      "value": "CUSTOM:footstep_brains"
     },
     "fallSound": {
       "value": "CUSTOM:silence"
     },
     "hitSound": {
-      "value": "CUSTOM:brain_breaking1"
+      "value": "CUSTOM:footstep_brains"
     },
     "placeSound": {
       "value": "CUSTOM:inventory_putdown1"

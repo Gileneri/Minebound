@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Crafted blocks",
+    "icon": {
+      "value": "CUSTOM:Asphalt"
+    },
+    "showSearch": true
+  }
+}

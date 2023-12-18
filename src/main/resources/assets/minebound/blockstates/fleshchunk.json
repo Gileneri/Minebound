@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/fleshchunk"},
-	{"model": "minebound:block/fleshchunk2"},
-	{"model": "minebound:block/fleshchunk3"},	
-	{"model": "minebound:block/fleshchunk4"}
-	]
+    "": {
+      "model": "minebound:block/fleshchunk"
+    }
   }
 }

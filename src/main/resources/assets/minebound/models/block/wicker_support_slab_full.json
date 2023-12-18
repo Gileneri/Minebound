@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/wicker1",
+    "top": "minebound:blocks/wicker1",
+    "side": "minebound:blocks/wicker_support_block_sides1"
+  },
+  "render_type": "translucent"
+}

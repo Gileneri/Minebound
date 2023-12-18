@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/jellyblob"},
-	{"model": "minebound:block/jellyblob2"},
-	{"model": "minebound:block/jellyblob3"},	
-	{"model": "minebound:block/jellyblob4"}
-	]
+    "": {
+      "model": "minebound:block/jellyblob"
+    }
   }
 }

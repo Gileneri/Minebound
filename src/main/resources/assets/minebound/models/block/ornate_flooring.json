@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/ornate_flooring_block_bottom",
+    "up": "minebound:blocks/ornate_flooring_block_top",
+    "north": "minebound:blocks/ornate_flooring_sides_block1",
+    "east": "minebound:blocks/ornate_flooring_sides_block1",
+    "south": "minebound:blocks/ornate_flooring_sides_block1",
+    "west": "minebound:blocks/ornate_flooring_sides_block1",
+    "particle": "minebound:blocks/ornate_flooring_block_bottom"
+  },
+  "render_type": "solid"
+}

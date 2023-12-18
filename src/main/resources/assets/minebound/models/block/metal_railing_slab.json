@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "minebound:blocks/metal_railing_top_bottom",
+    "top": "minebound:blocks/metal_railing_top_bottom",
+    "side": "minebound:blocks/metal_railing1"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/pressurised_beam_top",
+    "top": "minebound:blocks/pressurised_beam_top",
+    "side": "minebound:blocks/pressurised_beam_block_sides1"
+  },
+  "render_type": "solid"
+}

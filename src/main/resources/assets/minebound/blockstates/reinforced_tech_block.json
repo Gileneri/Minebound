@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minebound:block/reinforced_tech_block"
+    }
+  }
+}

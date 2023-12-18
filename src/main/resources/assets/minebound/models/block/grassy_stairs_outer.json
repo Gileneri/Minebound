@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "minebound:blocks/grassy_rock1",
+    "top": "minebound:blocks/grassy_rock1",
+    "side": "minebound:blocks/grassy_rock1"
+  },
+  "render_type": "solid"
+}

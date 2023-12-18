@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/drydirt"},
-	{"model": "minebound:block/drydirt2"},
-	{"model": "minebound:block/drydirt3"},	
-	{"model": "minebound:block/drydirt4"}
-	]
+    "": {
+      "model": "minebound:block/drydirt"
+    }
   }
 }

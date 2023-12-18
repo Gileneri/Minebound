@@ -26,8 +26,8 @@ import java.util.Collections;
 public class AshBlock extends FallingBlock {
 	public AshBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.COLOR_LIGHT_GRAY)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:ash_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_pickup1")), () -> new SoundEvent(new ResourceLocation("minebound:ash_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:sand_fall1"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")), () -> new SoundEvent(new ResourceLocation("minebound:sand_fall1"))))
 				.strength(0.5f, 10f).requiresCorrectToolForDrops());
 	}
 

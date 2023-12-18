@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "minebound:blocks/ornate_flooring_block_bottom",
+    "top": "minebound:blocks/ornate_flooring_block_top",
+    "side": "minebound:blocks/ornate_flooring_sides_block1"
+  },
+  "render_type": "solid"
+}

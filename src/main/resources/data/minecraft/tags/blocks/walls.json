@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:unmarked_tomb_bricks_wall",
+    "minebound:ornate_wall_panel",
+    "minebound:temple_brickswall",
+    "minebound:pressurised_durasteel_panel",
+    "minebound:wall_panel",
+    "minebound:small_temple_bricks_wall",
+    "minebound:outpost_concrete_wall",
+    "minebound:tacky_wallpaper_panel",
+    "minebound:classic_walpaper_panel",
+    "minebound:shoji_screen_panel",
+    "minebound:small_stone_bricks_wall"
+  ]
+}

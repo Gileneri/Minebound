@@ -27,8 +27,8 @@ import java.util.Collections;
 public class CoarsegravelBlock extends Block {
 	public CoarsegravelBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_GRAY)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_gravel")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_gravel")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_gravel")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_gravel")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_gravel")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_gravel")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(1f).requiresCorrectToolForDrops());
 	}
 
@@ -39,7 +39,7 @@ public class CoarsegravelBlock extends Block {
 		list.add(Component.literal("___________________"));
 		list.add(Component.literal("Coarse gravel."));
 		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("Common||||||||||||||||||||||||||||||||||||||||||||||\u25A0*0"));
 	}
 
 	@Override

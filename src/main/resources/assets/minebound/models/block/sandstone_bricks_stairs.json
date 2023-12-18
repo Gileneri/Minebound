@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "minebound:blocks/sandstone_bricks1",
+    "top": "minebound:blocks/sandstone_bricks1",
+    "side": "minebound:blocks/sandstone_bricks1"
+  },
+  "render_type": "solid"
+}

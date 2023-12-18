@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/coarsegravel"},
-	{"model": "minebound:block/coarsegravel2"},
-	{"model": "minebound:block/coarsegravel3"},	
-	{"model": "minebound:block/coarsegravel4"}
-	]
+    "": {
+      "model": "minebound:block/coarsegravel"
+    }
   }
 }

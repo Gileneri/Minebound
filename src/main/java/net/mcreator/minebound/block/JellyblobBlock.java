@@ -28,21 +28,20 @@ import java.util.Collections;
 public class JellyblobBlock extends FallingBlock {
 	public JellyblobBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GREEN)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:brain_breaking1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_brains"))))
 				.strength(2f).requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A77Block"));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("\u00A7fA slimy, bright"));
-		list.add(Component.literal("\u00A7fcoloured mass of"));
-		list.add(Component.literal("\u00A7fjelly."));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
 	}
 
 	@Override

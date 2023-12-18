@@ -25,8 +25,8 @@ import java.util.Collections;
 public class IceblockBlock extends Block {
 	public IceblockBlock() {
 		super(BlockBehaviour.Properties.of(Material.ICE_SOLID, MaterialColor.TERRACOTTA_LIGHT_GRAY)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_ice")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_ice")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(2f).requiresCorrectToolForDrops().friction(0.98f));
 	}
 
@@ -38,7 +38,7 @@ public class IceblockBlock extends Block {
 		list.add(Component.literal("Solid ice, cut into block"));
 		list.add(Component.literal("shape."));
 		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("Common"));
 	}
 
 	@Override

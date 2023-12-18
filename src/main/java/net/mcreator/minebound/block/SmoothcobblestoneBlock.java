@@ -27,20 +27,20 @@ import java.util.Collections;
 public class SmoothcobblestoneBlock extends Block {
 	public SmoothcobblestoneBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_LIGHT_GRAY)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:stone_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_pickup1")), () -> new SoundEvent(new ResourceLocation("minebound:stone_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:sand_fall1"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(4f).requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A77Block"));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("\u00A7fHard cobblestones,"));
-		list.add(Component.literal("\u00A7fsmooth to the touch."));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
 	}
 
 	@Override

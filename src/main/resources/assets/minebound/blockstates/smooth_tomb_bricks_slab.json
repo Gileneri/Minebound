@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/smooth_tomb_bricks_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/smooth_tomb_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/smooth_tomb_bricks_slab_full"
+    }
+  }
+}

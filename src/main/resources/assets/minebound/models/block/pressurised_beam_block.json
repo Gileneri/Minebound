@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/pressurised_beam_top",
+    "up": "minebound:blocks/pressurised_beam_top",
+    "north": "minebound:blocks/pressurised_beam_block_sides1",
+    "east": "minebound:blocks/pressurised_beam_block_sides1",
+    "south": "minebound:blocks/pressurised_beam_block_sides1",
+    "west": "minebound:blocks/pressurised_beam_block_sides1",
+    "particle": "minebound:blocks/pressurised_beam_top"
+  },
+  "render_type": "solid"
+}

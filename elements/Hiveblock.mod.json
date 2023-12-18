@@ -90,13 +90,13 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:breaking_gravel"
+      "value": "CUSTOM:footstep_gravel"
     },
     "fallSound": {
       "value": "CUSTOM:silence"
     },
     "hitSound": {
-      "value": "CUSTOM:breaking_gravel"
+      "value": "CUSTOM:footstep_gravel"
     },
     "placeSound": {
       "value": "CUSTOM:inventory_putdown1"

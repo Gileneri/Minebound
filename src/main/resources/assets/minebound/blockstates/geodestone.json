@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/geodestone"},
-	{"model": "minebound:block/geodestone2"},
-	{"model": "minebound:block/geodestone3"},	
-	{"model": "minebound:block/geodestone4"}
-	]
+    "": {
+      "model": "minebound:block/geodestone"
+    }
   }
 }

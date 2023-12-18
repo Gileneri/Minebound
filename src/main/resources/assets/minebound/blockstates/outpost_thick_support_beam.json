@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minebound:block/outpost_thick_support_beam",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minebound:block/outpost_thick_support_beam"
+    },
+    "axis=z": {
+      "model": "minebound:block/outpost_thick_support_beam",
+      "x": 90
+    }
+  }
+}

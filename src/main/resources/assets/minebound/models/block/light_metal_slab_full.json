@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/light_metal1",
+    "top": "minebound:blocks/light_metal1",
+    "side": "minebound:blocks/light_metal1"
+  },
+  "render_type": "solid"
+}

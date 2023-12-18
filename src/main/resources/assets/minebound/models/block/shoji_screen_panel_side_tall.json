@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "minebound:blocks/shoji_screen_panel1",
+    "particle": "minebound:blocks/shoji_screen_panel1"
+  },
+  "render_type": "solid"
+}

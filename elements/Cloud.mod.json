@@ -89,16 +89,16 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:ash_hitting1"
+      "value": "CUSTOM:footstep_ash"
     },
     "fallSound": {
-      "value": "CUSTOM:sand_fall1"
+      "value": "CUSTOM:silence"
     },
     "hitSound": {
-      "value": "CUSTOM:ash_hitting1"
+      "value": "CUSTOM:footstep_ash"
     },
     "placeSound": {
-      "value": "CUSTOM:inventory_pickup1"
+      "value": "CUSTOM:inventory_putdown1"
     },
     "stepSound": {
       "value": "CUSTOM:footstep_ash"

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/ridge_block_top",
+    "up": "minebound:blocks/ridge_block_top",
+    "north": "minebound:blocks/ridge_block_sides1",
+    "east": "minebound:blocks/ridge_block_sides1",
+    "south": "minebound:blocks/ridge_block_sides1",
+    "west": "minebound:blocks/ridge_block_sides1",
+    "particle": "minebound:blocks/ridge_block_top"
+  },
+  "render_type": "solid"
+}

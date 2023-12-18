@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "minebound:blocks/tomb_bricks1",
+    "top": "minebound:blocks/tomb_bricks1",
+    "side": "minebound:blocks/tomb_bricks1"
+  },
+  "render_type": "solid"
+}

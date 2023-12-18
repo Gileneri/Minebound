@@ -39,8 +39,8 @@ public class CloudBlock extends Block implements SimpleWaterloggedBlock {
 
 	public CloudBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.QUARTZ)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:ash_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_pickup1")), () -> new SoundEvent(new ResourceLocation("minebound:ash_hitting1")), () -> new SoundEvent(new ResourceLocation("minebound:sand_fall1"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ash")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(0.1f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
@@ -48,12 +48,12 @@ public class CloudBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A77Block"));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("\u00A7fA cloud dense enough"));
-		list.add(Component.literal("\u00A7fto walk on."));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
+		list.add(Component.literal("a"));
 	}
 
 	@Override

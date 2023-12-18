@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/outpost_concrete1",
+    "particle": "minebound:blocks/outpost_concrete1"
+  },
+  "render_type": "solid"
+}

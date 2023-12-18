@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "minebound:blocks/wall_panel_block_top_bottom",
+    "top": "minebound:blocks/wall_panel_block_top_bottom",
+    "side": "minebound:blocks/wall_panel_block_sides1"
+  },
+  "render_type": "solid"
+}

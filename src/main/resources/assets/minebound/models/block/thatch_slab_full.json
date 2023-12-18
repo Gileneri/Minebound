@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/thatch_bottom",
+    "top": "minebound:blocks/thatch_top",
+    "side": "minebound:blocks/thatch1"
+  },
+  "render_type": "solid"
+}

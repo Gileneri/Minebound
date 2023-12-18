@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/smoothcobblestone"},
-	{"model": "minebound:block/smoothcobblestone2"},
-	{"model": "minebound:block/smoothcobblestone3"},	
-	{"model": "minebound:block/smoothcobblestone4"}
-	]
+    "": {
+      "model": "minebound:block/smoothcobblestone"
+    }
   }
 }

@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/hiveblock"},
-	{"model": "minebound:block/hiveblock2"},
-	{"model": "minebound:block/hiveblock3"},	
-	{"model": "minebound:block/hiveblock4"}
-	]
+    "": {
+      "model": "minebound:block/hiveblock"
+    }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "minebound:blocks/ridge_block_top",
+    "top": "minebound:blocks/ridge_block_top",
+    "side": "minebound:blocks/ridge_block_sides1"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/ridge_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/ridge_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/ridge_slab_full"
+    }
+  }
+}

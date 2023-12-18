@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/cabin_roofing1",
+    "particle": "minebound:blocks/cabin_roofing1"
+  },
+  "render_type": "solid"
+}

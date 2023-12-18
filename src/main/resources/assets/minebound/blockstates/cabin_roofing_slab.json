@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/cabin_roofing_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/cabin_roofing_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/cabin_roofing_slab_full"
+    }
+  }
+}

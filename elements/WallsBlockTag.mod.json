@@ -1,0 +1,52 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:OrnateWallPanel"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:OrnateWallPanel"
+      },
+      {
+        "value": "CUSTOM:OutpostConcreteWall"
+      },
+      {
+        "value": "CUSTOM:ClassicWalpaperPanel"
+      },
+      {
+        "value": "CUSTOM:ShojiScreenPanel"
+      },
+      {
+        "value": "CUSTOM:PressurisedDurasteelPanel"
+      },
+      {
+        "value": "CUSTOM:SmallStoneBricksWall"
+      },
+      {
+        "value": "CUSTOM:SmallTempleBricksWall"
+      },
+      {
+        "value": "CUSTOM:TackyWallpaperPanel"
+      },
+      {
+        "value": "CUSTOM:WallPanel"
+      },
+      {
+        "value": "CUSTOM:UnmarkedTombBricksWall"
+      },
+      {
+        "value": "CUSTOM:TempleBrickswall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

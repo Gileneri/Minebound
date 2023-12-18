@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/lunar_base_block_top_bottom",
+    "top": "minebound:blocks/lunar_base_block_top_bottom",
+    "side": "minebound:blocks/lunar_base_block1"
+  },
+  "render_type": "solid"
+}

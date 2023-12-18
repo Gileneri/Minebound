@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minebound:block/ship_thick_suppot",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minebound:block/ship_thick_suppot"
+    },
+    "axis=z": {
+      "model": "minebound:block/ship_thick_suppot",
+      "x": 90
+    }
+  }
+}

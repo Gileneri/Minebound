@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/ash"},
-	{"model": "minebound:block/ash2"},
-	{"model": "minebound:block/ash3"},	
-	{"model": "minebound:block/ash4"}
-	]
+    "": {
+      "model": "minebound:block/ash"
+    }
   }
 }

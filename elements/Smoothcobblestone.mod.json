@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Smooth cobblestone",
+    "name": "Cobblestone",
     "specialInfo": [
       "a",
       "a",
@@ -89,16 +89,16 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:stone_hitting1"
+      "value": "CUSTOM:footstep_stone3"
     },
     "fallSound": {
-      "value": "CUSTOM:sand_fall1"
+      "value": "CUSTOM:silence"
     },
     "hitSound": {
-      "value": "CUSTOM:stone_hitting1"
+      "value": "CUSTOM:footstep_stone3"
     },
     "placeSound": {
-      "value": "CUSTOM:inventory_pickup1"
+      "value": "CUSTOM:inventory_putdown1"
     },
     "stepSound": {
       "value": "CUSTOM:footstep_stone3"

@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Dry sand",
+    "name": "Dry Sand",
     "specialInfo": [
       "a",
       "a",
@@ -89,13 +89,13 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:breaking_sand"
+      "value": "CUSTOM:footstep_sand"
     },
     "fallSound": {
       "value": "CUSTOM:silence"
     },
     "hitSound": {
-      "value": "CUSTOM:breaking_sand"
+      "value": "CUSTOM:footstep_sand"
     },
     "placeSound": {
       "value": "CUSTOM:inventory_putdown1"

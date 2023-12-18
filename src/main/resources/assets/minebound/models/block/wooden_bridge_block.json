@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/woonden_bridge_block_top_bottom",
+    "up": "minebound:blocks/woonden_bridge_block_top_bottom",
+    "north": "minebound:blocks/woonden_bridge_block_sides1",
+    "east": "minebound:blocks/woonden_bridge_block_sides1",
+    "south": "minebound:blocks/woonden_bridge_block_sides1",
+    "west": "minebound:blocks/woonden_bridge_block_sides1",
+    "particle": "minebound:blocks/woonden_bridge_block_top_bottom"
+  },
+  "render_type": "solid"
+}

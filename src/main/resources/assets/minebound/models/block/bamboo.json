@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/bamboo1",
+    "particle": "minebound:blocks/bamboo1"
+  },
+  "render_type": "solid"
+}

@@ -61,4 +61,13 @@ public class MineboundModSounds {
 	public static final RegistryObject<SoundEvent> BREAKING_SLUSH = REGISTRY.register("breaking_slush", () -> new SoundEvent(new ResourceLocation("minebound", "breaking_slush")));
 	public static final RegistryObject<SoundEvent> FOOTSTEP_TALLGRASS = REGISTRY.register("footstep_tallgrass", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_tallgrass")));
 	public static final RegistryObject<SoundEvent> FOOTSTEP_SNOW = REGISTRY.register("footstep_snow", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_snow")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_LIGHT_WOOD = REGISTRY.register("footstep_light_wood", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_light_wood")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_GLASS = REGISTRY.register("footstep_glass", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_glass")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_GRASS = REGISTRY.register("footstep_grass", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_grass")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_COMPOSITE = REGISTRY.register("footstep_composite", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_composite")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_LIGHTMETAL = REGISTRY.register("footstep_lightmetal", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_lightmetal")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_METALLIC = REGISTRY.register("footstep_metallic", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_metallic")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_ROOFTILE = REGISTRY.register("footstep_rooftile", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_rooftile")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_GIRDER = REGISTRY.register("footstep_girder", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_girder")));
+	public static final RegistryObject<SoundEvent> FOOTSTEP_TREASURE = REGISTRY.register("footstep_treasure", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_treasure")));
 }

@@ -27,8 +27,8 @@ import java.util.Collections;
 public class FrozendirtBlock extends Block {
 	public FrozendirtBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_BLUE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:breaking_ice")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")),
-						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:breaking_ice")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")),
+						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_ice")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(2f).requiresCorrectToolForDrops());
 	}
 
@@ -36,11 +36,8 @@ public class FrozendirtBlock extends Block {
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A77Block"));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("\u00A7fFrozen dirt, It's"));
-		list.add(Component.literal("\u00A7fpretty solid."));
-		list.add(Component.literal("___________________"));
-		list.add(Component.literal("Common           \u25A0*0"));
+		list.add(Component.literal("\u00A7fIt's pretty solid."));
+		list.add(Component.literal("\u00A7fCommon"));
 	}
 
 	@Override

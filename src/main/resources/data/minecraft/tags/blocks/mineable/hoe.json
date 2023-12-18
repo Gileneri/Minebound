@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:flower_block",
+    "minebound:mushroom_block",
+    "minebound:petal_blocks",
+    "minebound:reed_block",
+    "minebound:reed_block_slab",
+    "minebound:thatch",
+    "minebound:thatch_slab",
+    "minebound:sod_block",
+    "minebound:sod_slab"
+  ]
+}
