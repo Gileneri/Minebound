@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "minebound:blocks/small_temple_bricks1",
+    "particle": "minebound:blocks/small_temple_bricks1"
+  },
+  "render_type": "solid"
+}

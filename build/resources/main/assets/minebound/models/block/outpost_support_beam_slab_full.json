@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/outpost_thick_support_beam_side",
+    "top": "minebound:blocks/outpost_thick_support_beam_side",
+    "side": "minebound:blocks/outpost_support_beam_block_sides2"
+  },
+  "render_type": "solid"
+}

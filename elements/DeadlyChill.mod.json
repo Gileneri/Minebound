@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Deadly Chill",
+    "icon": "status_cold.png",
+    "color": {
+      "value": -11799555,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "DeadlyChillEffectstars"
+    },
+    "onActiveTick": {
+      "name": "DeadlyChillOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "DeadlyChillEffectExpires"
+    }
+  }
+}

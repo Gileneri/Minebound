@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/temple_bricks1",
+    "top": "minebound:blocks/temple_bricks1",
+    "side": "minebound:blocks/temple_bricks1"
+  },
+  "render_type": "solid"
+}

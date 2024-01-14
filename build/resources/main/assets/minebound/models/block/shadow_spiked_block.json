@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/shadow_spike_block_bottom",
+    "up": "minebound:blocks/shadow_spike_block_top",
+    "north": "minebound:blocks/shadow_spike_block_sides1",
+    "east": "minebound:blocks/shadow_spike_block_sides1",
+    "south": "minebound:blocks/shadow_spike_block_sides1",
+    "west": "minebound:blocks/shadow_spike_block_sides1",
+    "particle": "minebound:blocks/shadow_spike_block_bottom"
+  },
+  "render_type": "solid"
+}

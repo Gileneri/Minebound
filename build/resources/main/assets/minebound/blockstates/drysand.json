@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/drysand"},
-	{"model": "minebound:block/drysand2"},
-	{"model": "minebound:block/drysand3"},	
-	{"model": "minebound:block/drysand4"}
-	]
+    "": {
+      "model": "minebound:block/drysand"
+    }
   }
 }

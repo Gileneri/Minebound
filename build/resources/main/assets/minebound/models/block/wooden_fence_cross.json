@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/wooden_fence_cross",
+  "textures": {
+    "all": "minebound:blocks/timber1",
+    "particle": "minebound:blocks/timber1",
+    "0": "minebound:blocks/wooden_fence_cross"
+  },
+  "render_type": "solid"
+}

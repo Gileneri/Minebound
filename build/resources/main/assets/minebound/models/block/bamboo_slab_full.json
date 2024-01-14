@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minebound:blocks/bamboo1",
+    "top": "minebound:blocks/bamboo1",
+    "side": "minebound:blocks/bamboo1"
+  },
+  "render_type": "solid"
+}

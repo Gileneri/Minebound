@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "minebound:blocks/erchius_crystal1",
+    "top": "minebound:blocks/erchius_crystal1",
+    "side": "minebound:blocks/erchius_crystal1"
+  },
+  "render_type": "solid"
+}

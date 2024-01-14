@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/deadcore1",
+    "particle": "minebound:blocks/deadcore1"
+  },
+  "render_type": "solid"
+}

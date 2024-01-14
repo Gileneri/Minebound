@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/metal_railing_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/metal_railing_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/metal_railing_slab_full"
+    }
+  }
+}

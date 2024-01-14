@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/ship_thick_support",
+    "particle": "minebound:blocks/ship_thick_support"
+  },
+  "render_type": "solid"
+}

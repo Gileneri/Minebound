@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/wicker_support_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/wicker_support_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/wicker_support_slab_full"
+    }
+  }
+}

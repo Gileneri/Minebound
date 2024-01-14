@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/classic_baseboard_block_top_bottom",
+    "up": "minebound:blocks/classic_baseboard_block_top_bottom",
+    "north": "minebound:blocks/classic_baseboard_block_sides1",
+    "east": "minebound:blocks/classic_baseboard_block_sides1",
+    "south": "minebound:blocks/classic_baseboard_block_sides1",
+    "west": "minebound:blocks/classic_baseboard_block_sides1",
+    "particle": "minebound:blocks/classic_baseboard_block_top_bottom"
+  },
+  "render_type": "solid"
+}

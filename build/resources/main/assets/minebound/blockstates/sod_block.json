@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/sod_block"
+    },
+    "facing=east": {
+      "model": "minebound:block/sod_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/sod_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/sod_block",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "minebound:blocks/shadow_rock1",
+    "top": "minebound:blocks/shadow_rock1",
+    "side": "minebound:blocks/shadow_rock1"
+  },
+  "render_type": "solid"
+}

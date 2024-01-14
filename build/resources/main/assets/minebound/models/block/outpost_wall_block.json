@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/outpost_thick_wall_block_top",
+    "up": "minebound:blocks/outpost_thick_wall_block_top",
+    "north": "minebound:blocks/outpost_wall_block",
+    "east": "minebound:blocks/outpost_wall_block",
+    "south": "minebound:blocks/outpost_wall_block",
+    "west": "minebound:blocks/outpost_wall_block",
+    "particle": "minebound:blocks/outpost_thick_wall_block_top"
+  },
+  "render_type": "solid"
+}

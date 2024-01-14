@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minebound:block/pillar_block_top"
+    }
+  }
+}

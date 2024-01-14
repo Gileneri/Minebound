@@ -14,8 +14,6 @@ import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -36,6 +34,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.minebound.procedures.MobOnInitialEntitySpawnStatScalingProcedure;
+import net.mcreator.minebound.procedures.ErchiusGhostMobOnEntityTickUpdateProcedure;
 import net.mcreator.minebound.init.MineboundModEntities;
 
 import javax.annotation.Nullable;
@@ -49,7 +48,8 @@ public class ErchiusGhostMobEntity extends Monster {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		this.moveControl = new FlyingMoveControl(this, 10, true);
+		this.noPhysics = true;
+		this.setNoGravity(true); //Added
 	}
 
 	@Override
@@ -71,11 +71,9 @@ public class ErchiusGhostMobEntity extends Monster {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ServerPlayer.class, false, false));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ServerPlayer.class, false, false));
 	}
 
 	@Override
@@ -112,6 +110,12 @@ public class ErchiusGhostMobEntity extends Monster {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		MobOnInitialEntitySpawnStatScalingProcedure.execute(this);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		ErchiusGhostMobOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

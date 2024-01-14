@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/wall_panel_block_top_bottom",
+    "up": "minebound:blocks/wall_panel_block_top_bottom",
+    "north": "minebound:blocks/wall_panel_block_sides1",
+    "east": "minebound:blocks/wall_panel_block_sides1",
+    "south": "minebound:blocks/wall_panel_block_sides1",
+    "west": "minebound:blocks/wall_panel_block_sides1",
+    "particle": "minebound:blocks/wall_panel_block_top_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/loosesilt"},
-	{"model": "minebound:block/loosesilt2"},
-	{"model": "minebound:block/loosesilt3"},	
-	{"model": "minebound:block/loosesilt4"}
-	]
+    "": {
+      "model": "minebound:block/loosesilt"
+    }
   }
 }

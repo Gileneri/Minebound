@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/erchius_crystal_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/erchius_crystal_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/erchius_crystal_slab_full"
+    }
+  }
+}

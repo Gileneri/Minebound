@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/thatch_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/thatch_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/thatch_slab_full"
+    }
+  }
+}

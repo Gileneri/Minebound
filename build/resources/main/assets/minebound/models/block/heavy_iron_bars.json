@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/heavy_iron_bars1",
+    "particle": "minebound:blocks/heavy_iron_bars1"
+  },
+  "render_type": "translucent"
+}

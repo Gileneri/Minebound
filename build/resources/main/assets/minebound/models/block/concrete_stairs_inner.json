@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "minebound:blocks/concrete_block_top_bottom",
+    "top": "minebound:blocks/concrete_block_top_bottom",
+    "side": "minebound:blocks/concrete_block1"
+  },
+  "render_type": "solid"
+}

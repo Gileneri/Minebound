@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "minebound:blocks/simple_temple_blocks1",
+    "top": "minebound:blocks/simple_temple_blocks1",
+    "side": "minebound:blocks/simple_temple_blocks1"
+  },
+  "render_type": "solid"
+}

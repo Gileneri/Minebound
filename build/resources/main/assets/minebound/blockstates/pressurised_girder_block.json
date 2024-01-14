@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minebound:block/pressurised_girder_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minebound:block/pressurised_girder_block"
+    },
+    "axis=z": {
+      "model": "minebound:block/pressurised_girder_block",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/copper_fence_corner2",
+  "textures": {
+    "all": "minebound:blocks/copper_fence_corner2",
+    "particle": "minebound:blocks/copper_fence_corner2",
+    "0": "minebound:blocks/copper_fence_corner2"
+  },
+  "render_type": "solid"
+}

@@ -1,24 +1,4 @@
 {
-  "atom": {
-    "category": "block",
-    "subtitle": "subtitles.atom",
-    "sounds": [
-      {
-        "name": "minebound:atom",
-        "stream": false
-      }
-    ]
-  },
-  "atom4": {
-    "category": "block",
-    "subtitle": "subtitles.atom4",
-    "sounds": [
-      {
-        "name": "minebound:atom4",
-        "stream": false
-      }
-    ]
-  },
   "inventory_pickup1": {
     "category": "block",
     "subtitle": "subtitles.inventory_pickup1",
@@ -45,16 +25,6 @@
     "sounds": [
       {
         "name": "minebound:footstep_stone3",
-        "stream": false
-      }
-    ]
-  },
-  "atom2": {
-    "category": "neutral",
-    "subtitle": "subtitles.atom2",
-    "sounds": [
-      {
-        "name": "minebound:atom2",
         "stream": false
       }
     ]
@@ -89,76 +59,6 @@
       }
     ]
   },
-  "stone_hitting1": {
-    "category": "block",
-    "subtitle": "subtitles.stone_hitting1",
-    "sounds": [
-      {
-        "name": "minebound:stone_hitting1",
-        "stream": false
-      }
-    ]
-  },
-  "stone_hitting_slowed1": {
-    "category": "block",
-    "subtitle": "subtitles.stone_hitting_slowed1",
-    "sounds": [
-      {
-        "name": "minebound:stone_hitting_slowed",
-        "stream": false
-      }
-    ]
-  },
-  "brain_breaking1": {
-    "category": "block",
-    "subtitle": "subtitles.brain_breaking1",
-    "sounds": [
-      {
-        "name": "minebound:brain_breaking1",
-        "stream": false
-      }
-    ]
-  },
-  "rock_hitting1": {
-    "category": "block",
-    "subtitle": "subtitles.rock_hitting1",
-    "sounds": [
-      {
-        "name": "minebound:rock_hitting1",
-        "stream": false
-      }
-    ]
-  },
-  "ash_hitting1": {
-    "category": "block",
-    "subtitle": "subtitles.ash_hitting1",
-    "sounds": [
-      {
-        "name": "minebound:ash_hitting1",
-        "stream": false
-      }
-    ]
-  },
-  "stone2_hitting": {
-    "category": "block",
-    "subtitle": "subtitles.stone2_hitting",
-    "sounds": [
-      {
-        "name": "minebound:stone2_hitting",
-        "stream": false
-      }
-    ]
-  },
-  "hitting_clay1": {
-    "category": "block",
-    "subtitle": "subtitles.hitting_clay1",
-    "sounds": [
-      {
-        "name": "minebound:hitting_clay1",
-        "stream": false
-      }
-    ]
-  },
   "footstep_clay1": {
     "category": "block",
     "subtitle": "subtitles.footstep_clay1",
@@ -189,42 +89,12 @@
       }
     ]
   },
-  "break_dirt": {
-    "category": "block",
-    "subtitle": "subtitles.break_dirt",
-    "sounds": [
-      {
-        "name": "minebound:breaking_dirt",
-        "stream": false
-      }
-    ]
-  },
   "footspet_stone": {
     "category": "block",
     "subtitle": "subtitles.footspet_stone",
     "sounds": [
       {
         "name": "minebound:footstep_stone",
-        "stream": false
-      }
-    ]
-  },
-  "break_stone": {
-    "category": "block",
-    "subtitle": "subtitles.break_stone",
-    "sounds": [
-      {
-        "name": "minebound:break_stone",
-        "stream": false
-      }
-    ]
-  },
-  "breaking_dry_dirt": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_dry_dirt",
-    "sounds": [
-      {
-        "name": "minebound:breaking_drydirt",
         "stream": false
       }
     ]
@@ -249,16 +119,6 @@
       }
     ]
   },
-  "breaking_sand": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_sand",
-    "sounds": [
-      {
-        "name": "minebound:breaking_sand",
-        "stream": false
-      }
-    ]
-  },
   "footstep_sand": {
     "category": "block",
     "subtitle": "subtitles.footstep_sand",
@@ -279,16 +139,6 @@
       }
     ]
   },
-  "breaking_mud": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_mud",
-    "sounds": [
-      {
-        "name": "minebound:breaking_mud",
-        "stream": false
-      }
-    ]
-  },
   "footstep_ice": {
     "category": "block",
     "subtitle": "subtitles.footstep_ice",
@@ -299,32 +149,12 @@
       }
     ]
   },
-  "breaking_ice": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_ice",
-    "sounds": [
-      {
-        "name": "minebound:breaking_ice",
-        "stream": false
-      }
-    ]
-  },
   "footstep_brains": {
     "category": "block",
     "subtitle": "subtitles.footstep_brains",
     "sounds": [
       {
         "name": "minebound:footstep_brains",
-        "stream": false
-      }
-    ]
-  },
-  "breaking_crystal": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_crystal",
-    "sounds": [
-      {
-        "name": "minebound:breaking_crystal",
         "stream": false
       }
     ]
@@ -349,42 +179,12 @@
       }
     ]
   },
-  "breaking_gravel": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_gravel",
-    "sounds": [
-      {
-        "name": "minebound:breaking_gravel",
-        "stream": false
-      }
-    ]
-  },
-  "breaking_bone": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_bone",
-    "sounds": [
-      {
-        "name": "minebound:breaking_bone",
-        "stream": false
-      }
-    ]
-  },
   "footstep_bone": {
     "category": "block",
     "subtitle": "subtitles.footstep_bone",
     "sounds": [
       {
         "name": "minebound:footstep_bone",
-        "stream": false
-      }
-    ]
-  },
-  "breaking_wood": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_wood",
-    "sounds": [
-      {
-        "name": "minebound:breaking_wood",
         "stream": false
       }
     ]
@@ -399,42 +199,12 @@
       }
     ]
   },
-  "breaking_snow": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_snow",
-    "sounds": [
-      {
-        "name": "minebound:breaking_snow",
-        "stream": false
-      }
-    ]
-  },
   "footstep_wood": {
     "category": "block",
     "subtitle": "subtitles.footstep_wood",
     "sounds": [
       {
         "name": "minebound:footstep_wood",
-        "stream": false
-      }
-    ]
-  },
-  "breaking_tallgrass1": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_tallgrass1",
-    "sounds": [
-      {
-        "name": "minebound:breaking_tallgrass",
-        "stream": false
-      }
-    ]
-  },
-  "breaking_slush": {
-    "category": "block",
-    "subtitle": "subtitles.breaking_slush",
-    "sounds": [
-      {
-        "name": "minebound:breaking_slush",
         "stream": false
       }
     ]
@@ -455,6 +225,116 @@
     "sounds": [
       {
         "name": "minebound:footstep_snow",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_light_wood": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_light_wood",
+    "sounds": [
+      {
+        "name": "minebound:footstep_lightwood",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_glass": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_glass",
+    "sounds": [
+      {
+        "name": "minebound:footstep_glass",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_grass": {
+    "category": "neutral",
+    "subtitle": "subtitles.footstep_grass",
+    "sounds": [
+      {
+        "name": "minebound:footstep_grass",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_composite": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_composite",
+    "sounds": [
+      {
+        "name": "minebound:footstep_composite",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_lightmetal": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_lightmetal",
+    "sounds": [
+      {
+        "name": "minebound:footstep_lightmetal",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_metallic": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_metallic",
+    "sounds": [
+      {
+        "name": "minebound:footstep_metallic",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_rooftile": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_rooftile",
+    "sounds": [
+      {
+        "name": "minebound:footstep_rooftile",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_girder": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_girder",
+    "sounds": [
+      {
+        "name": "minebound:footstep_girder",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_treasure": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_treasure",
+    "sounds": [
+      {
+        "name": "minebound:footstep_treasure",
+        "stream": false
+      }
+    ]
+  },
+  "energy_out1": {
+    "category": "neutral",
+    "subtitle": "subtitles.energy_out1",
+    "sounds": [
+      {
+        "name": "minebound:energy_out1",
+        "stream": false
+      }
+    ]
+  },
+  "energy_full1": {
+    "category": "neutral",
+    "subtitle": "subtitles.energy_full1",
+    "sounds": [
+      {
+        "name": "minebound:energy_full1",
         "stream": false
       }
     ]

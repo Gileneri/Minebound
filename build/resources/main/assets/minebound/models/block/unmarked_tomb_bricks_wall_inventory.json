@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "minebound:blocks/unmarked_tomb_bricks1",
+    "particle": "minebound:blocks/unmarked_tomb_bricks1"
+  },
+  "render_type": "solid"
+}

@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/cloud"},
-	{"model": "minebound:block/cloud2"},
-	{"model": "minebound:block/cloud3"},	
-	{"model": "minebound:block/cloud4"}
-	]
+    "": {
+      "model": "minebound:block/cloud"
+    }
   }
 }

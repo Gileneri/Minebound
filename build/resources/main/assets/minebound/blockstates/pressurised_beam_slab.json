@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/pressurised_beam_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/pressurised_beam_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/pressurised_beam_slab_full"
+    }
+  }
+}

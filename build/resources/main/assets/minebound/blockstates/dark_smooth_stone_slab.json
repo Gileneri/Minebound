@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/dark_smooth_stone_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/dark_smooth_stone_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/dark_smooth_stone_slab_full"
+    }
+  }
+}

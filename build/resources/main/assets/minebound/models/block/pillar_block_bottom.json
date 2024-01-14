@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/pillar_block_bottom",
+  "textures": {
+    "all": "minebound:blocks/pillar_block_bottom",
+    "particle": "minebound:blocks/pillar_block_bottom",
+    "0": "minebound:blocks/pillar_block_bottom"
+  },
+  "render_type": "solid"
+}

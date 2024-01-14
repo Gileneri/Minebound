@@ -17,8 +17,8 @@ import net.mcreator.minebound.client.particle.DripingWetParticle;
 public class MineboundModParticles {
 	@SubscribeEvent
 	public static void registerParticles(RegisterParticleProvidersEvent event) {
-		event.register(MineboundModParticleTypes.POISON_DRIP.get(), PoisonDripParticle::provider);
 		event.register(MineboundModParticleTypes.DRIPING_WET.get(), DripingWetParticle::provider);
 		event.register(MineboundModParticleTypes.POISON_BUBLES.get(), PoisonBublesParticle::provider);
+		event.register(MineboundModParticleTypes.POISON_DRIP.get(), PoisonDripParticle::provider);
 	}
 }

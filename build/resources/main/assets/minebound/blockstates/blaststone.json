@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/blaststone"},
-	{"model": "minebound:block/blaststone2"},
-	{"model": "minebound:block/blaststone3"},	
-	{"model": "minebound:block/blaststone4"}
-	]
+    "": {
+      "model": "minebound:block/blaststone"
+    }
   }
 }

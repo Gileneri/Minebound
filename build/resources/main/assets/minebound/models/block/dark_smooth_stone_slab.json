@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "minebound:blocks/dark_smooth_stone1",
+    "top": "minebound:blocks/dark_smooth_stone1",
+    "side": "minebound:blocks/dark_smooth_stone1"
+  },
+  "render_type": "solid"
+}

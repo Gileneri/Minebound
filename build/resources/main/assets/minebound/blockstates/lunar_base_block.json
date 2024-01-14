@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minebound:block/lunar_base_block"
+    }
+  }
+}

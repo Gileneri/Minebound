@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/thatch_bottom",
+    "up": "minebound:blocks/thatch_top",
+    "north": "minebound:blocks/thatch1",
+    "east": "minebound:blocks/thatch1",
+    "south": "minebound:blocks/thatch1",
+    "west": "minebound:blocks/thatch1",
+    "particle": "minebound:blocks/thatch_bottom"
+  },
+  "render_type": "solid"
+}

@@ -22,15 +22,15 @@ import net.mcreator.minebound.MineboundMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MineboundModKeyMappings {
-	public static final KeyMapping MECH_JUMP = new KeyMapping("key.minebound.mech_jump", GLFW.GLFW_KEY_SPACE, "key.categories.movement") {
+	public static final KeyMapping MM_UPGRADE_GUI_TOGGLE_KEYBIND = new KeyMapping("key.minebound.mm_upgrade_gui_toggle_keybind", GLFW.GLFW_KEY_U, "key.categories.ui") {
 		private boolean isDownOld = false;
 
 		@Override
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				MineboundMod.PACKET_HANDLER.sendToServer(new MechJumpMessage(0, 0));
-				MechJumpMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+				MineboundMod.PACKET_HANDLER.sendToServer(new MMUpgradeGUIToggleKeybindMessage(0, 0));
+				MMUpgradeGUIToggleKeybindMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
 		}
@@ -48,15 +48,15 @@ public class MineboundModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping MM_UPGRADE_GUI_TOGGLE_KEYBIND = new KeyMapping("key.minebound.mm_upgrade_gui_toggle_keybind", GLFW.GLFW_KEY_U, "key.categories.ui") {
+	public static final KeyMapping MECH_JUMP = new KeyMapping("key.minebound.mech_jump", GLFW.GLFW_KEY_SPACE, "key.categories.movement") {
 		private boolean isDownOld = false;
 
 		@Override
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				MineboundMod.PACKET_HANDLER.sendToServer(new MMUpgradeGUIToggleKeybindMessage(0, 0));
-				MMUpgradeGUIToggleKeybindMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+				MineboundMod.PACKET_HANDLER.sendToServer(new MechJumpMessage(0, 0));
+				MechJumpMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
 		}
@@ -64,9 +64,9 @@ public class MineboundModKeyMappings {
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
-		event.register(MECH_JUMP);
-		event.register(MM_CHANGE_MODE_KEYBIND);
 		event.register(MM_UPGRADE_GUI_TOGGLE_KEYBIND);
+		event.register(MM_CHANGE_MODE_KEYBIND);
+		event.register(MECH_JUMP);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -74,9 +74,9 @@ public class MineboundModKeyMappings {
 		@SubscribeEvent
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
-				MECH_JUMP.consumeClick();
-				MM_CHANGE_MODE_KEYBIND.consumeClick();
 				MM_UPGRADE_GUI_TOGGLE_KEYBIND.consumeClick();
+				MM_CHANGE_MODE_KEYBIND.consumeClick();
+				MECH_JUMP.consumeClick();
 			}
 		}
 	}

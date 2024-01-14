@@ -169,22 +169,12 @@ public class MineboundModEntities {
 			EntityType.Builder.<MechTestLegRightEntity>of(MechTestLegRightEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MechTestLegRightEntity::new)
 
 					.sized(0.3f, 2.5f));
-	public static final RegistryObject<EntityType<BlockIndicatorEntity2Entity>> BLOCK_INDICATOR_ENTITY_2 = register("block_indicator_entity_2", EntityType.Builder.<BlockIndicatorEntity2Entity>of(BlockIndicatorEntity2Entity::new, MobCategory.MISC)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlockIndicatorEntity2Entity::new).fireImmune().sized(1.01f, 1.01f));
-	public static final RegistryObject<EntityType<BlockIndicatorEntity3Entity>> BLOCK_INDICATOR_ENTITY_3 = register("block_indicator_entity_3", EntityType.Builder.<BlockIndicatorEntity3Entity>of(BlockIndicatorEntity3Entity::new, MobCategory.MISC)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlockIndicatorEntity3Entity::new).fireImmune().sized(1.01f, 1.01f));
-	public static final RegistryObject<EntityType<BlockIndicatorEntity1Entity>> BLOCK_INDICATOR_ENTITY_1 = register("block_indicator_entity_1", EntityType.Builder.<BlockIndicatorEntity1Entity>of(BlockIndicatorEntity1Entity::new, MobCategory.MISC)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlockIndicatorEntity1Entity::new).fireImmune().sized(1.01f, 1.01f));
 	public static final RegistryObject<EntityType<GleapMobEntity>> GLEAP_MOB = register("gleap_mob",
 			EntityType.Builder.<GleapMobEntity>of(GleapMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(GleapMobEntity::new)
 
 					.sized(0.6f, 0.8f));
 	public static final RegistryObject<EntityType<NutmidgeMobEntity>> NUTMIDGE_MOB = register("nutmidge_mob",
 			EntityType.Builder.<NutmidgeMobEntity>of(NutmidgeMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(NutmidgeMobEntity::new)
-
-					.sized(0.8f, 1.7f));
-	public static final RegistryObject<EntityType<NutmidgeMobChargingEntity>> NUTMIDGE_MOB_CHARGING = register("nutmidge_mob_charging",
-			EntityType.Builder.<NutmidgeMobChargingEntity>of(NutmidgeMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(NutmidgeMobChargingEntity::new)
 
 					.sized(0.8f, 1.7f));
 	public static final RegistryObject<EntityType<NutmidgelingMobEntity>> NUTMIDGELING_MOB = register("nutmidgeling_mob",
@@ -207,11 +197,6 @@ public class MineboundModEntities {
 			EntityType.Builder.<CrustoiseMobEntity>of(CrustoiseMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(CrustoiseMobEntity::new)
 
 					.sized(0.9f, 0.9f));
-	public static final RegistryObject<EntityType<CrustoiseMobChargingEntity>> CRUSTOISE_MOB_CHARGING = register("crustoise_mob_charging",
-			EntityType.Builder.<CrustoiseMobChargingEntity>of(CrustoiseMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
-					.setCustomClientFactory(CrustoiseMobChargingEntity::new)
-
-					.sized(0.9f, 0.9f));
 	public static final RegistryObject<EntityType<TinticMobEntity>> TINTIC_MOB = register("tintic_mob",
 			EntityType.Builder.<TinticMobEntity>of(TinticMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TinticMobEntity::new)
 
@@ -220,20 +205,12 @@ public class MineboundModEntities {
 			EntityType.Builder.<BatongMobEntity>of(BatongMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BatongMobEntity::new)
 
 					.sized(0.4f, 0.4f));
-	public static final RegistryObject<EntityType<BatongMobRestingEntity>> BATONG_MOB_RESTING = register("batong_mob_resting",
-			EntityType.Builder.<BatongMobRestingEntity>of(BatongMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BatongMobRestingEntity::new)
-
-					.sized(0.4f, 0.4f));
 	public static final RegistryObject<EntityType<SpookitMobEntity>> SPOOKIT_MOB = register("spookit_mob",
 			EntityType.Builder.<SpookitMobEntity>of(SpookitMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(SpookitMobEntity::new)
 
 					.sized(0.4f, 0.4f));
 	public static final RegistryObject<EntityType<PeblitMobEntity>> PEBLIT_MOB = register("peblit_mob",
 			EntityType.Builder.<PeblitMobEntity>of(PeblitMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PeblitMobEntity::new)
-
-					.sized(0.4f, 0.4f));
-	public static final RegistryObject<EntityType<PeblitMobRestingEntity>> PEBLIT_MOB_RESTING = register("peblit_mob_resting",
-			EntityType.Builder.<PeblitMobRestingEntity>of(PeblitMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PeblitMobRestingEntity::new)
 
 					.sized(0.4f, 0.4f));
 	public static final RegistryObject<EntityType<IguarmorMobEntity>> IGUARMOR_MOB = register("iguarmor_mob",
@@ -284,25 +261,12 @@ public class MineboundModEntities {
 			EntityType.Builder.<ScandroidMobEntity>of(ScandroidMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(ScandroidMobEntity::new)
 
 					.sized(0.8f, 0.9f));
-	public static final RegistryObject<EntityType<ScandroidMobChargingEntity>> SCANDROID_MOB_CHARGING = register("scandroid_mob_charging",
-			EntityType.Builder.<ScandroidMobChargingEntity>of(ScandroidMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
-					.setCustomClientFactory(ScandroidMobChargingEntity::new)
-
-					.sized(0.8f, 0.9f));
 	public static final RegistryObject<EntityType<BobotMobEntity>> BOBOT_MOB = register("bobot_mob",
 			EntityType.Builder.<BobotMobEntity>of(BobotMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BobotMobEntity::new)
 
 					.sized(1.4f, 2.4f));
-	public static final RegistryObject<EntityType<BobotMobChargingEntity>> BOBOT_MOB_CHARGING = register("bobot_mob_charging",
-			EntityType.Builder.<BobotMobChargingEntity>of(BobotMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BobotMobChargingEntity::new)
-
-					.sized(1.4f, 2.4f));
 	public static final RegistryObject<EntityType<MonopusMobEntity>> MONOPUS_MOB = register("monopus_mob",
 			EntityType.Builder.<MonopusMobEntity>of(MonopusMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MonopusMobEntity::new)
-
-					.sized(0.6f, 1.4f));
-	public static final RegistryObject<EntityType<MonopusMobChargingEntity>> MONOPUS_MOB_CHARGING = register("monopus_mob_charging",
-			EntityType.Builder.<MonopusMobChargingEntity>of(MonopusMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MonopusMobChargingEntity::new)
 
 					.sized(0.6f, 1.4f));
 	public static final RegistryObject<EntityType<SnagglerMobEntity>> SNAGGLER_MOB = register("snaggler_mob",
@@ -319,10 +283,6 @@ public class MineboundModEntities {
 					.sized(0.9f, 1.4f));
 	public static final RegistryObject<EntityType<AgrobatMobEntity>> AGROBAT_MOB = register("agrobat_mob",
 			EntityType.Builder.<AgrobatMobEntity>of(AgrobatMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(AgrobatMobEntity::new)
-
-					.sized(0.8f, 0.6f));
-	public static final RegistryObject<EntityType<AgrobatMobRestingEntity>> AGROBAT_MOB_RESTING = register("agrobat_mob_resting",
-			EntityType.Builder.<AgrobatMobRestingEntity>of(AgrobatMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(AgrobatMobRestingEntity::new)
 
 					.sized(0.8f, 0.6f));
 	public static final RegistryObject<EntityType<SqueemMobEntity>> SQUEEM_MOB = register("squeem_mob",
@@ -409,10 +369,6 @@ public class MineboundModEntities {
 			EntityType.Builder.<TrictusMobEntity>of(TrictusMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TrictusMobEntity::new)
 
 					.sized(1f, 1.8f));
-	public static final RegistryObject<EntityType<TrictusMobRestingEntity>> TRICTUS_MOB_RESTING = register("trictus_mob_resting",
-			EntityType.Builder.<TrictusMobRestingEntity>of(TrictusMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TrictusMobRestingEntity::new)
-
-					.sized(1f, 0.8f));
 	public static final RegistryObject<EntityType<MandrafloraMobEntity>> MANDRAFLORA_MOB = register("mandraflora_mob",
 			EntityType.Builder.<MandrafloraMobEntity>of(MandrafloraMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MandrafloraMobEntity::new)
 
@@ -433,10 +389,6 @@ public class MineboundModEntities {
 			EntityType.Builder.<OrbideMobEntity>of(OrbideMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(OrbideMobEntity::new)
 
 					.sized(1f, 2.5f));
-	public static final RegistryObject<EntityType<OrbideMobRestingEntity>> ORBIDE_MOB_RESTING = register("orbide_mob_resting",
-			EntityType.Builder.<OrbideMobRestingEntity>of(OrbideMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(OrbideMobRestingEntity::new)
-
-					.sized(1f, 2.5f));
 	public static final RegistryObject<EntityType<TaroniMobEntity>> TARONI_MOB = register("taroni_mob",
 			EntityType.Builder.<TaroniMobEntity>of(TaroniMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TaroniMobEntity::new)
 
@@ -445,14 +397,6 @@ public class MineboundModEntities {
 			EntityType.Builder.<HemogoblinMobEntity>of(HemogoblinMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HemogoblinMobEntity::new)
 
 					.sized(1f, 1.2999999999999998f));
-	public static final RegistryObject<EntityType<HemogoblinMobFrontEntity>> HEMOGOBLIN_MOB_FRONT = register("hemogoblin_mob_front",
-			EntityType.Builder.<HemogoblinMobFrontEntity>of(HemogoblinMobFrontEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HemogoblinMobFrontEntity::new)
-
-					.sized(0.8f, 1.2999999999999998f));
-	public static final RegistryObject<EntityType<HemogoblinMobRearEntity>> HEMOGOBLIN_MOB_REAR = register("hemogoblin_mob_rear",
-			EntityType.Builder.<HemogoblinMobRearEntity>of(HemogoblinMobRearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HemogoblinMobRearEntity::new)
-
-					.sized(0.8f, 0.8f));
 	public static final RegistryObject<EntityType<ApexMutantMobEntity>> APEX_MUTANT_MOB = register("apex_mutant_mob",
 			EntityType.Builder.<ApexMutantMobEntity>of(ApexMutantMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(ApexMutantMobEntity::new)
 
@@ -597,18 +541,6 @@ public class MineboundModEntities {
 			EntityType.Builder.<MasteroidMobEntity>of(MasteroidMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MasteroidMobEntity::new)
 
 					.sized(3f, 3f));
-	public static final RegistryObject<EntityType<MasteroidMobLEntity>> MASTEROID_MOB_L = register("masteroid_mob_l",
-			EntityType.Builder.<MasteroidMobLEntity>of(MasteroidMobLEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MasteroidMobLEntity::new)
-
-					.sized(3f, 3f));
-	public static final RegistryObject<EntityType<MasteroidMobMEntity>> MASTEROID_MOB_M = register("masteroid_mob_m",
-			EntityType.Builder.<MasteroidMobMEntity>of(MasteroidMobMEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MasteroidMobMEntity::new)
-
-					.sized(2f, 2f));
-	public static final RegistryObject<EntityType<MasteroidMobSEntity>> MASTEROID_MOB_S = register("masteroid_mob_s",
-			EntityType.Builder.<MasteroidMobSEntity>of(MasteroidMobSEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MasteroidMobSEntity::new)
-
-					.sized(1f, 1f));
 	public static final RegistryObject<EntityType<OmnicannonMobEntity>> OMNICANNON_MOB = register("omnicannon_mob",
 			EntityType.Builder.<OmnicannonMobEntity>of(OmnicannonMobEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(OmnicannonMobEntity::new)
 
@@ -657,6 +589,74 @@ public class MineboundModEntities {
 			EntityType.Builder.<PlayerHeadHUDEntityEntity>of(PlayerHeadHUDEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PlayerHeadHUDEntityEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BlockIndicatorEntity1Entity>> BLOCK_INDICATOR_ENTITY_1 = register("block_indicator_entity_1", EntityType.Builder.<BlockIndicatorEntity1Entity>of(BlockIndicatorEntity1Entity::new, MobCategory.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlockIndicatorEntity1Entity::new).fireImmune().sized(1.01f, 1.01f));
+	public static final RegistryObject<EntityType<BlockIndicatorEntity3Entity>> BLOCK_INDICATOR_ENTITY_3 = register("block_indicator_entity_3", EntityType.Builder.<BlockIndicatorEntity3Entity>of(BlockIndicatorEntity3Entity::new, MobCategory.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlockIndicatorEntity3Entity::new).fireImmune().sized(1.01f, 1.01f));
+	public static final RegistryObject<EntityType<BlockIndicatorEntity2Entity>> BLOCK_INDICATOR_ENTITY_2 = register("block_indicator_entity_2", EntityType.Builder.<BlockIndicatorEntity2Entity>of(BlockIndicatorEntity2Entity::new, MobCategory.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlockIndicatorEntity2Entity::new).fireImmune().sized(1.01f, 1.01f));
+	public static final RegistryObject<EntityType<NutmidgeMobChargingEntity>> NUTMIDGE_MOB_CHARGING = register("nutmidge_mob_charging",
+			EntityType.Builder.<NutmidgeMobChargingEntity>of(NutmidgeMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(NutmidgeMobChargingEntity::new)
+
+					.sized(0.8f, 1.7f));
+	public static final RegistryObject<EntityType<CrustoiseMobChargingEntity>> CRUSTOISE_MOB_CHARGING = register("crustoise_mob_charging",
+			EntityType.Builder.<CrustoiseMobChargingEntity>of(CrustoiseMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
+					.setCustomClientFactory(CrustoiseMobChargingEntity::new)
+
+					.sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<BatongMobRestingEntity>> BATONG_MOB_RESTING = register("batong_mob_resting",
+			EntityType.Builder.<BatongMobRestingEntity>of(BatongMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BatongMobRestingEntity::new)
+
+					.sized(0.4f, 0.4f));
+	public static final RegistryObject<EntityType<PeblitMobRestingEntity>> PEBLIT_MOB_RESTING = register("peblit_mob_resting",
+			EntityType.Builder.<PeblitMobRestingEntity>of(PeblitMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(PeblitMobRestingEntity::new)
+
+					.sized(0.4f, 0.4f));
+	public static final RegistryObject<EntityType<ScandroidMobChargingEntity>> SCANDROID_MOB_CHARGING = register("scandroid_mob_charging",
+			EntityType.Builder.<ScandroidMobChargingEntity>of(ScandroidMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
+					.setCustomClientFactory(ScandroidMobChargingEntity::new)
+
+					.sized(0.8f, 0.9f));
+	public static final RegistryObject<EntityType<BobotMobChargingEntity>> BOBOT_MOB_CHARGING = register("bobot_mob_charging",
+			EntityType.Builder.<BobotMobChargingEntity>of(BobotMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BobotMobChargingEntity::new)
+
+					.sized(1.4f, 2.4f));
+	public static final RegistryObject<EntityType<MonopusMobChargingEntity>> MONOPUS_MOB_CHARGING = register("monopus_mob_charging",
+			EntityType.Builder.<MonopusMobChargingEntity>of(MonopusMobChargingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MonopusMobChargingEntity::new)
+
+					.sized(0.6f, 1.4f));
+	public static final RegistryObject<EntityType<AgrobatMobRestingEntity>> AGROBAT_MOB_RESTING = register("agrobat_mob_resting",
+			EntityType.Builder.<AgrobatMobRestingEntity>of(AgrobatMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(AgrobatMobRestingEntity::new)
+
+					.sized(0.8f, 0.6f));
+	public static final RegistryObject<EntityType<TrictusMobRestingEntity>> TRICTUS_MOB_RESTING = register("trictus_mob_resting",
+			EntityType.Builder.<TrictusMobRestingEntity>of(TrictusMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TrictusMobRestingEntity::new)
+
+					.sized(1f, 0.8f));
+	public static final RegistryObject<EntityType<OrbideMobRestingEntity>> ORBIDE_MOB_RESTING = register("orbide_mob_resting",
+			EntityType.Builder.<OrbideMobRestingEntity>of(OrbideMobRestingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(OrbideMobRestingEntity::new)
+
+					.sized(1f, 2.5f));
+	public static final RegistryObject<EntityType<HemogoblinMobFrontEntity>> HEMOGOBLIN_MOB_FRONT = register("hemogoblin_mob_front",
+			EntityType.Builder.<HemogoblinMobFrontEntity>of(HemogoblinMobFrontEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HemogoblinMobFrontEntity::new)
+
+					.sized(0.8f, 1.2999999999999998f));
+	public static final RegistryObject<EntityType<HemogoblinMobRearEntity>> HEMOGOBLIN_MOB_REAR = register("hemogoblin_mob_rear",
+			EntityType.Builder.<HemogoblinMobRearEntity>of(HemogoblinMobRearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(HemogoblinMobRearEntity::new)
+
+					.sized(0.8f, 0.8f));
+	public static final RegistryObject<EntityType<MasteroidMobLEntity>> MASTEROID_MOB_L = register("masteroid_mob_l",
+			EntityType.Builder.<MasteroidMobLEntity>of(MasteroidMobLEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MasteroidMobLEntity::new)
+
+					.sized(3f, 3f));
+	public static final RegistryObject<EntityType<MasteroidMobMEntity>> MASTEROID_MOB_M = register("masteroid_mob_m",
+			EntityType.Builder.<MasteroidMobMEntity>of(MasteroidMobMEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MasteroidMobMEntity::new)
+
+					.sized(2f, 2f));
+	public static final RegistryObject<EntityType<MasteroidMobSEntity>> MASTEROID_MOB_S = register("masteroid_mob_s",
+			EntityType.Builder.<MasteroidMobSEntity>of(MasteroidMobSEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(MasteroidMobSEntity::new)
+
+					.sized(1f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -670,24 +670,17 @@ public class MineboundModEntities {
 			MechTestArmRightEntity.init();
 			MechTestLegLeftEntity.init();
 			MechTestLegRightEntity.init();
-			BlockIndicatorEntity2Entity.init();
-			BlockIndicatorEntity3Entity.init();
-			BlockIndicatorEntity1Entity.init();
 			GleapMobEntity.init();
 			NutmidgeMobEntity.init();
-			NutmidgeMobChargingEntity.init();
 			NutmidgelingMobEntity.init();
 			KingNutmidgelingMobEntity.init();
 			PoptopMobEntity.init();
 			AdultPoptopMobEntity.init();
 			CrustoiseMobEntity.init();
-			CrustoiseMobChargingEntity.init();
 			TinticMobEntity.init();
 			BatongMobEntity.init();
-			BatongMobRestingEntity.init();
 			SpookitMobEntity.init();
 			PeblitMobEntity.init();
-			PeblitMobRestingEntity.init();
 			IguarmorMobEntity.init();
 			ScaveranMobEntity.init();
 			VoltipMobEntity.init();
@@ -700,16 +693,12 @@ public class MineboundModEntities {
 			PulpinMobEntity.init();
 			CapricoatMobEntity.init();
 			ScandroidMobEntity.init();
-			ScandroidMobChargingEntity.init();
 			BobotMobEntity.init();
-			BobotMobChargingEntity.init();
 			MonopusMobEntity.init();
-			MonopusMobChargingEntity.init();
 			SnagglerMobEntity.init();
 			OculobMobEntity.init();
 			MiasmopMobEntity.init();
 			AgrobatMobEntity.init();
-			AgrobatMobRestingEntity.init();
 			SqueemMobEntity.init();
 			SnauntMobEntity.init();
 			PetropodMobEntity.init();
@@ -731,17 +720,13 @@ public class MineboundModEntities {
 			NarfinMobEntity.init();
 			ToumingoMobEntity.init();
 			TrictusMobEntity.init();
-			TrictusMobRestingEntity.init();
 			MandrafloraMobEntity.init();
 			BulbopMobEntity.init();
 			HypnareMobEntity.init();
 			YokatMobEntity.init();
 			OrbideMobEntity.init();
-			OrbideMobRestingEntity.init();
 			TaroniMobEntity.init();
 			HemogoblinMobEntity.init();
-			HemogoblinMobFrontEntity.init();
-			HemogoblinMobRearEntity.init();
 			ApexMutantMobEntity.init();
 			GosmetMobEntity.init();
 			IxolingMobEntity.init();
@@ -778,9 +763,6 @@ public class MineboundModEntities {
 			CosmostacheMobEntity.init();
 			HeavyDroneMobEntity.init();
 			MasteroidMobEntity.init();
-			MasteroidMobLEntity.init();
-			MasteroidMobMEntity.init();
-			MasteroidMobSEntity.init();
 			OmnicannonMobEntity.init();
 			RustickMobEntity.init();
 			SpinemineMobEntity.init();
@@ -793,6 +775,24 @@ public class MineboundModEntities {
 			RacerMob5Entity.init();
 			RacerMob6Entity.init();
 			PlayerHeadHUDEntityEntity.init();
+			BlockIndicatorEntity1Entity.init();
+			BlockIndicatorEntity3Entity.init();
+			BlockIndicatorEntity2Entity.init();
+			NutmidgeMobChargingEntity.init();
+			CrustoiseMobChargingEntity.init();
+			BatongMobRestingEntity.init();
+			PeblitMobRestingEntity.init();
+			ScandroidMobChargingEntity.init();
+			BobotMobChargingEntity.init();
+			MonopusMobChargingEntity.init();
+			AgrobatMobRestingEntity.init();
+			TrictusMobRestingEntity.init();
+			OrbideMobRestingEntity.init();
+			HemogoblinMobFrontEntity.init();
+			HemogoblinMobRearEntity.init();
+			MasteroidMobLEntity.init();
+			MasteroidMobMEntity.init();
+			MasteroidMobSEntity.init();
 		});
 	}
 
@@ -803,24 +803,17 @@ public class MineboundModEntities {
 		event.put(MECH_TEST_ARM_RIGHT.get(), MechTestArmRightEntity.createAttributes().build());
 		event.put(MECH_TEST_LEG_LEFT.get(), MechTestLegLeftEntity.createAttributes().build());
 		event.put(MECH_TEST_LEG_RIGHT.get(), MechTestLegRightEntity.createAttributes().build());
-		event.put(BLOCK_INDICATOR_ENTITY_2.get(), BlockIndicatorEntity2Entity.createAttributes().build());
-		event.put(BLOCK_INDICATOR_ENTITY_3.get(), BlockIndicatorEntity3Entity.createAttributes().build());
-		event.put(BLOCK_INDICATOR_ENTITY_1.get(), BlockIndicatorEntity1Entity.createAttributes().build());
 		event.put(GLEAP_MOB.get(), GleapMobEntity.createAttributes().build());
 		event.put(NUTMIDGE_MOB.get(), NutmidgeMobEntity.createAttributes().build());
-		event.put(NUTMIDGE_MOB_CHARGING.get(), NutmidgeMobChargingEntity.createAttributes().build());
 		event.put(NUTMIDGELING_MOB.get(), NutmidgelingMobEntity.createAttributes().build());
 		event.put(KING_NUTMIDGELING_MOB.get(), KingNutmidgelingMobEntity.createAttributes().build());
 		event.put(POPTOP_MOB.get(), PoptopMobEntity.createAttributes().build());
 		event.put(ADULT_POPTOP_MOB.get(), AdultPoptopMobEntity.createAttributes().build());
 		event.put(CRUSTOISE_MOB.get(), CrustoiseMobEntity.createAttributes().build());
-		event.put(CRUSTOISE_MOB_CHARGING.get(), CrustoiseMobChargingEntity.createAttributes().build());
 		event.put(TINTIC_MOB.get(), TinticMobEntity.createAttributes().build());
 		event.put(BATONG_MOB.get(), BatongMobEntity.createAttributes().build());
-		event.put(BATONG_MOB_RESTING.get(), BatongMobRestingEntity.createAttributes().build());
 		event.put(SPOOKIT_MOB.get(), SpookitMobEntity.createAttributes().build());
 		event.put(PEBLIT_MOB.get(), PeblitMobEntity.createAttributes().build());
-		event.put(PEBLIT_MOB_RESTING.get(), PeblitMobRestingEntity.createAttributes().build());
 		event.put(IGUARMOR_MOB.get(), IguarmorMobEntity.createAttributes().build());
 		event.put(SCAVERAN_MOB.get(), ScaveranMobEntity.createAttributes().build());
 		event.put(VOLTIP_MOB.get(), VoltipMobEntity.createAttributes().build());
@@ -833,16 +826,12 @@ public class MineboundModEntities {
 		event.put(PULPIN_MOB.get(), PulpinMobEntity.createAttributes().build());
 		event.put(CAPRICOAT_MOB.get(), CapricoatMobEntity.createAttributes().build());
 		event.put(SCANDROID_MOB.get(), ScandroidMobEntity.createAttributes().build());
-		event.put(SCANDROID_MOB_CHARGING.get(), ScandroidMobChargingEntity.createAttributes().build());
 		event.put(BOBOT_MOB.get(), BobotMobEntity.createAttributes().build());
-		event.put(BOBOT_MOB_CHARGING.get(), BobotMobChargingEntity.createAttributes().build());
 		event.put(MONOPUS_MOB.get(), MonopusMobEntity.createAttributes().build());
-		event.put(MONOPUS_MOB_CHARGING.get(), MonopusMobChargingEntity.createAttributes().build());
 		event.put(SNAGGLER_MOB.get(), SnagglerMobEntity.createAttributes().build());
 		event.put(OCULOB_MOB.get(), OculobMobEntity.createAttributes().build());
 		event.put(MIASMOP_MOB.get(), MiasmopMobEntity.createAttributes().build());
 		event.put(AGROBAT_MOB.get(), AgrobatMobEntity.createAttributes().build());
-		event.put(AGROBAT_MOB_RESTING.get(), AgrobatMobRestingEntity.createAttributes().build());
 		event.put(SQUEEM_MOB.get(), SqueemMobEntity.createAttributes().build());
 		event.put(SNAUNT_MOB.get(), SnauntMobEntity.createAttributes().build());
 		event.put(PETROPOD_MOB.get(), PetropodMobEntity.createAttributes().build());
@@ -864,17 +853,13 @@ public class MineboundModEntities {
 		event.put(NARFIN_MOB.get(), NarfinMobEntity.createAttributes().build());
 		event.put(TOUMINGO_MOB.get(), ToumingoMobEntity.createAttributes().build());
 		event.put(TRICTUS_MOB.get(), TrictusMobEntity.createAttributes().build());
-		event.put(TRICTUS_MOB_RESTING.get(), TrictusMobRestingEntity.createAttributes().build());
 		event.put(MANDRAFLORA_MOB.get(), MandrafloraMobEntity.createAttributes().build());
 		event.put(BULBOP_MOB.get(), BulbopMobEntity.createAttributes().build());
 		event.put(HYPNARE_MOB.get(), HypnareMobEntity.createAttributes().build());
 		event.put(YOKAT_MOB.get(), YokatMobEntity.createAttributes().build());
 		event.put(ORBIDE_MOB.get(), OrbideMobEntity.createAttributes().build());
-		event.put(ORBIDE_MOB_RESTING.get(), OrbideMobRestingEntity.createAttributes().build());
 		event.put(TARONI_MOB.get(), TaroniMobEntity.createAttributes().build());
 		event.put(HEMOGOBLIN_MOB.get(), HemogoblinMobEntity.createAttributes().build());
-		event.put(HEMOGOBLIN_MOB_FRONT.get(), HemogoblinMobFrontEntity.createAttributes().build());
-		event.put(HEMOGOBLIN_MOB_REAR.get(), HemogoblinMobRearEntity.createAttributes().build());
 		event.put(APEX_MUTANT_MOB.get(), ApexMutantMobEntity.createAttributes().build());
 		event.put(GOSMET_MOB.get(), GosmetMobEntity.createAttributes().build());
 		event.put(IXOLING_MOB.get(), IxolingMobEntity.createAttributes().build());
@@ -911,9 +896,6 @@ public class MineboundModEntities {
 		event.put(COSMOSTACHE_MOB.get(), CosmostacheMobEntity.createAttributes().build());
 		event.put(HEAVY_DRONE_MOB.get(), HeavyDroneMobEntity.createAttributes().build());
 		event.put(MASTEROID_MOB.get(), MasteroidMobEntity.createAttributes().build());
-		event.put(MASTEROID_MOB_L.get(), MasteroidMobLEntity.createAttributes().build());
-		event.put(MASTEROID_MOB_M.get(), MasteroidMobMEntity.createAttributes().build());
-		event.put(MASTEROID_MOB_S.get(), MasteroidMobSEntity.createAttributes().build());
 		event.put(OMNICANNON_MOB.get(), OmnicannonMobEntity.createAttributes().build());
 		event.put(RUSTICK_MOB.get(), RustickMobEntity.createAttributes().build());
 		event.put(SPINEMINE_MOB.get(), SpinemineMobEntity.createAttributes().build());
@@ -926,5 +908,23 @@ public class MineboundModEntities {
 		event.put(RACER_MOB_5.get(), RacerMob5Entity.createAttributes().build());
 		event.put(RACER_MOB_6.get(), RacerMob6Entity.createAttributes().build());
 		event.put(PLAYER_HEAD_HUD_ENTITY.get(), PlayerHeadHUDEntityEntity.createAttributes().build());
+		event.put(BLOCK_INDICATOR_ENTITY_1.get(), BlockIndicatorEntity1Entity.createAttributes().build());
+		event.put(BLOCK_INDICATOR_ENTITY_3.get(), BlockIndicatorEntity3Entity.createAttributes().build());
+		event.put(BLOCK_INDICATOR_ENTITY_2.get(), BlockIndicatorEntity2Entity.createAttributes().build());
+		event.put(NUTMIDGE_MOB_CHARGING.get(), NutmidgeMobChargingEntity.createAttributes().build());
+		event.put(CRUSTOISE_MOB_CHARGING.get(), CrustoiseMobChargingEntity.createAttributes().build());
+		event.put(BATONG_MOB_RESTING.get(), BatongMobRestingEntity.createAttributes().build());
+		event.put(PEBLIT_MOB_RESTING.get(), PeblitMobRestingEntity.createAttributes().build());
+		event.put(SCANDROID_MOB_CHARGING.get(), ScandroidMobChargingEntity.createAttributes().build());
+		event.put(BOBOT_MOB_CHARGING.get(), BobotMobChargingEntity.createAttributes().build());
+		event.put(MONOPUS_MOB_CHARGING.get(), MonopusMobChargingEntity.createAttributes().build());
+		event.put(AGROBAT_MOB_RESTING.get(), AgrobatMobRestingEntity.createAttributes().build());
+		event.put(TRICTUS_MOB_RESTING.get(), TrictusMobRestingEntity.createAttributes().build());
+		event.put(ORBIDE_MOB_RESTING.get(), OrbideMobRestingEntity.createAttributes().build());
+		event.put(HEMOGOBLIN_MOB_FRONT.get(), HemogoblinMobFrontEntity.createAttributes().build());
+		event.put(HEMOGOBLIN_MOB_REAR.get(), HemogoblinMobRearEntity.createAttributes().build());
+		event.put(MASTEROID_MOB_L.get(), MasteroidMobLEntity.createAttributes().build());
+		event.put(MASTEROID_MOB_M.get(), MasteroidMobMEntity.createAttributes().build());
+		event.put(MASTEROID_MOB_S.get(), MasteroidMobSEntity.createAttributes().build());
 	}
 }

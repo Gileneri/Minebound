@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "minebound:blocks/outpost_concrete1",
+    "top": "minebound:blocks/outpost_concrete1",
+    "side": "minebound:blocks/outpost_concrete1"
+  },
+  "render_type": "solid"
+}

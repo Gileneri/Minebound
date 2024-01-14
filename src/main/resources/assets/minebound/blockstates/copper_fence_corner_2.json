@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/copper_fence_corner_2"
+    },
+    "facing=east": {
+      "model": "minebound:block/copper_fence_corner_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/copper_fence_corner_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/copper_fence_corner_2",
+      "y": 270
+    }
+  }
+}

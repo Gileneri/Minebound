@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/ornate_wall_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/ornate_wall_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/ornate_wall_slab_full"
+    }
+  }
+}

@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/frozendirt"},
-	{"model": "minebound:block/frozendirt2"},
-	{"model": "minebound:block/frozendirt3"},	
-	{"model": "minebound:block/frozendirt4"}
-	]
+    "": {
+      "model": "minebound:block/frozendirt"
+    }
   }
 }

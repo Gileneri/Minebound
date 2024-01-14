@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "minebound:blocks/asphalt1",
+    "top": "minebound:blocks/asphalt1",
+    "side": "minebound:blocks/asphalt1"
+  },
+  "render_type": "solid"
+}

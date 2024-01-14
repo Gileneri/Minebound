@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/classic_basebord_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/classic_basebord_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/classic_basebord_slab_full"
+    }
+  }
+}

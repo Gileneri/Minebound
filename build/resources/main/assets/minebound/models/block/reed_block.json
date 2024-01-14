@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/reed_block_bottom",
+    "up": "minebound:blocks/reed_block_top",
+    "north": "minebound:blocks/reed_block1",
+    "east": "minebound:blocks/reed_block1",
+    "south": "minebound:blocks/reed_block1",
+    "west": "minebound:blocks/reed_block1",
+    "particle": "minebound:blocks/reed_block_bottom"
+  },
+  "render_type": "solid"
+}

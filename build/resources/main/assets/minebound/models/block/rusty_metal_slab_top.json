@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "minebound:blocks/rusty_metal1",
+    "top": "minebound:blocks/rusty_metal1",
+    "side": "minebound:blocks/rusty_metal1"
+  },
+  "render_type": "solid"
+}

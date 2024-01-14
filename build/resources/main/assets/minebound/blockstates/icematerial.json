@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/icematerial"},
-	{"model": "minebound:block/icematerial2"},
-	{"model": "minebound:block/icematerial3"},	
-	{"model": "minebound:block/icematerial4"}
-	]
+    "": {
+      "model": "minebound:block/icematerial"
+    }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "minebound:custom/pillar_block",
+  "textures": {
+    "all": "minebound:blocks/pillar_block_single",
+    "particle": "minebound:blocks/pillar_block_single",
+    "0": "minebound:blocks/pillar_block_single"
+  },
+  "render_type": "translucent"
+}

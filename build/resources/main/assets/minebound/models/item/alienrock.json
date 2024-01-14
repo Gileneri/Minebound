@@ -1,44 +1,7 @@
 {
-    "loader": "forge:separate-perspective",
-"gui_light": "front",
-    "base":
-    {
-    "parent": "minebound:block/alienrock",
-    "textures":
-    {
-        "0" : "minebound:blocks/alienrock1"
-    },
-  "display": {
-    "thirdperson": {
-      "rotation": [
-        10,
-        -45,
-        170
-      ],
-      "translation": [
-        0,
-        1.5,
-        -2.75
-      ],
-      "scale": [
-        0.375,
-        0.375,
-        0.375
-      ]
-     }
-   }
- },
- "perspectives":
-    {
-        "gui":
-        {
-            "parent": "item/generated",
-            "textures":
-            {
-                "layer0": "minebound:items/alien_rock_icon"
-            },
-            "gui_light": "front"
-        }
-    }
-}
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minebound:items/alien_rock_icon"
+  },
+  "render_type": "translucent"
 }

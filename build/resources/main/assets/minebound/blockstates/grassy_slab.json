@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/grassy_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/grassy_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/grassy_slab_full"
+    }
+  }
+}

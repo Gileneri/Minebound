@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "minebound:block/thick_ornate_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "minebound:block/thick_ornate_wood"
+    },
+    "axis=z": {
+      "model": "minebound:block/thick_ornate_wood",
+      "x": 90
+    }
+  }
+}

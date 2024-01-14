@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minebound:block/wooden_fence_cross"
+    },
+    "facing=east": {
+      "model": "minebound:block/wooden_fence_cross",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minebound:block/wooden_fence_cross",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minebound:block/wooden_fence_cross",
+      "y": 270
+    }
+  }
+}

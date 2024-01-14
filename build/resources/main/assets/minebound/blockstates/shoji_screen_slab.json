@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/shoji_screen_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/shoji_screen_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/shoji_screen_slab_full"
+    }
+  }
+}

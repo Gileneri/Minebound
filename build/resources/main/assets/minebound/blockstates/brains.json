@@ -1,10 +1,7 @@
 {
   "variants": {
-    "":  [
-	{"model": "minebound:block/brains"},
-	{"model": "minebound:block/brains2"},
-	{"model": "minebound:block/brains3"},	
-	{"model": "minebound:block/brains4"}
-	]
+    "": {
+      "model": "minebound:block/brains"
+    }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minebound:block/outpost_concrete_slab"
+    },
+    "type=top": {
+      "model": "minebound:block/outpost_concrete_slab_top"
+    },
+    "type=double": {
+      "model": "minebound:block/outpost_concrete_slab_full"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "minebound:blocks/copper_roofing1",
+    "top": "minebound:blocks/copper_roofing1",
+    "side": "minebound:blocks/copper_roofing1"
+  },
+  "render_type": "solid"
+}
