@@ -4,6 +4,7 @@
     "minecraft:tuff",
     "minecraft:andesite",
     "minecraft:air",
-    "minebound:moonrock"
+    "minebound:moonrock",
+    "minebound:moon_dust"
   ]
 }

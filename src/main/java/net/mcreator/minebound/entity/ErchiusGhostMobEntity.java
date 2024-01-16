@@ -24,6 +24,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
@@ -48,7 +49,8 @@ public class ErchiusGhostMobEntity extends Monster {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		this.noPhysics = true;
+		setPersistenceRequired();
+		this.noPhysics = true; //ADDED
 		this.setNoGravity(true); //Added
 	}
 
@@ -82,6 +84,11 @@ public class ErchiusGhostMobEntity extends Monster {
 	}
 
 	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
+	}
+
+	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 	}
@@ -98,6 +105,8 @@ public class ErchiusGhostMobEntity extends Monster {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
+		if (source.getDirectEntity() instanceof Player)
+			return false;
 		if (source == DamageSource.FALL)
 			return false;
 		if (source == DamageSource.DROWN)
@@ -115,7 +124,20 @@ public class ErchiusGhostMobEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		ErchiusGhostMobOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		ErchiusGhostMobOnEntityTickUpdateProcedure.execute(this.level, this);
+	}
+
+	@Override
+	public boolean isPushable() {
+		return false;
+	}
+
+	@Override
+	protected void doPush(Entity entityIn) {
+	}
+
+	@Override
+	protected void pushEntities() {
 	}
 
 	@Override
