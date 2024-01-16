@@ -122,13 +122,26 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:MoonDimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MoonBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:MoonDust"
+      },
+      {
+        "value": "CUSTOM:Moonrock"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 24,
+    "frequencyOnChunk": 64,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 128
   }
 }

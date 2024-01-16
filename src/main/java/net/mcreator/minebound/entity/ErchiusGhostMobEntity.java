@@ -50,8 +50,9 @@ public class ErchiusGhostMobEntity extends Monster {
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
-		this.noPhysics = true; //ADDED
-		this.setNoGravity(true); //Added
+
+		this.noPhysics = true; //ADDED
+        this.setNoGravity (true); //ADDED
 	}
 
 	@Override

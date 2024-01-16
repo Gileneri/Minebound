@@ -27,9 +27,9 @@ public class SpookedOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		double zPos = 0;
-		double yPos = 0;
 		double xPos = 0;
+		double yPos = 0;
+		double zPos = 0;
 		boolean allowSpawn = false;
 		if (entity.getPersistentData().getBoolean("mb_hunted") == false) {
 			allowSpawn = false;

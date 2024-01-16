@@ -11,7 +11,7 @@ public class MineboundModTabs {
 	public static CreativeModeTab TAB_NATURALTILES;
 	public static CreativeModeTab TAB_CRAFTABLEBLOCKS;
 	public static CreativeModeTab TAB_VILLAGEAND_DUNGEON_BLOCKS;
-	public static CreativeModeTab TAB_ITENSAND_ORES;
+	public static CreativeModeTab TAB_ITEMS_AND_ORES;
 
 	public static void load() {
 		TAB_NATURALTILES = new CreativeModeTab("tabnaturaltiles") {
@@ -47,7 +47,7 @@ public class MineboundModTabs {
 				return false;
 			}
 		};
-		TAB_ITENSAND_ORES = new CreativeModeTab("tabitensand_ores") {
+		TAB_ITEMS_AND_ORES = new CreativeModeTab("tabitems_and_ores") {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(MineboundModItems.CRYSTAL_ERCHIUS_FUEL.get());

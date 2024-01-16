@@ -15,7 +15,7 @@ import java.util.List;
 
 public class CoreFragmentItem extends Item {
 	public CoreFragmentItem() {
-		super(new Item.Properties().tab(MineboundModTabs.TAB_ITENSAND_ORES).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MineboundModTabs.TAB_ITEMS_AND_ORES).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

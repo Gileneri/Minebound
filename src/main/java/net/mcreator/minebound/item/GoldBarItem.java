@@ -15,7 +15,7 @@ import java.util.List;
 
 public class GoldBarItem extends Item {
 	public GoldBarItem() {
-		super(new Item.Properties().tab(MineboundModTabs.TAB_ITENSAND_ORES).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MineboundModTabs.TAB_ITEMS_AND_ORES).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

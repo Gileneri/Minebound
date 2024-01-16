@@ -15,7 +15,7 @@ import java.util.List;
 
 public class TungstenBarItem extends Item {
 	public TungstenBarItem() {
-		super(new Item.Properties().tab(MineboundModTabs.TAB_ITENSAND_ORES).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MineboundModTabs.TAB_ITEMS_AND_ORES).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

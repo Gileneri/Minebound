@@ -8,7 +8,7 @@
     "name": "Diamond",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:ItensandOres"
+      "value": "CUSTOM:ItemsAndOres"
     },
     "stackSize": 64,
     "enchantability": 0,

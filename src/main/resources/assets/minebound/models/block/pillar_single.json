@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/ancient_brick_top_bottom",
+    "up": "minebound:blocks/ancient_brick_top_bottom",
+    "north": "minebound:blocks/ancient_brick_top_bottom",
+    "east": "minebound:blocks/ancient_brick_top_bottom",
+    "south": "minebound:blocks/ancient_brick_top_bottom",
+    "west": "minebound:blocks/ancient_brick_top_bottom",
+    "particle": "minebound:blocks/ancient_brick_top_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minebound:blocks/stone_tiles3",
+    "up": "minebound:blocks/stone_tiles3",
+    "north": "minebound:blocks/stone_tiles3",
+    "east": "minebound:blocks/stone_tiles3",
+    "south": "minebound:blocks/stone_tiles3",
+    "west": "minebound:blocks/stone_tiles3",
+    "particle": "minebound:blocks/stone_tiles3"
+  },
+  "render_type": "solid"
+}
