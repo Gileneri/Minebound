@@ -125,11 +125,18 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.FLOWING_LAVA"
+      },
+      {
+        "value": "Blocks.LAVA"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 64,
+    "frequencyOnChunk": 64,
+    "minGenerateHeight": -200,
+    "maxGenerateHeight": -55
   }
 }

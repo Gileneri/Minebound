@@ -68,7 +68,8 @@ public class ErchiusGhostMobOnEntityTickUpdateProcedure {
 							}
 						}
 					}
-				} else {
+				}
+				if (targetPlayer == null) {
 					{
 						final Vec3 _center = new Vec3((entity.getX()), (entity.getY()), (entity.getZ()));
 						List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(160 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
@@ -212,7 +213,7 @@ public class ErchiusGhostMobOnEntityTickUpdateProcedure {
 							}
 						}.checkGamemode(entityiterator))) {
 							if (entityiterator instanceof LivingEntity _entity)
-								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 25, 1, (false), (true)));
+								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 20, 1, (false), (true)));
 						}
 					}
 				}
@@ -233,7 +234,7 @@ public class ErchiusGhostMobOnEntityTickUpdateProcedure {
 							}
 						}.checkGamemode(entityiterator))) {
 							if (entityiterator instanceof LivingEntity _entity)
-								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 25, 2, (false), (true)));
+								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 20, 2, (false), (true)));
 						}
 					}
 				}

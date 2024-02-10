@@ -1,5 +1,5 @@
 version:3120
-autoJump:false
+autoJump:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -27,7 +27,7 @@ fovEffectScale:1.0
 darknessEffectScale:1.0
 gamma:0.5
 renderDistance:12
-simulationDistance:12
+simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -48,7 +48,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -70,7 +70,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:true
+joinedFirstServer:false
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true

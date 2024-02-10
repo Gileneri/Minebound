@@ -16,7 +16,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 public class MMWiringProcedureProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		boolean outputOrInput = false;
@@ -28,11 +28,12 @@ public class MMWiringProcedureProcedure {
 		double zPos = 0;
 		double counter = 0;
 		if (!world.isClientSide()) {
-			if (entity.isShiftKeyDown() && (itemstack.getOrCreateTag().getDouble("MMwireCarryingInput") > 0 || itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput") > 0)) {
+			if (entity.isShiftKeyDown() && ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput") > 0
+					|| (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput") > 0)) {
 				if (entity instanceof Player _player && !_player.level.isClientSide())
 					_player.displayClientMessage(Component.literal("Removed stored block coordinates..."), (true));
-				itemstack.getOrCreateTag().putDouble("MMwireBlockFace", 0);
-				MMWiringTagResetProcedure.execute(itemstack);
+				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("MMwireBlockFace", 0);
+				MMWiringTagResetProcedure.execute(entity);
 			} else {
 				if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("forge:mm_wirable")))) {
 					if ((entity.level.clip(new ClipContext(entity.getEyePosition(1f),
@@ -60,7 +61,7 @@ public class MMWiringProcedureProcedure {
 							ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection()) == Direction.EAST) {
 						whichBlockFace = 6;
 					}
-					if (itemstack.getOrCreateTag().getDouble("MMwireCarryingInput") > 0) {
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput") > 0) {
 						if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("forge:mm_triggerable")))) {
 							if (new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
@@ -130,53 +131,47 @@ public class MMWiringProcedureProcedure {
 									}.getValue(world, new BlockPos(x, y, z), ("MMwireZ" + whichBlockFace))) + ".")), (true));
 							} else {
 								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(itemstack.getOrCreateTag().getDouble(("MMwireXin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireYin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireZin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))));
+									BlockPos _bp = new BlockPos(
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireXin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireYin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireZin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))));
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireX" + itemstack.getOrCreateTag().getDouble("MMwireBlockFace")), x);
+										_blockEntity.getPersistentData().putDouble(("MMwireX" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireBlockFace"))), x);
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
 								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(itemstack.getOrCreateTag().getDouble(("MMwireXin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireYin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireZin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))));
+									BlockPos _bp = new BlockPos(
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireXin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireYin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireZin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))));
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireY" + itemstack.getOrCreateTag().getDouble("MMwireBlockFace")), y);
+										_blockEntity.getPersistentData().putDouble(("MMwireY" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireBlockFace"))), y);
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
 								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(itemstack.getOrCreateTag().getDouble(("MMwireXin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireYin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireZin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput"))));
+									BlockPos _bp = new BlockPos(
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireXin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireYin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireZin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput")))));
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireZ" + itemstack.getOrCreateTag().getDouble("MMwireBlockFace")), z);
-									if (world instanceof Level _level)
-										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-								}
-								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(x, y, z);
-									BlockEntity _blockEntity = world.getBlockEntity(_bp);
-									BlockState _bs = world.getBlockState(_bp);
-									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireX" + whichBlockFace), (itemstack.getOrCreateTag().getDouble(("MMwireXin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput")))));
-									if (world instanceof Level _level)
-										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-								}
-								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(x, y, z);
-									BlockEntity _blockEntity = world.getBlockEntity(_bp);
-									BlockState _bs = world.getBlockState(_bp);
-									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireY" + whichBlockFace), (itemstack.getOrCreateTag().getDouble(("MMwireYin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput")))));
+										_blockEntity.getPersistentData().putDouble(("MMwireZ" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireBlockFace"))), z);
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
@@ -185,7 +180,28 @@ public class MMWiringProcedureProcedure {
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireZ" + whichBlockFace), (itemstack.getOrCreateTag().getDouble(("MMwireZin" + itemstack.getOrCreateTag().getDouble("MMwireCarryingInput")))));
+										_blockEntity.getPersistentData().putDouble(("MMwireX" + whichBlockFace), ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+												.getDouble(("MMwireXin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput"))))));
+									if (world instanceof Level _level)
+										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+								}
+								if (!world.isClientSide()) {
+									BlockPos _bp = new BlockPos(x, y, z);
+									BlockEntity _blockEntity = world.getBlockEntity(_bp);
+									BlockState _bs = world.getBlockState(_bp);
+									if (_blockEntity != null)
+										_blockEntity.getPersistentData().putDouble(("MMwireY" + whichBlockFace), ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+												.getDouble(("MMwireYin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput"))))));
+									if (world instanceof Level _level)
+										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+								}
+								if (!world.isClientSide()) {
+									BlockPos _bp = new BlockPos(x, y, z);
+									BlockEntity _blockEntity = world.getBlockEntity(_bp);
+									BlockState _bs = world.getBlockState(_bp);
+									if (_blockEntity != null)
+										_blockEntity.getPersistentData().putDouble(("MMwireZ" + whichBlockFace), ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+												.getDouble(("MMwireZin" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingInput"))))));
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
@@ -233,8 +249,8 @@ public class MMWiringProcedureProcedure {
 											return -1;
 										}
 									}.getValue(world, new BlockPos(x, y, z), ("MMwireZ" + whichBlockFace))) + ".")), (true));
-								itemstack.getOrCreateTag().putDouble("MMwireBlockFace", 0);
-								MMWiringTagResetProcedure.execute(itemstack);
+								(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("MMwireBlockFace", 0);
+								MMWiringTagResetProcedure.execute(entity);
 							}
 						} else {
 							if (new Object() {
@@ -308,7 +324,7 @@ public class MMWiringProcedureProcedure {
 									_player.displayClientMessage(Component.literal("Cannot connect receiver to input-only block..."), (true));
 							}
 						}
-					} else if (itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput") > 0) {
+					} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput") > 0) {
 						if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("forge:mm_powerable")))) {
 							if (new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
@@ -378,53 +394,47 @@ public class MMWiringProcedureProcedure {
 									}.getValue(world, new BlockPos(x, y, z), ("MMwireZ" + whichBlockFace))) + ".")), (true));
 							} else {
 								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(itemstack.getOrCreateTag().getDouble(("MMwireXout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireYout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireZout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))));
+									BlockPos _bp = new BlockPos(
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireXout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireYout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireZout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))));
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireX" + itemstack.getOrCreateTag().getDouble("MMwireBlockFace")), x);
+										_blockEntity.getPersistentData().putDouble(("MMwireX" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireBlockFace"))), x);
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
 								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(itemstack.getOrCreateTag().getDouble(("MMwireXout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireYout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireZout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))));
+									BlockPos _bp = new BlockPos(
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireXout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireYout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireZout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))));
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireY" + itemstack.getOrCreateTag().getDouble("MMwireBlockFace")), y);
+										_blockEntity.getPersistentData().putDouble(("MMwireY" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireBlockFace"))), y);
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
 								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(itemstack.getOrCreateTag().getDouble(("MMwireXout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireYout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))),
-											itemstack.getOrCreateTag().getDouble(("MMwireZout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput"))));
+									BlockPos _bp = new BlockPos(
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireXout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireYout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))),
+											(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+													.getDouble(("MMwireZout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput")))));
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireZ" + itemstack.getOrCreateTag().getDouble("MMwireBlockFace")), z);
-									if (world instanceof Level _level)
-										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-								}
-								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(x, y, z);
-									BlockEntity _blockEntity = world.getBlockEntity(_bp);
-									BlockState _bs = world.getBlockState(_bp);
-									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireX" + whichBlockFace), (itemstack.getOrCreateTag().getDouble(("MMwireXout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput")))));
-									if (world instanceof Level _level)
-										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-								}
-								if (!world.isClientSide()) {
-									BlockPos _bp = new BlockPos(x, y, z);
-									BlockEntity _blockEntity = world.getBlockEntity(_bp);
-									BlockState _bs = world.getBlockState(_bp);
-									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireY" + whichBlockFace), (itemstack.getOrCreateTag().getDouble(("MMwireYout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput")))));
+										_blockEntity.getPersistentData().putDouble(("MMwireZ" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireBlockFace"))), z);
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
@@ -433,7 +443,28 @@ public class MMWiringProcedureProcedure {
 									BlockEntity _blockEntity = world.getBlockEntity(_bp);
 									BlockState _bs = world.getBlockState(_bp);
 									if (_blockEntity != null)
-										_blockEntity.getPersistentData().putDouble(("MMwireZ" + whichBlockFace), (itemstack.getOrCreateTag().getDouble(("MMwireZout" + itemstack.getOrCreateTag().getDouble("MMwireCarryingOutput")))));
+										_blockEntity.getPersistentData().putDouble(("MMwireX" + whichBlockFace), ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+												.getDouble(("MMwireXout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput"))))));
+									if (world instanceof Level _level)
+										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+								}
+								if (!world.isClientSide()) {
+									BlockPos _bp = new BlockPos(x, y, z);
+									BlockEntity _blockEntity = world.getBlockEntity(_bp);
+									BlockState _bs = world.getBlockState(_bp);
+									if (_blockEntity != null)
+										_blockEntity.getPersistentData().putDouble(("MMwireY" + whichBlockFace), ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+												.getDouble(("MMwireYout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput"))))));
+									if (world instanceof Level _level)
+										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+								}
+								if (!world.isClientSide()) {
+									BlockPos _bp = new BlockPos(x, y, z);
+									BlockEntity _blockEntity = world.getBlockEntity(_bp);
+									BlockState _bs = world.getBlockState(_bp);
+									if (_blockEntity != null)
+										_blockEntity.getPersistentData().putDouble(("MMwireZ" + whichBlockFace), ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
+												.getDouble(("MMwireZout" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MMwireCarryingOutput"))))));
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
@@ -481,8 +512,8 @@ public class MMWiringProcedureProcedure {
 											return -1;
 										}
 									}.getValue(world, new BlockPos(x, y, z), ("MMwireZ" + whichBlockFace))) + ".")), (true));
-								itemstack.getOrCreateTag().putDouble("MMwireBlockFace", 0);
-								MMWiringTagResetProcedure.execute(itemstack);
+								(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("MMwireBlockFace", 0);
+								MMWiringTagResetProcedure.execute(entity);
 							}
 						} else {
 							if (new Object() {
@@ -912,11 +943,11 @@ public class MMWiringProcedureProcedure {
 									outputOrInput = true;
 									if (entity instanceof Player _player && !_player.level.isClientSide())
 										_player.displayClientMessage(Component.literal("Obtained transmitter block coordinates..."), (true));
-									itemstack.getOrCreateTag().putDouble("MMwireCarryingOutput", whichBlockFace);
-									itemstack.getOrCreateTag().putDouble(("MMwireXout" + whichBlockFace), x);
-									itemstack.getOrCreateTag().putDouble(("MMwireYout" + whichBlockFace), y);
-									itemstack.getOrCreateTag().putDouble(("MMwireZout" + whichBlockFace), z);
-									itemstack.getOrCreateTag().putDouble("MMwireBlockFace", whichBlockFace);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("MMwireCarryingOutput", whichBlockFace);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("MMwireXout" + whichBlockFace), x);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("MMwireYout" + whichBlockFace), y);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("MMwireZout" + whichBlockFace), z);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("MMwireBlockFace", whichBlockFace);
 								}
 							} else {
 								if (new Object() {
@@ -989,11 +1020,11 @@ public class MMWiringProcedureProcedure {
 									outputOrInput = false;
 									if (entity instanceof Player _player && !_player.level.isClientSide())
 										_player.displayClientMessage(Component.literal("Obtained receiver block coordinates..."), (true));
-									itemstack.getOrCreateTag().putDouble("MMwireCarryingInput", whichBlockFace);
-									itemstack.getOrCreateTag().putDouble(("MMwireXin" + whichBlockFace), x);
-									itemstack.getOrCreateTag().putDouble(("MMwireYin" + whichBlockFace), y);
-									itemstack.getOrCreateTag().putDouble(("MMwireZin" + whichBlockFace), z);
-									itemstack.getOrCreateTag().putDouble("MMwireBlockFace", whichBlockFace);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("MMwireCarryingInput", whichBlockFace);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("MMwireXin" + whichBlockFace), x);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("MMwireYin" + whichBlockFace), y);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("MMwireZin" + whichBlockFace), z);
+									(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("MMwireBlockFace", whichBlockFace);
 								}
 							}
 						}
