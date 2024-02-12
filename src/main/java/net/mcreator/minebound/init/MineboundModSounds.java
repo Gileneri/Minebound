@@ -49,4 +49,6 @@ public class MineboundModSounds {
 	public static final RegistryObject<SoundEvent> FOOTSTEP_TREASURE = REGISTRY.register("footstep_treasure", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_treasure")));
 	public static final RegistryObject<SoundEvent> ENERGY_OUT1 = REGISTRY.register("energy_out1", () -> new SoundEvent(new ResourceLocation("minebound", "energy_out1")));
 	public static final RegistryObject<SoundEvent> ENERGY_FULL1 = REGISTRY.register("energy_full1", () -> new SoundEvent(new ResourceLocation("minebound", "energy_full1")));
+	public static final RegistryObject<SoundEvent> STARVING1 = REGISTRY.register("starving1", () -> new SoundEvent(new ResourceLocation("minebound", "starving1")));
+	public static final RegistryObject<SoundEvent> STARVING2 = REGISTRY.register("starving2", () -> new SoundEvent(new ResourceLocation("minebound", "starving2")));
 }

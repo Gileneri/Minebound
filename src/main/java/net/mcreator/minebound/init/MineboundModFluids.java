@@ -18,6 +18,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.minebound.fluid.PoisonFluid;
+import net.mcreator.minebound.fluid.LiquidErchiusFuelFluid;
 import net.mcreator.minebound.fluid.CoreLavaFluid;
 import net.mcreator.minebound.MineboundMod;
 
@@ -27,6 +28,8 @@ public class MineboundModFluids {
 	public static final RegistryObject<FlowingFluid> FLOWING_POISON = REGISTRY.register("flowing_poison", () -> new PoisonFluid.Flowing());
 	public static final RegistryObject<FlowingFluid> CORE_LAVA = REGISTRY.register("core_lava", () -> new CoreLavaFluid.Source());
 	public static final RegistryObject<FlowingFluid> FLOWING_CORE_LAVA = REGISTRY.register("flowing_core_lava", () -> new CoreLavaFluid.Flowing());
+	public static final RegistryObject<FlowingFluid> LIQUID_ERCHIUS_FUEL = REGISTRY.register("liquid_erchius_fuel", () -> new LiquidErchiusFuelFluid.Source());
+	public static final RegistryObject<FlowingFluid> FLOWING_LIQUID_ERCHIUS_FUEL = REGISTRY.register("flowing_liquid_erchius_fuel", () -> new LiquidErchiusFuelFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -36,6 +39,8 @@ public class MineboundModFluids {
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_POISON.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(CORE_LAVA.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_CORE_LAVA.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(LIQUID_ERCHIUS_FUEL.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_LIQUID_ERCHIUS_FUEL.get(), RenderType.translucent());
 		}
 	}
 }

@@ -15,9 +15,6 @@
     "renderStatusInHUD": true,
     "onActiveTick": {
       "name": "SpookedOnEffectActiveTick"
-    },
-    "onExpired": {
-      "name": "SpookedEffectExpires"
     }
   }
 }

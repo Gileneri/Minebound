@@ -39,6 +39,10 @@ public class ErchiusGhostMobOnEntityTickUpdateProcedure {
 		double velocity = 0;
 		double fuelMemory = 0;
 		if (entity.isAlive() && !world.isClientSide()) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 20, 4, (false), (false)));
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 20, 4, (false), (false)));
 			if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3((entity.getX()), (entity.getY()), (entity.getZ())), 160, 160, 160), e -> true).isEmpty()
 					|| !world.getEntitiesOfClass(ServerPlayer.class, AABB.ofSize(new Vec3((entity.getX()), (entity.getY()), (entity.getZ())), 160, 160, 160), e -> true).isEmpty()) {
 				if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3((entity.getX()), (entity.getY()), (entity.getZ())), 64, 64, 64), e -> true).isEmpty()
@@ -68,7 +72,8 @@ public class ErchiusGhostMobOnEntityTickUpdateProcedure {
 							}
 						}
 					}
-				} else {
+				}
+				if (targetPlayer == null) {
 					{
 						final Vec3 _center = new Vec3((entity.getX()), (entity.getY()), (entity.getZ()));
 						List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(160 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
@@ -212,7 +217,7 @@ public class ErchiusGhostMobOnEntityTickUpdateProcedure {
 							}
 						}.checkGamemode(entityiterator))) {
 							if (entityiterator instanceof LivingEntity _entity)
-								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 25, 1, (false), (true)));
+								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 20, 1, (false), (true)));
 						}
 					}
 				}
@@ -233,7 +238,7 @@ public class ErchiusGhostMobOnEntityTickUpdateProcedure {
 							}
 						}.checkGamemode(entityiterator))) {
 							if (entityiterator instanceof LivingEntity _entity)
-								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 25, 2, (false), (true)));
+								_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.SPOOKED.get(), 20, 2, (false), (true)));
 						}
 					}
 				}

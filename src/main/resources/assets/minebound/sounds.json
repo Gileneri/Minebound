@@ -338,5 +338,25 @@
         "stream": false
       }
     ]
+  },
+  "starving1": {
+    "category": "player",
+    "subtitle": "subtitles.starving1",
+    "sounds": [
+      {
+        "name": "minebound:starving1",
+        "stream": false
+      }
+    ]
+  },
+  "starving2": {
+    "category": "player",
+    "subtitle": "subtitles.starving2",
+    "sounds": [
+      {
+        "name": "minebound:starving2",
+        "stream": false
+      }
+    ]
   }
 }

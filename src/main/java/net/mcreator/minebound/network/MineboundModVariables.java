@@ -75,6 +75,7 @@ public class MineboundModVariables {
 			clone.PLAYER_PIXEL_CURRENCY = original.PLAYER_PIXEL_CURRENCY;
 			clone.PLAYER_MAX_ENERGY = original.PLAYER_MAX_ENERGY;
 			clone.PLAYER_CURRENT_ENERGY = original.PLAYER_CURRENT_ENERGY;
+			clone.TIME_SPENT_STARVING = original.TIME_SPENT_STARVING;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -243,6 +244,7 @@ public class MineboundModVariables {
 		public double PLAYER_PIXEL_CURRENCY = 0;
 		public double PLAYER_MAX_ENERGY = 0.0;
 		public double PLAYER_CURRENT_ENERGY = 0.0;
+		public double TIME_SPENT_STARVING = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -254,6 +256,7 @@ public class MineboundModVariables {
 			nbt.putDouble("PLAYER_PIXEL_CURRENCY", PLAYER_PIXEL_CURRENCY);
 			nbt.putDouble("PLAYER_MAX_ENERGY", PLAYER_MAX_ENERGY);
 			nbt.putDouble("PLAYER_CURRENT_ENERGY", PLAYER_CURRENT_ENERGY);
+			nbt.putDouble("TIME_SPENT_STARVING", TIME_SPENT_STARVING);
 			return nbt;
 		}
 
@@ -262,6 +265,7 @@ public class MineboundModVariables {
 			PLAYER_PIXEL_CURRENCY = nbt.getDouble("PLAYER_PIXEL_CURRENCY");
 			PLAYER_MAX_ENERGY = nbt.getDouble("PLAYER_MAX_ENERGY");
 			PLAYER_CURRENT_ENERGY = nbt.getDouble("PLAYER_CURRENT_ENERGY");
+			TIME_SPENT_STARVING = nbt.getDouble("TIME_SPENT_STARVING");
 		}
 	}
 
@@ -289,6 +293,7 @@ public class MineboundModVariables {
 					variables.PLAYER_PIXEL_CURRENCY = message.data.PLAYER_PIXEL_CURRENCY;
 					variables.PLAYER_MAX_ENERGY = message.data.PLAYER_MAX_ENERGY;
 					variables.PLAYER_CURRENT_ENERGY = message.data.PLAYER_CURRENT_ENERGY;
+					variables.TIME_SPENT_STARVING = message.data.TIME_SPENT_STARVING;
 				}
 			});
 			context.setPacketHandled(true);

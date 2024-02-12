@@ -34,7 +34,7 @@
       "value": "CUSTOM:DripingWet"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.5,
+    "rainingPossibility": 0.0,
     "temperature": 0.5,
     "spawnBiome": false,
     "spawnInCaves": false,

@@ -1,0 +1,20 @@
+{
+  "type": "minebound:erchius_fuel_pool",
+  "config": {
+    "fluid": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minebound:liquid_erchius_fuel",
+        "Properties": {
+          "level": "0"
+        }
+      }
+    },
+    "barrier": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minebound:moon_dust"
+      }
+    }
+  }
+}

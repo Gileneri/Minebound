@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Food_Poisoning",
+    "icon": "status_food_poisoning.png",
+    "color": {
+      "value": -13945570,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "FoodPoisoningOnEffectActiveTick"
+    }
+  }
+}
