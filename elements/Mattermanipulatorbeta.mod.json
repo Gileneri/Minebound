@@ -26,10 +26,7 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "MMOnRightClick"
-    },
-    "onItemInUseTick": {
+    "onItemInInventoryTick": {
       "name": "MMWhenInHandTick"
     }
   }

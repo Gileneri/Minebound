@@ -1,13 +1,8 @@
 package net.mcreator.minebound.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.minebound.init.MineboundModMobEffects;
+import javax.annotation.Nullable;
 
 public class FoodPoisoningOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {

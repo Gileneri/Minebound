@@ -222,42 +222,6 @@
       "path": "~/effects/poison"
     },
     {
-      "name": "Mattermanipulator1",
-      "type": "procedure",
-      "sortid": 384,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mattermanipulator_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/Mattermanipulator1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/matter_manipulator"
-    },
-    {
       "name": "Mattermanipulatorbeta",
       "type": "tool",
       "sortid": 2,
@@ -984,6 +948,42 @@
         ]
       },
       "path": "~/effects/deadly radiation"
+    },
+    {
+      "name": "PoisonedOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisoned_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/PoisonedOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/poison"
     },
     {
       "name": "DeadlyradiationOnEffectActiveTick",
@@ -6823,12 +6823,12 @@
       "registry_name": "moonstone",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minebound/block/MoonstoneBlock.java",
+          "src/main/resources/assets/minebound/models/item/moonstone.json",
           "src/main/resources/assets/minebound/blockstates/moonstone.json",
           "src/main/resources/assets/minebound/models/block/moonstone.json",
-          "src/main/java/net/mcreator/minebound/block/MoonstoneBlock.java",
-          "src/main/resources/data/minebound/forge/biome_modifier/moonstone_biome_modifier.json",
-          "src/main/resources/assets/minebound/models/item/moonstone.json",
-          "src/main/java/net/mcreator/minebound/world/features/ores/MoonstoneFeature.java"
+          "src/main/java/net/mcreator/minebound/world/features/ores/MoonstoneFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/moonstone_biome_modifier.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -11662,7 +11662,7 @@
           "src/main/java/net/mcreator/minebound/world/biome/MoonBiomeBiome.java"
         ]
       },
-      "path": "~/biomesAndDimensions/planettypes/Moon"
+      "path": "~/biomesAndDimensions"
     },
     {
       "name": "MoonDimension",
@@ -11678,7 +11678,7 @@
           "src/main/java/net/mcreator/minebound/world/dimension/MoonDimensionDimension.java"
         ]
       },
-      "path": "~/biomesAndDimensions/planettypes/Moon"
+      "path": "~/biomesAndDimensions"
     },
     {
       "name": "ItemsAndOres",
@@ -11693,83 +11693,15 @@
       "path": "~/items"
     },
     {
-      "name": "LiquidErchiusFuel",
-      "type": "fluid",
-      "sortid": 647,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "liquid_erchius_fuel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/minebound/models/block/liquid_erchius_fuel.json",
-          "src/main/resources/assets/minebound/models/item/liquid_erchius_fuel_bucket.json",
-          "src/main/resources/assets/minebound/blockstates/liquid_erchius_fuel.json",
-          "src/main/java/net/mcreator/minebound/fluid/types/LiquidErchiusFuelFluidType.java",
-          "src/main/java/net/mcreator/minebound/item/LiquidErchiusFuelItem.java",
-          "src/main/java/net/mcreator/minebound/fluid/LiquidErchiusFuelFluid.java",
-          "src/main/java/net/mcreator/minebound/block/LiquidErchiusFuelBlock.java"
-        ]
-      },
-      "path": "~/liquids"
-    },
-    {
-      "name": "ErchiusFuelPool",
-      "type": "feature",
-      "sortid": 648,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "erchius_fuel_pool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/world/features/ErchiusFuelPoolFeature.java",
-          "src/main/resources/data/minebound/worldgen/configured_feature/erchius_fuel_pool.json",
-          "src/main/resources/data/minebound/forge/biome_modifier/erchius_fuel_pool_biome_modifier.json",
-          "src/main/resources/data/minebound/worldgen/placed_feature/erchius_fuel_pool.json"
-        ]
-      },
-      "path": "~/biomesAndDimensions/planettypes/Moon"
-    },
-    {
-      "name": "ErchiusCavePool",
-      "type": "feature",
-      "sortid": 649,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "erchius_cave_pool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/world/features/ErchiusCavePoolFeature.java",
-          "src/main/resources/data/minebound/worldgen/configured_feature/erchius_cave_pool.json",
-          "src/main/resources/data/minebound/forge/biome_modifier/erchius_cave_pool_biome_modifier.json",
-          "src/main/resources/data/minebound/worldgen/placed_feature/erchius_cave_pool.json"
-        ]
-      },
-      "path": "~/biomesAndDimensions/planettypes/Moon"
-    },
-    {
-      "name": "Burning",
-      "type": "potioneffect",
-      "sortid": 650,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "burning",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/potion/BurningMobEffect.java"
-        ]
-      },
-      "path": "~/effects/Burning"
-    },
-    {
-      "name": "BurningOnEffectActiveTick",
+      "name": "StarvingEffectStartedapplied",
       "type": "procedure",
-      "sortid": 651,
+      "sortid": 671,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "burning_on_effect_active_tick",
+      "registry_name": "starving_effect_startedapplied",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/procedures/BurningOnEffectActiveTickProcedure.java"
+          "src/main/java/net/mcreator/minebound/procedures/StarvingEffectStartedappliedProcedure.java"
         ],
         "dependencies": [
           {
@@ -11780,6 +11712,97 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      },
+      "path": "~/effects/Starving"
+    },
+    {
+      "name": "WhenHungerShouldStart",
+      "type": "procedure",
+      "sortid": 665,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_hunger_should_start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/WhenHungerShouldStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/Hungry"
+    },
+    {
+      "name": "Starving",
+      "type": "potioneffect",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starving",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/potion/StarvingMobEffect.java"
+        ]
+      },
+      "path": "~/effects/Starving"
+    },
+    {
+      "name": "FoodPoisoning",
+      "type": "potioneffect",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_poisoning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/potion/FoodPoisoningMobEffect.java"
+        ]
+      },
+      "path": "~/effects/Food_Poisoning"
+    },
+    {
+      "name": "FullBellyOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_belly_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/FullBellyOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/Full_Belly"
+    },
+    {
+      "name": "BurningParticle",
+      "type": "particle",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/client/particle/BurningParticleParticle.java",
+          "src/main/resources/assets/minebound/particles/burning_particle.json"
         ]
       },
       "path": "~/effects/Burning"
@@ -11821,19 +11844,76 @@
       "path": "~/effects/Burning"
     },
     {
-      "name": "BurningParticle",
-      "type": "particle",
-      "sortid": 653,
+      "name": "HungryEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 672,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "burning_particle",
+      "registry_name": "hungry_effect_startedapplied",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/client/particle/BurningParticleParticle.java",
-          "src/main/resources/assets/minebound/particles/burning_particle.json"
+          "src/main/java/net/mcreator/minebound/procedures/HungryEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/effects/Burning"
+      "path": "~/effects/Hungry"
+    },
+    {
+      "name": "StarvingEffectExpires",
+      "type": "procedure",
+      "sortid": 670,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starving_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/StarvingEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/Starving"
+    },
+    {
+      "name": "HungryEffectExpires",
+      "type": "procedure",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hungry_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/HungryEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/Hungry"
     },
     {
       "name": "BurningParticles",
@@ -11872,140 +11952,21 @@
       "path": "~/effects/Burning"
     },
     {
-      "name": "PoisonedOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 655,
+      "name": "ErchiusCavePool",
+      "type": "feature",
+      "sortid": 649,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "poisoned_on_effect_active_tick",
+      "registry_name": "erchius_cave_pool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/procedures/PoisonedOnEffectActiveTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/net/mcreator/minebound/world/features/ErchiusCavePoolFeature.java",
+          "src/main/resources/data/minebound/worldgen/configured_feature/erchius_cave_pool.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/erchius_cave_pool_biome_modifier.json",
+          "src/main/resources/data/minebound/worldgen/placed_feature/erchius_cave_pool.json"
         ]
       },
-      "path": "~/effects/poison"
-    },
-    {
-      "name": "FoodPoisoning",
-      "type": "potioneffect",
-      "sortid": 656,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "food_poisoning",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/potion/FoodPoisoningMobEffect.java"
-        ]
-      },
-      "path": "~/effects/Food_Poisoning"
-    },
-    {
-      "name": "FoodPoisoningOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 657,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "food_poisoning_on_effect_active_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/FoodPoisoningOnEffectActiveTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Food_Poisoning"
-    },
-    {
-      "name": "FullBellyOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 658,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "full_belly_on_effect_active_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/FullBellyOnEffectActiveTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Full_Belly"
-    },
-    {
-      "name": "FullBelly",
-      "type": "potioneffect",
-      "sortid": 659,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "full_belly",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/potion/FullBellyMobEffect.java"
-        ]
-      },
-      "path": "~/effects/Full_Belly"
-    },
-    {
-      "name": "FrostEffectStarts",
-      "type": "procedure",
-      "sortid": 661,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frost_effect_starts",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/FrostEffectStartsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Frost"
+      "path": "~/biomesAndDimensions/planettypes/Moon"
     },
     {
       "name": "FrostEffectExpires",
@@ -12060,29 +12021,70 @@
       "path": "~/effects/Hungry"
     },
     {
-      "name": "Starving",
+      "name": "FrostEffectStarts",
+      "type": "procedure",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_effect_starts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/FrostEffectStartsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/Frost"
+    },
+    {
+      "name": "Burning",
       "type": "potioneffect",
-      "sortid": 664,
+      "sortid": 650,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starving",
+      "registry_name": "burning",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/potion/StarvingMobEffect.java"
+          "src/main/java/net/mcreator/minebound/potion/BurningMobEffect.java"
         ]
       },
-      "path": "~/effects/Starving"
+      "path": "~/effects/Burning"
     },
     {
-      "name": "WhenHungerShouldStart",
-      "type": "procedure",
-      "sortid": 665,
+      "name": "ErchiusFuelPool",
+      "type": "feature",
+      "sortid": 648,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "when_hunger_should_start",
+      "registry_name": "erchius_fuel_pool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/procedures/WhenHungerShouldStartProcedure.java"
+          "src/main/java/net/mcreator/minebound/world/features/ErchiusFuelPoolFeature.java",
+          "src/main/resources/data/minebound/worldgen/configured_feature/erchius_fuel_pool.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/erchius_fuel_pool_biome_modifier.json",
+          "src/main/resources/data/minebound/worldgen/placed_feature/erchius_fuel_pool.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/planettypes/Moon"
+    },
+    {
+      "name": "BurningOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 651,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/BurningOnEffectActiveTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -12095,79 +12097,7 @@
           }
         ]
       },
-      "path": "~/effects/Hungry"
-    },
-    {
-      "name": "HungryEffectExpires",
-      "type": "procedure",
-      "sortid": 666,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hungry_effect_expires",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/HungryEffectExpiresProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Hungry"
-    },
-    {
-      "name": "HungryOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 667,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hungry_on_effect_active_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/HungryOnEffectActiveTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Hungry"
-    },
-    {
-      "name": "WhenStarvingShoulpStart",
-      "type": "procedure",
-      "sortid": 668,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "when_starving_shoulp_start",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/WhenStarvingShoulpStartProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Starving"
+      "path": "~/effects/Burning"
     },
     {
       "name": "StarvingOnEffectActiveTick",
@@ -12194,15 +12124,53 @@
       "path": "~/effects/Starving"
     },
     {
-      "name": "StarvingEffectExpires",
+      "name": "FoodPoisoningOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 670,
+      "sortid": 657,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starving_effect_expires",
+      "registry_name": "food_poisoning_on_effect_active_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/procedures/StarvingEffectExpiresProcedure.java"
+          "src/main/java/net/mcreator/minebound/procedures/FoodPoisoningOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/Food_Poisoning"
+    },
+    {
+      "name": "FullBelly",
+      "type": "potioneffect",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_belly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/potion/FullBellyMobEffect.java"
+        ]
+      },
+      "path": "~/effects/Full_Belly"
+    },
+    {
+      "name": "WhenStarvingShoulpStart",
+      "type": "procedure",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_starving_shoulp_start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/WhenStarvingShoulpStartProcedure.java"
         ],
         "dependencies": [
           {
@@ -12218,39 +12186,35 @@
       "path": "~/effects/Starving"
     },
     {
-      "name": "StarvingEffectStartedapplied",
-      "type": "procedure",
-      "sortid": 671,
+      "name": "LiquidErchiusFuel",
+      "type": "fluid",
+      "sortid": 647,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starving_effect_startedapplied",
+      "registry_name": "liquid_erchius_fuel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/procedures/StarvingEffectStartedappliedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/assets/minebound/models/block/liquid_erchius_fuel.json",
+          "src/main/resources/assets/minebound/models/item/liquid_erchius_fuel_bucket.json",
+          "src/main/resources/assets/minebound/blockstates/liquid_erchius_fuel.json",
+          "src/main/java/net/mcreator/minebound/fluid/types/LiquidErchiusFuelFluidType.java",
+          "src/main/java/net/mcreator/minebound/item/LiquidErchiusFuelItem.java",
+          "src/main/java/net/mcreator/minebound/fluid/LiquidErchiusFuelFluid.java",
+          "src/main/java/net/mcreator/minebound/block/LiquidErchiusFuelBlock.java"
         ]
       },
-      "path": "~/effects/Starving"
+      "path": "~/liquids"
     },
     {
-      "name": "HungryEffectStartedapplied",
+      "name": "HungryOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 672,
+      "sortid": 667,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hungry_effect_startedapplied",
+      "registry_name": "hungry_on_effect_active_tick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/procedures/HungryEffectStartedappliedProcedure.java"
+          "src/main/java/net/mcreator/minebound/procedures/HungryOnEffectActiveTickProcedure.java"
         ],
         "dependencies": [
           {
@@ -12264,6 +12228,69 @@
         ]
       },
       "path": "~/effects/Hungry"
+    },
+    {
+      "name": "MattermanipulatorbetaRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 647,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mattermanipulatorbeta_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/MattermanipulatorbetaRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/matter_manipulator"
+    },
+    {
+      "name": "StarvingProcedure",
+      "type": "procedure",
+      "sortid": 646,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starving_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/StarvingProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReturnMM",
+      "type": "procedure",
+      "sortid": 648,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_mm",
+      "metadata": {
+        "return_type": "itemstack",
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/ReturnMMProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/matter_manipulator"
     }
   ],
   "variable_elements": [
@@ -12604,7 +12631,6 @@
       "block.minebound.ancient_slab": "Ancient Slab",
       "item.test.fluffalo_electric_mob_spawn_egg": "Electric Fluffalo Spawn Egg",
       "block.minebound.iceblock": "Ice Block",
-      "effect.minebound.burning": "Burning",
       "item.test.mech_test_body_spawn_egg": "Mech Test Body Spawn Egg",
       "item.test.fluffalo_fire_mob_spawn_egg": "Fire Fluffalo Spawn Egg",
       "gui.minebound.mm_upgrade_gui_test.button_empty11": "Range Upgrade 3",
@@ -12806,7 +12832,6 @@
       "item.minebound.masteroid_mob_spawn_egg": "Masteroid Spawn Egg",
       "item.test.capricoat_mob_spawn_egg": "Capricoat Spawn Egg",
       "entity.minebound.tentacle_crawler_mob": "Tentacle Crawler",
-      "effect.minebound.food_poisoning": "Food_Poisoning",
       "item.test.astrofae_mob_spawn_egg": "Astrofae Spawn Egg",
       "item.test.apex_mutant_mob_spawn_egg": "Apex Mutant Spawn Egg",
       "entity.test.cosmic_intruder_mob": "Cosmic Intruder",
@@ -12989,7 +13014,6 @@
       "subtitles.breaking_crystal": "breaking_crystal",
       "block.minebound.wooden_bridge_slab": "Wooden Bridge Slab",
       "item.minebound.po_mob_spawn_egg": "Po Spawn Egg",
-      "effect.minebound.starving": "Starving",
       "entity.test.peblit_mob_resting": "Peblit",
       "item.test.peblit_mob_spawn_egg": "Peblit Spawn Egg",
       "entity.test.orbide_mob_resting": "Orbide",
@@ -13026,7 +13050,6 @@
       "entity.test.tentacle_ghost_mob": "Tentacle Ghost",
       "block.minebound.blackglass": "Black Glass",
       "item.minebound.tentacle_gnat_mob_spawn_egg": "Tentacle Gnat Spawn Egg",
-      "item.minebound.liquid_erchius_fuel_bucket": "Liquid Erchius Fuel ",
       "block.test.icematerial": "Ice ",
       "block.minebound.ornate_flooring_slab": "Ornate Flooring Slab",
       "block.minebound.light_metal_slab": "Light Metal Slab",
@@ -13103,7 +13126,6 @@
       "entity.test.mech_test_leg_right": "Mech Test Leg Right",
       "item.test.kluex_totem_mob_spawn_egg": "Kluex Totem Spawn Egg",
       "block.minebound.simple_temple_stairs": "Simple Temple Stairs",
-      "fluid.minebound.liquid_erchius_fuel": "Liquid Erchius Fuel",
       "block.minebound.wooden_bridge_block": "Wooden Bridge Block",
       "item.test.chiropterror_mob_spawn_egg": "Chiropterror Spawn Egg",
       "block.minebound.cabin_roofing_stairs": "Cabin Roofing Block Stairs",
@@ -13256,7 +13278,6 @@
       "block.minebound.pressurised_thick_beam": "Pressurised Thick Beam ",
       "entity.test.nutmidge_mob_charging": "Nutmidge",
       "entity.test.hemogoblin_mob_front": "Hemo-",
-      "block.minebound.liquid_erchius_fuel": "Liquid Erchius Fuel",
       "item.minebound.poison_bucket": "Measure of Poison",
       "entity.minebound.tentacle_ghost_mob": "Tentacle Ghost",
       "item.test.rustick_mob_spawn_egg": "Rustick Spawn Egg",
@@ -13431,7 +13452,6 @@
       "block.minebound.cloud": "Cloud",
       "entity.test.heavy_drone_mob": "Heavy Drone",
       "item.test.nutmidge_mob_charging_spawn_egg": "Nutmidge Spawn Egg",
-      "effect.minebound.frost": "Frost",
       "item.test.smoglin_mob_spawn_egg": "Smoglin Spawn Egg",
       "entity.test.tentacle_spawner_mob": "Tentacle Spawner",
       "item.minebound.punchy_mob_spawn_egg": "Punchy Spawn Egg",
@@ -13540,8 +13560,6 @@
       "item.test.weather_test_dim": "Weather Test Dim Portal Igniter",
       "block.minebound.test_redstone_on": "Test Redstone (On)",
       "block.minebound.small_stone_bricks": "Small Stone Bricks",
-      "effect.minebound.full_belly": "Full Belly",
-      "effect.minebound.hungry": "Hungry",
       "block.minebound.unrefined_gritstone": "Unrefined Gritstone",
       "item.test.tentacle_clam_mob_spawn_egg": "Tentacle Clam Spawn Egg",
       "item.test.mini_drone_mob_spawn_egg": "Mini Drone Spawn Egg",
@@ -13610,11 +13628,7 @@
         "name": "effects",
         "children": [
           {
-            "name": "wet",
-            "children": []
-          },
-          {
-            "name": "deadly radiation",
+            "name": "Deadly_Chill",
             "children": []
           },
           {
@@ -13622,15 +13636,11 @@
             "children": []
           },
           {
-            "name": "shield_generator",
+            "name": "Hungry",
             "children": []
           },
           {
-            "name": "Deadly_Chill",
-            "children": []
-          },
-          {
-            "name": "Deadly_Heat",
+            "name": "wet",
             "children": []
           },
           {
@@ -13642,7 +13652,7 @@
             "children": []
           },
           {
-            "name": "Food_Poisoning",
+            "name": "shield_generator",
             "children": []
           },
           {
@@ -13650,15 +13660,23 @@
             "children": []
           },
           {
-            "name": "Frost",
+            "name": "deadly radiation",
             "children": []
           },
           {
-            "name": "Hungry",
+            "name": "Deadly_Heat",
+            "children": []
+          },
+          {
+            "name": "Food_Poisoning",
             "children": []
           },
           {
             "name": "Starving",
+            "children": []
+          },
+          {
+            "name": "Frost",
             "children": []
           }
         ]
@@ -13671,26 +13689,8 @@
             "children": []
           },
           {
-            "name": "Crafted_blocks",
-            "children": [
-              {
-                "name": "Custom_Blocks",
-                "children": [
-                  {
-                    "name": "Copper_Fence",
-                    "children": []
-                  },
-                  {
-                    "name": "Wooden_Fence",
-                    "children": []
-                  },
-                  {
-                    "name": "Pillar_Block",
-                    "children": []
-                  }
-                ]
-              }
-            ]
+            "name": "grass_mods",
+            "children": []
           },
           {
             "name": "sloped_blocks",
@@ -13705,8 +13705,26 @@
             "children": []
           },
           {
-            "name": "grass_mods",
-            "children": []
+            "name": "Crafted_blocks",
+            "children": [
+              {
+                "name": "Custom_Blocks",
+                "children": [
+                  {
+                    "name": "Copper_Fence",
+                    "children": []
+                  },
+                  {
+                    "name": "Pillar_Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Wooden_Fence",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -13723,11 +13741,11 @@
         "name": "matter_manipulator",
         "children": [
           {
-            "name": "Upgrade GUI",
+            "name": "Test Blocks",
             "children": []
           },
           {
-            "name": "Test Blocks",
+            "name": "Upgrade GUI",
             "children": []
           }
         ]
@@ -13741,40 +13759,6 @@
         "children": [
           {
             "name": "poison_rain",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "entities",
-        "children": [
-          {
-            "name": "monsters",
-            "children": []
-          },
-          {
-            "name": "test entities",
-            "children": []
-          },
-          {
-            "name": "Erchius_Ghost",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "HUD elements",
-        "children": [
-          {
-            "name": "display food UI",
-            "children": []
-          },
-          {
-            "name": "display health UI",
-            "children": []
-          },
-          {
-            "name": "display energy UI",
             "children": []
           }
         ]
@@ -13801,6 +13785,40 @@
           },
           {
             "name": "space",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "entities",
+        "children": [
+          {
+            "name": "monsters",
+            "children": []
+          },
+          {
+            "name": "Erchius_Ghost",
+            "children": []
+          },
+          {
+            "name": "test entities",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "HUD elements",
+        "children": [
+          {
+            "name": "display food UI",
+            "children": []
+          },
+          {
+            "name": "display health UI",
+            "children": []
+          },
+          {
+            "name": "display energy UI",
             "children": []
           }
         ]

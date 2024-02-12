@@ -1,18 +1,6 @@
 package net.mcreator.minebound.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.TickEvent;
-
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.Difficulty;
-
-import net.mcreator.minebound.init.MineboundModMobEffects;
 
 import javax.annotation.Nullable;
 
@@ -35,13 +23,13 @@ public class WhenHungerShouldStartProcedure {
 		if (!world.isClientSide()) {
 			if (entity.isAlive() && !(world.getDifficulty() == Difficulty.PEACEFUL)) {
 				if ((entity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) <= 2 && (entity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) > 0
-						&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.HUNGRY.get()) ? _livEnt.getEffect(MineboundModMobEffects.HUNGRY.get()).getDuration() : 0) <= 1) {
+						&& (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.DELETED_MOD_ELEMENT.get()) ? _livEnt.getEffect(MineboundModMobEffects.DELETED_MOD_ELEMENT.get()).getDuration() : 0) <= 1) {
 					if (entity instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.HUNGRY.get(), 21, 0, (false), (true)));
+						_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.DELETED_MOD_ELEMENT.get(), 21, 0, (false), (true)));
 				}
-				if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(MineboundModMobEffects.STARVING.get()) : false) {
+				if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(MineboundModMobEffects.DELETED_MOD_ELEMENT.get()) : false) {
 					if (entity instanceof LivingEntity _entity)
-						_entity.removeEffect(MineboundModMobEffects.HUNGRY.get());
+						_entity.removeEffect(MineboundModMobEffects.DELETED_MOD_ELEMENT.get());
 				}
 			}
 		}

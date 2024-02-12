@@ -1,14 +1,8 @@
 
 package net.mcreator.minebound.block;
 
-import org.checkerframework.checker.units.qual.s;
-
-import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.LiquidBlock;
-
-import net.mcreator.minebound.init.MineboundModFluids;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class LiquidErchiusFuelBlock extends LiquidBlock {
 	public LiquidErchiusFuelBlock() {

@@ -1,16 +1,6 @@
 
 package net.mcreator.minebound.fluid.types;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fluids.FluidType;
-import net.minecraftforge.common.SoundActions;
-import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
-
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
-
-import java.util.function.Consumer;
-
 public class LiquidErchiusFuelFluidType extends FluidType {
 	public LiquidErchiusFuelFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).lightLevel(3).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)

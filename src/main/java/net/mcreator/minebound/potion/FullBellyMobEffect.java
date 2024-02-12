@@ -1,13 +1,8 @@
 
 package net.mcreator.minebound.potion;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
-import net.mcreator.minebound.procedures.FullBellyOnEffectActiveTickProcedure;
-
 public class FullBellyMobEffect extends MobEffect {
+
 	public FullBellyMobEffect() {
 		super(MobEffectCategory.HARMFUL, -11255002);
 	}
@@ -26,4 +21,5 @@ public class FullBellyMobEffect extends MobEffect {
 	public boolean isDurationEffectTick(int duration, int amplifier) {
 		return true;
 	}
+
 }

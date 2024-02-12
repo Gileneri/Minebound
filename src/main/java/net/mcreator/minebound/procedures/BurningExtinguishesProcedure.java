@@ -1,17 +1,6 @@
 package net.mcreator.minebound.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.living.LivingEvent;
-
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.minebound.init.MineboundModMobEffects;
-import net.mcreator.minebound.init.MineboundModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -31,9 +20,9 @@ public class BurningExtinguishesProcedure {
 			return;
 		if (!world.isClientSide()) {
 			if (entity.isInWaterOrBubble() || entity.isInLava() || (world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.POISON.get()
-					|| (world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.LIQUID_ERCHIUS_FUEL.get()) {
+					|| (world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModItems.DELETED_MOD_ELEMENT.get()) {
 				if (entity instanceof LivingEntity _entity)
-					_entity.removeEffect(MineboundModMobEffects.BURNING.get());
+					_entity.removeEffect(MineboundModMobEffects.DELETED_MOD_ELEMENT.get());
 			}
 		}
 	}

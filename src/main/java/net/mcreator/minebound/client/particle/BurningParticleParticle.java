@@ -1,19 +1,9 @@
 
 package net.mcreator.minebound.client.particle;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.client.particle.TextureSheetParticle;
-import net.minecraft.client.particle.SpriteSet;
-import net.minecraft.client.particle.ParticleRenderType;
-import net.minecraft.client.particle.ParticleProvider;
-import net.minecraft.client.particle.Particle;
-import net.minecraft.client.multiplayer.ClientLevel;
-
 @OnlyIn(Dist.CLIENT)
 public class BurningParticleParticle extends TextureSheetParticle {
+
 	public static BurningParticleParticleProvider provider(SpriteSet spriteSet) {
 		return new BurningParticleParticleProvider(spriteSet);
 	}
@@ -38,16 +28,21 @@ public class BurningParticleParticle extends TextureSheetParticle {
 	protected BurningParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
+
 		this.setSize(0.2f, 0.2f);
 
 		this.lifetime = 1;
+
 		this.gravity = -0.1f;
 		this.hasPhysics = true;
+
 		this.xd = vx * 0.5;
 		this.yd = vy * 0.5;
 		this.zd = vz * 0.5;
+
 		this.angularVelocity = 0.11399999999999999f;
 		this.angularAcceleration = 0f;
+
 		this.pickSprite(spriteSet);
 	}
 
@@ -64,8 +59,11 @@ public class BurningParticleParticle extends TextureSheetParticle {
 	@Override
 	public void tick() {
 		super.tick();
+
 		this.oRoll = this.roll;
 		this.roll += this.angularVelocity;
 		this.angularVelocity += this.angularAcceleration;
+
 	}
+
 }

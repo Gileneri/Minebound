@@ -2,6 +2,7 @@
   "type": "minebound:moon_dimension",
   "generator": {
     "type": "minecraft:noise",
+    "seed": 216044081218304061,
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -21,7 +22,7 @@
     },
     "settings": {
       "name": "minebound:moon_dimension",
-      "sea_level": 65,
+      "sea_level": -250,
       "legacy_random_source": false,
       "disable_mob_generation": true,
       "noodle_caves_enabled": false,
@@ -372,7 +373,7 @@
               }
             },
             "then_run": {
-              "type": "minecraft:block",
+              "type": "minebound:deadcore",
               "result_state": {
                 "Name": "minebound:deadcore"
               }
