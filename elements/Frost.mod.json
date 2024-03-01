@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Frost",
+    "icon": "status_frost.png",
+    "color": {
+      "value": -12736291,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "FrostEffectStarts"
+    },
+    "onExpired": {
+      "name": "FrostEffectExpires"
+    }
+  }
+}

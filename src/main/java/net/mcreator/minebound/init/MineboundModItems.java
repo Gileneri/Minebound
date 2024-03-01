@@ -34,6 +34,7 @@ import net.mcreator.minebound.item.PrismShardItem;
 import net.mcreator.minebound.item.PoisonItem;
 import net.mcreator.minebound.item.OrbitalItem;
 import net.mcreator.minebound.item.MattermanipulatorbetaItem;
+import net.mcreator.minebound.item.LiquidErchiusFuelItem;
 import net.mcreator.minebound.item.IronOreItem;
 import net.mcreator.minebound.item.IronBarItem;
 import net.mcreator.minebound.item.HigherItem;
@@ -508,6 +509,7 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> SOLARIUM_STAR = REGISTRY.register("solarium_star", () -> new SolariumStarItem());
 	public static final RegistryObject<Item> RUBIUM_ORE = REGISTRY.register("rubium_ore", () -> new RubiumOreItem());
 	public static final RegistryObject<Item> REFINED_RUBIUM = REGISTRY.register("refined_rubium", () -> new RefinedRubiumItem());
+	public static final RegistryObject<Item> LIQUID_ERCHIUS_FUEL_BUCKET = REGISTRY.register("liquid_erchius_fuel_bucket", () -> new LiquidErchiusFuelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

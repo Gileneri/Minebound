@@ -9,46 +9,6 @@
       }
     ]
   },
-  "sand_fall1": {
-    "category": "block",
-    "subtitle": "subtitles.sand_fall1",
-    "sounds": [
-      {
-        "name": "minebound:sand_fall1",
-        "stream": false
-      }
-    ]
-  },
-  "silence": {
-    "category": "block",
-    "subtitle": "subtitles.silence",
-    "sounds": [
-      {
-        "name": "minebound:silent",
-        "stream": false
-      }
-    ]
-  },
-  "energy_out1": {
-    "category": "neutral",
-    "subtitle": "subtitles.energy_out1",
-    "sounds": [
-      {
-        "name": "minebound:energy_out1",
-        "stream": false
-      }
-    ]
-  },
-  "energy_full1": {
-    "category": "neutral",
-    "subtitle": "subtitles.energy_full1",
-    "sounds": [
-      {
-        "name": "minebound:energy_full1",
-        "stream": false
-      }
-    ]
-  },
   "footstep_rock": {
     "category": "block",
     "subtitle": "subtitles.footstep_rock",
@@ -65,6 +25,16 @@
     "sounds": [
       {
         "name": "minebound:footstep_stone3",
+        "stream": false
+      }
+    ]
+  },
+  "sand_fall1": {
+    "category": "block",
+    "subtitle": "subtitles.sand_fall1",
+    "sounds": [
+      {
+        "name": "minebound:sand_fall1",
         "stream": false
       }
     ]
@@ -89,12 +59,42 @@
       }
     ]
   },
+  "silence": {
+    "category": "block",
+    "subtitle": "subtitles.silence",
+    "sounds": [
+      {
+        "name": "minebound:silent",
+        "stream": false
+      }
+    ]
+  },
   "footstep_dirt": {
     "category": "block",
     "subtitle": "subtitles.footstep_dirt",
     "sounds": [
       {
         "name": "minebound:footstep_dirt",
+        "stream": false
+      }
+    ]
+  },
+  "inventory_putdown1": {
+    "category": "block",
+    "subtitle": "subtitles.inventory_putdown1",
+    "sounds": [
+      {
+        "name": "minebound:inventory_putdown1",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_dry_dirt": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_dry_dirt",
+    "sounds": [
+      {
+        "name": "minebound:footstep_drydirt_",
         "stream": false
       }
     ]
@@ -199,6 +199,26 @@
       }
     ]
   },
+  "footstep_snow": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_snow",
+    "sounds": [
+      {
+        "name": "minebound:footstep_snow",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_light_wood": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_light_wood",
+    "sounds": [
+      {
+        "name": "minebound:footstep_lightwood",
+        "stream": false
+      }
+    ]
+  },
   "footstep_glass": {
     "category": "block",
     "subtitle": "subtitles.footstep_glass",
@@ -279,52 +299,22 @@
       }
     ]
   },
-  "footstep_stone": {
-    "category": "block",
-    "subtitle": "subtitles.footstep_stone",
+  "energy_out1": {
+    "category": "neutral",
+    "subtitle": "subtitles.energy_out1",
     "sounds": [
       {
-        "name": "minebound:footstep_stone",
+        "name": "minebound:energy_out1",
         "stream": false
       }
     ]
   },
-  "footstep_snow": {
-    "category": "block",
-    "subtitle": "subtitles.footstep_snow",
+  "energy_full1": {
+    "category": "neutral",
+    "subtitle": "subtitles.energy_full1",
     "sounds": [
       {
-        "name": "minebound:footstep_snow",
-        "stream": false
-      }
-    ]
-  },
-  "footstep_dry_dirt": {
-    "category": "block",
-    "subtitle": "subtitles.footstep_dry_dirt",
-    "sounds": [
-      {
-        "name": "minebound:footstep_drydirt_",
-        "stream": false
-      }
-    ]
-  },
-  "footstep_light_wood": {
-    "category": "block",
-    "subtitle": "subtitles.footstep_light_wood",
-    "sounds": [
-      {
-        "name": "minebound:footstep_lightwood",
-        "stream": false
-      }
-    ]
-  },
-  "inventory_putdown1": {
-    "category": "block",
-    "subtitle": "subtitles.inventory_putdown1",
-    "sounds": [
-      {
-        "name": "minebound:inventory_putdown1",
+        "name": "minebound:energy_full1",
         "stream": false
       }
     ]
@@ -335,6 +325,36 @@
     "sounds": [
       {
         "name": "minebound:footstep_wetclay",
+        "stream": false
+      }
+    ]
+  },
+  "footstep_stone": {
+    "category": "block",
+    "subtitle": "subtitles.footstep_stone",
+    "sounds": [
+      {
+        "name": "minebound:footstep_stone",
+        "stream": false
+      }
+    ]
+  },
+  "starving1": {
+    "category": "player",
+    "subtitle": "subtitles.starving1",
+    "sounds": [
+      {
+        "name": "minebound:starving1",
+        "stream": false
+      }
+    ]
+  },
+  "starving2": {
+    "category": "player",
+    "subtitle": "subtitles.starving2",
+    "sounds": [
+      {
+        "name": "minebound:starving2",
         "stream": false
       }
     ]

@@ -38,7 +38,7 @@ public class MoonstoneFeature extends OreFeature {
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MOON_DUST.get().defaultBlockState()), MineboundModBlocks.MOONSTONE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MOONROCK.get().defaultBlockState()), MineboundModBlocks.MOONSTONE.get().defaultBlockState())), 64));
 		PLACED_FEATURE = PlacementUtils.register("minebound:moonstone", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(24), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(24), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-113), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

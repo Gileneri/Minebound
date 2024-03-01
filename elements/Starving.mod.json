@@ -1,0 +1,26 @@
+{
+  "_fv": 39,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Starving",
+    "icon": "status_starving.png",
+    "color": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "StarvingEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "StarvingOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "StarvingEffectExpires"
+    }
+  }
+}

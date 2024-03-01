@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.minebound.client.particle.PoisonDripParticle;
 import net.mcreator.minebound.client.particle.PoisonBublesParticle;
 import net.mcreator.minebound.client.particle.DripingWetParticle;
+import net.mcreator.minebound.client.particle.BurningParticleParticle;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MineboundModParticles {
@@ -20,5 +21,6 @@ public class MineboundModParticles {
 		event.register(MineboundModParticleTypes.DRIPING_WET.get(), DripingWetParticle::provider);
 		event.register(MineboundModParticleTypes.POISON_BUBLES.get(), PoisonBublesParticle::provider);
 		event.register(MineboundModParticleTypes.POISON_DRIP.get(), PoisonDripParticle::provider);
+		event.register(MineboundModParticleTypes.BURNING_PARTICLE.get(), BurningParticleParticle::provider);
 	}
 }

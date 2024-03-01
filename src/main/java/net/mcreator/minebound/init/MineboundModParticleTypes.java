@@ -18,4 +18,5 @@ public class MineboundModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> DRIPING_WET = REGISTRY.register("driping_wet", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> POISON_BUBLES = REGISTRY.register("poison_bubles", () -> new SimpleParticleType(true));
 	public static final RegistryObject<SimpleParticleType> POISON_DRIP = REGISTRY.register("poison_drip", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> BURNING_PARTICLE = REGISTRY.register("burning_particle", () -> new SimpleParticleType(false));
 }

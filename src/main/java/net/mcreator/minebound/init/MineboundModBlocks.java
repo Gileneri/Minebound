@@ -198,6 +198,7 @@ import net.mcreator.minebound.block.MagmarockBlock;
 import net.mcreator.minebound.block.LunarBaseBlockSlabBlock;
 import net.mcreator.minebound.block.LunarBaseBlockBlock;
 import net.mcreator.minebound.block.LoosesiltBlock;
+import net.mcreator.minebound.block.LiquidErchiusFuelBlock;
 import net.mcreator.minebound.block.LimestoneBlock;
 import net.mcreator.minebound.block.LightMetalSlabBlock;
 import net.mcreator.minebound.block.LightMetalBlock;
@@ -570,4 +571,5 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> PILLAR_BLOCK_BOTTOM = REGISTRY.register("pillar_block_bottom", () -> new PillarBlockBottomBlock());
 	public static final RegistryObject<Block> PILLAR_BLOCK_MIDDLE = REGISTRY.register("pillar_block_middle", () -> new PillarBlockMiddleBlock());
 	public static final RegistryObject<Block> PILLAR_BLOCK_TOP = REGISTRY.register("pillar_block_top", () -> new PillarBlockTopBlock());
+	public static final RegistryObject<Block> LIQUID_ERCHIUS_FUEL = REGISTRY.register("liquid_erchius_fuel", () -> new LiquidErchiusFuelBlock());
 }

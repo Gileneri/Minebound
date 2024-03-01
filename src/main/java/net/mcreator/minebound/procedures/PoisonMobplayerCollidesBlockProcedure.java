@@ -6,11 +6,14 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.tags.TagKey;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.Registry;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.minebound.init.MineboundModMobEffects;
 
 public class PoisonMobplayerCollidesBlockProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -37,14 +40,9 @@ public class PoisonMobplayerCollidesBlockProcedure {
 					}
 					return false;
 				}
-			}.checkGamemode(entity) || entity instanceof PathfinderMob) {
-				entity.getPersistentData().putBoolean("poisonloop", (true));
-				if (0 < (entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1)) {
-					if (entity instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 0));
-					if (entity instanceof LivingEntity _entity)
-						_entity.hurt(new DamageSource("Got poisoned").bypassArmor(), 1);
-				}
+			}.checkGamemode(entity) || entity instanceof PathfinderMob && !entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("minebound:poison_creature")))) {
+				if (entity instanceof LivingEntity _entity)
+					_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.POISONED.get(), 200, 0));
 			}
 		}
 	}
