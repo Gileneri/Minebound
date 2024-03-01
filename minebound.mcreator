@@ -940,7 +940,7 @@
           "src/main/java/net/mcreator/minebound/world/biome/EmptyspaceBiome.java"
         ]
       },
-      "path": "~/biomesAndDimensions/space"
+      "path": "~/biomesAndDimensions/Ships and Stations"
     },
     {
       "name": "OniradiatedBiome",
@@ -1099,7 +1099,7 @@
           "src/main/java/net/mcreator/minebound/item/OrbitalItem.java"
         ]
       },
-      "path": "~/biomesAndDimensions/space"
+      "path": "~/biomesAndDimensions"
     },
     {
       "name": "MMWiringProcedure",
@@ -1330,6 +1330,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3497,26 +3501,6 @@
         ]
       },
       "path": "~/liquids"
-    },
-    {
-      "name": "PseudoGravity",
-      "type": "procedure",
-      "sortid": 458,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pseudo_gravity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/PseudoGravityProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/misc"
     },
     {
       "name": "EnergyRestoreOverTime",
@@ -7046,9 +7030,18 @@
         "files": [
           "src/main/java/net/mcreator/minebound/procedures/WhenPlayerEntersShipDimensionProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
-      "path": "~/biomesAndDimensions/ship_stuff"
+      "path": "~/biomesAndDimensions/Ships and Stations"
     },
     {
       "name": "Space",
@@ -7064,7 +7057,7 @@
           "src/main/resources/data/minebound/dimension/space.json"
         ]
       },
-      "path": "~/biomesAndDimensions/ship_stuff"
+      "path": "~/biomesAndDimensions/Ships and Stations"
     },
     {
       "name": "MountainTopperDim",
@@ -11740,29 +11733,6 @@
       "path": "~/items"
     },
     {
-      "name": "StarvingProcedure",
-      "type": "procedure",
-      "sortid": 646,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "starving_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/minebound/procedures/StarvingProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "MattermanipulatorbetaRightclickedOnBlock",
       "type": "procedure",
       "sortid": 647,
@@ -11801,6 +11771,2004 @@
         "dependencies": []
       },
       "path": "~/matter_manipulator"
+    },
+    {
+      "name": "GardenPlanet",
+      "type": "dimension",
+      "sortid": 649,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garden_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/garden_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/GardenPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/garden_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "ForestPlanet",
+      "type": "dimension",
+      "sortid": 650,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/ForestPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/forest_planet.json",
+          "src/main/resources/data/minebound/dimension/forest_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "DesertPlanet",
+      "type": "dimension",
+      "sortid": 651,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/desert_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/DesertPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/desert_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "Moon1",
+      "type": "dimension",
+      "sortid": 652,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/moon_1.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/Moon1Dimension.java",
+          "src/main/resources/data/minebound/dimension_type/moon_1.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "AncientVault",
+      "type": "dimension",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_vault",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/ancient_vault.json",
+          "src/main/resources/data/minebound/dimension/ancient_vault.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/AncientVaultDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "OceanPlanet",
+      "type": "dimension",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocean_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/ocean_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/OceanPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/ocean_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "SnowPlanet",
+      "type": "dimension",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/SnowPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/snow_planet.json",
+          "src/main/resources/data/minebound/dimension/snow_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "Moon2",
+      "type": "dimension",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/moon_2.json",
+          "src/main/resources/data/minebound/dimension/moon_2.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/Moon2Dimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "AsteroidField",
+      "type": "dimension",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asteroid_field",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/asteroid_field.json",
+          "src/main/resources/data/minebound/dimension/asteroid_field.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/AsteroidFieldDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "JunglePlanet",
+      "type": "dimension",
+      "sortid": 660,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/jungle_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/JunglePlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/jungle_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "MutatedPlanet",
+      "type": "dimension",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/mutated_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MutatedPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/mutated_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "ToxicPlanet",
+      "type": "dimension",
+      "sortid": 662,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/toxic_planet.json",
+          "src/main/resources/data/minebound/dimension_type/toxic_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/ToxicPlanetDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "Moon3",
+      "type": "dimension",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/moon_3.json",
+          "src/main/resources/data/minebound/dimension_type/moon_3.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/Moon3Dimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "GasGiant",
+      "type": "dimension",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_giant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/gas_giant.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/GasGiantDimension.java",
+          "src/main/resources/data/minebound/dimension_type/gas_giant.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "ArcticPlanet",
+      "type": "dimension",
+      "sortid": 665,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arctic_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/arctic_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/ArcticPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/arctic_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "TundraPlanet",
+      "type": "dimension",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/tundra_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/TundraPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/tundra_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "MidnightPlanet",
+      "type": "dimension",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/midnight_planet.json",
+          "src/main/resources/data/minebound/dimension_type/midnight_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MidnightPlanetDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "Moon4",
+      "type": "dimension",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/Moon4Dimension.java",
+          "src/main/resources/data/minebound/dimension_type/moon_4.json",
+          "src/main/resources/data/minebound/dimension/moon_4.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "BarrenPlanet",
+      "type": "dimension",
+      "sortid": 669,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barren_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/barren_planet.json",
+          "src/main/resources/data/minebound/dimension/barren_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/BarrenPlanetDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "MagmaPlanet",
+      "type": "dimension",
+      "sortid": 670,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/magma_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MagmaPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/magma_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "VolcanicPlanet",
+      "type": "dimension",
+      "sortid": 671,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcanic_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/volcanic_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/VolcanicPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/volcanic_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "DecayedPlanet",
+      "type": "dimension",
+      "sortid": 672,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/decayed_planet.json",
+          "src/main/resources/data/minebound/dimension_type/decayed_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/DecayedPlanetDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "Moon5",
+      "type": "dimension",
+      "sortid": 673,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/moon_5.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/Moon5Dimension.java",
+          "src/main/resources/data/minebound/dimension/moon_5.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "ShipDimensionSelectGUITest",
+      "type": "gui",
+      "sortid": 674,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_dimension_select_gui_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/inventory/ShipDimensionSelectGUITestMenu.java",
+          "src/main/java/net/mcreator/minebound/client/gui/ShipDimensionSelectGUITestScreen.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "ShipDimensionSelectGUITestThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 675,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_dimension_select_gui_test_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/ShipDimensionSelectGUITestThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "OpenDimensionGUITest",
+      "type": "procedure",
+      "sortid": 677,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_dimension_gui_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/OpenDimensionGUITestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "WhenEnteringDimensionWithLowGravity",
+      "type": "procedure",
+      "sortid": 678,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_entering_dimension_with_low_gravity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/WhenEnteringDimensionWithLowGravityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Gravity Procedures"
+    },
+    {
+      "name": "WhenLeavingDimensionWithLowGravity",
+      "type": "procedure",
+      "sortid": 679,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_leaving_dimension_with_low_gravity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/WhenLeavingDimensionWithLowGravityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Gravity Procedures"
+    },
+    {
+      "name": "ReduceFallDamage",
+      "type": "procedure",
+      "sortid": 680,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_fall_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/ReduceFallDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "distance",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Gravity Procedures"
+    },
+    {
+      "name": "MMDetermineBlockSound",
+      "type": "procedure",
+      "sortid": 681,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mm_determine_block_sound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/MMDetermineBlockSoundProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/matter_manipulator"
+    },
+    {
+      "name": "BlockSoundTagRock",
+      "type": "tag",
+      "sortid": 682,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_rock.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagStone3",
+      "type": "tag",
+      "sortid": 683,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_stone_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_stone_3.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagAsh",
+      "type": "tag",
+      "sortid": 684,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_ash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_ash.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagStone2",
+      "type": "tag",
+      "sortid": 685,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_stone_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_stone_2.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagDryDirt",
+      "type": "tag",
+      "sortid": 686,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_dry_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_dry_dirt.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagSand",
+      "type": "tag",
+      "sortid": 687,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_sand.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagMud",
+      "type": "tag",
+      "sortid": 688,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_mud.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagIce",
+      "type": "tag",
+      "sortid": 689,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_ice.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagBrains",
+      "type": "tag",
+      "sortid": 690,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_brains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_brains.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagCrystals",
+      "type": "tag",
+      "sortid": 691,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_crystals",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_crystals.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagGravel",
+      "type": "tag",
+      "sortid": 692,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_gravel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_gravel.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagBone",
+      "type": "tag",
+      "sortid": 693,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_bone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_bone.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagSlush",
+      "type": "tag",
+      "sortid": 694,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_slush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_slush.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagWood",
+      "type": "tag",
+      "sortid": 695,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_wood.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagTallGrass",
+      "type": "tag",
+      "sortid": 696,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_tall_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_tall_grass.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagSnow",
+      "type": "tag",
+      "sortid": 698,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_snow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_snow.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagLightWood",
+      "type": "tag",
+      "sortid": 699,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_light_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_light_wood.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagGlass",
+      "type": "tag",
+      "sortid": 700,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_glass.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagGrass",
+      "type": "tag",
+      "sortid": 701,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_grass.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagComposite",
+      "type": "tag",
+      "sortid": 702,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_composite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_composite.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagLightMetal",
+      "type": "tag",
+      "sortid": 703,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_light_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_light_metal.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagMetallic",
+      "type": "tag",
+      "sortid": 704,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_metallic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_metallic.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagRoofTile",
+      "type": "tag",
+      "sortid": 705,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_roof_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_roof_tile.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagGirder",
+      "type": "tag",
+      "sortid": 706,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_girder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_girder.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagTreasure",
+      "type": "tag",
+      "sortid": 707,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_treasure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_treasure.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "PlayBlockMiningSound",
+      "type": "procedure",
+      "sortid": 708,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_block_mining_sound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/PlayBlockMiningSoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/matter_manipulator"
+    },
+    {
+      "name": "BlockSoundTagDirt",
+      "type": "tag",
+      "sortid": 710,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_dirt.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlockSoundTagStone1",
+      "type": "tag",
+      "sortid": 711,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_stone_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_stone_1.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "PlayBlockBrokenSound",
+      "type": "procedure",
+      "sortid": 712,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_block_broken_sound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/PlayBlockBrokenSoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/matter_manipulator"
+    },
+    {
+      "name": "BlockSoundTagClay",
+      "type": "tag",
+      "sortid": 713,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_sound_tag_clay",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/block_sound_tag_clay.json"
+        ]
+      },
+      "path": "~/tiles/block_sound_tags"
+    },
+    {
+      "name": "BlocksAffectedByGravity",
+      "type": "tag",
+      "sortid": 714,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_affected_by_gravity",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/tags/blocks/blocks_affected_by_gravity.json"
+        ]
+      },
+      "path": "~/tiles"
+    },
+    {
+      "name": "BlockGravityPileUp",
+      "type": "procedure",
+      "sortid": 715,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_gravity_pile_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/BlockGravityPileUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tiles"
+    },
+    {
+      "name": "SavannahPlanet",
+      "type": "dimension",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savannah_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/savannah_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/SavannahPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/savannah_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "GardenBiome",
+      "type": "biome",
+      "sortid": 717,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garden_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GardenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "BarrenBiome",
+      "type": "biome",
+      "sortid": 718,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barren_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BarrenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "DesertBiome",
+      "type": "biome",
+      "sortid": 719,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DesertBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "ForestBiome",
+      "type": "biome",
+      "sortid": 720,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ForestBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "SavannahBiome",
+      "type": "biome",
+      "sortid": 721,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savannah_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SavannahBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "OceanBiome",
+      "type": "biome",
+      "sortid": 722,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocean_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/OceanBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "SnowBiome",
+      "type": "biome",
+      "sortid": 723,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SnowBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "MutatedBiome",
+      "type": "biome",
+      "sortid": 724,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MutatedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "JungleBiome",
+      "type": "biome",
+      "sortid": 725,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/JungleBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "ToxicBiome",
+      "type": "biome",
+      "sortid": 726,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ToxicBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "ArcticBiome",
+      "type": "biome",
+      "sortid": 727,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arctic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ArcticBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "TundraBiome",
+      "type": "biome",
+      "sortid": 728,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TundraBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "MidnightBiome",
+      "type": "biome",
+      "sortid": 729,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MidnightBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "MagmaBiome",
+      "type": "biome",
+      "sortid": 730,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MagmaBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "VolcanicBiome",
+      "type": "biome",
+      "sortid": 731,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcanic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/VolcanicBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "DecayedBiome",
+      "type": "biome",
+      "sortid": 732,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DecayedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "TentacleBiome",
+      "type": "biome",
+      "sortid": 733,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentacle_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TentacleBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "AsteroidFieldBiome",
+      "type": "biome",
+      "sortid": 734,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asteroid_field_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AsteroidFieldBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "Moon1Biome",
+      "type": "biome",
+      "sortid": 735,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_1_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/Moon1BiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "Moon2Biome",
+      "type": "biome",
+      "sortid": 736,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_2_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/Moon2BiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "Moon3Biome",
+      "type": "biome",
+      "sortid": 737,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_3_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/Moon3BiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "Moon4Biome",
+      "type": "biome",
+      "sortid": 738,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_4_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/Moon4BiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "Moon5Biome",
+      "type": "biome",
+      "sortid": 739,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_5_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/Moon5BiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "AsteroidsMiniBiome",
+      "type": "biome",
+      "sortid": 740,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asteroids_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AsteroidsMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "AlpineMiniBiome",
+      "type": "biome",
+      "sortid": 741,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpine_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AlpineMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "BioluminescenceMiniBiome",
+      "type": "biome",
+      "sortid": 742,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bioluminescence_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BioluminescenceMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "BonesMiniBiome",
+      "type": "biome",
+      "sortid": 743,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bones_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BonesMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "ColourfulMiniBiome",
+      "type": "biome",
+      "sortid": 744,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colourful_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ColourfulMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "EyepatchMiniBiome",
+      "type": "biome",
+      "sortid": 745,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyepatch_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/EyepatchMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "FleshMiniBiome",
+      "type": "biome",
+      "sortid": 746,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/FleshMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "FoundryMiniBiome",
+      "type": "biome",
+      "sortid": 747,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foundry_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/FoundryMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "GeodeMiniBiome",
+      "type": "biome",
+      "sortid": 748,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geode_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GeodeMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "GiantFlowersMiniBiome",
+      "type": "biome",
+      "sortid": 749,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_flowers_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GiantFlowersMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "HiveMiniBiome",
+      "type": "biome",
+      "sortid": 750,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hive_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/HiveMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "MushroomPatchMiniBiome",
+      "type": "biome",
+      "sortid": 751,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_patch_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MushroomPatchMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "OasisMiniBiome",
+      "type": "biome",
+      "sortid": 752,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oasis_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/OasisMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "PrismMiniBiome",
+      "type": "biome",
+      "sortid": 753,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prism_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/PrismMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "SpringMiniBiome",
+      "type": "biome",
+      "sortid": 754,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SpringMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "SteamspringMiniBiome",
+      "type": "biome",
+      "sortid": 755,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamspring_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SteamspringMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "SwampMiniBiome",
+      "type": "biome",
+      "sortid": 756,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SwampMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "TarMiniBiome",
+      "type": "biome",
+      "sortid": 757,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tar_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TarMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "BoneCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 758,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BoneCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "CellCavesUndergroundBIome",
+      "type": "biome",
+      "sortid": 759,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cell_caves_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/CellCavesUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "FleshCavesUndergroundBIome",
+      "type": "biome",
+      "sortid": 760,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_caves_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/FleshCavesUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "IceCavesUndergroundBIome",
+      "type": "biome",
+      "sortid": 761,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_caves_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/IceCavesUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "LuminousCavesUndergroundBIome",
+      "type": "biome",
+      "sortid": 762,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminous_caves_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/LuminousCavesUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "MiniVillageUndergroundBIome",
+      "type": "biome",
+      "sortid": 763,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_village_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MiniVillageUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "SlimeCavesUndergroundBIome",
+      "type": "biome",
+      "sortid": 765,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_caves_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SlimeCavesUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "StoneCavesUndergroundBIome",
+      "type": "biome",
+      "sortid": 766,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_caves_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/StoneCavesUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "TarpitUndergroundBIome",
+      "type": "biome",
+      "sortid": 767,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarpit_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TarpitUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "WildernessUndergroundBIome",
+      "type": "biome",
+      "sortid": 768,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wilderness_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/WildernessUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "BrainUndergroundBIome",
+      "type": "biome",
+      "sortid": 769,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_underground_b_iome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BrainUndergroundBIomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "GardenForestBiome",
+      "type": "biome",
+      "sortid": 770,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garden_forest_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GardenForestBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "DesertBarrenBiome",
+      "type": "biome",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_barren_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DesertBarrenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "ForestJungleBiome",
+      "type": "biome",
+      "sortid": 772,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_jungle_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ForestJungleBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "SavannahDesertBiome",
+      "type": "biome",
+      "sortid": 773,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savannah_desert_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SavannahDesertBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "SnowGardenBiome",
+      "type": "biome",
+      "sortid": 774,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_garden_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SnowGardenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "MutatedSavannahBiome",
+      "type": "biome",
+      "sortid": 775,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_savannah_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MutatedSavannahBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "JungleMutatedBiome",
+      "type": "biome",
+      "sortid": 776,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_mutated_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/JungleMutatedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "TundraSnowBiome",
+      "type": "biome",
+      "sortid": 777,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_snow_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TundraSnowBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "MidnightTundraBiome",
+      "type": "biome",
+      "sortid": 778,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_tundra_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MidnightTundraBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "VolcanicDecayedBiome",
+      "type": "biome",
+      "sortid": 779,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcanic_decayed_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/VolcanicDecayedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "DecayedVolcanicBiome",
+      "type": "biome",
+      "sortid": 780,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_volcanic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DecayedVolcanicBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "MushroomsUndergroundBiome",
+      "type": "biome",
+      "sortid": 781,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushrooms_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MushroomsUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biomes"
+    },
+    {
+      "name": "AncientVaultBiome",
+      "type": "biome",
+      "sortid": 782,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_vault_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AncientVaultBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder"
+    },
+    {
+      "name": "MountainsBiome",
+      "type": "biome",
+      "sortid": 783,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mountains_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MountainsBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Extra Surface Biomes"
+    },
+    {
+      "name": "ShallowOceanBiome",
+      "type": "biome",
+      "sortid": 784,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shallow_ocean_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ShallowOceanBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Extra Surface Biomes"
     }
   ],
   "variable_elements": [
@@ -11821,12 +13789,6 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0.0"
-    },
-    {
-      "name": "UNIQUE_PLAYER_COUNT",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
     }
   ],
   "sound_elements": [
@@ -11839,22 +13801,6 @@
       "subtitle": "normal_place"
     },
     {
-      "name": "footstep_rock",
-      "files": [
-        "footstep_rock"
-      ],
-      "category": "block",
-      "subtitle": "rock_footstep1"
-    },
-    {
-      "name": "footstep_stone3",
-      "files": [
-        "footstep_stone3"
-      ],
-      "category": "block",
-      "subtitle": "footstep_stone3"
-    },
-    {
       "name": "sand_fall1",
       "files": [
         "sand_fall1"
@@ -11863,228 +13809,12 @@
       "subtitle": "on_gravity_sand_falling"
     },
     {
-      "name": "footstep_ash",
-      "files": [
-        "footstep_ash"
-      ],
-      "category": "block",
-      "subtitle": "footstep_ash1"
-    },
-    {
-      "name": "footstep_stone2",
-      "files": [
-        "footstep_stone2"
-      ],
-      "category": "block",
-      "subtitle": "footstep_stone2"
-    },
-    {
-      "name": "footstep_clay1",
-      "files": [
-        "footstep_wetclay"
-      ],
-      "category": "block",
-      "subtitle": "footstep_clay1"
-    },
-    {
       "name": "silence",
       "files": [
         "silent"
       ],
       "category": "block",
       "subtitle": "silence"
-    },
-    {
-      "name": "footstep_dirt",
-      "files": [
-        "footstep_dirt"
-      ],
-      "category": "block",
-      "subtitle": "footstep_dirt"
-    },
-    {
-      "name": "footspet_stone",
-      "files": [
-        "footstep_stone"
-      ],
-      "category": "block",
-      "subtitle": "footspet_stone"
-    },
-    {
-      "name": "inventory_putdown1",
-      "files": [
-        "inventory_putdown1"
-      ],
-      "category": "block",
-      "subtitle": "inventory_putdown1"
-    },
-    {
-      "name": "footstep_dry_dirt",
-      "files": [
-        "footstep_drydirt_"
-      ],
-      "category": "block",
-      "subtitle": "footstep_dry_dirt"
-    },
-    {
-      "name": "footstep_sand",
-      "files": [
-        "footstep_sand"
-      ],
-      "category": "block",
-      "subtitle": "footstep_sand"
-    },
-    {
-      "name": "footstep_mud",
-      "files": [
-        "footstep_mud"
-      ],
-      "category": "block",
-      "subtitle": "footstep_mud"
-    },
-    {
-      "name": "footstep_ice",
-      "files": [
-        "footstep_ice"
-      ],
-      "category": "block",
-      "subtitle": "footstep_ice"
-    },
-    {
-      "name": "footstep_brains",
-      "files": [
-        "footstep_brains"
-      ],
-      "category": "block",
-      "subtitle": "footstep_brains"
-    },
-    {
-      "name": "footstep_crystals",
-      "files": [
-        "footstep_crystal"
-      ],
-      "category": "block",
-      "subtitle": "footstep_crystals"
-    },
-    {
-      "name": "footstep_gravel",
-      "files": [
-        "footstep_gravel"
-      ],
-      "category": "block",
-      "subtitle": "footstep_gravel"
-    },
-    {
-      "name": "footstep_bone",
-      "files": [
-        "footstep_bone"
-      ],
-      "category": "block",
-      "subtitle": "footstep_bone"
-    },
-    {
-      "name": "footstep_slush",
-      "files": [
-        "footstep_slush"
-      ],
-      "category": "block",
-      "subtitle": "footsstep_slush1"
-    },
-    {
-      "name": "footstep_wood",
-      "files": [
-        "footstep_wood"
-      ],
-      "category": "block",
-      "subtitle": "footstep_wood1"
-    },
-    {
-      "name": "footstep_tallgrass",
-      "files": [
-        "footstep_tallgrass"
-      ],
-      "category": "block",
-      "subtitle": "footstep_tallgrass"
-    },
-    {
-      "name": "footstep_snow",
-      "files": [
-        "footstep_snow"
-      ],
-      "category": "block",
-      "subtitle": "footstep_now1"
-    },
-    {
-      "name": "footstep_light_wood",
-      "files": [
-        "footstep_lightwood"
-      ],
-      "category": "block",
-      "subtitle": "footstep_light_wood1"
-    },
-    {
-      "name": "footstep_glass",
-      "files": [
-        "footstep_glass"
-      ],
-      "category": "block",
-      "subtitle": "footstep_glass1"
-    },
-    {
-      "name": "footstep_grass",
-      "files": [
-        "footstep_grass"
-      ],
-      "category": "neutral",
-      "subtitle": "footstep_grass1"
-    },
-    {
-      "name": "footstep_composite",
-      "files": [
-        "footstep_composite"
-      ],
-      "category": "block",
-      "subtitle": "footstep_composite1"
-    },
-    {
-      "name": "footstep_lightmetal",
-      "files": [
-        "footstep_lightmetal"
-      ],
-      "category": "block",
-      "subtitle": "footstep_lightmetal1"
-    },
-    {
-      "name": "footstep_metallic",
-      "files": [
-        "footstep_metallic"
-      ],
-      "category": "block",
-      "subtitle": "footstep_metallic1"
-    },
-    {
-      "name": "footstep_rooftile",
-      "files": [
-        "footstep_rooftile"
-      ],
-      "category": "block",
-      "subtitle": "footstep_rooftile"
-    },
-    {
-      "name": "footstep_girder",
-      "files": [
-        "footstep_girder"
-      ],
-      "category": "block",
-      "subtitle": "footstep_girder1"
-    },
-    {
-      "name": "footstep_treasure",
-      "files": [
-        "footstep_treasure"
-      ],
-      "category": "block",
-      "subtitle": "footstep_treasure1"
     },
     {
       "name": "energy_out1",
@@ -12101,6 +13831,238 @@
       ],
       "category": "neutral",
       "subtitle": "energy_full1"
+    },
+    {
+      "name": "footstep_rock",
+      "files": [
+        "footstep_rock"
+      ],
+      "category": "block",
+      "subtitle": "block_rock"
+    },
+    {
+      "name": "footstep_stone3",
+      "files": [
+        "footstep_stone3"
+      ],
+      "category": "block",
+      "subtitle": "block_stone3"
+    },
+    {
+      "name": "footstep_ash",
+      "files": [
+        "footstep_ash"
+      ],
+      "category": "block",
+      "subtitle": "block_ash"
+    },
+    {
+      "name": "footstep_stone2",
+      "files": [
+        "footstep_stone2"
+      ],
+      "category": "block",
+      "subtitle": "block_stone2"
+    },
+    {
+      "name": "footstep_dirt",
+      "files": [
+        "footstep_dirt"
+      ],
+      "category": "block",
+      "subtitle": "block_dirt"
+    },
+    {
+      "name": "footstep_sand",
+      "files": [
+        "footstep_sand"
+      ],
+      "category": "block",
+      "subtitle": "block_sand"
+    },
+    {
+      "name": "footstep_mud",
+      "files": [
+        "footstep_mud"
+      ],
+      "category": "block",
+      "subtitle": "block_mud"
+    },
+    {
+      "name": "footstep_ice",
+      "files": [
+        "footstep_ice"
+      ],
+      "category": "block",
+      "subtitle": "block_ice"
+    },
+    {
+      "name": "footstep_brains",
+      "files": [
+        "footstep_brains"
+      ],
+      "category": "block",
+      "subtitle": "block_brains"
+    },
+    {
+      "name": "footstep_crystals",
+      "files": [
+        "footstep_crystal"
+      ],
+      "category": "block",
+      "subtitle": "block_crystals"
+    },
+    {
+      "name": "footstep_gravel",
+      "files": [
+        "footstep_gravel"
+      ],
+      "category": "block",
+      "subtitle": "block_gravel"
+    },
+    {
+      "name": "footstep_bone",
+      "files": [
+        "footstep_bone"
+      ],
+      "category": "block",
+      "subtitle": "block_bone"
+    },
+    {
+      "name": "footstep_slush",
+      "files": [
+        "footstep_slush"
+      ],
+      "category": "block",
+      "subtitle": "block_slush"
+    },
+    {
+      "name": "footstep_wood",
+      "files": [
+        "footstep_wood"
+      ],
+      "category": "block",
+      "subtitle": "block_wood"
+    },
+    {
+      "name": "footstep_tallgrass",
+      "files": [
+        "footstep_tallgrass"
+      ],
+      "category": "block",
+      "subtitle": "block_tallgrass"
+    },
+    {
+      "name": "footstep_glass",
+      "files": [
+        "footstep_glass"
+      ],
+      "category": "block",
+      "subtitle": "block_glass"
+    },
+    {
+      "name": "footstep_grass",
+      "files": [
+        "footstep_grass"
+      ],
+      "category": "neutral",
+      "subtitle": "block_grass"
+    },
+    {
+      "name": "footstep_composite",
+      "files": [
+        "footstep_composite"
+      ],
+      "category": "block",
+      "subtitle": "block_composite"
+    },
+    {
+      "name": "footstep_lightmetal",
+      "files": [
+        "footstep_lightmetal"
+      ],
+      "category": "block",
+      "subtitle": "block_lightmetal"
+    },
+    {
+      "name": "footstep_metallic",
+      "files": [
+        "footstep_metallic"
+      ],
+      "category": "block",
+      "subtitle": "block_metallic"
+    },
+    {
+      "name": "footstep_rooftile",
+      "files": [
+        "footstep_rooftile"
+      ],
+      "category": "block",
+      "subtitle": "block_rooftile"
+    },
+    {
+      "name": "footstep_girder",
+      "files": [
+        "footstep_girder"
+      ],
+      "category": "block",
+      "subtitle": "block_girder"
+    },
+    {
+      "name": "footstep_treasure",
+      "files": [
+        "footstep_treasure"
+      ],
+      "category": "block",
+      "subtitle": "block_treasure"
+    },
+    {
+      "name": "footstep_stone",
+      "files": [
+        "footstep_stone"
+      ],
+      "category": "block",
+      "subtitle": "block_stone1"
+    },
+    {
+      "name": "footstep_snow",
+      "files": [
+        "footstep_snow"
+      ],
+      "category": "block",
+      "subtitle": "block_snow"
+    },
+    {
+      "name": "footstep_dry_dirt",
+      "files": [
+        "footstep_drydirt_"
+      ],
+      "category": "block",
+      "subtitle": "block_drydirt"
+    },
+    {
+      "name": "footstep_light_wood",
+      "files": [
+        "footstep_lightwood"
+      ],
+      "category": "block",
+      "subtitle": "block_lightwood"
+    },
+    {
+      "name": "inventory_putdown1",
+      "files": [
+        "inventory_putdown1"
+      ],
+      "category": "block",
+      "subtitle": "block_placed"
+    },
+    {
+      "name": "footstep_clay",
+      "files": [
+        "footstep_wetclay"
+      ],
+      "category": "block",
+      "subtitle": "block_clay"
     }
   ],
   "language_map": {
@@ -12118,8 +14080,10 @@
       "item.test.adult_poptop_mob_spawn_egg": "Adult Poptop Spawn Egg",
       "block.minebound.ancient_slab": "Ancient Slab",
       "item.test.fluffalo_electric_mob_spawn_egg": "Electric Fluffalo Spawn Egg",
+      "subtitles.footstep_stone": "block_stone1",
       "block.minebound.iceblock": "Ice Block",
       "item.test.mech_test_body_spawn_egg": "Mech Test Body Spawn Egg",
+      "biome.minebound.tundra_snow_biome": "Snow",
       "block.minebound.erchius_crystal_slab": "Erchius Crystal Slab",
       "gui.minebound.mm_upgrade_gui_test.button_empty11": "Range Upgrade 3",
       "item.test.fluffalo_fire_mob_spawn_egg": "Fire Fluffalo Spawn Egg",
@@ -12129,6 +14093,7 @@
       "gui.minebound.mm_upgrade_gui_test.button_empty10": "Range Upgrade 2",
       "block.test.corruptdirt": "Corrupt dirt",
       "block.minebound.sod_block": "Sod Block",
+      "biome.minebound.mutated_biome": "Mutated",
       "entity.minebound.crabcano_mob": "Crabcano",
       "entity.minebound.nutmidge_mob": "Nutmidge",
       "block.minebound.ornate_tiles": "Ornate Tiles Block",
@@ -12139,6 +14104,7 @@
       "block.minebound.reed_block": "Reed Block",
       "entity.minebound.sporgus_mob": "Sporgus",
       "item.test.gosmet_mob_spawn_egg": "Gosmet Spawn Egg",
+      "biome.minebound.moon_5_biome": "Moon (Fiery)",
       "block.minebound.thick_ornate_wood": "Thick Ornate Wood ",
       "entity.test.kluex_sentry_mob": "Kluex Sentry",
       "entity.minebound.masteroid_mob": "Masteroid",
@@ -12149,9 +14115,11 @@
       "block.minebound.pillar_block_bottom": "Pillar Block Bottom",
       "item.minebound.crustoise_mob_charging_spawn_egg": "Crustoise Spawn Egg",
       "entity.minebound.tentacle_spawner_mob": "Tentacle Spawner",
+      "biome.minebound.mini_village_underground_b_iome": "Mini Village",
       "entity.minebound.spinemine_mob": "Spinemine",
       "block.test.theblock": "The block",
       "entity.test.astrofae_mob": "Astrofae",
+      "biome.minebound.snow_biome": "Snow",
       "block.minebound.thatch": "Thatch block",
       "block.test.ash": "Ash Pile",
       "block.minebound.pressurised_girder_block": "Pressurised Girder Block",
@@ -12159,13 +14127,14 @@
       "entity.minebound.adult_poptop_mob": "Adult Poptop",
       "entity.test.parasprite_mob": "Parasprite",
       "item.test.ringram_mob_spawn_egg": "Ringram Spawn Egg",
-      "subtitles.footstep_glass": "footstep_glass1",
+      "subtitles.footstep_glass": "block_glass",
       "block.test.loosesilt": "Loose Silt",
       "block.minebound.ornate_wall_panel": "Ornate Wall Panel",
       "block.minebound.hiveblock": "Hive Block",
       "block.minebound.roughsandstone": "Sandstone",
       "item.test.fluffalo_poison_mob_spawn_egg": "Poison Fluffalo Spawn Egg",
       "item.minebound.racer_mob_1_spawn_egg": "Racer Mob Spawn Egg",
+      "biome.minebound.garden_biome": "Garden",
       "entity.test.squeem_mob": "Squeem",
       "entity.test.masteroid_mob": "Masteroid",
       "block.test.test_light_on": "Test Light (On)",
@@ -12186,9 +14155,10 @@
       "item.minebound.cosmic_intruder_mob_spawn_egg": "Cosmic Intruder Spawn Egg",
       "item.minebound.toumingo_mob_spawn_egg": "Toumingo Spawn Egg",
       "entity.test.batong_mob_resting": "Batong",
-      "subtitles.footstep_lightmetal": "footstep_lightmetal1",
+      "subtitles.footstep_lightmetal": "block_lightmetal",
       "entity.minebound.cosmic_intruder_mob": "Cosmic Intruder",
       "item.minebound.tentacle_crawler_mob_spawn_egg": "Tentacle Crawler Spawn Egg",
+      "biome.minebound.prism_mini_biome": "Prism",
       "block.minebound.concrete_block_slab": "Concrete Block Slab",
       "item.minebound.po_golem_mob_spawn_egg": "Po Golem Spawn Egg",
       "item.test.racer_mob_6_spawn_egg": "Racer Mob Spawn Egg",
@@ -12205,18 +14175,22 @@
       "block.minebound.rusty_metal": "Rusty Metal",
       "entity.test.spookit_mob": "Spookit",
       "block.minebound.classicwallpaper": "Classic Wallpaper",
+      "biome.minebound.foundry_mini_biome": "Foundry",
       "block.minebound.drydirt": "Dry Dirt",
       "block.minebound.test_light_on": "Test Light (On)",
+      "biome.minebound.cell_caves_underground_b_iome": "Cell Caves",
       "block.minebound.treasure_hoard": "Treasure Hoard",
       "block.minebound.cabin_roofing_slab": "Cabin Roofing Slab",
       "item.minebound.tentacle_ghost_mob_spawn_egg": "Tentacle Ghost Spawn Egg",
       "item.test.ignome_mob_spawn_egg": "Ignome Spawn Egg",
       "biome.minebound.no_snow_high_up_biome": "No Snow High Up Biome",
       "entity.minebound.taroni_mob": "Taroni",
+      "biome.minebound.ocean_biome": "Ocean",
       "block.minebound.dark_tomb_bricks": "Dark Tomb Bricks",
       "entity.minebound.trictus_mob": "Trictus",
       "item.test.tentacle_gnat_mob_spawn_egg": "Tentacle Gnat Spawn Egg",
       "item.minebound.miasmop_mob_spawn_egg": "Miasmob Spawn Egg",
+      "item.minebound.arctic_planet": "",
       "entity.test.apex_mutant_mob": "Apex Mutant",
       "block.minebound.granite_rock": "Granite Rock",
       "item.test.racer_mob_2_spawn_egg": "Racer Mob Spawn Egg",
@@ -12224,18 +14198,20 @@
       "item.minebound.fluffalo_fire_mob_spawn_egg": "Fire Fluffalo Spawn Egg",
       "entity.minebound.omnicannon_mob": "Omnicannon",
       "item.minebound.pipkin_mob_spawn_egg": "Pipkin Spawn Egg",
+      "item.minebound.forest_planet": "",
       "item.minebound.mech_test_leg_left_spawn_egg": "Mech Test Leg Left Spawn Egg",
       "item.minebound.hemogoblin_mob_rear_spawn_egg": "-goblin Spawn Egg",
       "entity.minebound.swarpion_mob": "Swarpion",
       "block.minebound.pressurised_durasteel_slab": "Pressurised Durasteel Block",
       "item.test.moontant_mob_spawn_egg": "Moontant Spawn Egg",
       "block.minebound.grassy_slab": "Grassy Rock Slab",
+      "biome.minebound.mountains_biome": "Mountains",
       "entity.test.erchius_ghost_mob": "Erchius Ghost",
       "item.test.heavy_drone_mob_spawn_egg": "Heavy Drone Spawn Egg",
       "block.minebound.rusty_metal_slab": "Rusty Metal Slab",
       "item.test.racer_mob_3_spawn_egg": "Racer Mob Spawn Egg",
       "item.test.mandraflora_mob_spawn_egg": "Mandraflora Spawn Egg",
-      "subtitles.footstep_dry_dirt": "footstep_dry_dirt",
+      "subtitles.footstep_dry_dirt": "block_drydirt",
       "block.minebound.reinforced_tech_block_slab": "Reinforced Tech Slab",
       "block.minebound.mossy_packed_dirt": "Mossy Packed Dirt",
       "block.minebound.smoothcobblestone": "Cobblestone",
@@ -12283,6 +14259,7 @@
       "entity.minebound.spookit_mob": "Spookit",
       "subtitles.stone_hitting_slowed1": "stone_hitting_slowed",
       "item.test.yokat_mob_spawn_egg": "Yokat Spawn Egg",
+      "biome.minebound.colourful_mini_biome": "Colorful",
       "subtitles.atom2": "hitting_sound2",
       "entity.test.pulpin_mob": "Pulpin",
       "entity.test.trictus_mob": "Trictus",
@@ -12293,7 +14270,7 @@
       "block.minebound.treated_wood": "Treated Wood",
       "item.test.parasprite_mob_spawn_egg": "Parasprite Spawn Egg",
       "effect.minebound.deadly_heat": "Deadly Heat",
-      "subtitles.footstep_ash": "footstep_ash1",
+      "subtitles.footstep_ash": "block_ash",
       "item.minebound.mountain_topper_dim": "Mountain Topper Dim Portal Igniter",
       "item.minebound.swarpion_mob_spawn_egg": "Swarpion Spawn Egg",
       "entity.test.nutmidge_mob": "Nutmidge",
@@ -12304,6 +14281,8 @@
       "entity.minebound.quagmutt_mob": "Quagmutt",
       "entity.minebound.petricub_mob": "Petricub",
       "block.minebound.smooth_plated_block": "Smooth Plated Block",
+      "item.minebound.desert_planet": "",
+      "item.minebound.volcanic_planet": "",
       "subtitles.footspet_stone": "footspet_stone",
       "item.minebound.ignome_mob_spawn_egg": "Ignome Spawn Egg",
       "entity.minebound.astrofae_mob": "Astrofae",
@@ -12312,8 +14291,9 @@
       "entity.test.peblit_mob": "Peblit",
       "entity.minebound.mech_test_leg_left": "Mech Test Leg Left",
       "item.test.batong_mob_spawn_egg": "Batong Spawn Egg",
+      "item.minebound.asteroid_field": "",
       "block.minebound.asphalt_slab": "Asphalt Slab",
-      "subtitles.footstep_dirt": "footstep_dirt",
+      "subtitles.footstep_dirt": "block_dirt",
       "entity.test.monopus_mob_charging": "Monopus",
       "item.minebound.durasteel_bar": "Durasteel Bar",
       "entity.test.skimbus_mob": "Skimbus",
@@ -12330,6 +14310,7 @@
       "item.minebound.narfin_mob_spawn_egg": "Narfin Spawn Egg",
       "item.minebound.scandroid_mob_charging_spawn_egg": "Scandroid Spawn Egg",
       "entity.minebound.parasprite_mob": "Parasprite",
+      "biome.minebound.ancient_vault_biome": "Ancient Vault",
       "item.test.trifangle_mob_spawn_egg": "Trifangle Spawn Egg",
       "item.minebound.agrobat_mob_resting_spawn_egg": "Agrobat Spawn Egg",
       "entity.minebound.tentacle_clam_mob": "Tentacle Clam",
@@ -12349,7 +14330,7 @@
       "block.minebound.slush": "Slush",
       "entity.test.chicken_mob": "Chicken",
       "item.minebound.racer_mob_5_spawn_egg": "Racer Mob Spawn Egg",
-      "subtitles.inventory_putdown1": "inventory_putdown1",
+      "subtitles.inventory_putdown1": "block_placed",
       "block.test.limestone": "Limestone",
       "entity.test.crustoise_mob": "Crustoise",
       "block.minebound.geodestone": "Geode Stone",
@@ -12364,7 +14345,8 @@
       "block.test.fleshpile": "Flesh pile",
       "item.minebound.polet_mob_spawn_egg": "Po Spawn Egg",
       "block.minebound.ancient_brick_slab": "Ancient Brick Slab",
-      "subtitles.footstep_rooftile": "footstep_rooftile",
+      "subtitles.footstep_rooftile": "block_rooftile",
+      "biome.minebound.moon_4_biome": "Moon (Frozen)",
       "item.test.snaunt_mob_spawn_egg": "Snaunt Spawn Egg",
       "block.minebound.unrefined_limestone": "Unrefined Limestone",
       "block.minebound.shadow_bricks_block": "Shadow Bricks Block",
@@ -12382,10 +14364,11 @@
       "item.minebound.chicken_mob_spawn_egg": "Chicken Spawn Egg",
       "effect.minebound.poisoned": "Poisoned",
       "block.minebound.outpost_concrete_slab": "Outpost Concrete Slab",
-      "subtitles.footstep_stone3": "footstep_stone3",
+      "subtitles.footstep_stone3": "block_stone3",
+      "item.minebound.ancient_vault": "",
       "entity.test.lilodon_mob": "Lilodon",
       "block.test.geodestone": "Geode Stone",
-      "block.minebound.outpost_thick_support_beam": "Outpost Thick  Support Beam ",
+      "block.minebound.outpost_thick_support_beam": "Outpost Thick Support Beam ",
       "item.minebound.moontant_mob_spawn_egg": "Moontant Spawn Egg",
       "item.test.poling_mob_spawn_egg": "Po Spawn Egg",
       "fluid.minebound.core_lava": "Core Lava",
@@ -12395,7 +14378,7 @@
       "entity.test.miasmop_mob": "Miasmob",
       "item.minebound.poptop_mob_spawn_egg": "Poptop Spawn Egg",
       "item.minebound.racer_mob_6_spawn_egg": "Racer Mob Spawn Egg",
-      "subtitles.footstep_rock": "rock_footstep1",
+      "subtitles.footstep_rock": "block_rock",
       "item.test.core_lava_bucket": "Core Lava Bucket",
       "item.minebound.chiropterror_mob_spawn_egg": "Chiropterror Spawn Egg",
       "block.minebound.platinum_block": "Platinum Block",
@@ -12423,8 +14406,9 @@
       "item.test.king_nutmidgeling_mob_spawn_egg": "King Nutmidgeling Spawn Egg",
       "fluid.test.poison": "Poison",
       "item.test.skimbus_mob_spawn_egg": "Skimbus Spawn Egg",
-      "subtitles.footstep_wood": "footstep_wood1",
+      "subtitles.footstep_wood": "block_wood",
       "item.minebound.monopus_mob_charging_spawn_egg": "Monopus Spawn Egg",
+      "biome.minebound.desert_barren_biome": "Barren",
       "item.minebound.hemogoblin_mob_spawn_egg": "Hemogoblin Spawn Egg",
       "block.minebound.heavy_stone_bricks_slab": "Heavy Stone Bricks Slab",
       "entity.test.king_nutmidgeling_mob": "King Nutmidgeling",
@@ -12435,6 +14419,7 @@
       "item.test.mech_test_leg_right_spawn_egg": "Mech Test Leg Right Spawn Egg",
       "block.minebound.smooth_tomb_bricks_slab": "Smooth Tomb Bricks Slab",
       "block.minebound.vine_block": "Vine Block",
+      "biome.minebound.decayed_volcanic_biome": "Volcanic",
       "block.test.test_light_block": "Test Light Block",
       "item.test.mother_poptop_mob_spawn_egg": "Mother Poptop Spawn Egg",
       "entity.minebound.heavy_drone_mob": "Heavy Drone",
@@ -12450,8 +14435,11 @@
       "item.test.squeem_mob_spawn_egg": "Squeem Spawn Egg",
       "block.minebound.wooden_blinds": "Wooden Blinds",
       "entity.minebound.petropod_mob": "Pteropod",
+      "biome.minebound.barren_biome": "Barren",
+      "biome.minebound.wilderness_underground_b_iome": "Wilderness",
       "item.test.poptop_mob_spawn_egg": "Poptop Spawn Egg",
       "block.minebound.frozendirt": "Frozen dirt",
+      "biome.minebound.slime_caves_underground_b_iome": "Slime Caves",
       "block.minebound.thicksnow": "Snow",
       "item.minebound.kluex_totem_mob_spawn_egg": "Kluex Totem Spawn Egg",
       "block.minebound.wall_slab": "Wall Slab",
@@ -12465,7 +14453,8 @@
       "item.minebound.fluffalo_mob_spawn_egg": "Fluffalo Spawn Egg",
       "entity.test.racer_mob_1": "Racer Mob",
       "block.minebound.ornate_wall": "Ornate Wall",
-      "subtitles.footstep_stone2": "footstep_stone2",
+      "subtitles.footstep_stone2": "block_stone2",
+      "biome.minebound.moon_2_biome": "Moon (Temperate)",
       "entity.test.racer_mob_5": "Racer Mob",
       "block.minebound.obsidian": "Obsidian",
       "entity.test.racer_mob_4": "Racer Mob",
@@ -12481,6 +14470,7 @@
       "block.minebound.copper_fence_corner_3": "Copper Fence Corner3",
       "block.minebound.test_door": "Test Door",
       "block.minebound.glyph_block": "Glyph Block",
+      "biome.minebound.moon_1_biome": "Moon (Gentle)",
       "block.minebound.sand": "Sand",
       "subtitles.breaking_bone": "breaking_bones",
       "entity.test.batong_mob": "Batong",
@@ -12493,8 +14483,10 @@
       "item.minebound.solarium_star": "Solarium Star",
       "entity.test.snuffish_mob": "Snuffish",
       "item.test.mooshi_mob_spawn_egg": "Mooshi Spawn Egg",
+      "biome.minebound.volcanic_decayed_biome": "Decayed",
       "block.test.test_button": "Test Button",
       "item.minebound.nutmidgeling_mob_spawn_egg": "Nutmidgeling Spawn Egg",
+      "biome.minebound.eyepatch_mini_biome": "Eyepatch",
       "block.minebound.grassy_rock": "Grassy Rock",
       "death.attack.poison": "Was poisoned",
       "subtitles.breaking_crystal": "breaking_crystal",
@@ -12506,7 +14498,7 @@
       "item.test.masteroid_mob_m_spawn_egg": "Masteroid Spawn Egg",
       "entity.test.narfin_mob": "Narfin",
       "block.minebound.ornate_roofing": "Ornate Roofing Block",
-      "subtitles.footstep_gravel": "footstep_gravel",
+      "subtitles.footstep_gravel": "block_gravel",
       "effect.minebound.deadlyradiation": "Deadly Radiation",
       "item.minebound.monopus_mob_spawn_egg": "Monopus Spawn Egg",
       "block.minebound.outpost_concrete": "Outpost Concrete Block",
@@ -12519,6 +14511,8 @@
       "entity.test.spinemine_mob": "Spinemine",
       "effect.test.wet": "Wet",
       "biome.test.emptyspace": "Emptyspace",
+      "item.minebound.midnight_planet": "",
+      "biome.minebound.tar_mini_biome": "Tar",
       "entity.minebound.voltip_mob": "Voltip",
       "item.test.paratail_mob_spawn_egg": "Paratail Spawn Egg",
       "item.test.test_monster_stat_item": "Test Monster Stat Item",
@@ -12526,24 +14520,32 @@
       "entity.minebound.nutmidgeling_mob": "Nutmidgeling",
       "block.test.geodecrystals": "Geode Crystals",
       "entity.minebound.hemogoblin_mob_rear": "-goblin",
+      "biome.minebound.savannah_biome": "Savannah",
       "block.minebound.heavy_stone_bricks_stairs": "Heavy Stone Bricks",
       "subtitles.breaking_snow": "breaking_snow1",
-      "block.minebound.ship_support_slab": "Ship Support Block",
+      "block.minebound.ship_support_slab": "Ship Support Slab",
+      "biome.minebound.asteroid_field_biome": "Asteroid Field",
       "entity.test.capricoat_mob": "Capricoat",
+      "biome.minebound.brain_underground_b_iome": "Brain",
       "entity.test.bulbop_mob": "Bulbop",
+      "biome.minebound.forest_jungle_biome": "Jungle",
       "block.minebound.blaststone": "Blaststone",
       "block.test.blueglowrock": "Blue Glow Rock",
       "entity.test.tentacle_ghost_mob": "Tentacle Ghost",
       "block.minebound.blackglass": "Black Glass",
+      "biome.minebound.hive_mini_biome": "Hive",
       "item.minebound.tentacle_gnat_mob_spawn_egg": "Tentacle Gnat Spawn Egg",
+      "biome.minebound.spring_mini_biome": "Spring",
       "block.test.icematerial": "Ice ",
       "block.minebound.ornate_flooring_slab": "Ornate Flooring Slab",
       "block.minebound.light_metal_slab": "Light Metal Slab",
+      "biome.minebound.forest_biome": "Forest",
       "item.test.hypnare_mob_spawn_egg": "Hypnare Spawn Egg",
       "item.minebound.ringram_mob_spawn_egg": "Ringram Spawn Egg",
       "entity.test.ixoling_mob": "Ixoling",
       "item.test.oogler_mob_spawn_egg": "Oogler Spawn Egg",
       "block.minebound.sandstone_bricks": "Sandstone Bricks",
+      "biome.minebound.flesh_mini_biome": "Flesh",
       "entity.minebound.poptop_mob": "Poptop",
       "block.minebound.temple_slab": "Temple Slab",
       "entity.test.snaunt_mob": "Snaunt",
@@ -12556,15 +14558,17 @@
       "item.minebound.mattermanipulatorbeta": "Matter manipulator beta",
       "entity.minebound.kluex_totem_mob": "Kluex Totem",
       "item.test.cosmostache_mob_spawn_egg": "Cosmostache Spawn Egg",
-      "block.minebound.shadow_spiked_block": "Shadow Spiked Block",
+      "block.minebound.shadow_spiked_block": "Shadow Spike Block",
       "block.minebound.flower_block": "Flower Block",
       "entity.test.taroni_mob": "Taroni",
       "entity.test.triplod_mob": "Triplod",
-      "subtitles.footstep_composite": "footstep_composite1",
+      "item.minebound.garden_planet": "",
+      "subtitles.footstep_composite": "block_composite",
       "fluid.test.core_lava": "Core Lava",
       "block.minebound.deadcore": "Deadcore",
       "item.minebound.hemogoblin_mob_front_spawn_egg": "Hemo- Spawn Egg",
       "block.minebound.ancient_brick_block": "Ancient Brick Block",
+      "biome.minebound.alpine_mini_biome": "Alpine",
       "entity.minebound.robot_chicken_mob": "Robot Chicken",
       "block.minebound.outpost_concrete_wall": "Outpost Concrete Wall",
       "item.test.nutmidgeling_mob_spawn_egg": "Nutmidgeling Spawn Egg",
@@ -12574,7 +14578,7 @@
       "entity.minebound.bobot_mob": "Bobot",
       "entity.minebound.oculob_mob": "Oculob",
       "item.minebound.scaveran_mob_spawn_egg": "Scaveran Spawn Egg",
-      "block.minebound.ancient_stairs": "Ancient Block",
+      "block.minebound.ancient_stairs": "Ancient Stairs",
       "block.minebound.hitech_block": "Hi-tech Block",
       "entity.minebound.polet_mob": "Po",
       "block.minebound.smoothice": "Smooth Ice",
@@ -12585,6 +14589,7 @@
       "block.minebound.drysand": "Dry Sand",
       "entity.test.trictus_mob_resting": "Trictus",
       "block.minebound.metal_bars": "Metal Bars",
+      "biome.minebound.bones_mini_biome": "Bones",
       "block.minebound.small_temple_bricks": "Small Temple Bricks",
       "gui.test.mm_upgrade_gui_test.button_empty11": "Range Upgrade 3",
       "gui.test.mm_upgrade_gui_test.button_empty10": "Range Upgrade 2",
@@ -12607,7 +14612,9 @@
       "block.minebound.unrefined_conglomerate": "Unrefined Conglomerate",
       "subtitles.breaking_slush": "breaking_slush1",
       "block.test.coarsegravel": "Coarse Gravel",
+      "item.minebound.ocean_planet": "",
       "block.minebound.sandstone_bricks_slab": "Sandstone Bricks Slab",
+      "item.minebound.decayed_planet": "",
       "item.test.orbide_mob_spawn_egg": "Orbide Spawn Egg",
       "entity.test.mech_test_leg_right": "Mech Test Leg Right",
       "item.test.kluex_totem_mob_spawn_egg": "Kluex Totem Spawn Egg",
@@ -12615,6 +14622,7 @@
       "block.minebound.wooden_bridge_block": "Wooden Bridge Block",
       "item.test.chiropterror_mob_spawn_egg": "Chiropterror Spawn Egg",
       "block.minebound.cabin_roofing_stairs": "Cabin Roofing Block Stairs",
+      "biome.minebound.steamspring_mini_biome": "Steamspring",
       "entity.minebound.narfin_mob": "Narfin",
       "item.minebound.mech_test_arm_right_spawn_egg": "Mech Test Arm Right Spawn Egg",
       "block.minebound.concrete_stairs": "Concrete Stairs",
@@ -12627,10 +14635,10 @@
       "entity.test.mini_drone_mob": "Mini Drone",
       "item.minebound.sporgus_mob_spawn_egg": "Sporgus Spawn Egg",
       "item.test.scandroid_mob_spawn_egg": "Scandroid Spawn Egg",
-      "block.minebound.shadow_spiked_slab": "Shadow Spiked Block",
+      "block.minebound.shadow_spiked_slab": "Shadow Spike Block",
       "item.minebound.racer_mob_3_spawn_egg": "Racer Mob Spawn Egg",
       "subtitles.breaking_sand": "breaking_sand",
-      "subtitles.footstep_slush": "footsstep_slush1",
+      "subtitles.footstep_slush": "block_slush",
       "block.minebound.sod_slab": "Sod Block Slab",
       "entity.minebound.racer_mob_5": "Racer Mob",
       "entity.minebound.player_head_hud_entity": "Player",
@@ -12656,6 +14664,7 @@
       "entity.minebound.wisper_mob": "Wisper",
       "entity.minebound.rustick_mob": "Rustick",
       "block.minebound.pile_of_eyes": "Pile Of Eyes",
+      "biome.minebound.mutated_savannah_biome": "Savannah",
       "entity.minebound.iguarmor_mob": "Iguarmor",
       "block.minebound.cacti": "Cacti",
       "block.minebound.small_stone_bricks_slab": "Small Stone Bricks Slab",
@@ -12665,6 +14674,7 @@
       "block.minebound.small_tomb_bricks_slab": "Small Tomb Bricks Slab",
       "item.minebound.fluffalo_electric_mob_spawn_egg": "Electric Fluffalo Spawn Egg",
       "entity.test.pipkin_mob": "Pipkin",
+      "biome.minebound.oasis_mini_biome": "Oasis",
       "block.minebound.copper_roofing": "Copper Roofing",
       "item.minebound.masteroid_mob_m_spawn_egg": "Masteroid Spawn Egg",
       "block.minebound.loosesilt": "Loose Silt",
@@ -12674,6 +14684,7 @@
       "block.minebound.unrefined_arkose": "Unrefined Arkose",
       "item.minebound.ferozium_ore": "Ferozium Ore",
       "item.test.hemogoblin_mob_spawn_egg": "Hemogoblin Spawn Egg",
+      "item.minebound.snow_planet": "",
       "block.minebound.alienrock": "Alien Rock",
       "item.test.tentacle_crawler_mob_spawn_egg": "Tentacle Crawler Spawn Egg",
       "entity.test.tentacle_crawler_mob": "Tentacle Crawler",
@@ -12693,10 +14704,11 @@
       "effect.minebound.shield_generator_effect": "Shield Generator",
       "subtitles.rock_hitting1": "rock_hitting1",
       "item.test.bobot_mob_charging_spawn_egg": "Bobot Spawn Egg",
-      "subtitles.footstep_sand": "footstep_sand",
+      "subtitles.footstep_sand": "block_sand",
       "item.minebound.oogler_mob_spawn_egg": "Oogler Spawn Egg",
       "block.minebound.silver_block": "Silver Block",
       "item.minebound.tungsten_ore": "Tungsten Ore",
+      "biome.minebound.moon_3_biome": "Moon (Radioactive)",
       "item.minebound.pulpin_mob_spawn_egg": "Pulpin Spawn Egg",
       "block.minebound.wicker": "Wicker",
       "effect.minebound.wet": "Wet",
@@ -12705,14 +14717,19 @@
       "subtitles.hitting_clay1": "hitting_clay1",
       "entity.test.scaveran_mob": "Scaveran",
       "item.minebound.paratail_mob_spawn_egg": "Paratail Spawn Egg",
-      "subtitles.footstep_mud": "footstep_mud",
+      "subtitles.footstep_mud": "block_mud",
+      "biome.minebound.mushroom_patch_mini_biome": "Mushroom Patch",
       "block.minebound.unrefined_andesite": "Unrefined Andesite",
       "item.test.scandroid_mob_charging_spawn_egg": "Scandroid Spawn Egg",
       "entity.minebound.block_indicator_entity_3": "Block Indicator Entity",
+      "biome.minebound.mushrooms_underground_biome": "Mushrooms",
       "entity.minebound.block_indicator_entity_2": "Wire Indicator Entity",
+      "biome.minebound.giant_flowers_mini_biome": "Giant Flowers",
       "entity.minebound.block_indicator_entity_1": "Block Indicator Entity",
+      "biome.minebound.midnight_tundra_biome": "Tundra",
       "entity.minebound.gosmet_mob": "Gosmet",
       "item.test.agrobat_mob_spawn_egg": "Agrobat Spawn Egg",
+      "item.minebound.tundra_planet": "",
       "entity.test.petropod_mob": "Pteropod",
       "item.test.orbital": "Orbital Portal Igniter",
       "item.minebound.mech_test_arm_left_spawn_egg": "Mech Test Arm Left Spawn Egg",
@@ -12720,8 +14737,10 @@
       "item.test.block_indicator_entity_3_spawn_egg": "Block Indicator Entity Spawn Egg",
       "block.minebound.limestone": "Limestone",
       "block.minebound.small_tomb_bricks": "Small Tomb Bricks",
+      "biome.minebound.jungle_biome": "Jungle",
       "item.test.mattermanipulatorbeta": "Matter manipulator beta",
       "entity.test.oogler_mob": "Oogler",
+      "biome.minebound.asteroids_mini_biome": "Asteroids",
       "entity.test.tintic_mob": "Tintic",
       "entity.minebound.snaggler_mob": "Snaggler",
       "block.minebound.clay": "Clay",
@@ -12736,6 +14755,7 @@
       "block.minebound.test_light_off": "Test Light (Off)",
       "item.test.crabcano_mob_spawn_egg": "Crabcano Spawn Egg",
       "item.test.voltip_mob_spawn_egg": "Voltip Spawn Egg",
+      "biome.minebound.snow_garden_biome": "Garden",
       "entity.test.hemogoblin_mob_rear": "-goblin",
       "entity.test.hemogoblin_mob": "Hemogoblin",
       "entity.test.mech_test_arm_right": "Mech Test Arm Right",
@@ -12761,6 +14781,8 @@
       "item.minebound.trifangle_mob_spawn_egg": "Trifangle Spawn Egg",
       "item.minebound.copper_ore": "Copper Ore",
       "effect.test.shield_generator_effect": "Shield Generator",
+      "item.minebound.jungle_planet": "",
+      "subtitles.footstep_clay": "block_clay",
       "block.minebound.pressurised_thick_beam": "Pressurised Thick Beam ",
       "entity.test.nutmidge_mob_charging": "Nutmidge",
       "entity.test.hemogoblin_mob_front": "Hemo-",
@@ -12781,17 +14803,20 @@
       "entity.minebound.fluffalo_mob": "Fluffalo",
       "item.test.iguarmor_mob_spawn_egg": "Iguarmor Spawn Egg",
       "entity.minebound.peblit_mob_resting": "Peblit",
-      "subtitles.footstep_metallic": "footstep_metallic1",
+      "subtitles.footstep_metallic": "block_metallic",
       "block.minebound.pillar_block_top": "Pillar Block Top",
       "block.test.hiveblock": "Hive Block",
       "block.minebound.cobblestone_bricks": "Cobblestone Bricks",
+      "biome.minebound.stone_caves_underground_b_iome": "Stone Caves",
       "item.test.racer_mob_1_spawn_egg": "Racer Mob Spawn Egg",
       "entity.minebound.tentacle_gnat_mob": "Tentacle Gnat",
+      "biome.minebound.desert_biome": "Desert",
       "item.test.test_dim": "Test Dim Portal Igniter",
       "block.minebound.fleshchunk": "Flesh Chunk",
       "item.test.monopus_mob_charging_spawn_egg": "Monopus Spawn Egg",
-      "subtitles.footstep_ice": "footstep_ice",
+      "subtitles.footstep_ice": "block_ice",
       "item.minebound.gold_bar": "Gold Bar",
+      "biome.minebound.tentacle_biome": "Tentacle",
       "block.minebound.ornate_wall_slab": "Ornate Wall Slab",
       "item.test.fennix_mob_spawn_egg": "Fennix Spawn Egg",
       "entity.test.fluffalo_poison_mob": "Poison Fluffalo",
@@ -12802,7 +14827,7 @@
       "gui.minebound.mm_upgrade_gui_test.button_empty8": "Speed Upgrade 3",
       "gui.minebound.mm_upgrade_gui_test.button_empty9": "Range Upgrade 1",
       "entity.minebound.mandraflora_mob": "Mandraflora",
-      "subtitles.footstep_snow": "footstep_now1",
+      "subtitles.footstep_snow": "block_snow",
       "gui.minebound.mm_upgrade_gui_test.button_empty4": "Area Upgrade 2",
       "entity.test.chiropterror_mob": "Chiropterror",
       "item.minebound.iron_ore": "Iron Ore",
@@ -12813,17 +14838,21 @@
       "gui.minebound.mm_upgrade_gui_test.button_empty7": "Speed Upgrade 2",
       "entity.test.punchy_mob": "Punchy",
       "block.minebound.packed_bones": "Packed Bones",
+      "biome.minebound.bone_caves_underground_biome": "Bone Caves",
       "block.minebound.wet_dirt": "Wet Dirt",
       "block.minebound.plant_block": "Plant Block",
       "entity.test.scandroid_mob": "Scandroid",
       "block.minebound.grassy_stairs": "Grassy Rock Stairs",
       "block.minebound.pillar_block_middle": "Pillar Block Middle",
       "item.minebound.mini_drone_mob_spawn_egg": "Mini Drone Spawn Egg",
+      "item.minebound.savannah_planet": "",
       "entity.minebound.batong_mob": "Batong",
       "block.minebound.moon_dust": "Moondust",
+      "biome.minebound.jungle_mutated_biome": "Mutated",
       "subtitles.brain_breaking1": "brain_breaking1",
       "fluid.minebound.poison": "Poison",
       "subtitles.breaking_dry_dirt": "breaking_dry_dirt",
+      "biome.minebound.ice_caves_underground_b_iome": "Ice Caves",
       "item.minebound.bobfae_mob_spawn_egg": "Bobfae Spawn Egg",
       "item.minebound.masteroid_mob_l_spawn_egg": "Masteroid Spawn Egg",
       "item.minebound.anglure_mob_spawn_egg": "Anglure Spawn Egg",
@@ -12838,7 +14867,7 @@
       "entity.minebound.trifangle_mob": "Trifangle",
       "item.minebound.crystal_erchius_fuel": "Crystal Erchius Fuel",
       "item.minebound.oculob_mob_spawn_egg": "Oculob Spawn Egg",
-      "block.minebound.petal_blocks": "Petal Blocks",
+      "block.minebound.petal_blocks": "Petal Block",
       "entity.test.fluffalo_ice_mob": "Ice Fluffalo",
       "item.minebound.violium_ore": "Violium Ore",
       "biome.minebound.moon_biome": "Moon",
@@ -12846,13 +14875,18 @@
       "entity.test.twigun_mob": "Twigun",
       "block.minebound.wooden_fence": "Wooden Fence",
       "entity.test.voltip_mob": "Voltip",
-      "subtitles.footstep_girder": "footstep_girder1",
+      "subtitles.footstep_girder": "block_girder",
       "item.test.poison_bucket": "Measure of Poison",
+      "item.minebound.moon_5": "",
       "item.test.wisper_mob_spawn_egg": "Wisper Spawn Egg",
+      "item.minebound.moon_4": "",
       "block.minebound.copper_fence": "Copper Fence",
       "item.test.po_golem_mob_spawn_egg": "Po Golem Spawn Egg",
+      "item.minebound.moon_1": "",
+      "item.minebound.moon_3": "",
       "item.minebound.petropod_mob_spawn_egg": "Pteropod Spawn Egg",
       "entity.minebound.smoglin_mob": "Smoglin",
+      "item.minebound.moon_2": "",
       "item.minebound.batong_mob_resting_spawn_egg": "Batong Spawn Egg",
       "block.minebound.tar": "Tar",
       "entity.test.tentacle_clam_mob": "Tentacle Clam",
@@ -12860,6 +14894,7 @@
       "item.minebound.mech_test_body_spawn_egg": "Mech Test Body Spawn Egg",
       "item.minebound.core_fragment": "Core Fragment",
       "item.minebound.racer_mob_4_spawn_egg": "Racer Mob Spawn Egg",
+      "item.minebound.mutated_planet": "",
       "block.minebound.geodecrystals": "Geode Crystals",
       "block.minebound.outpost_wall_block": "Outpost Wall Block",
       "block.minebound.shoji_screen_slab": "Shoji Screen Slab",
@@ -12885,13 +14920,14 @@
       "item.minebound.mandraflora_mob_spawn_egg": "Mandraflora Spawn Egg",
       "item.test.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
       "entity.minebound.cosmostache_mob": "Cosmostache",
-      "subtitles.footstep_grass": "footstep_grass1",
+      "subtitles.footstep_grass": "block_grass",
       "entity.minebound.ignome_mob": "Ignome",
       "entity.minebound.moontant_mob": "Moontant",
       "entity.minebound.bobfae_mob": "Bobfae",
       "block.minebound.temple_stairs": "Temple Stairs",
       "entity.minebound.scaveran_mob": "Scaveran",
       "item.minebound.adult_poptop_mob_spawn_egg": "Adult Poptop Spawn Egg",
+      "item.minebound.gas_giant": "",
       "entity.minebound.erchius_ghost_mob": "Erchius Ghost",
       "entity.test.pyromantle_mob": "Pyromantle",
       "entity.test.robot_chicken_mob": "Robot Chicken",
@@ -12899,12 +14935,15 @@
       "entity.test.block_indicator_entity_1": "Block Indicator Entity",
       "block.minebound.classic_baseboard": "Classic Baseboard",
       "entity.test.block_indicator_entity_2": "Wire Indicator Entity",
+      "biome.minebound.toxic_biome": "Toxic",
       "entity.test.iguarmor_mob": "Iguarmor",
       "entity.test.block_indicator_entity_3": "Block Indicator Entity",
       "block.minebound.bricks": "Bricks",
-      "subtitles.footstep_treasure": "footstep_treasure1",
+      "subtitles.footstep_treasure": "block_treasure",
+      "biome.minebound.midnight_biome": "Midnight",
       "item.minebound.hypnare_mob_spawn_egg": "Hypnare Spawn Egg",
       "entity.minebound.scandroid_mob": "Scandroid",
+      "biome.minebound.flesh_caves_underground_b_iome": "Flesh Caves",
       "entity.test.petricub_mob": "Petricub",
       "entity.minebound.pulpin_mob": "Pulpin",
       "itemGroup.tabnaturaltiles": "Natural Blocks",
@@ -12912,6 +14951,7 @@
       "block.minebound.plant_block_slab": "Plant Block Slab",
       "effect.minebound.spooked": "Spooked",
       "block.minebound.packed_dirt": "Packed Dirt",
+      "biome.minebound.magma_biome": "Magma",
       "entity.minebound.mother_poptop_mob": "Mother Poptop",
       "block.minebound.concrete_block": "Concrete Block",
       "item.minebound.snaunt_mob_spawn_egg": "Snaunt Spawn Egg",
@@ -12921,6 +14961,7 @@
       "block.minebound.wooden_log": "Wooden Log",
       "item.minebound.triplod_mob_spawn_egg": "Triplod Spawn Egg",
       "effect.test.poisoned": "Poisoned",
+      "item.minebound.magma_planet": "",
       "item.test.sporgus_mob_spawn_egg": "Sporgus Spawn Egg",
       "block.minebound.reinforced_tech_block": "Reinforced Tech Block",
       "block.minebound.unrefined_chert": "Unrefined Chert",
@@ -12945,13 +14986,15 @@
       "block.minebound.test_redstone_off": "Test Redstone (Off)",
       "entity.test.masteroid_mob_l": "Masteroid",
       "item.test.quagmutt_mob_spawn_egg": "Quagmutt Spawn Egg",
-      "subtitles.footstep_clay1": "footstep_clay1",
+      "subtitles.footstep_clay1": "block_clay",
       "entity.test.masteroid_mob_m": "Masteroid",
-      "subtitles.footstep_crystals": "footstep_crystals",
+      "subtitles.footstep_crystals": "block_crystals",
       "item.minebound.crustoise_mob_spawn_egg": "Crustoise Spawn Egg",
       "subtitles.breaking_wood": "breaking_wood1",
       "block.minebound.unmarked_tomb_bricks": "Unmarked Tomb Bricks",
       "item.test.oculob_mob_spawn_egg": "Oculob Spawn Egg",
+      "biome.minebound.swamp_mini_biome": "Swamp",
+      "biome.minebound.luminous_caves_underground_b_iome": "Luminous Caves",
       "block.minebound.metal_railing": "Metal Railing",
       "entity.minebound.twigun_mob": "Twigun",
       "item.minebound.capricoat_mob_spawn_egg": "Capricoat Spawn Egg",
@@ -12965,8 +15008,10 @@
       "block.test.junkpile": "Junk Pile",
       "subtitles.energy_full1": "energy_full1",
       "item.minebound.iron_bar": "Iron Bar",
-      "subtitles.footstep_bone": "footstep_bone",
+      "subtitles.footstep_bone": "block_bone",
       "item.minebound.bobot_mob_charging_spawn_egg": "Bobot Spawn Egg",
+      "biome.minebound.arctic_biome": "Arctic",
+      "biome.minebound.savannah_desert_biome": "Desert",
       "block.minebound.ridge_block": "Ridge Block",
       "entity.minebound.agrobat_mob": "Agrobat",
       "entity.test.fluffalo_fire_mob": "Fire Fluffalo",
@@ -12974,12 +15019,14 @@
       "block.minebound.light_metal": "Light Metal",
       "block.minebound.core_lava": "Core Lava",
       "block.minebound.shoji_screen_stairs": "Shoji Screen Block",
+      "gui.minebound.ship_dimension_select_gui_test.dimensionInput": "type minebound:name_planet",
       "block.minebound.black_block": "...",
       "item.test.masteroid_mob_spawn_egg": "Masteroid Spawn Egg",
-      "subtitles.footstep_light_wood": "footstep_light_wood1",
+      "subtitles.footstep_light_wood": "block_lightwood",
       "item.test.higher": "Higher Portal Igniter",
       "item.minebound.erchius_ghost_mob_spawn_egg": "Erchius Ghost Spawn Egg",
       "entity.minebound.ixoling_mob": "Ixoling",
+      "item.minebound.barren_planet": "",
       "item.test.agrobat_mob_resting_spawn_egg": "Agrobat Spawn Egg",
       "item.test.anglure_mob_spawn_egg": "Anglure Spawn Egg",
       "item.minebound.block_indicator_entity_3_spawn_egg": "Block Indicator Entity Spawn Egg",
@@ -13021,16 +15068,19 @@
       "biome.test.no_snow_high_up_biome": "No Snow High Up Biome",
       "entity.minebound.po_golem_mob": "Po Golem",
       "item.minebound.fluffalo_ice_mob_spawn_egg": "Ice Fluffalo Spawn Egg",
+      "biome.minebound.decayed_biome": "Decayed",
+      "biome.minebound.tarpit_underground_b_iome": "Tarpit",
       "item.test.crutter_mob_spawn_egg": "Crutter Spawn Egg",
       "item.minebound.higher": "Higher Portal Igniter",
       "block.minebound.slime_glob": "Slime Glob",
       "item.minebound.skimbus_mob_spawn_egg": "Skimbus Spawn Egg",
-      "subtitles.footstep_tallgrass": "footstep_tallgrass",
+      "subtitles.footstep_tallgrass": "block_tallgrass",
       "block.minebound.tacky_wallpaper_block": "Tacky Wallpaper Block",
-      "block.minebound.shadow_rock_stairs": "Shadow Rock",
+      "block.minebound.shadow_rock_stairs": "Shadow Rock Stairs",
       "block.minebound.temple_brickswall": "Temple Bricks Wall",
       "item.minebound.mech_test_leg_right_spawn_egg": "Mech Test Leg Right Spawn Egg",
       "item.minebound.masteroid_mob_s_spawn_egg": "Masteroid Spawn Egg",
+      "biome.minebound.shallow_ocean_biome": "Shallow Ocean",
       "entity.test.ignome_mob": "Ignome",
       "item.minebound.ixoling_mob_spawn_egg": "Ixoling Spawn Egg",
       "entity.test.mech_test_leg_left": "Mech Test Leg Left",
@@ -13038,12 +15088,14 @@
       "entity.test.poling_mob": "Po",
       "item.test.pulpin_mob_spawn_egg": "Pulpin Spawn Egg",
       "item.test.twigun_mob_spawn_egg": "Twigun Spawn Egg",
+      "biome.minebound.geode_mini_biome": "Geode",
       "item.minebound.parasprite_mob_spawn_egg": "Parasprite Spawn Egg",
       "item.minebound.silver_bar": "Silver Bar",
       "entity.test.agrobat_mob_resting": "Agrobat",
       "item.minebound.refined_aegisalt": "Refined Aegisalt",
       "entity.test.swarpion_mob": "Swarpion",
       "item.test.weather_test_dim": "Weather Test Dim Portal Igniter",
+      "item.minebound.toxic_planet": "",
       "block.minebound.test_redstone_on": "Test Redstone (On)",
       "block.minebound.small_stone_bricks": "Small Stone Bricks",
       "block.minebound.unrefined_gritstone": "Unrefined Gritstone",
@@ -13056,9 +15108,12 @@
       "entity.test.crutter_mob": "Crutter",
       "block.minebound.mirror_block": "Mirror Block",
       "block.minebound.stonerubble": "Stone Rubble",
+      "biome.minebound.tundra_biome": "Tundra",
       "entity.minebound.lilodon_mob": "Lilodon",
+      "biome.minebound.bioluminescence_mini_biome": "Bioluminescence",
+      "biome.minebound.garden_forest_biome": "Forest",
       "entity.minebound.paratail_mob": "Paratail",
-      "subtitles.footstep_brains": "footstep_brains",
+      "subtitles.footstep_brains": "block_brains",
       "block.test.core_lava": "Core Lava",
       "item.minebound.tungsten_bar": "Tungsten Bar",
       "item.minebound.prism_shard": "Prism Shard",
@@ -13067,6 +15122,7 @@
       "block.minebound.poison": "Poison",
       "item.test.miasmop_mob_spawn_egg": "Miasmob Spawn Egg",
       "block.test.jellyblob": "Jelly Blob",
+      "biome.minebound.volcanic_biome": "Volcanic",
       "block.test.test_redstone_off": "Test Redstone (Off)",
       "entity.minebound.pyromantle_mob": "Pyromantle",
       "item.minebound.refined_violium": "Refined Violium",
@@ -13187,6 +15243,10 @@
           {
             "name": "grass_mods",
             "children": []
+          },
+          {
+            "name": "block_sound_tags",
+            "children": []
           }
         ]
       },
@@ -13243,23 +15303,6 @@
         ]
       },
       {
-        "name": "HUD elements",
-        "children": [
-          {
-            "name": "display food UI",
-            "children": []
-          },
-          {
-            "name": "display health UI",
-            "children": []
-          },
-          {
-            "name": "display energy UI",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "biomesAndDimensions",
         "children": [
           {
@@ -13272,11 +15315,78 @@
             ]
           },
           {
-            "name": "ship_stuff",
+            "name": "Ships and Stations",
             "children": []
           },
           {
-            "name": "space",
+            "name": "Gravity Procedures",
+            "children": []
+          },
+          {
+            "name": "Planetary Dimensions",
+            "children": [
+              {
+                "name": "Fiery System",
+                "children": []
+              },
+              {
+                "name": "Frozen System",
+                "children": []
+              },
+              {
+                "name": "Gentle System",
+                "children": []
+              },
+              {
+                "name": "Radioactive System",
+                "children": []
+              },
+              {
+                "name": "Temperate System",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Biome Megafolder",
+            "children": [
+              {
+                "name": "Main Biomes",
+                "children": []
+              },
+              {
+                "name": "Mini Biomes",
+                "children": []
+              },
+              {
+                "name": "Sub Biomes",
+                "children": []
+              },
+              {
+                "name": "Underground Biomes",
+                "children": []
+              },
+              {
+                "name": "Extra Surface Biomes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HUD elements",
+        "children": [
+          {
+            "name": "display food UI",
+            "children": []
+          },
+          {
+            "name": "display health UI",
+            "children": []
+          },
+          {
+            "name": "display energy UI",
             "children": []
           }
         ]
