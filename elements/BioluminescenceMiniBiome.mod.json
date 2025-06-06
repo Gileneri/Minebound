@@ -4,7 +4,7 @@
   "definition": {
     "name": "Bioluminescence",
     "groundBlock": {
-      "value": "CUSTOM:YellowGlowRock"
+      "value": "CUSTOM:Frozendirt"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Frozendirt"

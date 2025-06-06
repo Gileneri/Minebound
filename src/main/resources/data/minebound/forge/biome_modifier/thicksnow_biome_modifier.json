@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:tundra_biome",
+    "minebound:steam_spring_mini_biome",
+    "minebound:prism_mini_biome",
+    "minebound:bioluminescence_mini_biome",
+    "minebound:midnight_tundra_biome",
+    "minebound:tundra_snow_biome",
+    "minebound:alpine_mini_biome"
+  ],
+  "features": "minebound:thicksnow",
+  "step": "underground_ores"
+}

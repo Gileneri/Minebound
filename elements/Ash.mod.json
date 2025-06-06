@@ -131,20 +131,35 @@
       "name": "MineboundGravity"
     },
     "spawnWorldTypes": [
-      "CUSTOM:LavaPlanet"
+      "CUSTOM:LavaPlanet",
+      "CUSTOM:MidnightPlanet",
+      "CUSTOM:VolcanicPlanet",
+      "CUSTOM:DecayedPlanet"
     ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Magmaocean"
+      },
+      {
+        "value": "CUSTOM:MidnightBiome"
+      },
+      {
+        "value": "CUSTOM:VolcanicBiome"
+      },
+      {
+        "value": "CUSTOM:DecayedVolcanicBiome"
       }
     ],
     "blocksToReplace": [
       {
         "value": "CUSTOM:Obsidian"
+      },
+      {
+        "value": "CUSTOM:Magmarock"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 4,
+    "frequencyPerChunks": 5,
     "frequencyOnChunk": 64,
     "minGenerateHeight": -16,
     "maxGenerateHeight": 220

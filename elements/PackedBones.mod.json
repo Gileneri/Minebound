@@ -129,13 +129,33 @@
     "onBlockPlayedBy": {
       "name": "MineboundGravity"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:DesertPlanet",
+      "CUSTOM:SavannahPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BonesMiniBiome"
+      },
+      {
+        "value": "CUSTOM:BoneCavesUndergroundBiome"
+      },
+      {
+        "value": "CUSTOM:FleshCavesUndergroundBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:UnrefinedGritstone"
+      },
+      {
+        "value": "CUSTOM:Fleshchunk"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyOnChunk": 64,
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 120
   }
 }

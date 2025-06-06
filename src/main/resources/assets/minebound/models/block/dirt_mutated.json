@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minebound:blocks/dirt_material1",
+    "particle": "minebound:blocks/dirt_material1"
+  },
+  "render_type": "solid"
+}

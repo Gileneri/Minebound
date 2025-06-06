@@ -24,6 +24,18 @@
     "minebound:packed_bones",
     "minebound:tar_test",
     "minebound:pile_of_eyes",
-    "minebound:treasure_hoard"
+    "minebound:treasure_hoard",
+    "minebound:mud_garden",
+    "minebound:slush_snowy",
+    "minebound:dirt_mutated",
+    "minebound:mud_jungle",
+    "minebound:dry_dirt_decayed",
+    "minebound:ash_foundry",
+    "minebound:ash_geode",
+    "minebound:drysand_mutated_savannah",
+    "minebound:mud_flesh",
+    "minebound:clay_swamp",
+    "minebound:wet_dirt_swamp",
+    "minebound:dirtswamp"
   ]
 }

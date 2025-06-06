@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:foundry_mini_biome",
+    "minebound:decayed_biome"
+  ],
+  "features": "minebound:stonerubble",
+  "step": "underground_ores"
+}

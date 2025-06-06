@@ -123,13 +123,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:SavannahPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SavannahBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Dirtmaterial"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 50,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 120
   }
 }

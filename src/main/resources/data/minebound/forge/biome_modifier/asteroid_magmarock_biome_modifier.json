@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:asteroids_mini_biome",
+    "minebound:asteroid_field_biome"
+  ],
+  "features": "minebound:asteroid_magmarock",
+  "step": "underground_ores"
+}

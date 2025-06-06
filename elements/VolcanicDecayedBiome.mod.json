@@ -4,10 +4,10 @@
   "definition": {
     "name": "Decayed",
     "groundBlock": {
-      "value": "CUSTOM:Drysand"
+      "value": "CUSTOM:Magmarock"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Drysand"
+      "value": "CUSTOM:Magmarock"
     },
     "underwaterBlock": {
       "value": ""

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:snow_garden_biome",
+    "minebound:garden_biome"
+  ],
+  "features": "minebound:mud_garden",
+  "step": "underground_ores"
+}

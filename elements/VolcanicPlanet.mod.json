@@ -15,7 +15,7 @@
       "value": "CUSTOM:Magmarock"
     },
     "fluidBlock": {
-      "value": "CUSTOM:Lava"
+      "value": "Blocks.AIR"
     },
     "canRespawnHere": false,
     "hasFog": false,

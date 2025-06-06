@@ -559,7 +559,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:copper_gear_block"
+                              "Name": "minebound:magmarock"
                             }
                           }
                         },

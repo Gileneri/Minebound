@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:swamp_mini_biome",
+  "features": "minebound:wet_dirt_swamp",
+  "step": "underground_ores"
+}

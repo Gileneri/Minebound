@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:moon_biome",
+  "features": "minebound:moonrockerchiuscrystalfuel",
+  "step": "underground_ores"
+}

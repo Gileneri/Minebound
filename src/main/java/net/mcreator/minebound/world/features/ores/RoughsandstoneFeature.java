@@ -41,7 +41,8 @@ public class RoughsandstoneFeature extends OreFeature {
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:oceanic_planet")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:oceanic_planet")),
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:desert_planet")), ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:savannah_planet")));
 
 	public RoughsandstoneFeature() {
 		super(OreConfiguration.CODEC);

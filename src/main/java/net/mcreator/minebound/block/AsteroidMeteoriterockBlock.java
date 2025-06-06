@@ -29,7 +29,7 @@ import java.util.Collections;
 
 public class AsteroidMeteoriterockBlock extends Block {
 	public AsteroidMeteoriterockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BROWN)
+		super(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_BROWN)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
 				.strength(12f));

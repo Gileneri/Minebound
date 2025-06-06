@@ -129,13 +129,30 @@
     "onBlockPlayedBy": {
       "name": "MineboundGravity"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:DecayedPlanet",
+      "CUSTOM:VolcanicPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DecayedBiome"
+      },
+      {
+        "value": "CUSTOM:FoundryMiniBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Drysand"
+      },
+      {
+        "value": "CUSTOM:Magmarock"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 6,
+    "frequencyOnChunk": 35,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 120
   }
 }

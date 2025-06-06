@@ -425,7 +425,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:roughsandstone"
+                            "Name": "minebound:sand"
                           }
                         }
                       ]
@@ -443,7 +443,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:roughsandstone"
+                        "Name": "minebound:sand"
                       }
                     }
                   }

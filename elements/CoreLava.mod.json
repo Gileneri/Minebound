@@ -4,8 +4,8 @@
   "definition": {
     "name": "Core Lava",
     "bucketName": "Core Lava Bucket",
-    "textureStill": "lava_texture",
-    "textureFlowing": "lava_texture",
+    "textureStill": "lava_still_texture_fix",
+    "textureFlowing": "lava_flowing_texture",
     "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 5,
@@ -13,13 +13,13 @@
     "slopeFindDistance": 4,
     "spawnParticles": false,
     "dripParticle": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "DRIP_LAVA"
     },
     "flowStrength": 0.0,
     "luminosity": 15,
     "density": 1000,
-    "viscosity": 2000,
-    "temperature": 5700,
+    "viscosity": 1000,
+    "temperature": 7000,
     "type": "LAVA",
     "generateBucket": false,
     "textureBucket": "",
@@ -32,8 +32,8 @@
     "rarity": "COMMON",
     "specialInfo": [],
     "resistance": 1000.0,
-    "luminance": 8,
-    "lightOpacity": 0,
+    "luminance": 15,
+    "lightOpacity": 1,
     "emissiveRendering": false,
     "tickRate": 10,
     "flammability": 0,

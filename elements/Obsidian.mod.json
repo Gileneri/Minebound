@@ -123,13 +123,30 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:TheRuin",
+      "CUSTOM:VolcanicPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TentacleBiome"
+      },
+      {
+        "value": "CUSTOM:GeodeMiniBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:TentacleCluster"
+      },
+      {
+        "value": "CUSTOM:Geodestone"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 55,
+    "minGenerateHeight": -100,
+    "maxGenerateHeight": 120
   }
 }

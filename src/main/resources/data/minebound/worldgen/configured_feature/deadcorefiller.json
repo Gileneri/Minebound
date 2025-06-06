@@ -1,0 +1,11 @@
+{
+  "type": "minebound:deadcorefiller",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minebound:gold_block"
+      }
+    }
+  }
+}

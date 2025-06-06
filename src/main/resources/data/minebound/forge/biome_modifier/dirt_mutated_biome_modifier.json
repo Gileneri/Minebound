@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:jungle_mutated_biome",
+    "minebound:mutated_biome",
+    "minebound:mutated_savannah_biome"
+  ],
+  "features": "minebound:dirt_mutated",
+  "step": "underground_ores"
+}

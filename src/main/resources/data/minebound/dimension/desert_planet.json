@@ -103,10 +103,7 @@
         "Name": "minebound:sand"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -497,7 +494,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:drydirt"
+                            "Name": "minebound:drysand"
                           }
                         }
                       ]
@@ -515,7 +512,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:drydirt"
+                        "Name": "minebound:drysand"
                       }
                     }
                   }
@@ -569,7 +566,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:roughsandstone"
+                            "Name": "minebound:sand"
                           }
                         }
                       ]
@@ -587,7 +584,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:roughsandstone"
+                        "Name": "minebound:sand"
                       }
                     }
                   }
@@ -634,14 +631,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:reed_block"
+                              "Name": "minebound:sand"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:roughsandstone"
+                            "Name": "minebound:sand"
                           }
                         }
                       ]
@@ -659,7 +656,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:roughsandstone"
+                        "Name": "minebound:sand"
                       }
                     }
                   }

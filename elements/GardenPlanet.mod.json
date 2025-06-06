@@ -18,7 +18,7 @@
       "value": "CUSTOM:Dirtmaterial"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": "Blocks.AIR"
     },
     "canRespawnHere": false,
     "hasFog": false,

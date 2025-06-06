@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:desert_barren_biome",
+    "minebound:barren_biome"
+  ],
+  "features": "minebound:drydirt",
+  "step": "underground_ores"
+}

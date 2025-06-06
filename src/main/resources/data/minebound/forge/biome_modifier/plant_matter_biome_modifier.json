@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:forest_jungle_biome",
+    "minebound:jungle_biome"
+  ],
+  "features": "minebound:plant_matter",
+  "step": "underground_ores"
+}

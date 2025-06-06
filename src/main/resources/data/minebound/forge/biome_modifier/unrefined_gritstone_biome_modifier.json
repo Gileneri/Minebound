@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:savanna_desert_biome",
+    "minebound:desert_biome",
+    "minebound:oasis_mini_biome"
+  ],
+  "features": "minebound:unrefined_gritstone",
+  "step": "underground_ores"
+}

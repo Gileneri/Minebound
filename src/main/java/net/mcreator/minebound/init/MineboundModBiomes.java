@@ -17,6 +17,7 @@ import net.mcreator.minebound.world.biome.TundraSnowBiomeBiome;
 import net.mcreator.minebound.world.biome.TundraBiomeBiome;
 import net.mcreator.minebound.world.biome.ToxicOceanBiome;
 import net.mcreator.minebound.world.biome.ToxicBiomeBiome;
+import net.mcreator.minebound.world.biome.TestdeadcoreBiome;
 import net.mcreator.minebound.world.biome.TentacleBiomeBiome;
 import net.mcreator.minebound.world.biome.TarpitUndergroundBiomeBiome;
 import net.mcreator.minebound.world.biome.TarMiniBiomeBiome;
@@ -174,4 +175,5 @@ public class MineboundModBiomes {
 	public static final RegistryObject<Biome> GAS_GIANT_BIOME = REGISTRY.register("gas_giant_biome", GasGiantBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> EARTH_BIOME = REGISTRY.register("earth_biome", EarthBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> EMPTY_SPACE_BIOME = REGISTRY.register("empty_space_biome", EmptySpaceBiomeBiome::createBiome);
+	public static final RegistryObject<Biome> TESTDEADCORE = REGISTRY.register("testdeadcore", TestdeadcoreBiome::createBiome);
 }

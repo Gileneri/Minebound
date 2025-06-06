@@ -18,7 +18,7 @@
     "flowStrength": 0.0,
     "luminosity": 15,
     "density": 1000,
-    "viscosity": 2000,
+    "viscosity": 1000,
     "temperature": 5700,
     "type": "LAVA",
     "generateBucket": false,
@@ -39,6 +39,12 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "RED",
+    "onBlockAdded": {
+      "name": "LavaBlockAdded"
+    },
+    "onNeighbourChanges": {
+      "name": "LavaBlockAdded"
+    },
     "onEntityCollides": {
       "name": "LavaMobplayerCollidesBlock"
     }

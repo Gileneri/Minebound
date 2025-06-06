@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:asteroid_field_biome",
+  "features": "minebound:asteroid_meteoriterock",
+  "step": "underground_ores"
+}

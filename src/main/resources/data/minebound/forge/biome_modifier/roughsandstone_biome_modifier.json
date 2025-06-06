@@ -1,6 +1,11 @@
 {
   "type": "forge:add_features",
-  "biomes": "minebound:ocean",
+  "biomes": [
+    "minebound:colourful_mini_biome",
+    "minebound:savanna_desert_biome",
+    "minebound:ocean",
+    "minebound:desert_biome"
+  ],
   "features": "minebound:roughsandstone",
   "step": "underground_ores"
 }

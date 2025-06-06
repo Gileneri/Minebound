@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:hive_mini_biome",
+  "features": "minebound:unrefined_gneiss",
+  "step": "underground_ores"
+}

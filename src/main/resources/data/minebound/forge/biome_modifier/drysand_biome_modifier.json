@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:savannah_biome",
+  "features": "minebound:drysand",
+  "step": "underground_ores"
+}

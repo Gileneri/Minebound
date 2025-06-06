@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:tentacle_biome",
+  "features": "minebound:jellyblob",
+  "step": "underground_ores"
+}

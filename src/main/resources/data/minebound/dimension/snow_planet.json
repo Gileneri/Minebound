@@ -103,10 +103,7 @@
         "Name": "minebound:thicksnow"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -497,7 +494,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:frozendirt"
+                            "Name": "minebound:thicksnow"
                           }
                         }
                       ]
@@ -515,7 +512,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:frozendirt"
+                        "Name": "minebound:thicksnow"
                       }
                     }
                   }
@@ -562,10 +559,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:sod_block",
-                              "Properties": {
-                                "facing": "north"
-                              }
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },
@@ -644,7 +638,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:roughsandstone"
+                            "Name": "minebound:grassy_rock"
                           }
                         }
                       ]
@@ -662,7 +656,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:roughsandstone"
+                        "Name": "minebound:grassy_rock"
                       }
                     }
                   }

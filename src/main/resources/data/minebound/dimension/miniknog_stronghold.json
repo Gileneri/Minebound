@@ -418,7 +418,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:plant_matter"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },

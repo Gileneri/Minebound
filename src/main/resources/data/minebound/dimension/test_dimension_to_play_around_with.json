@@ -517,7 +517,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:plant_matter"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },
@@ -661,7 +661,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:flower_block"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },
@@ -733,10 +733,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:sod_block",
-                              "Properties": {
-                                "facing": "north"
-                              }
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },

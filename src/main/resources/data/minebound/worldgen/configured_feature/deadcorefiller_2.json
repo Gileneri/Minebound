@@ -1,0 +1,11 @@
+{
+  "type": "minebound:deadcorefiller_2",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minebound:alienrock"
+      }
+    }
+  }
+}

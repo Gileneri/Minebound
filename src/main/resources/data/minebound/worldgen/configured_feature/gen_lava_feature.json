@@ -1,0 +1,11 @@
+{
+  "type": "minebound:gen_lava_feature",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minebound:gen_block_lava"
+      }
+    }
+  }
+}

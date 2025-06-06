@@ -130,10 +130,7 @@
         "Name": "minebound:dirtmaterial"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -517,7 +514,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:petal_blocks"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },
@@ -596,7 +593,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:dirtmaterial"
+                            "Name": "minebound:alienrock"
                           }
                         }
                       ]
@@ -614,7 +611,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:dirtmaterial"
+                        "Name": "minebound:alienrock"
                       }
                     }
                   }
@@ -733,7 +730,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:pile_of_eyes"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },

@@ -34,10 +34,7 @@
         "Name": "minebound:tentacle_cluster"
       },
       "default_fluid": {
-        "Name": "minebound:poison",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {

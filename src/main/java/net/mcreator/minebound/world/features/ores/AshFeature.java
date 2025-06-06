@@ -35,13 +35,16 @@ public class AshFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new AshFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("minebound:ash", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.OBSIDIAN.get().defaultBlockState()), MineboundModBlocks.ASH.get().defaultBlockState())), 64));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.OBSIDIAN.get().defaultBlockState()), MineboundModBlocks.ASH.get().defaultBlockState()),
+						OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MAGMAROCK.get().defaultBlockState()), MineboundModBlocks.ASH.get().defaultBlockState())), 64));
 		PLACED_FEATURE = PlacementUtils.register("minebound:ash", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(220)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(220)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:lava_planet")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:lava_planet")),
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:midnight_planet")), ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:volcanic_planet")),
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:decayed_planet")));
 
 	public AshFeature() {
 		super(OreConfiguration.CODEC);

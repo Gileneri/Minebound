@@ -4,7 +4,7 @@
   "definition": {
     "name": "Foundry",
     "groundBlock": {
-      "value": "CUSTOM:CopperGearBlock"
+      "value": "CUSTOM:Magmarock"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Magmarock"

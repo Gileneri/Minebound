@@ -3333,12 +3333,12 @@
       "registry_name": "core_lava",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minebound/fluid/types/CoreLavaFluidType.java",
           "src/main/java/net/mcreator/minebound/fluid/CoreLavaFluid.java",
           "src/main/resources/assets/minebound/models/item/core_lava_bucket.json",
-          "src/main/java/net/mcreator/minebound/fluid/types/CoreLavaFluidType.java",
           "src/main/java/net/mcreator/minebound/block/CoreLavaBlock.java",
-          "src/main/resources/assets/minebound/models/block/core_lava.json",
-          "src/main/resources/assets/minebound/blockstates/core_lava.json"
+          "src/main/resources/assets/minebound/blockstates/core_lava.json",
+          "src/main/resources/assets/minebound/models/block/core_lava.json"
         ]
       },
       "path": "~/tiles/liquids"
@@ -5841,12 +5841,12 @@
       "registry_name": "ash",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/world/features/ores/AshFeature.java",
-          "src/main/java/net/mcreator/minebound/block/AshBlock.java",
           "src/main/resources/data/minebound/forge/biome_modifier/ash_biome_modifier.json",
           "src/main/resources/assets/minebound/models/block/ash.json",
-          "src/main/resources/assets/minebound/blockstates/ash.json",
-          "src/main/resources/assets/minebound/models/item/ash.json"
+          "src/main/java/net/mcreator/minebound/block/AshBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/AshFeature.java",
+          "src/main/resources/assets/minebound/models/item/ash.json",
+          "src/main/resources/assets/minebound/blockstates/ash.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -5877,10 +5877,12 @@
       "registry_name": "blueglowrock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/blueglowrock.json",
-          "src/main/resources/assets/minebound/models/block/blueglowrock.json",
+          "src/main/java/net/mcreator/minebound/block/BlueglowrockBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/BlueglowrockFeature.java",
           "src/main/resources/assets/minebound/models/item/blueglowrock.json",
-          "src/main/java/net/mcreator/minebound/block/BlueglowrockBlock.java"
+          "src/main/resources/assets/minebound/models/block/blueglowrock.json",
+          "src/main/resources/assets/minebound/blockstates/blueglowrock.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/blueglowrock_biome_modifier.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -5911,10 +5913,12 @@
       "registry_name": "clay",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/ClayBlock.java",
-          "src/main/resources/assets/minebound/models/item/clay.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/ClayFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/clay_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/clay.json",
           "src/main/resources/assets/minebound/blockstates/clay.json",
-          "src/main/resources/assets/minebound/models/block/clay.json"
+          "src/main/java/net/mcreator/minebound/block/ClayBlock.java",
+          "src/main/resources/assets/minebound/models/item/clay.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -5946,9 +5950,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/minebound/block/SmoothcobblestoneBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/smoothcobblestone_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/SmoothcobblestoneFeature.java",
+          "src/main/resources/assets/minebound/models/item/smoothcobblestone.json",
           "src/main/resources/assets/minebound/models/block/smoothcobblestone.json",
-          "src/main/resources/assets/minebound/blockstates/smoothcobblestone.json",
-          "src/main/resources/assets/minebound/models/item/smoothcobblestone.json"
+          "src/main/resources/assets/minebound/blockstates/smoothcobblestone.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -5979,10 +5985,12 @@
       "registry_name": "direstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/direstone.json",
-          "src/main/resources/assets/minebound/models/block/direstone.json",
+          "src/main/resources/assets/minebound/blockstates/direstone.json",
           "src/main/java/net/mcreator/minebound/block/DirestoneBlock.java",
-          "src/main/resources/assets/minebound/blockstates/direstone.json"
+          "src/main/resources/assets/minebound/models/item/direstone.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/direstone_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/DirestoneFeature.java",
+          "src/main/resources/assets/minebound/models/block/direstone.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6015,10 +6023,12 @@
       "registry_name": "drydirt",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minebound/block/DrydirtBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/drydirt_biome_modifier.json",
           "src/main/resources/assets/minebound/blockstates/drydirt.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/DrydirtFeature.java",
           "src/main/resources/assets/minebound/models/item/drydirt.json",
-          "src/main/resources/assets/minebound/models/block/drydirt.json",
-          "src/main/java/net/mcreator/minebound/block/DrydirtBlock.java"
+          "src/main/resources/assets/minebound/models/block/drydirt.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6032,10 +6042,12 @@
       "registry_name": "drysand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/drysand.json",
-          "src/main/resources/assets/minebound/blockstates/drysand.json",
           "src/main/java/net/mcreator/minebound/block/DrysandBlock.java",
-          "src/main/resources/assets/minebound/models/block/drysand.json"
+          "src/main/resources/data/minebound/forge/biome_modifier/drysand_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/drysand.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/DrysandFeature.java",
+          "src/main/resources/assets/minebound/models/item/drysand.json",
+          "src/main/resources/assets/minebound/blockstates/drysand.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6084,9 +6096,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebound/models/item/frozendirt.json",
-          "src/main/resources/assets/minebound/blockstates/frozendirt.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/FrozendirtFeature.java",
           "src/main/java/net/mcreator/minebound/block/FrozendirtBlock.java",
-          "src/main/resources/assets/minebound/models/block/frozendirt.json"
+          "src/main/resources/data/minebound/forge/biome_modifier/frozendirt_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/frozendirt.json",
+          "src/main/resources/assets/minebound/blockstates/frozendirt.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6117,10 +6131,12 @@
       "registry_name": "geodecrystals",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/blockstates/geodecrystals.json",
           "src/main/java/net/mcreator/minebound/block/GeodecrystalsBlock.java",
-          "src/main/resources/assets/minebound/models/block/geodecrystals.json",
           "src/main/resources/assets/minebound/models/item/geodecrystals.json",
-          "src/main/resources/assets/minebound/blockstates/geodecrystals.json"
+          "src/main/resources/assets/minebound/models/block/geodecrystals.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/geodecrystals_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GeodecrystalsFeature.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6186,9 +6202,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/minebound/block/IcematerialBlock.java",
+          "src/main/resources/assets/minebound/blockstates/icematerial.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/icematerial_biome_modifier.json",
           "src/main/resources/assets/minebound/models/block/icematerial.json",
-          "src/main/resources/assets/minebound/models/item/icematerial.json",
-          "src/main/resources/assets/minebound/blockstates/icematerial.json"
+          "src/main/java/net/mcreator/minebound/world/features/ores/IcematerialFeature.java",
+          "src/main/resources/assets/minebound/models/item/icematerial.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6219,10 +6237,12 @@
       "registry_name": "jellyblob",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/jellyblob.json",
-          "src/main/resources/assets/minebound/models/block/jellyblob.json",
           "src/main/java/net/mcreator/minebound/block/JellyblobBlock.java",
-          "src/main/resources/assets/minebound/blockstates/jellyblob.json"
+          "src/main/java/net/mcreator/minebound/world/features/ores/JellyblobFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/jellyblob_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/jellyblob.json",
+          "src/main/resources/assets/minebound/blockstates/jellyblob.json",
+          "src/main/resources/assets/minebound/models/block/jellyblob.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6236,9 +6256,11 @@
       "registry_name": "junkpile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/JunkpileBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/JunkpileFeature.java",
           "src/main/resources/assets/minebound/models/item/junkpile.json",
           "src/main/resources/assets/minebound/models/block/junkpile.json",
+          "src/main/java/net/mcreator/minebound/block/JunkpileBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/junkpile_biome_modifier.json",
           "src/main/resources/assets/minebound/blockstates/junkpile.json"
         ]
       },
@@ -6270,10 +6292,12 @@
       "registry_name": "loosesilt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/loosesilt.json",
-          "src/main/resources/assets/minebound/blockstates/loosesilt.json",
           "src/main/java/net/mcreator/minebound/block/LoosesiltBlock.java",
-          "src/main/resources/assets/minebound/models/block/loosesilt.json"
+          "src/main/resources/assets/minebound/models/block/loosesilt.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/loosesilt_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/LoosesiltFeature.java",
+          "src/main/resources/assets/minebound/blockstates/loosesilt.json",
+          "src/main/resources/assets/minebound/models/item/loosesilt.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6288,9 +6312,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/minebound/block/MagmarockBlock.java",
-          "src/main/resources/assets/minebound/models/block/magmarock.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/MagmarockFeature.java",
           "src/main/resources/assets/minebound/models/item/magmarock.json",
-          "src/main/resources/assets/minebound/blockstates/magmarock.json"
+          "src/main/resources/data/minebound/forge/biome_modifier/magmarock_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/magmarock.json",
+          "src/main/resources/assets/minebound/models/block/magmarock.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6381,10 +6407,12 @@
       "registry_name": "plant_matter",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/PlantMatterFeature.java",
           "src/main/java/net/mcreator/minebound/block/PlantMatterBlock.java",
-          "src/main/resources/assets/minebound/blockstates/plant_matter.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/plant_matter_biome_modifier.json",
           "src/main/resources/assets/minebound/models/item/plant_matter.json",
-          "src/main/resources/assets/minebound/models/block/plant_matter.json"
+          "src/main/resources/assets/minebound/models/block/plant_matter.json",
+          "src/main/resources/assets/minebound/blockstates/plant_matter.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6416,9 +6444,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebound/models/item/packed_bones.json",
-          "src/main/java/net/mcreator/minebound/block/PackedBonesBlock.java",
+          "src/main/resources/assets/minebound/models/block/packed_bones.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/PackedBonesFeature.java",
           "src/main/resources/assets/minebound/blockstates/packed_bones.json",
-          "src/main/resources/assets/minebound/models/block/packed_bones.json"
+          "src/main/java/net/mcreator/minebound/block/PackedBonesBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/packed_bones_biome_modifier.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6432,10 +6462,12 @@
       "registry_name": "unrefined_gritstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/UnrefinedGritstoneBlock.java",
-          "src/main/resources/assets/minebound/models/block/unrefined_gritstone.json",
           "src/main/resources/assets/minebound/models/item/unrefined_gritstone.json",
-          "src/main/resources/assets/minebound/blockstates/unrefined_gritstone.json"
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_gritstone_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/unrefined_gritstone.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedGritstoneFeature.java",
+          "src/main/resources/assets/minebound/blockstates/unrefined_gritstone.json",
+          "src/main/java/net/mcreator/minebound/block/UnrefinedGritstoneBlock.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6450,11 +6482,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebound/models/item/unrefined_andesite.json",
-          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_andesite_biome_modifier.json",
           "src/main/java/net/mcreator/minebound/block/UnrefinedAndesiteBlock.java",
           "src/main/resources/assets/minebound/blockstates/unrefined_andesite.json",
+          "src/main/resources/assets/minebound/models/block/unrefined_andesite.json",
           "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedAndesiteFeature.java",
-          "src/main/resources/assets/minebound/models/block/unrefined_andesite.json"
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_andesite_biome_modifier.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6523,10 +6555,12 @@
       "registry_name": "yellow_glow_rock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/block/yellow_glow_rock.json",
           "src/main/java/net/mcreator/minebound/block/YellowGlowRockBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/YellowGlowRockFeature.java",
           "src/main/resources/assets/minebound/models/item/yellow_glow_rock.json",
-          "src/main/resources/assets/minebound/blockstates/yellow_glow_rock.json"
+          "src/main/resources/assets/minebound/blockstates/yellow_glow_rock.json",
+          "src/main/resources/assets/minebound/models/block/yellow_glow_rock.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/yellow_glow_rock_biome_modifier.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6540,10 +6574,12 @@
       "registry_name": "stonerubble",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minebound/block/StonerubbleBlock.java",
+          "src/main/resources/assets/minebound/models/item/stonerubble.json",
           "src/main/resources/assets/minebound/blockstates/stonerubble.json",
           "src/main/resources/assets/minebound/models/block/stonerubble.json",
-          "src/main/java/net/mcreator/minebound/block/StonerubbleBlock.java",
-          "src/main/resources/assets/minebound/models/item/stonerubble.json"
+          "src/main/resources/data/minebound/forge/biome_modifier/stonerubble_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/StonerubbleFeature.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6608,11 +6644,11 @@
       "registry_name": "mud",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/mud.json",
-          "src/main/resources/data/minebound/forge/biome_modifier/mud_biome_modifier.json",
-          "src/main/java/net/mcreator/minebound/world/features/ores/MudFeature.java",
           "src/main/java/net/mcreator/minebound/block/MudBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/mud_biome_modifier.json",
           "src/main/resources/assets/minebound/models/block/mud.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/MudFeature.java",
+          "src/main/resources/assets/minebound/models/item/mud.json",
           "src/main/resources/assets/minebound/blockstates/mud.json"
         ]
       },
@@ -6644,9 +6680,11 @@
       "registry_name": "unrefined_arkose",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/unrefined_arkose.json",
-          "src/main/resources/assets/minebound/blockstates/unrefined_arkose.json",
           "src/main/java/net/mcreator/minebound/block/UnrefinedArkoseBlock.java",
+          "src/main/resources/assets/minebound/models/item/unrefined_arkose.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedArkoseFeature.java",
+          "src/main/resources/assets/minebound/blockstates/unrefined_arkose.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_arkose_biome_modifier.json",
           "src/main/resources/assets/minebound/models/block/unrefined_arkose.json"
         ]
       },
@@ -6661,10 +6699,12 @@
       "registry_name": "thicksnow",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/block/thicksnow.json",
-          "src/main/resources/assets/minebound/models/item/thicksnow.json",
           "src/main/resources/assets/minebound/blockstates/thicksnow.json",
-          "src/main/java/net/mcreator/minebound/block/ThicksnowBlock.java"
+          "src/main/resources/assets/minebound/models/item/thicksnow.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/ThicksnowFeature.java",
+          "src/main/resources/assets/minebound/models/block/thicksnow.json",
+          "src/main/java/net/mcreator/minebound/block/ThicksnowBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/thicksnow_biome_modifier.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6678,8 +6718,10 @@
       "registry_name": "obsidian",
       "metadata": {
         "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/obsidian_biome_modifier.json",
           "src/main/resources/assets/minebound/blockstates/obsidian.json",
           "src/main/resources/assets/minebound/models/item/obsidian.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/ObsidianFeature.java",
           "src/main/java/net/mcreator/minebound/block/ObsidianBlock.java",
           "src/main/resources/assets/minebound/models/block/obsidian.json"
         ]
@@ -6712,10 +6754,12 @@
       "registry_name": "unrefined_gneiss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/UnrefinedGneissBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_gneiss_biome_modifier.json",
           "src/main/resources/assets/minebound/models/item/unrefined_gneiss.json",
-          "src/main/resources/assets/minebound/blockstates/unrefined_gneiss.json",
-          "src/main/resources/assets/minebound/models/block/unrefined_gneiss.json"
+          "src/main/resources/assets/minebound/models/block/unrefined_gneiss.json",
+          "src/main/java/net/mcreator/minebound/block/UnrefinedGneissBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedGneissFeature.java",
+          "src/main/resources/assets/minebound/blockstates/unrefined_gneiss.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6782,10 +6826,12 @@
       "registry_name": "unrefined_chert",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/unrefined_chert.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_chert_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/unrefined_chert.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedChertFeature.java",
           "src/main/java/net/mcreator/minebound/block/UnrefinedChertBlock.java",
-          "src/main/resources/assets/minebound/models/item/unrefined_chert.json",
-          "src/main/resources/assets/minebound/models/block/unrefined_chert.json"
+          "src/main/resources/assets/minebound/blockstates/unrefined_chert.json",
+          "src/main/resources/assets/minebound/models/item/unrefined_chert.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -6836,8 +6882,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/minebound/blockstates/wet_dirt.json",
-          "src/main/resources/assets/minebound/models/item/wet_dirt.json",
           "src/main/resources/assets/minebound/models/block/wet_dirt.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/WetDirtFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/wet_dirt_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/wet_dirt.json",
           "src/main/java/net/mcreator/minebound/block/WetDirtBlock.java"
         ]
       },
@@ -6852,12 +6900,12 @@
       "registry_name": "roughsandstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/RoughsandstoneBlock.java",
-          "src/main/resources/data/minebound/forge/biome_modifier/roughsandstone_biome_modifier.json",
           "src/main/resources/assets/minebound/blockstates/roughsandstone.json",
-          "src/main/java/net/mcreator/minebound/world/features/ores/RoughsandstoneFeature.java",
+          "src/main/java/net/mcreator/minebound/block/RoughsandstoneBlock.java",
+          "src/main/resources/assets/minebound/models/item/roughsandstone.json",
           "src/main/resources/assets/minebound/models/block/roughsandstone.json",
-          "src/main/resources/assets/minebound/models/item/roughsandstone.json"
+          "src/main/resources/data/minebound/forge/biome_modifier/roughsandstone_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/RoughsandstoneFeature.java"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -7051,7 +7099,7 @@
           "src/main/resources/assets/minebound/models/item/tar_test.json"
         ]
       },
-      "path": "~/tiles/natural_blocks"
+      "path": "~/generation material"
     },
     {
       "name": "PlayerHeadHUDEntityRightClickedOnEntity",
@@ -7182,10 +7230,12 @@
       "registry_name": "asteroid_magmarock",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/AsteroidMagmarockBlock.java",
+          "src/main/resources/assets/minebound/models/item/asteroid_magmarock.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/AsteroidMagmarockFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/asteroid_magmarock_biome_modifier.json",
           "src/main/resources/assets/minebound/models/block/asteroid_magmarock.json",
-          "src/main/resources/assets/minebound/blockstates/asteroid_magmarock.json",
-          "src/main/resources/assets/minebound/models/item/asteroid_magmarock.json"
+          "src/main/java/net/mcreator/minebound/block/AsteroidMagmarockBlock.java",
+          "src/main/resources/assets/minebound/blockstates/asteroid_magmarock.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -7199,9 +7249,9 @@
       "registry_name": "deadcore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/DeadcoreBlock.java",
-          "src/main/resources/assets/minebound/models/block/deadcore.json",
           "src/main/resources/assets/minebound/models/item/deadcore.json",
+          "src/main/resources/assets/minebound/models/block/deadcore.json",
+          "src/main/java/net/mcreator/minebound/block/DeadcoreBlock.java",
           "src/main/resources/assets/minebound/blockstates/deadcore.json"
         ]
       },
@@ -7556,7 +7606,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/minebound/block/FlowerBlockBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/flower_block_biome_modifier.json",
           "src/main/resources/assets/minebound/blockstates/flower_block.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/FlowerBlockFeature.java",
           "src/main/resources/assets/minebound/models/item/flower_block.json",
           "src/main/resources/assets/minebound/models/block/flower_block.json"
         ]
@@ -8629,10 +8681,12 @@
       "registry_name": "pile_of_eyes",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/PileOfEyesBlock.java",
           "src/main/resources/assets/minebound/models/item/pile_of_eyes.json",
+          "src/main/resources/assets/minebound/blockstates/pile_of_eyes.json",
+          "src/main/java/net/mcreator/minebound/block/PileOfEyesBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/pile_of_eyes_biome_modifier.json",
           "src/main/resources/assets/minebound/models/block/pile_of_eyes.json",
-          "src/main/resources/assets/minebound/blockstates/pile_of_eyes.json"
+          "src/main/java/net/mcreator/minebound/world/features/ores/PileOfEyesFeature.java"
         ]
       },
       "path": "~/tiles/Crafted_blocks"
@@ -10278,10 +10332,10 @@
       "registry_name": "erchius_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/block/ErchiusCrystalBlock.java",
-          "src/main/resources/assets/minebound/models/block/erchius_crystal.json",
           "src/main/resources/assets/minebound/models/item/erchius_crystal.json",
-          "src/main/resources/assets/minebound/blockstates/erchius_crystal.json"
+          "src/main/java/net/mcreator/minebound/block/ErchiusCrystalBlock.java",
+          "src/main/resources/assets/minebound/blockstates/erchius_crystal.json",
+          "src/main/resources/assets/minebound/models/block/erchius_crystal.json"
         ]
       },
       "path": "~/tiles/village_dungeon_blocks"
@@ -10295,10 +10349,12 @@
       "registry_name": "grassy_rock",
       "metadata": {
         "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/grassy_rock_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GrassyRockFeature.java",
+          "src/main/resources/assets/minebound/blockstates/grassy_rock.json",
           "src/main/resources/assets/minebound/models/item/grassy_rock.json",
-          "src/main/resources/assets/minebound/models/block/grassy_rock.json",
           "src/main/java/net/mcreator/minebound/block/GrassyRockBlock.java",
-          "src/main/resources/assets/minebound/blockstates/grassy_rock.json"
+          "src/main/resources/assets/minebound/models/block/grassy_rock.json"
         ]
       },
       "path": "~/tiles/village_dungeon_blocks"
@@ -13135,11 +13191,11 @@
       "registry_name": "lava",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/block/lava.json",
-          "src/main/resources/assets/minebound/blockstates/lava.json",
-          "src/main/java/net/mcreator/minebound/fluid/LavaFluid.java",
-          "src/main/java/net/mcreator/minebound/fluid/types/LavaFluidType.java",
           "src/main/java/net/mcreator/minebound/block/LavaBlock.java",
+          "src/main/java/net/mcreator/minebound/fluid/types/LavaFluidType.java",
+          "src/main/java/net/mcreator/minebound/fluid/LavaFluid.java",
+          "src/main/resources/assets/minebound/blockstates/lava.json",
+          "src/main/resources/assets/minebound/models/block/lava.json",
           "src/main/resources/assets/minebound/models/item/lava_bucket.json"
         ]
       },
@@ -14430,8 +14486,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/minebound/dimension_type/test_dimension_to_play_around_with.json",
-          "src/main/java/net/mcreator/minebound/world/dimension/TestDimensionToPlayAroundWithDimension.java",
-          "src/main/resources/data/minebound/dimension/test_dimension_to_play_around_with.json"
+          "src/main/resources/data/minebound/dimension/test_dimension_to_play_around_with.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/TestDimensionToPlayAroundWithDimension.java"
         ]
       },
       "path": "~/biomesAndDimensions/Old Stuff/Misc"
@@ -14703,9 +14759,9 @@
       "registry_name": "savannah_planet",
       "metadata": {
         "files": [
+          "src/main/resources/data/minebound/dimension_type/savannah_planet.json",
           "src/main/resources/data/minebound/dimension/savannah_planet.json",
-          "src/main/java/net/mcreator/minebound/world/dimension/SavannahPlanetDimension.java",
-          "src/main/resources/data/minebound/dimension_type/savannah_planet.json"
+          "src/main/java/net/mcreator/minebound/world/dimension/SavannahPlanetDimension.java"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
@@ -14733,9 +14789,9 @@
       "registry_name": "asteroid_field",
       "metadata": {
         "files": [
-          "src/main/resources/data/minebound/dimension/asteroid_field.json",
+          "src/main/resources/data/minebound/dimension_type/asteroid_field.json",
           "src/main/java/net/mcreator/minebound/world/dimension/AsteroidFieldDimension.java",
-          "src/main/resources/data/minebound/dimension_type/asteroid_field.json"
+          "src/main/resources/data/minebound/dimension/asteroid_field.json"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
@@ -14979,9 +15035,9 @@
       "registry_name": "decayed_planet",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/DecayedPlanetDimension.java",
           "src/main/resources/data/minebound/dimension/decayed_planet.json",
-          "src/main/resources/data/minebound/dimension_type/decayed_planet.json",
-          "src/main/java/net/mcreator/minebound/world/dimension/DecayedPlanetDimension.java"
+          "src/main/resources/data/minebound/dimension_type/decayed_planet.json"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
@@ -15222,8 +15278,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/minebound/world/dimension/VolcanicPlanetDimension.java",
-          "src/main/resources/data/minebound/dimension/volcanic_planet.json",
-          "src/main/resources/data/minebound/dimension_type/volcanic_planet.json"
+          "src/main/resources/data/minebound/dimension_type/volcanic_planet.json",
+          "src/main/resources/data/minebound/dimension/volcanic_planet.json"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
@@ -15399,9 +15455,9 @@
       "registry_name": "desert_planet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/world/dimension/DesertPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/desert_planet.json",
           "src/main/resources/data/minebound/dimension/desert_planet.json",
-          "src/main/resources/data/minebound/dimension_type/desert_planet.json"
+          "src/main/java/net/mcreator/minebound/world/dimension/DesertPlanetDimension.java"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
@@ -15489,9 +15545,9 @@
       "registry_name": "mutated_planet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/world/dimension/MutatedPlanetDimension.java",
           "src/main/resources/data/minebound/dimension_type/mutated_planet.json",
-          "src/main/resources/data/minebound/dimension/mutated_planet.json"
+          "src/main/resources/data/minebound/dimension/mutated_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MutatedPlanetDimension.java"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
@@ -15595,8 +15651,8 @@
       "registry_name": "midnight_planet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/world/dimension/MidnightPlanetDimension.java",
           "src/main/resources/data/minebound/dimension_type/midnight_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MidnightPlanetDimension.java",
           "src/main/resources/data/minebound/dimension/midnight_planet.json"
         ]
       },
@@ -15669,10 +15725,12 @@
       "registry_name": "asteroid_meteoriterock",
       "metadata": {
         "files": [
+          "src/main/resources/assets/minebound/models/block/asteroid_meteoriterock.json",
           "src/main/java/net/mcreator/minebound/block/AsteroidMeteoriterockBlock.java",
-          "src/main/resources/assets/minebound/blockstates/asteroid_meteoriterock.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/AsteroidMeteoriterockFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/asteroid_meteoriterock_biome_modifier.json",
           "src/main/resources/assets/minebound/models/item/asteroid_meteoriterock.json",
-          "src/main/resources/assets/minebound/models/block/asteroid_meteoriterock.json"
+          "src/main/resources/assets/minebound/blockstates/asteroid_meteoriterock.json"
         ]
       },
       "path": "~/tiles/natural_blocks"
@@ -15686,9 +15744,9 @@
       "registry_name": "forest_planet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/world/dimension/ForestPlanetDimension.java",
           "src/main/resources/data/minebound/dimension/forest_planet.json",
-          "src/main/resources/data/minebound/dimension_type/forest_planet.json"
+          "src/main/resources/data/minebound/dimension_type/forest_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/ForestPlanetDimension.java"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
@@ -15702,9 +15760,9 @@
       "registry_name": "jungle_planet",
       "metadata": {
         "files": [
-          "src/main/resources/data/minebound/dimension/jungle_planet.json",
+          "src/main/resources/data/minebound/dimension_type/jungle_planet.json",
           "src/main/java/net/mcreator/minebound/world/dimension/JunglePlanetDimension.java",
-          "src/main/resources/data/minebound/dimension_type/jungle_planet.json"
+          "src/main/resources/data/minebound/dimension/jungle_planet.json"
         ]
       },
       "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
@@ -16104,9 +16162,9 @@
       "registry_name": "ceremonial_hunting_caverns",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/world/dimension/CeremonialHuntingCavernsDimension.java",
           "src/main/resources/data/minebound/dimension_type/ceremonial_hunting_caverns.json",
-          "src/main/resources/data/minebound/dimension/ceremonial_hunting_caverns.json"
+          "src/main/resources/data/minebound/dimension/ceremonial_hunting_caverns.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/CeremonialHuntingCavernsDimension.java"
         ]
       },
       "path": "~/biomesAndDimensions/Mission_Worlds"
@@ -16153,8 +16211,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/minebound/dimension_type/grand_pagoda_library.json",
-          "src/main/resources/data/minebound/dimension/grand_pagoda_library.json",
-          "src/main/java/net/mcreator/minebound/world/dimension/GrandPagodaLibraryDimension.java"
+          "src/main/java/net/mcreator/minebound/world/dimension/GrandPagodaLibraryDimension.java",
+          "src/main/resources/data/minebound/dimension/grand_pagoda_library.json"
         ]
       },
       "path": "~/biomesAndDimensions/Mission_Worlds"
@@ -16168,9 +16226,9 @@
       "registry_name": "great_sovereign_temple",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/minebound/world/dimension/GreatSovereignTempleDimension.java",
           "src/main/resources/data/minebound/dimension_type/great_sovereign_temple.json",
-          "src/main/resources/data/minebound/dimension/great_sovereign_temple.json"
+          "src/main/resources/data/minebound/dimension/great_sovereign_temple.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/GreatSovereignTempleDimension.java"
         ]
       },
       "path": "~/biomesAndDimensions/Mission_Worlds"
@@ -16184,9 +16242,9 @@
       "registry_name": "miniknog_stronghold",
       "metadata": {
         "files": [
-          "src/main/resources/data/minebound/dimension_type/miniknog_stronghold.json",
           "src/main/resources/data/minebound/dimension/miniknog_stronghold.json",
-          "src/main/java/net/mcreator/minebound/world/dimension/MiniknogStrongholdDimension.java"
+          "src/main/java/net/mcreator/minebound/world/dimension/MiniknogStrongholdDimension.java",
+          "src/main/resources/data/minebound/dimension_type/miniknog_stronghold.json"
         ]
       },
       "path": "~/biomesAndDimensions/Mission_Worlds"
@@ -16233,8 +16291,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/minebound/world/dimension/PenguinWeaponryTestingSiteDimension.java",
-          "src/main/resources/data/minebound/dimension/penguin_weaponry_testing_site.json",
-          "src/main/resources/data/minebound/dimension_type/penguin_weaponry_testing_site.json"
+          "src/main/resources/data/minebound/dimension_type/penguin_weaponry_testing_site.json",
+          "src/main/resources/data/minebound/dimension/penguin_weaponry_testing_site.json"
         ]
       },
       "path": "~/biomesAndDimensions/Mission_Worlds/OtherMissions"
@@ -21970,10 +22028,12 @@
       "registry_name": "moondusterchiuscrystalfuel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/item/moondusterchiuscrystalfuel.json",
-          "src/main/java/net/mcreator/minebound/block/MoondusterchiuscrystalfuelBlock.java",
           "src/main/resources/assets/minebound/blockstates/moondusterchiuscrystalfuel.json",
-          "src/main/resources/assets/minebound/models/block/moondusterchiuscrystalfuel.json"
+          "src/main/resources/assets/minebound/models/block/moondusterchiuscrystalfuel.json",
+          "src/main/java/net/mcreator/minebound/block/MoondusterchiuscrystalfuelBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/MoondusterchiuscrystalfuelFeature.java",
+          "src/main/resources/assets/minebound/models/item/moondusterchiuscrystalfuel.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/moondusterchiuscrystalfuel_biome_modifier.json"
         ]
       },
       "path": "~/tiles/Ored_Tiles"
@@ -21987,10 +22047,12 @@
       "registry_name": "moonrockerchiuscrystalfuel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/blockstates/moonrockerchiuscrystalfuel.json",
-          "src/main/java/net/mcreator/minebound/block/MoonrockerchiuscrystalfuelBlock.java",
           "src/main/resources/assets/minebound/models/item/moonrockerchiuscrystalfuel.json",
-          "src/main/resources/assets/minebound/models/block/moonrockerchiuscrystalfuel.json"
+          "src/main/java/net/mcreator/minebound/world/features/ores/MoonrockerchiuscrystalfuelFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/moonrockerchiuscrystalfuel_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/moonrockerchiuscrystalfuel.json",
+          "src/main/resources/assets/minebound/blockstates/moonrockerchiuscrystalfuel.json",
+          "src/main/java/net/mcreator/minebound/block/MoonrockerchiuscrystalfuelBlock.java"
         ]
       },
       "path": "~/tiles/Ored_Tiles"
@@ -22004,10 +22066,12 @@
       "registry_name": "moonstoneerchiuscrystalfuel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minebound/models/block/moonstoneerchiuscrystalfuel.json",
           "src/main/resources/assets/minebound/blockstates/moonstoneerchiuscrystalfuel.json",
+          "src/main/resources/assets/minebound/models/block/moonstoneerchiuscrystalfuel.json",
+          "src/main/java/net/mcreator/minebound/block/MoonstoneerchiuscrystalfuelBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/moonstoneerchiuscrystalfuel_biome_modifier.json",
           "src/main/resources/assets/minebound/models/item/moonstoneerchiuscrystalfuel.json",
-          "src/main/java/net/mcreator/minebound/block/MoonstoneerchiuscrystalfuelBlock.java"
+          "src/main/java/net/mcreator/minebound/world/features/ores/MoonstoneerchiuscrystalfuelFeature.java"
         ]
       },
       "path": "~/tiles/Ored_Tiles"
@@ -26394,6 +26458,1390 @@
         ]
       },
       "path": "~/tiles/Ored_Tiles"
+    },
+    {
+      "name": "Mineboundair",
+      "type": "block",
+      "sortid": 1500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineboundair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/mineboundair.json",
+          "src/main/java/net/mcreator/minebound/block/MineboundairBlock.java",
+          "src/main/resources/assets/minebound/models/item/mineboundair.json",
+          "src/main/resources/assets/minebound/models/block/mineboundair.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "MudGarden",
+      "type": "block",
+      "sortid": 1501,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_garden",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/mud_garden.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/MudGardenFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/mud_garden_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/mud_garden.json",
+          "src/main/resources/assets/minebound/models/block/mud_garden.json",
+          "src/main/java/net/mcreator/minebound/block/MudGardenBlock.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "SlushSnowy",
+      "type": "block",
+      "sortid": 1502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slush_snowy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/SlushSnowyBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/SlushSnowyFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/slush_snowy_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/slush_snowy.json",
+          "src/main/resources/assets/minebound/models/block/slush_snowy.json",
+          "src/main/resources/assets/minebound/models/item/slush_snowy.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "DirtMutated",
+      "type": "block",
+      "sortid": 1503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_mutated",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/dirt_mutated.json",
+          "src/main/resources/assets/minebound/models/item/dirt_mutated.json",
+          "src/main/java/net/mcreator/minebound/block/DirtMutatedBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/DirtMutatedFeature.java",
+          "src/main/resources/assets/minebound/blockstates/dirt_mutated.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/dirt_mutated_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "MudJungle",
+      "type": "block",
+      "sortid": 1504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/mud_jungle.json",
+          "src/main/java/net/mcreator/minebound/block/MudJungleBlock.java",
+          "src/main/resources/assets/minebound/blockstates/mud_jungle.json",
+          "src/main/resources/assets/minebound/models/block/mud_jungle.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/MudJungleFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/mud_jungle_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "GraniteMidnight",
+      "type": "block",
+      "sortid": 1505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_midnight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/granite_midnight_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/granite_midnight.json",
+          "src/main/resources/assets/minebound/models/block/granite_midnight.json",
+          "src/main/java/net/mcreator/minebound/block/GraniteMidnightBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GraniteMidnightFeature.java",
+          "src/main/resources/assets/minebound/blockstates/granite_midnight.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "DryDirtDecayed",
+      "type": "block",
+      "sortid": 1506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_dirt_decayed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/dry_dirt_decayed.json",
+          "src/main/resources/assets/minebound/models/block/dry_dirt_decayed.json",
+          "src/main/java/net/mcreator/minebound/block/DryDirtDecayedBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/dry_dirt_decayed_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/DryDirtDecayedFeature.java",
+          "src/main/resources/assets/minebound/models/item/dry_dirt_decayed.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "UnrefinedChertDecayed",
+      "type": "block",
+      "sortid": 1507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unrefined_chert_decayed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/unrefined_chert_decayed.json",
+          "src/main/resources/assets/minebound/blockstates/unrefined_chert_decayed.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_chert_decayed_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/block/UnrefinedChertDecayedBlock.java",
+          "src/main/resources/assets/minebound/models/block/unrefined_chert_decayed.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedChertDecayedFeature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "AshFoundry",
+      "type": "block",
+      "sortid": 1508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_foundry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/ash_foundry.json",
+          "src/main/resources/assets/minebound/models/block/ash_foundry.json",
+          "src/main/java/net/mcreator/minebound/block/AshFoundryBlock.java",
+          "src/main/resources/assets/minebound/models/item/ash_foundry.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/ash_foundry_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/AshFoundryFeature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "ObsidianFoundry",
+      "type": "block",
+      "sortid": 1509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_foundry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/ObsidianFoundryFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/obsidian_foundry_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/obsidian_foundry.json",
+          "src/main/resources/assets/minebound/blockstates/obsidian_foundry.json",
+          "src/main/resources/assets/minebound/models/block/obsidian_foundry.json",
+          "src/main/java/net/mcreator/minebound/block/ObsidianFoundryBlock.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "AshGeode",
+      "type": "block",
+      "sortid": 1510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_geode",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/ash_geode.json",
+          "src/main/resources/assets/minebound/blockstates/ash_geode.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/ash_geode_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/block/AshGeodeBlock.java",
+          "src/main/resources/assets/minebound/models/block/ash_geode.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/AshGeodeFeature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "DrysandMutatedSavannah",
+      "type": "block",
+      "sortid": 1511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drysand_mutated_savannah",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/DrysandMutatedSavannahBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/DrysandMutatedSavannahFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/drysand_mutated_savannah_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/drysand_mutated_savannah.json",
+          "src/main/resources/assets/minebound/models/item/drysand_mutated_savannah.json",
+          "src/main/resources/assets/minebound/models/block/drysand_mutated_savannah.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "UnrefinedArkoseMutatedSavannah",
+      "type": "block",
+      "sortid": 1512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unrefined_arkose_mutated_savannah",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedArkoseMutatedSavannahFeature.java",
+          "src/main/resources/assets/minebound/blockstates/unrefined_arkose_mutated_savannah.json",
+          "src/main/resources/assets/minebound/models/block/unrefined_arkose_mutated_savannah.json",
+          "src/main/java/net/mcreator/minebound/block/UnrefinedArkoseMutatedSavannahBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_arkose_mutated_savannah_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/unrefined_arkose_mutated_savannah.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "MudFlesh",
+      "type": "block",
+      "sortid": 1513,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/mud_flesh_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/mud_flesh.json",
+          "src/main/java/net/mcreator/minebound/block/MudFleshBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/MudFleshFeature.java",
+          "src/main/resources/assets/minebound/blockstates/mud_flesh.json",
+          "src/main/resources/assets/minebound/models/block/mud_flesh.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "ObsidianFlesh",
+      "type": "block",
+      "sortid": 1514,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/ObsidianFleshBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/obsidian_flesh_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/ObsidianFleshFeature.java",
+          "src/main/resources/assets/minebound/models/block/obsidian_flesh.json",
+          "src/main/resources/assets/minebound/blockstates/obsidian_flesh.json",
+          "src/main/resources/assets/minebound/models/item/obsidian_flesh.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "ClaySwamp",
+      "type": "block",
+      "sortid": 1515,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clay_swamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/clay_swamp.json",
+          "src/main/resources/assets/minebound/models/item/clay_swamp.json",
+          "src/main/java/net/mcreator/minebound/block/ClaySwampBlock.java",
+          "src/main/resources/assets/minebound/blockstates/clay_swamp.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/ClaySwampFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/clay_swamp_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "WetDirtSwamp",
+      "type": "block",
+      "sortid": 1516,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_dirt_swamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/WetDirtSwampFeature.java",
+          "src/main/resources/assets/minebound/models/item/wet_dirt_swamp.json",
+          "src/main/resources/assets/minebound/blockstates/wet_dirt_swamp.json",
+          "src/main/java/net/mcreator/minebound/block/WetDirtSwampBlock.java",
+          "src/main/resources/assets/minebound/models/block/wet_dirt_swamp.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/wet_dirt_swamp_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "PlantMatterSwamp",
+      "type": "block",
+      "sortid": 1517,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_matter_swamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/plant_matter_swamp_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/plant_matter_swamp.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/PlantMatterSwampFeature.java",
+          "src/main/resources/assets/minebound/models/item/plant_matter_swamp.json",
+          "src/main/java/net/mcreator/minebound/block/PlantMatterSwampBlock.java",
+          "src/main/resources/assets/minebound/blockstates/plant_matter_swamp.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Dirtswamp",
+      "type": "block",
+      "sortid": 1518,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtswamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/DirtswampBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/dirtswamp_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/DirtswampFeature.java",
+          "src/main/resources/assets/minebound/models/block/dirtswamp.json",
+          "src/main/resources/assets/minebound/blockstates/dirtswamp.json",
+          "src/main/resources/assets/minebound/models/item/dirtswamp.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "UnrefinedAndesiteMushrom",
+      "type": "block",
+      "sortid": 1519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unrefined_andesite_mushrom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/UnrefinedAndesiteMushromBlock.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/unrefined_andesite_mushrom_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/UnrefinedAndesiteMushromFeature.java",
+          "src/main/resources/assets/minebound/models/item/unrefined_andesite_mushrom.json",
+          "src/main/resources/assets/minebound/blockstates/unrefined_andesite_mushrom.json",
+          "src/main/resources/assets/minebound/models/block/unrefined_andesite_mushrom.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Testdeadcore",
+      "type": "biome",
+      "sortid": 1520,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testdeadcore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TestdeadcoreBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Misc"
+    },
+    {
+      "name": "Undergroundbiomes",
+      "type": "dimension",
+      "sortid": 1521,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "undergroundbiomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/undergroundbiomes.json",
+          "src/main/resources/data/minebound/dimension/undergroundbiomes.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/UndergroundbiomesDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Misc"
+    },
+    {
+      "name": "Deadcorefiller",
+      "type": "feature",
+      "sortid": 1522,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadcorefiller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/deadcorefiller_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/DeadcorefillerFeature.java",
+          "src/main/resources/data/minebound/worldgen/configured_feature/deadcorefiller.json",
+          "src/main/resources/data/minebound/worldgen/placed_feature/deadcorefiller.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Misc"
+    },
+    {
+      "name": "Deadcorefiller2",
+      "type": "feature",
+      "sortid": 1523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadcorefiller_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/worldgen/configured_feature/deadcorefiller_2.json",
+          "src/main/java/net/mcreator/minebound/world/features/Deadcorefiller2Feature.java",
+          "src/main/resources/data/minebound/worldgen/placed_feature/deadcorefiller_2.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/deadcorefiller_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Misc"
+    },
+    {
+      "name": "Undergroundbiomes2",
+      "type": "dimension",
+      "sortid": 1524,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "undergroundbiomes_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/Undergroundbiomes2Dimension.java",
+          "src/main/resources/data/minebound/dimension_type/undergroundbiomes_2.json",
+          "src/main/resources/data/minebound/dimension/undergroundbiomes_2.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Misc"
+    },
+    {
+      "name": "Undergroundbiomes3",
+      "type": "dimension",
+      "sortid": 1525,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "undergroundbiomes_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/Undergroundbiomes3Dimension.java",
+          "src/main/resources/data/minebound/dimension_type/undergroundbiomes_3.json",
+          "src/main/resources/data/minebound/dimension/undergroundbiomes_3.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Misc"
+    },
+    {
+      "name": "Corereplacement",
+      "type": "block",
+      "sortid": 1526,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "corereplacement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/CorereplacementFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/corereplacement_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/corereplacement.json",
+          "src/main/java/net/mcreator/minebound/block/CorereplacementBlock.java",
+          "src/main/resources/assets/minebound/blockstates/corereplacement.json",
+          "src/main/resources/assets/minebound/models/item/corereplacement.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "CoreReplacement2",
+      "type": "block",
+      "sortid": 1527,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "core_replacement_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/core_replacement_2_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/CoreReplacement2Feature.java",
+          "src/main/java/net/mcreator/minebound/block/CoreReplacement2Block.java",
+          "src/main/resources/assets/minebound/blockstates/core_replacement_2.json",
+          "src/main/resources/assets/minebound/models/block/core_replacement_2.json",
+          "src/main/resources/assets/minebound/models/item/core_replacement_2.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "CoreReplacement3",
+      "type": "block",
+      "sortid": 1528,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "core_replacement_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/core_replacement_3.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/CoreReplacement3Feature.java",
+          "src/main/java/net/mcreator/minebound/block/CoreReplacement3Block.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/core_replacement_3_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/core_replacement_3.json",
+          "src/main/resources/assets/minebound/models/block/core_replacement_3.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Cavebubblecarver1",
+      "type": "block",
+      "sortid": 1529,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cavebubblecarver_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/Cavebubblecarver1Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Cavebubblecarver1Feature.java",
+          "src/main/resources/assets/minebound/models/item/cavebubblecarver_1.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/cavebubblecarver_1_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/cavebubblecarver_1.json",
+          "src/main/resources/assets/minebound/blockstates/cavebubblecarver_1.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement1",
+      "type": "block",
+      "sortid": 1531,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_1.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement1Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement1Feature.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_1.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_1_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_1.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement2",
+      "type": "block",
+      "sortid": 1532,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/lavareplacement_2.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_2_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_2.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_2.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement2Feature.java",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement2Block.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement3",
+      "type": "block",
+      "sortid": 1533,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement3Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement3Feature.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_3.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_3_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_3.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_3.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement4",
+      "type": "block",
+      "sortid": 1534,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_4_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_4.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_4.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement4Feature.java",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement4Block.java",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_4.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement5",
+      "type": "block",
+      "sortid": 1535,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/lavareplacement_5.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement5Block.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_5.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement5Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_5_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_5.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement6",
+      "type": "block",
+      "sortid": 1536,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement6Block.java",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_6.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_6.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_6.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement6Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_6_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement7",
+      "type": "block",
+      "sortid": 1537,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/lavareplacement_7.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement7Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_7_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_7.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement7Block.java",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_7.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement8",
+      "type": "block",
+      "sortid": 1538,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_8_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_8.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement8Feature.java",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement8Block.java",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_8.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_8.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement9",
+      "type": "block",
+      "sortid": 1539,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_9.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement9Block.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_9.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement9Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_9_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_9.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement10",
+      "type": "block",
+      "sortid": 1540,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement10Block.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_10.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement10Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_10_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_10.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_10.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Filler",
+      "type": "dimension",
+      "sortid": 1541,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/FillerDimension.java",
+          "src/main/resources/data/minebound/dimension_type/filler.json",
+          "src/main/resources/data/minebound/dimension/filler.json"
+        ]
+      }
+    },
+    {
+      "name": "Worldeaterblob",
+      "type": "feature",
+      "sortid": 1542,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worldeaterblob",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/worldgen/placed_feature/worldeaterblob.json",
+          "src/main/java/net/mcreator/minebound/world/features/WorldeaterblobFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/worldeaterblob_biome_modifier.json",
+          "src/main/resources/data/minebound/worldgen/configured_feature/worldeaterblob.json"
+        ]
+      }
+    },
+    {
+      "name": "Lavareplacement11",
+      "type": "block",
+      "sortid": 1543,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_11.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_11_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_11.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_11.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement11Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement11Feature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement12",
+      "type": "block",
+      "sortid": 1544,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement12Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement12Feature.java",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_12.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_12.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_12.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_12_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement0",
+      "type": "block",
+      "sortid": 1545,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_0_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_0.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement0Feature.java",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement0Block.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_0.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_0.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement01",
+      "type": "block",
+      "sortid": 1546,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_01",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement01Feature.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_01.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_01.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_01.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement01Block.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_01_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement02",
+      "type": "block",
+      "sortid": 1547,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_02",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_02.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement02Feature.java",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement02Block.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_02.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_02.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_02_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement03",
+      "type": "block",
+      "sortid": 1548,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_03",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement03Feature.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_03.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_03.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement03Block.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_03_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_03.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement04",
+      "type": "block",
+      "sortid": 1549,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_04",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/lavareplacement_04.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_04.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_04.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement04Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement04Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_04_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement05",
+      "type": "block",
+      "sortid": 1550,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_05",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_05.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_05.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_05_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_05.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement05Feature.java",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement05Block.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement06",
+      "type": "block",
+      "sortid": 1551,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_06",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/lavareplacement_06.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_06_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement06Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement06Feature.java",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_06.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_06.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement07",
+      "type": "block",
+      "sortid": 1552,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_07",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/lavareplacement_07.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement07Feature.java",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_07.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement07Block.java",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_07.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_07_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement08",
+      "type": "block",
+      "sortid": 1553,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_08",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/lavareplacement_08.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement08Block.java",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_08.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_08_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_08.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement08Feature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement09",
+      "type": "block",
+      "sortid": 1554,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_09",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/lavareplacement_09.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement09Feature.java",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_09.json",
+          "src/main/resources/assets/minebound/models/block/lavareplacement_09.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement09Block.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_09_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement00",
+      "type": "block",
+      "sortid": 1555,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement_00",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/lavareplacement_00.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement_00.json",
+          "src/main/java/net/mcreator/minebound/block/Lavareplacement00Block.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_00_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement_00.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavareplacement00Feature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacement",
+      "type": "block",
+      "sortid": 1556,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/LavareplacementBlock.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/LavareplacementFeature.java",
+          "src/main/resources/assets/minebound/models/block/lavareplacement.json",
+          "src/main/resources/assets/minebound/models/item/lavareplacement.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacement.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacement_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavareplacementfull",
+      "type": "block",
+      "sortid": 1557,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavareplacementfull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/LavareplacementfullFeature.java",
+          "src/main/resources/assets/minebound/models/block/lavareplacementfull.json",
+          "src/main/java/net/mcreator/minebound/block/LavareplacementfullBlock.java",
+          "src/main/resources/assets/minebound/models/item/lavareplacementfull.json",
+          "src/main/resources/assets/minebound/blockstates/lavareplacementfull.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavareplacementfull_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavafiller1",
+      "type": "block",
+      "sortid": 1558,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavafiller_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/lavafiller_1.json",
+          "src/main/resources/assets/minebound/blockstates/lavafiller_1.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavafiller1Feature.java",
+          "src/main/java/net/mcreator/minebound/block/Lavafiller1Block.java",
+          "src/main/resources/assets/minebound/models/item/lavafiller_1.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavafiller_1_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavafiller2",
+      "type": "block",
+      "sortid": 1559,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavafiller_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/lavafiller_2.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavafiller2Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavafiller_2_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/lavafiller_2.json",
+          "src/main/java/net/mcreator/minebound/block/Lavafiller2Block.java",
+          "src/main/resources/assets/minebound/models/block/lavafiller_2.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavafiller3",
+      "type": "block",
+      "sortid": 1560,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavafiller_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/Lavafiller3Block.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavafiller_3_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/lavafiller_3.json",
+          "src/main/resources/assets/minebound/models/item/lavafiller_3.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavafiller3Feature.java",
+          "src/main/resources/assets/minebound/blockstates/lavafiller_3.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavafiller4",
+      "type": "block",
+      "sortid": 1561,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lavafiller_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/Lavafiller4Block.java",
+          "src/main/resources/assets/minebound/models/item/lavafiller_4.json",
+          "src/main/resources/assets/minebound/blockstates/lavafiller_4.json",
+          "src/main/resources/assets/minebound/models/block/lavafiller_4.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/Lavafiller4Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/lavafiller_4_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "Lavadestroyer",
+      "type": "feature",
+      "sortid": 1562,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavadestroyer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/lavadestroyer_biome_modifier.json",
+          "src/main/resources/data/minebound/worldgen/placed_feature/lavadestroyer.json",
+          "src/main/resources/data/minebound/worldgen/configured_feature/lavadestroyer.json",
+          "src/main/java/net/mcreator/minebound/world/features/LavadestroyerFeature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "CaveSmallBubbleCarver",
+      "type": "block",
+      "sortid": 1563,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cave_small_bubble_carver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/features/ores/CaveSmallBubbleCarverFeature.java",
+          "src/main/resources/assets/minebound/models/block/cave_small_bubble_carver.json",
+          "src/main/resources/assets/minebound/models/item/cave_small_bubble_carver.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/cave_small_bubble_carver_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/cave_small_bubble_carver.json",
+          "src/main/java/net/mcreator/minebound/block/CaveSmallBubbleCarverBlock.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "CaveSpacerCarver1",
+      "type": "block",
+      "sortid": 1564,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cave_spacer_carver_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/blockstates/cave_spacer_carver_1.json",
+          "src/main/resources/assets/minebound/models/item/cave_spacer_carver_1.json",
+          "src/main/java/net/mcreator/minebound/block/CaveSpacerCarver1Block.java",
+          "src/main/resources/assets/minebound/models/block/cave_spacer_carver_1.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/CaveSpacerCarver1Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/cave_spacer_carver_1_biome_modifier.json"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "CaveSpacerCarver2",
+      "type": "block",
+      "sortid": 1565,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cave_spacer_carver_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/cave_spacer_carver_2.json",
+          "src/main/resources/assets/minebound/models/item/cave_spacer_carver_2.json",
+          "src/main/resources/assets/minebound/blockstates/cave_spacer_carver_2.json",
+          "src/main/resources/data/minebound/forge/biome_modifier/cave_spacer_carver_2_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/block/CaveSpacerCarver2Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/CaveSpacerCarver2Feature.java"
+        ]
+      },
+      "path": "~/generation material"
+    },
+    {
+      "name": "GenLava",
+      "type": "fluid",
+      "sortid": 1566,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gen_lava",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/block/GenLavaBlock.java",
+          "src/main/java/net/mcreator/minebound/fluid/GenLavaFluid.java",
+          "src/main/resources/assets/minebound/models/item/gen_lava_bucket.json",
+          "src/main/java/net/mcreator/minebound/fluid/types/GenLavaFluidType.java",
+          "src/main/resources/assets/minebound/blockstates/gen_lava.json",
+          "src/main/resources/assets/minebound/models/block/gen_lava.json"
+        ]
+      }
+    },
+    {
+      "name": "GenLavaBlockAdded",
+      "type": "procedure",
+      "sortid": 1567,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gen_lava_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/GenLavaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenLavaFeature",
+      "type": "feature",
+      "sortid": 1568,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gen_lava_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/worldgen/configured_feature/gen_lava_feature.json",
+          "src/main/java/net/mcreator/minebound/world/features/GenLavaFeatureFeature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/gen_lava_feature_biome_modifier.json",
+          "src/main/resources/data/minebound/worldgen/placed_feature/gen_lava_feature.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaBlockAdded",
+      "type": "procedure",
+      "sortid": 1569,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/LavaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenBlockLava",
+      "type": "block",
+      "sortid": 1570,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gen_block_lava",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/gen_block_lava.json",
+          "src/main/resources/assets/minebound/models/item/gen_block_lava.json",
+          "src/main/java/net/mcreator/minebound/block/GenBlockLavaBlock.java",
+          "src/main/resources/assets/minebound/blockstates/gen_block_lava.json"
+        ]
+      }
+    },
+    {
+      "name": "GenBlockLavaBlockAdded",
+      "type": "procedure",
+      "sortid": 1571,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gen_block_lava_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/GenBlockLavaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenLavaPoolGenerator",
+      "type": "procedure",
+      "sortid": 1572,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gen_lava_pool_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/GenLavaPoolGeneratorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -26729,10 +28177,10 @@
   ],
   "language_map": {
     "en_us": {
-      "entity.test.bobot_mob_charging": "Bobot",
       "item.minebound.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
-      "entity.test.mooshi_mob": "Mooshi",
+      "entity.test.bobot_mob_charging": "Bobot",
       "block.minebound.shadow_bricks_slab": "Shadow Bricks Slab",
+      "entity.test.mooshi_mob": "Mooshi",
       "gui.test.mm_upgrade_gui_test.button_empty": "Liquid Upgrade",
       "block.minebound.block_coconut_milk": "Coconut Milk",
       "block.minebound.graniterockcoal": "Granite Rock Coal Ore",
@@ -26740,9 +28188,10 @@
       "entity.test.paratail_mob": "Paratail",
       "block.minebound.moonstone": "Moonstone",
       "block.minebound.heavy_iron_bars": "Heavy Iron Bars",
-      "block.minebound.rustedoilbarrel": "Sewage Barrel",
       "block.minebound.iceferozium": "Ice Ferozium Ore",
+      "block.minebound.rustedoilbarrel": "Sewage Barrel",
       "block.minebound.iceblock": "Ice Block",
+      "item.minebound.undergroundbiomes": "Undergroundbiomes Portal Igniter",
       "block.minebound.andesiteviolium": "Andesite Violium Ore",
       "item.test.mech_test_body_spawn_egg": "Mech Test Body Spawn Egg",
       "biome.minebound.tundra_snow_biome": "Snow",
@@ -26754,7 +28203,10 @@
       "block.test.corruptdirt": "Corrupt dirt",
       "block.minebound.sod_block": "Sod Block",
       "block.minebound.scorchedhazardtape": "Danger Zone Panel",
+      "block.minebound.mud_garden": "Mud",
+      "block.minebound.lavafiller_2": "Lava replacement block",
       "entity.minebound.crabcano_mob": "Crabcano",
+      "block.minebound.lavafiller_1": "Lava replacement block",
       "entity.minebound.nutmidge_mob": "Nutmidge",
       "block.minebound.hivecopper": "Hive Copper Ore",
       "entity.test.yokat_mob": "Yokat",
@@ -26762,6 +28214,8 @@
       "entity.minebound.crustoise_mob": "Crustoise",
       "item.test.block_indicator_entity_1_spawn_egg": "Block Indicator Entity Spawn Egg",
       "item.minebound.gentle_moon": "Desert Planet Portal Igniter",
+      "block.minebound.lavafiller_4": "Lava replacement block",
+      "block.minebound.lavafiller_3": "Lava replacement block",
       "block.minebound.alienrockgold": "Alien Rock Gold Ore",
       "item.test.spookit_mob_spawn_egg": "Spookit Spawn Egg",
       "block.minebound.andesitetungsten": "Andesite Tungsten Ore",
@@ -26785,9 +28239,10 @@
       "block.minebound.rustygrate": "Rusted Metal Frame Wall",
       "block.minebound.direstoneaegisalt": "Dire Stone Aegisalt Ore",
       "block.test.loosesilt": "Loose Silt",
+      "block.minebound.clay_swamp": "Clay",
       "block.minebound.roughsandstone": "Sandstone",
-      "entity.test.masteroid_mob": "Masteroid",
       "entity.test.squeem_mob": "Squeem",
+      "entity.test.masteroid_mob": "Masteroid",
       "block.test.test_light_on": "Test Light (On)",
       "block.minebound.direstoneferozium": "Dire Stone Ferozium Ore",
       "subtitles.breaking_mud": "breaking_mud",
@@ -26795,8 +28250,8 @@
       "block.minebound.pressurised_durasteel_panel": "Pressurised Durasteel Panel",
       "item.minebound.titanium_bar": "Titanium Bar",
       "entity.test.bobot_mob": "Bobot",
-      "item.minebound.cosmic_intruder_mob_spawn_egg": "Cosmic Intruder Spawn Egg",
       "block.minebound.hivediamond": "Hive Diamond Ore",
+      "item.minebound.cosmic_intruder_mob_spawn_egg": "Cosmic Intruder Spawn Egg",
       "block.minebound.iceaegisalt": "Ice Aegisalt Ore",
       "subtitles.footstep_lightmetal": "footstep_lightmetal1",
       "block.minebound.grassyrocksolarium": "Grassy Rock Solarium Ore",
@@ -26828,12 +28283,12 @@
       "entity.test.apex_mutant_mob": "Apex Mutant",
       "block.minebound.mudiron": "Mud Iron Ore",
       "item.test.racer_mob_2_spawn_egg": "Racer Mob Spawn Egg",
-      "item.minebound.fluffalo_fire_mob_spawn_egg": "Fire Fluffalo Spawn Egg",
-      "biome.minebound.ice_caves_underground_biome": "Ice Caves",
       "block.minebound.graniterockdiamond": "Granite Rock Diamond Ore",
+      "biome.minebound.ice_caves_underground_biome": "Ice Caves",
+      "item.minebound.fluffalo_fire_mob_spawn_egg": "Fire Fluffalo Spawn Egg",
       "entity.minebound.omnicannon_mob": "Omnicannon",
-      "item.minebound.pipkin_mob_spawn_egg": "Pipkin Spawn Egg",
       "block.minebound.direstoneiron": "Dire Stone Iron Ore",
+      "item.minebound.pipkin_mob_spawn_egg": "Pipkin Spawn Egg",
       "item.minebound.mech_test_leg_left_spawn_egg": "Mech Test Leg Left Spawn Egg",
       "item.minebound.hemogoblin_mob_rear_spawn_egg": "-goblin Spawn Egg",
       "block.minebound.icecopper": "Ice Copper Ore",
@@ -26853,11 +28308,11 @@
       "entity.minebound.lumoth_mob": "Lumoth",
       "block.minebound.geodestonesilver": "Geode Stone Silver Ore",
       "entity.test.wisper_mob": "Wisper",
-      "item.test.batong_mob_resting_spawn_egg": "Batong Spawn Egg",
       "gui.test.mm_upgrade_gui_test.button_empty7": "Speed Upgrade 2",
+      "item.test.batong_mob_resting_spawn_egg": "Batong Spawn Egg",
       "gui.test.mm_upgrade_gui_test.button_empty8": "Speed Upgrade 3",
-      "gui.test.mm_upgrade_gui_test.button_empty9": "Range Upgrade 1",
       "block.minebound.blaststone_durasteel": "Blaststone Durasteel Ore",
+      "gui.test.mm_upgrade_gui_test.button_empty9": "Range Upgrade 1",
       "gui.test.mm_upgrade_gui_test.button_empty1": "Paint Upgrade",
       "gui.test.mm_upgrade_gui_test.button_empty2": "Wiring Upgrade",
       "gui.test.mm_upgrade_gui_test.button_empty3": "Area Upgrade 1",
@@ -26868,13 +28323,13 @@
       "gui.test.mm_upgrade_gui_test.button_empty6": "Speed Upgrade 1",
       "block.minebound.dacitecoal": "Dacite Coal Ore",
       "entity.test.ringram_mob": "Ringram",
-      "subtitles.stone2_hitting": "stone2_hitting",
       "block.minebound.fleshpile": "Flesh Pile",
+      "subtitles.stone2_hitting": "stone2_hitting",
       "block.minebound.ornate_flooring": "Ornate Flooring",
       "item.minebound.space": "Space Portal Igniter",
       "item.minebound.player_head_hud_entity_spawn_egg": "Player Spawn Egg",
-      "entity.test.bobfae_mob": "Bobfae",
       "block.minebound.unmarked_tomb_bricks_wall": "Unmarked Tomb Bricks Wall",
+      "entity.test.bobfae_mob": "Bobfae",
       "key.minebound.mech_jump": "Mech Jump",
       "subtitles.atom4": "normal_break",
       "block.minebound.outpost_wall_slab": "Outpost Wall Block",
@@ -26917,9 +28372,10 @@
       "block.minebound.blaststone_titanium": "Blaststone Titanium Ore",
       "block.minebound.wooden_fence_corner": "Wooden Fence Corner",
       "block.minebound.striped_wood": "Striped Wood",
+      "block.minebound.dirt_mutated": "Dirt ",
       "item.minebound.omnicannon_mob_spawn_egg": "Omnicannon Spawn Egg",
-      "effect.minebound.slime": "Slime",
       "block.minebound.gritstonegold": "Gritstone Gold Ore",
+      "effect.minebound.slime": "Slime",
       "block.minebound.coarsegravel": "Coarse Gravel",
       "item.minebound.poling_mob_spawn_egg": "Po Spawn Egg",
       "block.test.test_light_off": "Test Light (Off)",
@@ -26937,8 +28393,8 @@
       "block.minebound.ancient_brick_slab": "Ancient Brick Slab",
       "subtitles.footstep_rooftile": "footstep_rooftile",
       "block.minebound.frozendirtgold": "Frozen Dirt Gold Ore",
-      "itemGroup.tabmb_furniture": "MB Furniture",
       "block.minebound.drysandcopper": "Dry Sand Copper Ore",
+      "itemGroup.tabmb_furniture": "MB Furniture",
       "block.minebound.andesitecoal": "Andesite Coal Ore",
       "item.test.block_indicator_entity_2_spawn_egg": "Wire Indicator Entity Spawn Egg",
       "item.minebound.squeem_mob_spawn_egg": "Squeem Spawn Egg",
@@ -26959,26 +28415,27 @@
       "item.minebound.chiropterror_mob_spawn_egg": "Chiropterror Spawn Egg",
       "block.minebound.cherttungsten": "Chert Tungsten Ore",
       "block.minebound.mudstonecorefragment": "Mudstone Core Fragment Ore",
-      "entity.minebound.batong_mob_resting": "Batong",
       "item.test.orbide_mob_resting_spawn_egg": "Orbide Spawn Egg",
+      "entity.minebound.batong_mob_resting": "Batong",
       "block.minebound.icegold": "Ice Gold Ore",
-      "item.test.snuffish_mob_spawn_egg": "Snuffish Spawn Egg",
       "block.minebound.snowcopper": "Snow Copper Ore",
+      "item.test.snuffish_mob_spawn_egg": "Snuffish Spawn Egg",
       "item.test.ixoling_mob_spawn_egg": "Ixoling Spawn Egg",
       "fluid.minebound.lava": "Lava",
       "item.test.peblit_mob_resting_spawn_egg": "Peblit Spawn Egg",
+      "block.minebound.obsidian_foundry": "Obsidian",
       "block.minebound.conglomeratesilver": "Conglomerate Silver Ore",
       "block.minebound.erchius_crystal": "Erchius Crystal",
       "item.minebound.aegisalt_ore": "Aegisalt Ore",
-      "block.test.direstone": "Dire stone",
       "block.minebound.icediamond": "Ice Diamond Ore",
+      "block.test.direstone": "Dire stone",
       "item.test.toumingo_mob_spawn_egg": "Toumingo Spawn Egg",
-      "entity.minebound.chicken_mob": "Chicken",
       "item.minebound.lilodon_mob_spawn_egg": "Lilodon Spawn Egg",
+      "entity.minebound.chicken_mob": "Chicken",
       "block.test.drysand": "Dry sand",
-      "fluid.test.poison": "Poison",
-      "item.test.skimbus_mob_spawn_egg": "Skimbus Spawn Egg",
       "block.minebound.toxicwastebarrel": "Toxic Waste Barrel",
+      "item.test.skimbus_mob_spawn_egg": "Skimbus Spawn Egg",
+      "fluid.test.poison": "Poison",
       "subtitles.footstep_wood": "footstep_wood1",
       "item.minebound.monopus_mob_charging_spawn_egg": "Monopus Spawn Egg",
       "block.minebound.fleshchunkiron": "Flesh Chunk Iron Ore",
@@ -26995,10 +28452,10 @@
       "block.minebound.drysandiron": "Dry Sand Iron Ore",
       "block.minebound.smooth_tomb_bricks_slab": "Smooth Tomb Bricks Slab",
       "biome.minebound.decayed_volcanic_biome": "Volcanic",
-      "block.test.test_light_block": "Test Light Block",
       "block.minebound.frozendirtdurasteel": "Frozen Dirt Durasteel Ore",
-      "entity.minebound.heavy_drone_mob": "Heavy Drone",
+      "block.test.test_light_block": "Test Light Block",
       "block.minebound.frozendirtdiamond": "Frozen Dirt Diamond Ore",
+      "entity.minebound.heavy_drone_mob": "Heavy Drone",
       "item.minebound.twigun_mob_spawn_egg": "Twigun Spawn Egg",
       "block.minebound.waste": "Waste",
       "item.test.squeem_mob_spawn_egg": "Squeem Spawn Egg",
@@ -27014,6 +28471,7 @@
       "block.minebound.fleshpilecoal": "Flesh Pile Coal Ore",
       "block.minebound.ornate_tiles_slab": "Ornate Tiles Slab",
       "item.minebound.fluffalo_mob_spawn_egg": "Fluffalo Spawn Egg",
+      "biome.minebound.testdeadcore": "test_dead_core",
       "block.minebound.ornate_wall": "Ornate Wall",
       "block.minebound.magmarocksilver": "Magma Rock Silver Ore",
       "block.minebound.obsidian": "Obsidian",
@@ -27027,9 +28485,9 @@
       "block.minebound.test_door": "Test Door",
       "subtitles.breaking_bone": "breaking_bones",
       "block.minebound.rustyboltedplates": "Factory Iron Block",
-      "item.test.swarpion_mob_spawn_egg": "Swarpion Spawn Egg",
-      "item.test.hemogoblin_mob_front_spawn_egg": "Hemo- Spawn Egg",
       "item.test.bulbop_mob_spawn_egg": "Bulbop Spawn Egg",
+      "item.test.hemogoblin_mob_front_spawn_egg": "Hemo- Spawn Egg",
+      "item.test.swarpion_mob_spawn_egg": "Swarpion Spawn Egg",
       "entity.minebound.monopus_mob_charging": "Monopus",
       "item.minebound.solarium_star": "Solarium Star",
       "entity.test.snuffish_mob": "Snuffish",
@@ -27054,26 +28512,26 @@
       "block.minebound.outpost_concrete": "Outpost Concrete Block",
       "block.minebound.smoothiceiron": "Smooth Ice Iron Ore",
       "block.minebound.wooden_fence_cross_2": "Wooden Fence Cross2",
-      "entity.test.spinemine_mob": "Spinemine",
       "effect.test.wet": "Wet",
+      "entity.test.spinemine_mob": "Spinemine",
       "block.minebound.dirtdurasteel": "Dirt Durasteel Ore",
-      "biome.test.emptyspace": "Emptyspace",
       "item.minebound.midnight_planet": "Desert Planet Portal Igniter",
+      "biome.test.emptyspace": "Emptyspace",
       "biome.minebound.tar_mini_biome": "Spring",
       "biome.minebound.ocean": "Ocean",
       "block.minebound.obsidianaegisalt": "Obsidian Aegisalt Ore",
       "item.test.test_monster_stat_item": "Test Monster Stat Item",
       "item.test.crustoise_mob_charging_spawn_egg": "Crustoise Spawn Egg",
-      "entity.minebound.hemogoblin_mob_rear": "-goblin",
       "biome.minebound.savannah_biome": "Savannah",
+      "entity.minebound.hemogoblin_mob_rear": "-goblin",
       "block.minebound.limestoneviolium": "Limestone Violium Ore",
       "block.minebound.conglomerateferozium": "Conglomerate Ferozium Ore",
       "block.minebound.wetdirtviolium": "Wet Dirt Violium Ore",
       "block.minebound.hiveviolium": "Hive Violium Ore",
       "block.minebound.claysilver": "Clay Silver Ore",
       "block.minebound.blaststone_diamond": "Blaststone Diamond Ore",
-      "biome.minebound.asteroid_field_biome": "Asteroid Field",
       "block.minebound.ship_support_slab": "Ship Support Block",
+      "biome.minebound.asteroid_field_biome": "Asteroid Field",
       "entity.test.capricoat_mob": "Capricoat",
       "block.minebound.grassyrockcopper": "Grassy Rock Copper Ore",
       "entity.test.bulbop_mob": "Bulbop",
@@ -27110,8 +28568,8 @@
       "item.test.spinemine_mob_spawn_egg": "Spinemine Spawn Egg",
       "item.minebound.mattermanipulatorbeta": "Matter manipulator beta",
       "entity.minebound.kluex_totem_mob": "Kluex Totem",
-      "block.minebound.fleshpilesilver": "Flesh Pile Silver Ore",
       "block.minebound.magmarockcorefragment": "Magma Rock Core Fragment Ore",
+      "block.minebound.fleshpilesilver": "Flesh Pile Silver Ore",
       "block.minebound.flower_block": "Flower Block",
       "entity.test.taroni_mob": "Taroni",
       "entity.test.triplod_mob": "Triplod",
@@ -27158,13 +28616,15 @@
       "entity.test.mech_test_body": "Mech Test Body",
       "subtitles.breaking_slush": "breaking_slush1",
       "block.minebound.gritstonetungsten": "Gritstone Tungsten Ore",
+      "block.minebound.wet_dirt_swamp": "Wet Dirt",
       "item.test.orbide_mob_spawn_egg": "Orbide Spawn Egg",
       "block.minebound.limestonesolarium": "Limestone Solarium Ore",
       "item.test.kluex_totem_mob_spawn_egg": "Kluex Totem Spawn Egg",
       "block.minebound.healing_water": "Healing Water",
       "block.minebound.rustedchainlinkfence": "Rusted Chain Link Fence",
-      "block.minebound.outpost_support_beam_block": "Outpost Support Beam Block",
+      "block.minebound.unrefined_chert_decayed": "Unrefined Chert",
       "block.minebound.chertgold": "Chert Gold Ore",
+      "block.minebound.outpost_support_beam_block": "Outpost Support Beam Block",
       "entity.minebound.triplod_mob": "Triplod",
       "block.minebound.tomb_bricks": "Tomb Bricks",
       "block.minebound.grassyrocktitanium": "Grassy Rock Ttitanium Ore",
@@ -27183,8 +28643,8 @@
       "block.minebound.scorchedtires": "Tire Arrow Sign",
       "item.minebound.trictus_mob_spawn_egg": "Trictus Spawn Egg",
       "block.minebound.frozendirttungsten": "Frozen Dirt Tungsten Ore",
-      "item.minebound.yokat_mob_spawn_egg": "Yokat Spawn Egg",
       "key.test.mech_jump": "Mech Jump",
+      "item.minebound.yokat_mob_spawn_egg": "Yokat Spawn Egg",
       "item.test.mech_test_leg_left_spawn_egg": "Mech Test Leg Left Spawn Egg",
       "block.minebound.chertdurasteel": "Chert Durasteel Ore",
       "block.minebound.tar_oil": "Oil",
@@ -27192,8 +28652,8 @@
       "block.minebound.gneissiron": "Gneiss Iron Ore",
       "entity.minebound.iguarmor_mob": "Iguarmor",
       "block.minebound.claydiamond": "Clay Diamond Ore",
-      "block.minebound.cacti": "Cacti",
       "item.minebound.durasteel_ore": "Durasteel Ore",
+      "block.minebound.cacti": "Cacti",
       "block.minebound.daciteferozium": "Dacite Ferozium Ore",
       "block.minebound.sandstoneferozium": "Sandstone Ferozium Ore",
       "block.minebound.smoothicesolarium": "Smooth Ice Solarium Ore",
@@ -27214,8 +28674,8 @@
       "block.test.cloud": "Cloud",
       "block.minebound.junkpile": "Junk pile",
       "item.minebound.peblit_mob_resting_spawn_egg": "Peblit Spawn Egg",
-      "block.minebound.copper_roofing_stairs": "Copper Roofing Stairs",
       "effect.minebound.doomed": "Doomed",
+      "block.minebound.copper_roofing_stairs": "Copper Roofing Stairs",
       "subtitles.rock_hitting1": "rock_hitting1",
       "item.test.bobot_mob_charging_spawn_egg": "Bobot Spawn Egg",
       "subtitles.footstep_sand": "footstep_sand",
@@ -27224,8 +28684,8 @@
       "block.minebound.silver_block": "Silver Block",
       "biome.minebound.moon_fiery_biome": "Fiery Moon",
       "block.minebound.snowgold": "Snow Gold Ore",
-      "block.minebound.direstonetungsten": "Dire Stone Tungsten Ore",
       "block.minebound.tarviolium": "Tar Violium Ore",
+      "block.minebound.direstonetungsten": "Dire Stone Tungsten Ore",
       "effect.minebound.wet": "Wet",
       "block.minebound.oldpapers_1": "Old papers 1",
       "block.minebound.oldpapers_2": "Old papers 2",
@@ -27245,8 +28705,8 @@
       "block.minebound.rustyscafolding": "Rusted Scaffolding",
       "block.minebound.unrefined_wood": "Unrefined Wood",
       "item.test.block_indicator_entity_3_spawn_egg": "Block Indicator Entity Spawn Egg",
-      "block.minebound.limestone": "Limestone",
       "biome.minebound.jungle_biome": "Jungle",
+      "block.minebound.limestone": "Limestone",
       "item.test.mattermanipulatorbeta": "Matter manipulator beta",
       "entity.test.oogler_mob": "Oogler",
       "block.minebound.poletop": "Wooden Telephone Pole",
@@ -27268,6 +28728,7 @@
       "entity.test.hemogoblin_mob_rear": "-goblin",
       "entity.test.mech_test_arm_right": "Mech Test Arm Right",
       "block.minebound.corruptdirt": "Corrupt Dirt",
+      "block.minebound.lavareplacementfull": "Lava replacement block",
       "item.test.petricub_mob_spawn_egg": "Petricub Spawn Egg",
       "block.minebound.tar_test": "Tar",
       "block.minebound.wetdirttitanium": "Wet Dirt Titanium Ore",
@@ -27288,6 +28749,7 @@
       "block.minebound.alienrockdiamond": "Alien Rock Diamond Ore",
       "block.minebound.liquid_erchius_fuel": "Liquid Erchius Fuel",
       "block.minebound.wreckedcontrolpanel": "Wrecked Console",
+      "block.minebound.ash_geode": "Ash Pile",
       "item.test.rustick_mob_spawn_egg": "Rustick Spawn Egg",
       "block.minebound.sandtitanium": "Sand Titanium Ore",
       "block.minebound.direstonesolarium": "Dire Stone Solarium Ore",
@@ -27300,18 +28762,19 @@
       "block.minebound.smooth_tomb_bricks": "Smooth Tomb Bricks",
       "entity.minebound.orbide_mob_resting": "Orbide",
       "entity.minebound.fluffalo_mob": "Fluffalo",
+      "fluid.minebound.gen_lava": "Lava",
       "block.minebound.corruptdirtgold": "Corrupt Dirt Gold Ore",
       "block.test.hiveblock": "Hive Block",
       "block.minebound.cobblestone_bricks": "Cobblestone Bricks",
       "item.test.racer_mob_1_spawn_egg": "Racer Mob Spawn Egg",
       "block.minebound.sandcoal": "Sand Coal Ore",
-      "biome.minebound.desert_biome": "Desert",
       "block.minebound.conglomerategold": "Conglomerate Gold Ore",
+      "biome.minebound.desert_biome": "Desert",
       "block.minebound.rustedcrate": "Rusty Crate",
       "block.minebound.fleshchunk": "Flesh Chunk",
       "item.test.monopus_mob_charging_spawn_egg": "Monopus Spawn Egg",
-      "block.minebound.hangingwires": "Wrecked Hanging Wires",
       "item.minebound.gold_bar": "Gold Bar",
+      "block.minebound.hangingwires": "Wrecked Hanging Wires",
       "biome.minebound.tentacle_biome": "Tentacle",
       "item.test.fennix_mob_spawn_egg": "Fennix Spawn Egg",
       "entity.test.fluffalo_poison_mob": "Poison Fluffalo",
@@ -27356,8 +28819,8 @@
       "block.minebound.magmarockdiamond": "Magma Rock Diamond Ore",
       "item.minebound.violium_ore": "Violium Ore",
       "biome.minebound.moon_biome": "Moon",
-      "biome.minebound.steam_spring_mini_biome": "Steamspring",
       "item.minebound.agrobat_mob_spawn_egg": "Agrobat Spawn Egg",
+      "biome.minebound.steam_spring_mini_biome": "Steamspring",
       "item.test.poison_bucket": "Measure of Poison",
       "item.test.wisper_mob_spawn_egg": "Wisper Spawn Egg",
       "block.minebound.copper_fence": "Copper Fence",
@@ -27382,6 +28845,7 @@
       "block.minebound.rusty_block": "Rusty Block",
       "effect.minebound.regeneration_1": "Regeneration",
       "entity.minebound.toumingo_mob": "Toumingo",
+      "block.minebound.drysand_mutated_savannah": "Dry Sand",
       "entity.test.omnicannon_mob": "Omnicannon",
       "item.minebound.wisper_mob_spawn_egg": "Wisper Spawn Egg",
       "item.minebound.mandraflora_mob_spawn_egg": "Mandraflora Spawn Egg",
@@ -27414,6 +28878,7 @@
       "block.minebound.wooden_window": "Wooden Window",
       "block.minebound.plant_block_slab": "Plant Block Slab",
       "effect.minebound.spooked": "Spooked",
+      "block.minebound.ash_foundry": "Ash Pile",
       "biome.minebound.magma_biome": "Magma",
       "fluid.minebound.coconut_milk": "Swamp Water",
       "entity.minebound.mother_poptop_mob": "Mother Poptop",
@@ -27440,6 +28905,7 @@
       "item.test.cosmic_intruder_mob_spawn_egg": "Cosmic Intruder Spawn Egg",
       "block.minebound.blaststone_silver": "Blaststone Silver Ore",
       "block.minebound.limestoneiron": "Limestone Iron Ore",
+      "item.minebound.filler": "Filler Portal Igniter",
       "block.minebound.plant_matter": "Plant Matter",
       "item.minebound.voltip_mob_spawn_egg": "Voltip Spawn Egg",
       "block.minebound.cloud": "Cloud",
@@ -27506,6 +28972,8 @@
       "subtitles.sand_fall1": "on_gravity_sand_falling",
       "block.minebound.shoji_screen_block": "Shoji Screen Block",
       "block.minebound.grassyrocktungsten": "Grassy Rock Tungsten Ore",
+      "block.minebound.cave_small_bubble_carver": "Cave bubble carver block",
+      "block.minebound.mineboundair": "Minebound air",
       "block.minebound.fleshpilesolarium": "Flesh Pile Solarium Ore",
       "block.minebound.dark_smooth_stone_slab": "Dark Smooth Stone Slab",
       "effect.test.deadlyradiation": "Deadly Radiation",
@@ -27539,10 +29007,21 @@
       "item.minebound.miniknog_stronghold": "Miniknog Stronghold Portal Igniter",
       "block.minebound.fleshpiledurasteel": "Flesh Pile Durasteel Ore",
       "block.minebound.gneisscopper": "Gneiss Copper Ore",
+      "block.minebound.unrefined_andesite_mushrom": "Unrefined Andesite",
+      "block.minebound.lavareplacement_9": "Lava replacement block",
       "effect.minebound.hungry": "Hungry",
+      "block.minebound.lavareplacement_7": "Lava replacement block",
+      "block.minebound.lavareplacement_8": "Lava replacement block",
+      "block.minebound.lavareplacement_5": "Lava replacement block",
       "block.minebound.sandtungsten": "Sand Tungsten Ore",
       "block.minebound.smoothicesilver": "Smooth Ice Silver Ore",
+      "block.minebound.lavareplacement_6": "Lava replacement block",
+      "block.minebound.lavareplacement_3": "Lava replacement block",
+      "block.minebound.lavareplacement_4": "Lava replacement block",
       "block.minebound.block_erchius_fuel": "liquid Erchius Fuel",
+      "block.minebound.lavareplacement_1": "Lava replacement block",
+      "block.minebound.lavareplacement_2": "Lava replacement block",
+      "block.minebound.lavareplacement_0": "Lava replacement block",
       "item.test.mini_drone_mob_spawn_egg": "Mini Drone Spawn Egg",
       "item.test.pipkin_mob_spawn_egg": "Pipkin Spawn Egg",
       "block.minebound.icecoal": "Ice Coal Ore",
@@ -27557,6 +29036,7 @@
       "block.minebound.drydirtaegisalt": "Dry Dirt Aegisalt Ore",
       "subtitles.footstep_brains": "footstep_brains",
       "block.minebound.mudaegisalt": "Mud Aegisalt Ore",
+      "block.minebound.mud_jungle": "Mud",
       "block.test.core_lava": "Core Lava",
       "block.minebound.smoothicetungsten": "Smooth Ice Tungsten Ore",
       "item.minebound.penguin_weaponry_testing_site": "Penguin Weaponry Testing Site Portal Igniter",
@@ -27573,7 +29053,9 @@
       "item.minebound.block_indicator_entity_1_spawn_egg": "Block Indicator Entity Spawn Egg",
       "block.minebound.theblock": "The block",
       "block.minebound.arkosedurasteel": "Arkose Durasteel Ore",
+      "block.minebound.cave_spacer_carver_1": "Cave bubble carver block",
       "item.minebound.quagmutt_mob_spawn_egg": "Quagmutt Spawn Egg",
+      "block.minebound.cave_spacer_carver_2": "Cave bubble carver block",
       "block.minebound.gritstonecopper": "Gritstone Copper Ore",
       "block.minebound.cobblestonesilver": "Cobblestone Silver Ore",
       "block.minebound.painted_bricks": "Painted Bricks",
@@ -27589,13 +29071,17 @@
       "entity.minebound.scandroid_mob_charging": "Scandroid",
       "item.minebound.toxicoceanplanet": "Toxicoceanplanet Portal Igniter",
       "block.minebound.iceviolium": "Ice Violium Ore",
+      "block.minebound.lavareplacement_12": "Lava replacement block",
+      "block.minebound.lavareplacement_11": "Lava replacement block",
       "item.minebound.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
+      "block.minebound.lavareplacement_10": "Lava replacement block",
       "block.minebound.drydirtviolium": "Dry Dirt Violium Ore",
       "item.test.adult_poptop_mob_spawn_egg": "Adult Poptop Spawn Egg",
       "block.minebound.ancient_slab": "Ancient Slab",
       "item.test.fluffalo_electric_mob_spawn_egg": "Electric Fluffalo Spawn Egg",
       "block.minebound.arkoseferozium": "Arkose Ferozium Ore",
       "effect.minebound.burning": "Burning",
+      "item.minebound.gen_lava_bucket": "Core Lava Bucket",
       "block.minebound.tardurasteel": "Tar Durasteel Ore",
       "block.minebound.geodestoneferozium": "Geode Stone Ferozium Ore",
       "item.test.fluffalo_fire_mob_spawn_egg": "Fire Fluffalo Spawn Egg",
@@ -27617,7 +29103,9 @@
       "block.minebound.gneisstitanium": "Gneiss Titanium Ore",
       "block.minebound.direstonecoal": "Dire Stone Coal Ore",
       "block.minebound.icesilver": "Ice Silver Ore",
+      "block.minebound.core_replacement_2": "Core replacement block",
       "block.minebound.reed_block": "Reed Block",
+      "block.minebound.core_replacement_3": "Core replacement block",
       "entity.minebound.sporgus_mob": "Sporgus",
       "block.minebound.gritstonecorefragment": "Gritstone Core Fragment Ore",
       "item.test.gosmet_mob_spawn_egg": "Gosmet Spawn Egg",
@@ -27629,15 +29117,26 @@
       "block.minebound.smashedscreen": "Wrecked Monitor",
       "block.minebound.pillar_block_bottom": "Pillar Block Bottom",
       "block.minebound.limestoneferozium": "Limestone Ferozium Ore",
+      "block.minebound.gen_lava": "Lava",
       "entity.test.astrofae_mob": "Astrofae",
       "biome.minebound.snow_biome": "Snow",
       "block.minebound.gneissaegisalt": "Gneiss Aegisalt Ore",
+      "block.minebound.lavareplacement_02": "Lava replacement block",
+      "block.minebound.lavareplacement_01": "Lava replacement block",
+      "block.minebound.lavareplacement_00": "Lava replacement block",
+      "block.minebound.lavareplacement_06": "Lava replacement block",
       "block.minebound.pressurised_girder_block": "Pressurised Girder Block",
+      "block.minebound.lavareplacement_05": "Lava replacement block",
       "item.minebound.petricub_mob_spawn_egg": "Petricub Spawn Egg",
+      "block.minebound.lavareplacement_04": "Lava replacement block",
       "entity.minebound.adult_poptop_mob": "Adult Poptop",
+      "block.minebound.lavareplacement_03": "Lava replacement block",
       "block.minebound.sandstonedurasteel": "Sandstone Durasteel Ore",
+      "block.minebound.lavareplacement_09": "Lava replacement block",
       "entity.test.parasprite_mob": "Parasprite",
+      "block.minebound.lavareplacement_08": "Lava replacement block",
       "item.test.ringram_mob_spawn_egg": "Ringram Spawn Egg",
+      "block.minebound.lavareplacement_07": "Lava replacement block",
       "subtitles.footstep_glass": "footstep_glass1",
       "block.minebound.dirtgold": "Dirt Gold Ore",
       "block.minebound.ornate_wall_panel": "Ornate Wall Panel",
@@ -27759,6 +29258,7 @@
       "block.minebound.sandstonesolarium": "Sandstone Solarium Ore",
       "block.minebound.wreckedconsole": "Wrecked Computer",
       "item.minebound.barons_keep": "Barons Keep Portal Igniter",
+      "block.minebound.cavebubblecarver_1": "Cave bubble carver block",
       "block.minebound.fleshpileiron": "Flesh Pile Iron Ore",
       "entity.minebound.petricub_mob": "Petricub",
       "block.minebound.smooth_plated_block": "Smooth Plated Block",
@@ -27775,6 +29275,7 @@
       "block.minebound.asphalt_slab": "Asphalt Slab",
       "subtitles.footstep_dirt": "footstep_dirt",
       "entity.test.monopus_mob_charging": "Monopus",
+      "block.minebound.mud_flesh": "Mud",
       "item.minebound.durasteel_bar": "Durasteel Bar",
       "item.test.capricoat_mob_spawn_egg": "Capricoat Spawn Egg",
       "effect.minebound.food_poisoning": "Food_Poisoning",
@@ -27811,6 +29312,7 @@
       "block.minebound.slush": "Slush",
       "block.minebound.targold": "Tar Gold Ore",
       "subtitles.inventory_putdown1": "inventory_putdown1",
+      "block.minebound.gen_block_lava": "Lava",
       "block.test.limestone": "Limestone",
       "block.minebound.geodestone": "Geode Stone",
       "block.minebound.asteroid_meteoriterock": "Meteorite Rock",
@@ -27824,10 +29326,12 @@
       "item.minebound.lava_planet": "Lava Planet Portal Igniter",
       "block.test.fleshpile": "Flesh pile",
       "item.minebound.polet_mob_spawn_egg": "Po Spawn Egg",
+      "item.minebound.undergroundbiomes_3": "Undergroundbiomes 3 Portal Igniter",
       "item.test.snaunt_mob_spawn_egg": "Snaunt Spawn Egg",
       "block.minebound.unrefined_limestone": "Unrefined Limestone",
       "block.minebound.plantmattersolarium": "Plant Matter Solarium Ore",
       "block.minebound.shadow_bricks_block": "Shadow Bricks Block",
+      "item.minebound.undergroundbiomes_2": "Undergroundbiomes 2 Portal Igniter",
       "item.test.mech_test_arm_left_spawn_egg": "Mech Test Arm Left Spawn Egg",
       "block.minebound.direstonesilver": "Dire Stone Silver Ore",
       "entity.test.adult_poptop_mob": "Adult Poptop",
@@ -27936,6 +29440,7 @@
       "block.minebound.dryrock": "Dry Rock",
       "item.minebound.nutmidgeling_mob_spawn_egg": "Nutmidgeling Spawn Egg",
       "block.test.test_button": "Test Button",
+      "block.minebound.unrefined_arkose_mutated_savannah": "Unrefined Arkose",
       "biome.minebound.eyepatch_mini_biome": "Eyepatch",
       "block.minebound.tartitanium": "Tar Titanium Ore",
       "death.attack.poison": "Was poisoned",
@@ -27957,6 +29462,7 @@
       "key.test.mm_upgrade_gui_toggle_keybind": "Open MM Upgrade GUI",
       "block.minebound.claytitanium": "Clay Titanium Ore",
       "block.minebound.cobblestoneiron": "Cobblestone Iron Ore",
+      "block.minebound.dry_dirt_decayed": "Dry Dirt",
       "biome.minebound.articocean": "Artic ocean",
       "entity.minebound.voltip_mob": "Voltip",
       "item.test.paratail_mob_spawn_egg": "Paratail Spawn Egg",
@@ -27973,6 +29479,7 @@
       "subtitles.breaking_snow": "breaking_snow1",
       "block.minebound.magmarockferozium": "Magma Rock Ferozium Ore",
       "block.minebound.rivetrustyplating": "Riveted Rusty Panel",
+      "block.minebound.obsidian_flesh": "Obsidian",
       "block.minebound.blaststone": "Blaststone",
       "entity.test.tentacle_ghost_mob": "Tentacle Ghost",
       "block.minebound.smoothiceaegisalt": "Smooth Ice Aegisalt Ore",
@@ -28011,6 +29518,7 @@
       "block.minebound.magmarockgold": "Magma Rock Gold Ore",
       "entity.minebound.oculob_mob": "Oculob",
       "item.minebound.scaveran_mob_spawn_egg": "Scaveran Spawn Egg",
+      "block.minebound.slush_snowy": "Slush",
       "block.minebound.charredmetalplating": "Grimy Metal Beam",
       "block.minebound.smoothice": "Smooth Ice",
       "block.minebound.timber": "Timber",
@@ -28095,6 +29603,7 @@
       "block.minebound.small_stone_bricks_slab": "Small Stone Bricks Slab",
       "block.test.test_pressure_plate": "Test Pressure Plate",
       "entity.test.smoglin_mob": "Smoglin",
+      "block.minebound.plant_matter_swamp": "Plant Matter",
       "block.minebound.small_tomb_bricks_slab": "Small Tomb Bricks Slab",
       "item.minebound.fluffalo_electric_mob_spawn_egg": "Electric Fluffalo Spawn Egg",
       "entity.test.pipkin_mob": "Pipkin",
@@ -28185,6 +29694,7 @@
       "entity.minebound.anglure_mob": "Anglure",
       "item.test.chicken_mob_spawn_egg": "Chicken Spawn Egg",
       "item.minebound.rubium_ore": "Rubium Ore",
+      "block.minebound.lavareplacement": "Lava replacement block",
       "block.minebound.rainbow_wood_planks": "Rainbow Wood Planks",
       "block.minebound.block_stick_slime": "Slime",
       "block.minebound.oldglasspane": "Grimy Light Glass Pane",
@@ -28240,6 +29750,7 @@
       "gui.minebound.mm_upgrade_gui_test.button_empty6": "Speed Upgrade 1",
       "block.minebound.clayferozium": "Clay Ferozium Ore",
       "gui.minebound.mm_upgrade_gui_test.button_empty7": "Speed Upgrade 2",
+      "block.minebound.corereplacement": "Core replacement block",
       "biome.minebound.bone_caves_underground_biome": "Bone Caves",
       "block.minebound.wetdirtsilver": "Wet Dirt Silver Ore",
       "block.minebound.wet_dirt": "Wet Dirt",
@@ -28354,6 +29865,7 @@
       "item.minebound.bobot_mob_charging_spawn_egg": "Bobot Spawn Egg",
       "subtitles.footstep_bone": "footstep_bone",
       "entity.test.fluffalo_fire_mob": "Fire Fluffalo",
+      "block.minebound.dirtswamp": "Dirt ",
       "block.minebound.light_metal": "Light Metal",
       "block.minebound.drysandgold": "Dry Sand Gold Ore",
       "block.minebound.taraegisalt": "Tar Aegisalt Ore",
@@ -28396,6 +29908,7 @@
       "block.minebound.chertaegisalt": "Chert Aegisalt Ore",
       "block.minebound.plantmatterdurasteel": "Plant Matter Durasteel Ore",
       "block.minebound.frozendirtferozium": "Frozen Dirt Ferozium Ore",
+      "block.minebound.granite_midnight": "Granite Rock",
       "biome.test.plains_1": "Plains 1",
       "block.minebound.cabinroofing": "Cabin Roofing Block",
       "block.minebound.wicker_support_block": "Wicker Support Block",
@@ -28833,6 +30346,10 @@
       },
       {
         "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "generation material",
         "children": []
       }
     ]

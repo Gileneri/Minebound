@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:garden_forest_biome",
+    "minebound:snow_garden_biome",
+    "minebound:forest_biome",
+    "minebound:garden_biome"
+  ],
+  "features": "minebound:smoothcobblestone",
+  "step": "underground_ores"
+}

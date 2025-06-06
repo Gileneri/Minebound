@@ -130,10 +130,7 @@
         "Name": "minebound:smoothice"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -524,7 +521,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:icematerial"
+                            "Name": "minebound:smoothice"
                           }
                         }
                       ]
@@ -542,7 +539,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:icematerial"
+                        "Name": "minebound:smoothice"
                       }
                     }
                   }
@@ -589,7 +586,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:copper_roofing"
+                              "Name": "minebound:smoothice"
                             }
                           }
                         },
@@ -661,7 +658,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:crystal_block"
+                              "Name": "minebound:smoothice"
                             }
                           }
                         },
@@ -740,7 +737,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:icematerial"
+                            "Name": "minebound:thicksnow"
                           }
                         }
                       ]
@@ -758,7 +755,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:icematerial"
+                        "Name": "minebound:thicksnow"
                       }
                     }
                   }

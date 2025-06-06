@@ -102,7 +102,7 @@
     "stepSound": {
       "value": "CUSTOM:footstep_crystals"
     },
-    "luminance": 8,
+    "luminance": 10,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,

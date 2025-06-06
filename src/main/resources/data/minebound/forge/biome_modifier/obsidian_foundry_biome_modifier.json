@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:foundry_mini_biome",
+  "features": "minebound:obsidian_foundry",
+  "step": "underground_ores"
+}

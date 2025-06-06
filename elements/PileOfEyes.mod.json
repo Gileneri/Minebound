@@ -129,13 +129,23 @@
     "onBlockPlayedBy": {
       "name": "MineboundGravity"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:JunglePlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:EyepatchMiniBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Dirtmaterial"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 14,
+    "frequencyOnChunk": 64,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 120
   }
 }

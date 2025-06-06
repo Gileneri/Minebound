@@ -119,13 +119,30 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:DecayedPlanet",
+      "CUSTOM:VolcanicPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DecayedBiome"
+      },
+      {
+        "value": "CUSTOM:DecayedVolcanicBiome"
+      },
+      {
+        "value": "CUSTOM:VolcanicDecayedBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Drysand"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 15,
-    "frequencyOnChunk": 20,
-    "minGenerateHeight": 25,
-    "maxGenerateHeight": 200
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 55,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 120
   }
 }

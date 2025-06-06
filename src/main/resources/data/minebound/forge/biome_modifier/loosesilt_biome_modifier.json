@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:colourful_mini_biome",
+    "minebound:savanna_desert_biome",
+    "minebound:desert_biome",
+    "minebound:oasis_mini_biome"
+  ],
+  "features": "minebound:loosesilt",
+  "step": "underground_ores"
+}

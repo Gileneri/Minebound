@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:geode_mini_biome",
+    "minebound:tentacle_biome"
+  ],
+  "features": "minebound:obsidian",
+  "step": "underground_ores"
+}

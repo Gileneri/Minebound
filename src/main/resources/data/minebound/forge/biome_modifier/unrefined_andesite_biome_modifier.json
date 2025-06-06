@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "minebound:toxic_ocean",
+  "biomes": [
+    "minebound:toxic_ocean",
+    "minebound:eyepatch_mini_biome"
+  ],
   "features": "minebound:unrefined_andesite",
   "step": "underground_ores"
 }

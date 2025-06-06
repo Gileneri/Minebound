@@ -103,10 +103,7 @@
         "Name": "minebound:dirtmaterial"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -490,7 +487,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:plant_matter"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },
@@ -562,7 +559,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:flower_block"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },
@@ -634,10 +631,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:sod_block",
-                              "Properties": {
-                                "facing": "north"
-                              }
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },

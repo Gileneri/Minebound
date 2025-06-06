@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:flesh_mini_biome",
+  "features": "minebound:magmarock",
+  "step": "underground_ores"
+}

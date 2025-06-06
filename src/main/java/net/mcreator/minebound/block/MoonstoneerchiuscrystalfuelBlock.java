@@ -1,6 +1,8 @@
 
 package net.mcreator.minebound.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.common.IPlantable;
 
@@ -31,7 +33,7 @@ public class MoonstoneerchiuscrystalfuelBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_ORANGE)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:ore_breaking1_2")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:ore_breaking1_2")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(4.5f, 10f).requiresCorrectToolForDrops());
+				.strength(4.5f, 10f).lightLevel(s -> 9).requiresCorrectToolForDrops());
 	}
 
 	@Override

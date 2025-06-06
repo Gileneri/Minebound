@@ -10,6 +10,9 @@
       },
       {
         "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "CUSTOM:Deadcore"
       }
     ],
     "functions": [],

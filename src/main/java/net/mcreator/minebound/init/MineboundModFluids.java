@@ -24,6 +24,7 @@ import net.mcreator.minebound.fluid.PoisonFluid;
 import net.mcreator.minebound.fluid.LiquidErchiusFuelFluid;
 import net.mcreator.minebound.fluid.LavaFluid;
 import net.mcreator.minebound.fluid.HealingWaterFluid;
+import net.mcreator.minebound.fluid.GenLavaFluid;
 import net.mcreator.minebound.fluid.CoreLavaFluid;
 import net.mcreator.minebound.fluid.CoconutMilkFluid;
 import net.mcreator.minebound.MineboundMod;
@@ -48,6 +49,8 @@ public class MineboundModFluids {
 	public static final RegistryObject<FlowingFluid> FLOWING_LAVA = REGISTRY.register("flowing_lava", () -> new LavaFluid.Flowing());
 	public static final RegistryObject<FlowingFluid> HEALING_WATER = REGISTRY.register("healing_water", () -> new HealingWaterFluid.Source());
 	public static final RegistryObject<FlowingFluid> FLOWING_HEALING_WATER = REGISTRY.register("flowing_healing_water", () -> new HealingWaterFluid.Flowing());
+	public static final RegistryObject<FlowingFluid> GEN_LAVA = REGISTRY.register("gen_lava", () -> new GenLavaFluid.Source());
+	public static final RegistryObject<FlowingFluid> FLOWING_GEN_LAVA = REGISTRY.register("flowing_gen_lava", () -> new GenLavaFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -71,6 +74,8 @@ public class MineboundModFluids {
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_LAVA.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(HEALING_WATER.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_HEALING_WATER.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(GEN_LAVA.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_GEN_LAVA.get(), RenderType.translucent());
 		}
 	}
 }

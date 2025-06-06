@@ -76,10 +76,7 @@
         "Name": "minebound:magmarock"
       },
       "default_fluid": {
-        "Name": "minebound:lava",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -470,7 +467,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:magmarock"
+                            "Name": "minebound:geodestone"
                           }
                         }
                       ]
@@ -488,7 +485,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:magmarock"
+                        "Name": "minebound:geodestone"
                       }
                     }
                   }

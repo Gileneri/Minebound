@@ -4,10 +4,10 @@
   "definition": {
     "name": "Colourful",
     "groundBlock": {
-      "value": "CUSTOM:RainbowWoodPlanks"
+      "value": "CUSTOM:Sand"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Dirtmaterial"
+      "value": "CUSTOM:Sand"
     },
     "underwaterBlock": {
       "value": ""

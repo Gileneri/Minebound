@@ -4,10 +4,10 @@
   "definition": {
     "name": "Bones",
     "groundBlock": {
-      "value": "CUSTOM:PackedBones"
+      "value": "CUSTOM:UnrefinedGritstone"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Roughsandstone"
+      "value": "CUSTOM:UnrefinedGritstone"
     },
     "underwaterBlock": {
       "value": ""

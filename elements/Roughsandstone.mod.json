@@ -123,11 +123,22 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:OceanicPlanet"
+      "CUSTOM:OceanicPlanet",
+      "CUSTOM:DesertPlanet",
+      "CUSTOM:SavannahPlanet"
     ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Ocean"
+      },
+      {
+        "value": "CUSTOM:DesertBiome"
+      },
+      {
+        "value": "CUSTOM:SavannaDesertBiome"
+      },
+      {
+        "value": "CUSTOM:ColourfulMiniBiome"
       }
     ],
     "blocksToReplace": [

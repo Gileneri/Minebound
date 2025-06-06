@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minebound:deadcore",
     "minebound:core_lava",
     "minecraft:bedrock"
   ]

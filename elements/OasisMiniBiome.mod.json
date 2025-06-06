@@ -4,10 +4,10 @@
   "definition": {
     "name": "Oasis",
     "groundBlock": {
-      "value": "CUSTOM:ReedBlock"
+      "value": "CUSTOM:Sand"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Roughsandstone"
+      "value": "CUSTOM:Sand"
     },
     "underwaterBlock": {
       "value": ""
@@ -21,11 +21,11 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -15042897,
+      "value": -16711732,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -15037229,
+      "value": -16711732,
       "falpha": 0.0
     },
     "ambientSound": {

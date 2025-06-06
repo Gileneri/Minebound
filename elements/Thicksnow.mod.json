@@ -123,13 +123,49 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:TundraPlanet",
+      "CUSTOM:MidnightPlanet",
+      "CUSTOM:SnowPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TundraBiome"
+      },
+      {
+        "value": "CUSTOM:MidnightTundraBiome"
+      },
+      {
+        "value": "CUSTOM:BioluminescenceMiniBiome"
+      },
+      {
+        "value": "CUSTOM:TundraSnowBiome"
+      },
+      {
+        "value": "CUSTOM:SteamSpringMiniBiome"
+      },
+      {
+        "value": "CUSTOM:PrismMiniBiome"
+      },
+      {
+        "value": "CUSTOM:AlpineMiniBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Smoothice"
+      },
+      {
+        "value": "CUSTOM:Frozendirt"
+      },
+      {
+        "value": "CUSTOM:GrassyRock"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 50,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 100
   }
 }

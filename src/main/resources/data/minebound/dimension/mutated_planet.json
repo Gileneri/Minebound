@@ -130,10 +130,7 @@
         "Name": "minebound:alienrock"
       },
       "default_fluid": {
-        "Name": "minebound:poison",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -524,7 +521,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:dirtmaterial"
+                            "Name": "minebound:alienrock"
                           }
                         }
                       ]
@@ -542,7 +539,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:dirtmaterial"
+                        "Name": "minebound:alienrock"
                       }
                     }
                   }
@@ -589,14 +586,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:reed_block"
+                              "Name": "minebound:tar"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:dirtmaterial"
+                            "Name": "minebound:tar"
                           }
                         }
                       ]
@@ -614,7 +611,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:dirtmaterial"
+                        "Name": "minebound:tar"
                       }
                     }
                   }
@@ -668,7 +665,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:drysand"
+                            "Name": "minebound:dirtmaterial"
                           }
                         }
                       ]
@@ -686,7 +683,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:drysand"
+                        "Name": "minebound:dirtmaterial"
                       }
                     }
                   }
@@ -740,7 +737,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:mud"
+                            "Name": "minebound:fleshchunk"
                           }
                         }
                       ]
@@ -758,7 +755,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:mud"
+                        "Name": "minebound:fleshchunk"
                       }
                     }
                   }

@@ -7,9 +7,9 @@
         "value": "CUSTOM:AsteroidFieldBiome"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:AsteroidMeteoriterock"
+      "value": "Blocks.AIR"
     },
     "fluidBlock": {
       "value": "Blocks.AIR"

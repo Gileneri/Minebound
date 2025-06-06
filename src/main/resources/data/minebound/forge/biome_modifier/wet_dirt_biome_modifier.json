@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:tar_mini_biome",
+  "features": "minebound:wet_dirt",
+  "step": "underground_ores"
+}

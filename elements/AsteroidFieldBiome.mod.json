@@ -4,10 +4,10 @@
   "definition": {
     "name": "Asteroid Field",
     "groundBlock": {
-      "value": "CUSTOM:AsteroidMeteoriterock"
+      "value": "Blocks.AIR"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:AsteroidMeteoriterock"
+      "value": "Blocks.AIR"
     },
     "underwaterBlock": {
       "value": ""

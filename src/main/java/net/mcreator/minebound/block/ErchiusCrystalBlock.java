@@ -28,7 +28,7 @@ public class ErchiusCrystalBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_PINK)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_crystals")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_crystals")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_crystals")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(8f).lightLevel(s -> 8).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+				.strength(8f).lightLevel(s -> 10).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override

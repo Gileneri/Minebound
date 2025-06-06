@@ -130,10 +130,7 @@
         "Name": "minebound:obsidian"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -589,7 +586,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:yellow_glow_rock"
+                              "Name": "minebound:frozendirt"
                             }
                           }
                         },
@@ -661,14 +658,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:shadow_rock"
+                              "Name": "minebound:obsidian"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:shadow_rock"
+                            "Name": "minebound:obsidian"
                           }
                         }
                       ]
@@ -686,7 +683,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:shadow_rock"
+                        "Name": "minebound:obsidian"
                       }
                     }
                   }
@@ -733,14 +730,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:icematerial"
+                              "Name": "minebound:smoothice"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:icematerial"
+                            "Name": "minebound:smoothice"
                           }
                         }
                       ]
@@ -758,7 +755,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:icematerial"
+                        "Name": "minebound:smoothice"
                       }
                     }
                   }

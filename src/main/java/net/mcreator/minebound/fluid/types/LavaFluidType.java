@@ -13,7 +13,7 @@ import java.util.function.Consumer;
 
 public class LavaFluidType extends FluidType {
 	public LavaFluidType() {
-		super(FluidType.Properties.create().canSwim(false).canDrown(false).pathType(BlockPathTypes.LAVA).adjacentPathType(null).motionScale(0D).lightLevel(15).viscosity(2000).temperature(5700).canConvertToSource(true)
+		super(FluidType.Properties.create().canSwim(false).canDrown(false).pathType(BlockPathTypes.LAVA).adjacentPathType(null).motionScale(0D).lightLevel(15).temperature(5700).canConvertToSource(true)
 				.sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL).sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}
 

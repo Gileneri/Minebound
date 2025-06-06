@@ -124,13 +124,27 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:BarrenPlanet",
+      "CUSTOM:DesertPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BarrenBiome"
+      },
+      {
+        "value": "CUSTOM:DesertBarrenBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Drysand"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 13,
+    "frequencyOnChunk": 64,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 140
   }
 }

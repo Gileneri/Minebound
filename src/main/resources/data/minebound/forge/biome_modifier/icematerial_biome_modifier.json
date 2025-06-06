@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:snow_biome",
+    "minebound:tundra_snow_biome"
+  ],
+  "features": "minebound:icematerial",
+  "step": "underground_ores"
+}

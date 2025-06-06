@@ -4,10 +4,10 @@
   "definition": {
     "name": "Midnight",
     "groundBlock": {
-      "value": "CUSTOM:ShadowRock"
+      "value": "CUSTOM:Obsidian"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:ShadowRock"
+      "value": "CUSTOM:Obsidian"
     },
     "underwaterBlock": {
       "value": ""

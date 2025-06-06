@@ -13,14 +13,14 @@ import java.util.function.Consumer;
 
 public class CoreLavaFluidType extends FluidType {
 	public CoreLavaFluidType() {
-		super(FluidType.Properties.create().canSwim(false).canDrown(false).pathType(BlockPathTypes.LAVA).adjacentPathType(null).motionScale(0D).lightLevel(15).viscosity(2000).temperature(5700).canConvertToSource(true)
+		super(FluidType.Properties.create().canSwim(false).canDrown(false).pathType(BlockPathTypes.LAVA).adjacentPathType(null).motionScale(0D).lightLevel(15).temperature(7000).canConvertToSource(true)
 				.sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL).sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
 	}
 
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("minebound:blocks/lava_texture"), FLOWING_TEXTURE = new ResourceLocation("minebound:blocks/lava_texture");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("minebound:blocks/lava_still_texture_fix"), FLOWING_TEXTURE = new ResourceLocation("minebound:blocks/lava_flowing_texture");
 
 			@Override
 			public ResourceLocation getStillTexture() {

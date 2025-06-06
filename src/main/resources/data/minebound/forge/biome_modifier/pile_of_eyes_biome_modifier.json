@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:eyepatch_mini_biome",
+  "features": "minebound:pile_of_eyes",
+  "step": "underground_ores"
+}

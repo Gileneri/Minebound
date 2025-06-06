@@ -12,7 +12,7 @@
       "value": "CUSTOM:TentacleCluster"
     },
     "fluidBlock": {
-      "value": "CUSTOM:Poison"
+      "value": "Blocks.AIR"
     },
     "canRespawnHere": false,
     "hasFog": false,

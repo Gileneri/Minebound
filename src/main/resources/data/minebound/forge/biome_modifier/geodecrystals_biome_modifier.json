@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:geode_mini_biome",
+  "features": "minebound:geodecrystals",
+  "step": "underground_ores"
+}

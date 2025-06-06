@@ -124,13 +124,47 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Toxicoceanplanet",
+      "CUSTOM:OceanicPlanet",
+      "CUSTOM:LavaPlanet",
+      "CUSTOM:Articplanet",
+      "CUSTOM:RadioactiveMoon",
+      "CUSTOM:GentleMoon",
+      "CUSTOM:SavannahPlanet",
+      "CUSTOM:AsteroidField",
+      "CUSTOM:TemperateMoon",
+      "CUSTOM:DecayedPlanet",
+      "CUSTOM:FieryMoon",
+      "CUSTOM:VolcanicPlanet",
+      "CUSTOM:TundraPlanet",
+      "CUSTOM:DesertPlanet",
+      "CUSTOM:BarrenPlanet",
+      "CUSTOM:GardenPlanet",
+      "CUSTOM:MutatedPlanet",
+      "CUSTOM:FrozenMoon",
+      "CUSTOM:SnowPlanet",
+      "CUSTOM:MidnightPlanet",
+      "CUSTOM:ForestPlanet",
+      "CUSTOM:JunglePlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AsteroidFieldBiome"
+      },
+      {
+        "value": "CUSTOM:AsteroidsMiniBiome"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:AsteroidMeteoriterock"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyOnChunk": 30,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 150
   }
 }

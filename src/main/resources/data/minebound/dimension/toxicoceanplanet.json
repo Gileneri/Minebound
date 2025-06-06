@@ -25,8 +25,8 @@
       "sea_level": 198,
       "legacy_random_source": false,
       "disable_mob_generation": true,
-      "noodle_caves_enabled": false,
-      "noise_caves_enabled": false,
+      "noodle_caves_enabled": true,
+      "noise_caves_enabled": true,
       "aquifers_enabled": true,
       "deepslate_enabled": false,
       "ore_veins_enabled": false,
@@ -44,7 +44,7 @@
         "min_y": -384,
         "height": 1008,
         "size_horizontal": 1,
-        "size_vertical": 2
+        "size_vertical": 1
       },
       "noise_router": {
         "barrier": {
@@ -56,8 +56,8 @@
         "fluid_level_floodedness": {
           "type": "minecraft:noise",
           "noise": "minecraft:aquifer_fluid_level_floodedness",
-          "xz_scale": 1,
-          "y_scale": 0.67
+          "xz_scale": -0.5,
+          "y_scale": -0.5
         },
         "fluid_level_spread": {
           "type": "minecraft:noise",
@@ -68,8 +68,8 @@
         "lava": {
           "type": "minecraft:noise",
           "noise": "minecraft:aquifer_lava",
-          "xz_scale": 1,
-          "y_scale": 1
+          "xz_scale": -1,
+          "y_scale": -1
         },
         "temperature": {
           "type": "minecraft:shifted_noise",
@@ -100,7 +100,7 @@
             "type": "minecraft:mul",
             "argument1": {
               "type": "minecraft:y_clamped_gradient",
-              "from_y": -64,
+              "from_y": -354,
               "to_y": -40,
               "from_value": 0,
               "to_value": 1
@@ -144,7 +144,7 @@
                           }
                         }
                       },
-                      "min": -64,
+                      "min": -354,
                       "max": 64
                     }
                   }
@@ -171,7 +171,7 @@
                       "type": "minecraft:mul",
                       "argument1": {
                         "type": "minecraft:y_clamped_gradient",
-                        "from_y": -64,
+                        "from_y": -500,
                         "to_y": -40,
                         "from_value": 0,
                         "to_value": 1
@@ -297,13 +297,13 @@
           "argument": {
             "type": "minecraft:range_choice",
             "input": "minecraft:y",
-            "min_inclusive": -60,
+            "min_inclusive": -354,
             "max_exclusive": 51,
             "when_in_range": {
               "type": "minecraft:noise",
               "noise": "minecraft:ore_veininess",
-              "xz_scale": 1.5,
-              "y_scale": 1.5
+              "xz_scale": 4,
+              "y_scale": 4
             },
             "when_out_of_range": 0
           }
@@ -320,7 +320,7 @@
                 "argument": {
                   "type": "minecraft:range_choice",
                   "input": "minecraft:y",
-                  "min_inclusive": -60,
+                  "min_inclusive": -354,
                   "max_exclusive": 51,
                   "when_in_range": {
                     "type": "minecraft:noise",
@@ -339,7 +339,7 @@
                 "argument": {
                   "type": "minecraft:range_choice",
                   "input": "minecraft:y",
-                  "min_inclusive": -60,
+                  "min_inclusive": -354,
                   "max_exclusive": 51,
                   "when_in_range": {
                     "type": "minecraft:noise",
@@ -372,13 +372,32 @@
                 "above_bottom": 0
               },
               "false_at_and_above": {
-                "above_bottom": 5
+                "above_bottom": 1
               }
             },
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:bedrock"
+                "Name": "minebound:deadcore"
+              }
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "minecraft:lava_floor",
+              "true_at_and_below": {
+                "above_bottom": 16
+              },
+              "false_at_and_above": {
+                "above_bottom": 16
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minebound:core_lava"
               }
             }
           },

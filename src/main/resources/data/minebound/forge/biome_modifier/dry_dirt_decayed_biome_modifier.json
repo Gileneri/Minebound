@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minebound:decayed_volcanic_biome",
+    "minebound:decayed_biome",
+    "minebound:volcanic_decayed_biome"
+  ],
+  "features": "minebound:dry_dirt_decayed",
+  "step": "underground_ores"
+}

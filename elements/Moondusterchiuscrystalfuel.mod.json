@@ -57,7 +57,7 @@
       "value": "ROCK"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -96,7 +96,7 @@
     "stepSound": {
       "value": "CUSTOM:footstep_sand"
     },
-    "luminance": 0,
+    "luminance": 9,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
@@ -120,17 +120,23 @@
     "onStartToDestroy": {
       "name": "BlaststonecoalPlayerStartsToDestroy"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:MoonDimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MoonBiome"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "CUSTOM:MoonDust"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 12,
+    "frequencyOnChunk": 13,
+    "minGenerateHeight": -160,
+    "maxGenerateHeight": 160
   }
 }

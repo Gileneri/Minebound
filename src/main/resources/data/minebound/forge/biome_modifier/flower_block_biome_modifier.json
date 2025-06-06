@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:spring_mini_biome",
+  "features": "minebound:flower_block",
+  "step": "underground_ores"
+}

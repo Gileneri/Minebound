@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:savannah_biome",
+  "features": "minebound:unrefined_arkose",
+  "step": "underground_ores"
+}

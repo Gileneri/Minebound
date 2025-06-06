@@ -1,6 +1,11 @@
 {
   "type": "forge:add_features",
-  "biomes": "minebound:magmaocean",
+  "biomes": [
+    "minebound:decayed_volcanic_biome",
+    "minebound:volcanic_biome",
+    "minebound:magmaocean",
+    "minebound:midnight_biome"
+  ],
   "features": "minebound:ash",
   "step": "underground_ores"
 }

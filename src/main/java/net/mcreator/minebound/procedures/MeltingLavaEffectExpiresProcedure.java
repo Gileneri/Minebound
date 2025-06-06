@@ -14,7 +14,7 @@ public class MeltingLavaEffectExpiresProcedure {
 		if (entity == null)
 			return;
 		if (!world.isClientSide()) {
-			if (!((world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.LAVA.get())) {
+			if (!((world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.LAVA.get() || (world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.CORE_LAVA.get())) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.BURNING.get(), 100, 0, (false), (true)));
 			}

@@ -21,7 +21,7 @@
       "value": "CUSTOM:Alienrock"
     },
     "fluidBlock": {
-      "value": "CUSTOM:Poison"
+      "value": "Blocks.AIR"
     },
     "canRespawnHere": false,
     "hasFog": false,

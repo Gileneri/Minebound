@@ -1,0 +1,21 @@
+{
+  "type": "minebound:lavadestroyer",
+  "config": {
+    "target": {
+      "Name": "minecraft:lava",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "state": {
+      "Name": "minecraft:cave_air"
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 12,
+        "max_inclusive": 12
+      }
+    }
+  }
+}

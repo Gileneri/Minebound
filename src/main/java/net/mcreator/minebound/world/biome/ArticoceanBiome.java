@@ -11,6 +11,6 @@ public class ArticoceanBiome {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-9242683).waterColor(-15042897).waterFogColor(-16762570).skyColor(-9242683).foliageColorOverride(-12278228).grassColorOverride(-12278228).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).temperature(-0.5f).downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.NONE).temperature(-0.5f).downfall(0f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 }

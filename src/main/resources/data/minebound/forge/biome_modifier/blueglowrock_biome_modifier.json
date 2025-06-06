@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:bioluminescence_mini_biome",
+  "features": "minebound:blueglowrock",
+  "step": "underground_ores"
+}

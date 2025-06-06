@@ -668,6 +668,12 @@
     "minebound:wetdirtferozium",
     "minebound:wetdirtviolium",
     "minebound:wetdirtsolarium",
-    "minebound:andesite_silver"
+    "minebound:andesite_silver",
+    "minebound:granite_midnight",
+    "minebound:unrefined_chert_decayed",
+    "minebound:obsidian_foundry",
+    "minebound:unrefined_arkose_mutated_savannah",
+    "minebound:obsidian_flesh",
+    "minebound:unrefined_andesite_mushrom"
   ]
 }

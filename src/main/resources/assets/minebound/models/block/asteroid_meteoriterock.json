@@ -4,5 +4,5 @@
     "all": "minebound:blocks/meteorite_rock1",
     "particle": "minebound:blocks/meteorite_rock1"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
